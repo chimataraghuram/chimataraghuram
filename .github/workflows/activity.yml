@@ -34,7 +34,7 @@ jobs:
               let url = `https://github.com/${repo}`;
               
               if (ev.type === 'PushEvent') {
-                let commits = ev.payload.commits.length;
+                let commits = ev.payload.size || (ev.payload.commits ? ev.payload.commits.length : 1);
                 let branch = ev.payload.ref ? ev.payload.ref.replace('refs/heads/', '') : 'main';
                 activity.push(`1. 🚀 Pushed ${commits} commit(s) to ${branch} in [${repo}](${url})`);
               } else if (ev.type === 'IssuesEvent') {
