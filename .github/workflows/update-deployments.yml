@@ -1,0 +1,87 @@
+name: Update Deployment Count
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0 * * *' # Daily at midnight UTC
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Update Deployment Count
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python - <<EOF
+          import os
+          import requests
+          import re
+
+          # Fetch deployments for PORTFOLIO (using per_page=1 to find total count)
+          repo = "chimataraghuram/PORTFOLIO"
+          token = os.environ.get("GITHUB_TOKEN")
+          url = f"https://api.github.com/repos/{repo}/deployments?per_page=1"
+          headers = {"Authorization": f"token {token}"} if token else {}
+          
+          response = requests.get(url, headers=headers)
+          if response.status_code == 200:
+              # Parse the Link header to find the last page index (total count)
+              if "Link" in response.headers:
+                  links = response.headers["Link"]
+                  match = re.search(r'page=(\d+)>; rel="last"', links)
+                  if match:
+                      count = int(match.group(1))
+                  else:
+                      # If few deployments (only 1 page), count them manually
+                      deployments = response.json()
+                      count = len(deployments)
+              else:
+                  # If only 1 deployment ever made
+                  deployments = response.json()
+                  count = len(deployments)
+          else:
+              count = "Error"
+              print(f"Failed to fetch deployments: {response.status_code}")
+
+          # Update README.md
+          with open("README.md", "r", encoding="utf-8") as f:
+              content = f.read()
+
+          badge = f'  <img src="https://img.shields.io/badge/Deployments-{count}-22c55e?style=for-the-badge&logo=vercel" />'
+          pattern = r"<!-- START_SECTION:deployments -->.*?<!-- END_SECTION:deployments -->"
+          replacement = f"<!-- START_SECTION:deployments -->\n{badge}\n  <!-- END_SECTION:deployments -->"
+          
+          new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+
+          with open("README.md", "w", encoding="utf-8") as f:
+              f.write(new_content)
+          EOF
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "chimataraghuram"
+          git config --global user.email "chimataraghuram02a@gmail.com"
+          git add README.md
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "docs: update deployment count"
+            git push
+          fi
