@@ -39,9 +39,11 @@
 <div align="center">
   <br/>
   <a href="https://github.com/chimataraghuram?tab=achievements">
+<!--START_SECTION:achievements-->
     <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="100" />
     <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="100" />
     <img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="100" />
+<!--END_SECTION:achievements-->
   </a>
   <br/>
   <strong>Official GitHub Achievements</strong>
