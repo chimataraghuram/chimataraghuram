@@ -23,3 +23,5 @@ jobs:
           COMMIT_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
           COMMIT_MSG: "⚡ Update Recent Activity"
           MAX_LINES: 10
+        with:
+          FILTER_EVENTS: "PushEvent,IssueCommentEvent,IssuesEvent,PullRequestEvent,ReleaseEvent"
