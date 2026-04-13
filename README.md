@@ -322,26 +322,7 @@
 
 ---
 
-## 📊 WakaTime Stats
 
-<div align="center">
-  <!-- WakaTime stats image removed because the external service is currently down. Dynamic text stats will appear below once the secret is added. -->
-</div>
-
-<br/>
-
-<!--START_SECTION:waka-->
-
-```txt
-From: 05 April 2026 - To: 12 April 2026
-
-No activity tracked
-```
-
-<!--END_SECTION:waka-->
-
-
-<br/>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&height=15&color=0:7c3aed,50:c026d3,100:0ea5e9" width="100%" />
