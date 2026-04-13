@@ -75,8 +75,8 @@
 ### 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=chimataraghuram&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&text_color=ffffff&icon_color=0ea5e9&cache_seconds=1800" width="49%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=chimataraghuram&theme=tokyonight&hide_border=true&background=0d1117&ring=a855f7&fire=c026d3&currStreakLabel=0ea5e9&stroke=a855f7&sideLabels=ffffff&dates=ffffff&cache_seconds=1800" width="49%" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=chimataraghuram&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&text_color=ffffff&icon_color=0ea5e9&v=1" width="49%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=chimataraghuram&theme=tokyonight&hide_border=true&background=0d1117&ring=a855f7&fire=c026d3&currStreakLabel=0ea5e9&stroke=a855f7&sideLabels=ffffff&dates=ffffff&v=1" width="49%" />
 </div>
 
 <br/>
@@ -348,7 +348,7 @@ No activity tracked
 ## 🎨 Contribution Graph
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=chimataraghuram&theme=tokyonight&area=true&hide_border=true&bg_color=0d1117&color=a855f7&line=0ea5e9&point=ffffff" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=chimataraghuram&theme=tokyonight&area=true&hide_border=true&bg_color=0d1117&color=a855f7&line=0ea5e9&point=ffffff&v=1" width="100%" />
 </div>
 
 <br/>
