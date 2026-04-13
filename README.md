@@ -92,22 +92,32 @@
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🚀 [VOIS & AICTE Internship](https://www.linkedin.com/in/chimataraghuram/)
-**AI/ML Intern** | *May 2024 - July 2024*
-- Developed and deployed **machine learning models** for predictive analytics.
-- Improved model accuracy by **10%** through feature engineering and hyperparameter tuning.
-- Built automated **data pipelines** to streamline preprocessing and model training.
+### 🐍 [Python Full Stack Intern](https://www.linkedin.com/in/chimataraghuram/)
+**Nipuna Technology** | *11/2023 – 05/2024*
+- Developed a web application by implementing **frontend interfaces** and backend logic using Python-based technologies.
+- Gained hands-on experience in **API integration**, application structure, and full-stack development fundamentals.
+<br/>📍 *Vijayawada, Andhra Pradesh*
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🏆 [Hackathon Participation](https://github.com/chimataraghuram)
-**Lead Developer** | *Various Events*
-- Led teams to build **AI-driven solutions** in fast-paced competitive environments.
-- Implemented **real-time AI features** using Gemini and OpenAI APIs.
-- Won **top honors** for UI/UX design and technical innovation in multiple hackathons.
+### ☁️ [Cloud Computing Intern](https://www.linkedin.com/in/chimataraghuram/)
+**APSSDC** | *05/2025 – 07/2025*
+- Deployed web applications on **cloud platforms** and configured hosting environments.
+- Gained hands-on experience in cloud fundamentals including **deployment workflows**, scalability basics, and resource management.
+<br/>📍 *Remote*
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### 🤖 [Generative AI Intern](https://www.linkedin.com/in/chimataraghuram/)
+**SmartBridge**
+- Worked with **Generative AI models** and explored **Large Language Model (LLM)** applications and workflows.
+- Built and tested **AI-driven workflows**, gaining hands-on experience in prompt engineering and automation concepts.
 
 </td>
 </tr>
