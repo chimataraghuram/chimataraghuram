@@ -206,7 +206,7 @@
 <div align="center">
 <details>
 <summary>
-  <img src="https://img.shields.io/badge/✨%20SHOW%20MORE%20PROJECTS%20✨-a855f7?style=for-the-badge&logoColor=white" alt="Show More Projects" />
+  <b>Show More Projects</b>
 </summary>
 <br/>
 <div align="left">
