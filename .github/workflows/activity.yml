@@ -16,12 +16,62 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: jamesgeorge007/github-activity-readme@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          COMMIT_NAME: "github-actions[bot]"
-          COMMIT_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
-          COMMIT_MSG: "⚡ Update Recent Activity"
-          MAX_LINES: 10
+      - name: Fetch and Update Activity
+        uses: actions/github-script@v6
         with:
-          FILTER_EVENTS: "PushEvent,IssueCommentEvent,IssuesEvent,PullRequestEvent,ReleaseEvent"
+          script: |
+            const fs = require('fs');
+            const username = 'chimataraghuram';
+            const { data: events } = await github.rest.activity.listPublicEventsForUser({
+              username: username,
+              per_page: 30
+            });
+            
+            let activity = [];
+            for (const ev of events) {
+              if (activity.length >= 5) break;
+              let repo = ev.repo.name;
+              let url = `https://github.com/${repo}`;
+              
+              if (ev.type === 'PushEvent') {
+                let commits = ev.payload.commits.length;
+                let branch = ev.payload.ref ? ev.payload.ref.replace('refs/heads/', '') : 'main';
+                activity.push(`1. 🚀 Pushed ${commits} commit(s) to ${branch} in [${repo}](${url})`);
+              } else if (ev.type === 'IssuesEvent') {
+                let action = ev.payload.action;
+                let issueUrl = ev.payload.issue.html_url;
+                let emoji = action === 'opened' ? '❗' : (action === 'closed' ? '🔒' : '🗣️');
+                activity.push(`1. ${emoji} ${action.charAt(0).toUpperCase() + action.slice(1)} issue [#${ev.payload.issue.number}](${issueUrl}) in [${repo}](${url})`);
+              } else if (ev.type === 'PullRequestEvent') {
+                let action = ev.payload.action;
+                let prUrl = ev.payload.pull_request.html_url;
+                activity.push(`1. 🔄 ${action.charAt(0).toUpperCase() + action.slice(1)} PR [#${ev.payload.pull_request.number}](${prUrl}) in [${repo}](${url})`);
+              } else if (ev.type === 'CreateEvent') {
+                let refType = ev.payload.ref_type;
+                activity.push(`1. 🎉 Created ${refType} in [${repo}](${url})`);
+              } else if (ev.type === 'WatchEvent') {
+                activity.push(`1. ⭐ Starred [${repo}](${url})`);
+              } else if (ev.type === 'ForkEvent') {
+                activity.push(`1. 🍴 Forked [${repo}](${url})`);
+              } else {
+                continue;
+              }
+            }
+            
+            activity = activity.map((line, index) => line.replace(/^1\./, `${index + 1}.`));
+            if (activity.length === 0) activity.push("No recent activity found.");
+            
+            const readme = fs.readFileSync('README.md', 'utf8');
+            const newReadme = readme.replace(
+              /<!--START_SECTION:activity-->[\s\S]*<!--END_SECTION:activity-->/,
+              `<!--START_SECTION:activity-->\n${activity.join('\n')}\n<!--END_SECTION:activity-->`
+            );
+            fs.writeFileSync('README.md', newReadme);
+
+      - name: Commit and Push
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git commit -m "⚡ Update Recent Activity" || echo "No changes to commit"
+          git push
