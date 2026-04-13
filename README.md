@@ -203,6 +203,10 @@
 
 <hr>
 
+<details>
+<summary><b>Show More Projects</b></summary>
+<br/>
+
 ### ✈️ [TravelGuideAI](https://github.com/chimataraghuram/Explore-With-Ai-Custom-Itineraries-For-Your-Next-Journey)
 [![Travel Guide AI Screenshot](./assets/travel_guide.png)](https://github.com/chimataraghuram/Explore-With-Ai-Custom-Itineraries-For-Your-Next-Journey)
 **AI-Powered Neural Travel Planner**
@@ -253,6 +257,7 @@
 - URL inspection, header analysis, and **real-time classification**.
 - Combats email-based cyber threats with high accuracy.
 
+</details>
 
 <br/>
 
