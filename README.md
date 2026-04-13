@@ -203,9 +203,14 @@
 
 <hr>
 
+<div align="center">
 <details>
-<summary><b>Show More Projects</b></summary>
+<summary>
+  <img src="https://img.shields.io/badge/✨%20SHOW%20MORE%20PROJECTS%20✨-a855f7?style=for-the-badge&logoColor=white" alt="Show More Projects" />
+</summary>
 <br/>
+<div align="left">
+
 
 ### ✈️ [TravelGuideAI](https://github.com/chimataraghuram/Explore-With-Ai-Custom-Itineraries-For-Your-Next-Journey)
 [![Travel Guide AI Screenshot](./assets/travel_guide.png)](https://github.com/chimataraghuram/Explore-With-Ai-Custom-Itineraries-For-Your-Next-Journey)
@@ -257,7 +262,9 @@
 - URL inspection, header analysis, and **real-time classification**.
 - Combats email-based cyber threats with high accuracy.
 
+</div>
 </details>
+</div>
 
 <br/>
 
