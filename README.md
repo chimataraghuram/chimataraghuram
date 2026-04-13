@@ -276,11 +276,11 @@
 <br/>
 <img src="https://skillicons.dev/icons?i=nodejs,fastapi&theme=dark" />
 <br/>
-<code>Node.js (Basics)</code>
+<img src="https://img.shields.io/badge/Node.js_(Basics)-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
 
 **AI & Automation**
 <br/>
-<code>Ollama</code> <code>OpenClaw</code> <code>NanoClaw</code> <code>n8n</code> <code>OpenRouter</code> <code>Google AI Studio</code>
+<img src="https://img.shields.io/badge/Ollama-FFFFFF?style=for-the-badge&logo=Ollama&logoColor=black" /> <img src="https://img.shields.io/badge/OpenClaw-FF4B4B?style=for-the-badge&logo=microbot&logoColor=white" /> <img src="https://img.shields.io/badge/NanoClaw-00A67E?style=for-the-badge&logo=microchip&logoColor=white" /> <img src="https://img.shields.io/badge/n8n-FF6D5A?style=for-the-badge&logo=n8n&logoColor=white" /> <img src="https://img.shields.io/badge/OpenRouter-E8E8E8?style=for-the-badge&logo=openai&logoColor=black" /> <img src="https://img.shields.io/badge/Google%20AI%20Studio-4285F4?style=for-the-badge&logo=google&logoColor=white" />
 
 **Databases**
 <br/>
@@ -290,7 +290,7 @@
 <br/>
 <img src="https://skillicons.dev/icons?i=git,github,docker,figma,vercel&theme=dark" />
 <br/>
-<code>Render</code>
+<img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white" />
 
 </div>
 
