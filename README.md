@@ -264,27 +264,33 @@
 
 <div align="center">
 
-**Languages**
+**Programming**
 <br/>
-<img src="https://skillicons.dev/icons?i=python,typescript,javascript,html,css&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,js&theme=dark" />
 
-**Frontend & UI/UX**
+**Frontend**
 <br/>
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,vite,figma&theme=dark" />
+<img src="https://skillicons.dev/icons?i=html,css,react,ts&theme=dark" />
 
-**Backend & AI/ML**
+**Backend**
 <br/>
-<img src="https://skillicons.dev/icons?i=fastapi,nodejs,flask,tensorflow,pytorch&theme=dark" />
+<img src="https://skillicons.dev/icons?i=nodejs,fastapi&theme=dark" />
 <br/>
-<code>LangChain</code> <code>HuggingFace</code> <code>Google Gemini</code> <code>Keras</code> <code>Scikit-learn</code>
+<code>Node.js (Basics)</code>
 
-**Cloud & DevOps**
+**AI & Automation**
 <br/>
-<img src="https://skillicons.dev/icons?i=aws,docker,git,github,linux&theme=dark" />
+<code>Ollama</code> <code>OpenClaw</code> <code>NanoClaw</code> <code>n8n</code> <code>OpenRouter</code> <code>Google AI Studio</code>
 
 **Databases**
 <br/>
-<img src="https://skillicons.dev/icons?i=mongodb,mysql,firebase&theme=dark" />
+<img src="https://skillicons.dev/icons?i=mongodb,firebase&theme=dark" />
+
+**Tools & Platforms**
+<br/>
+<img src="https://skillicons.dev/icons?i=git,github,docker,figma,vercel&theme=dark" />
+<br/>
+<code>Render</code>
 
 </div>
 
