@@ -275,8 +275,7 @@
 **Backend**
 <br/>
 <img src="https://skillicons.dev/icons?i=nodejs,fastapi&theme=dark" />
-<br/>
-<img src="https://img.shields.io/badge/Node.js_(Basics)-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+
 
 **AI & Automation**
 <br/>
