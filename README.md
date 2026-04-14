@@ -333,8 +333,8 @@
 ## 🕒 Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)
-2. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)
+1. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/TECHBOY-STORE](https://github.com/chimataraghuram/TECHBOY-STORE)
+2. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/TECHBOY-STORE](https://github.com/chimataraghuram/TECHBOY-STORE)
 3. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)
 4. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)
 5. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)
