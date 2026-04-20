@@ -333,8 +333,8 @@
 ## 🕒 Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Created branch in [chimataraghuram/ai-image-generator-telegram-n8n](https://github.com/chimataraghuram/ai-image-generator-telegram-n8n)
-2. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/TECHBOY-STORE](https://github.com/chimataraghuram/TECHBOY-STORE)
+1. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/ProtoType-Website-Using-ubuntu-Server-On-AWS](https://github.com/chimataraghuram/ProtoType-Website-Using-ubuntu-Server-On-AWS)
+2. 🎉 Created branch in [chimataraghuram/ai-image-generator-telegram-n8n](https://github.com/chimataraghuram/ai-image-generator-telegram-n8n)
 3. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/TECHBOY-STORE](https://github.com/chimataraghuram/TECHBOY-STORE)
 4. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/TECHBOY-STORE](https://github.com/chimataraghuram/TECHBOY-STORE)
 5. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/TECHBOY-STORE](https://github.com/chimataraghuram/TECHBOY-STORE)
