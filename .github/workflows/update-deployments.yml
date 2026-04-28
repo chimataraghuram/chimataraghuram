@@ -76,8 +76,8 @@ jobs:
 
       - name: Commit and Push
         run: |
-          git config --global user.name "chimataraghuram"
-          git config --global user.email "chimataraghuram02a@gmail.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
           if git diff --staged --quiet; then
             echo "No changes to commit"
