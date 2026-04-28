@@ -103,4 +103,5 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add README.md
           git commit -m "⚡ Update Official GitHub Achievements" || echo "No changes to commit"
-          git push
+          git pull --rebase origin main
+          git push origin main
