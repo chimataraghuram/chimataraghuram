@@ -25,10 +25,10 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Update Deployment Count
+      - name: Run deployment count script
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python .github/scripts/update_deployments.py
+        run: python3 .github/scripts/update_deployments.py
 
       - name: Commit and Push
         run: |
