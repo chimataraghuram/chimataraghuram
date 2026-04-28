@@ -23,7 +23,7 @@
   <img src="https://img.shields.io/github/followers/chimataraghuram?label=Followers&style=for-the-badge&color=c026d3" />
   <img src="https://img.shields.io/github/stars/chimataraghuram?label=Stars&style=for-the-badge&color=0ea5e9" />
   <!-- START_SECTION:deployments -->
-  <img src="https://img.shields.io/badge/Deployments-476-22c55e?style=for-the-badge&logo=vercel" />
+  <img src="https://img.shields.io/badge/Deployments-846-22c55e?style=for-the-badge&logo=vercel" />
   <!-- END_SECTION:deployments -->
   <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=a855f7&label=Repositories&query=public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fchimataraghuram" />
 </p>
