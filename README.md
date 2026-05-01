@@ -177,7 +177,7 @@
 <hr>
 
 ### ☁️ [Virtual Windows Desktop](https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server)
-[![Virtual Desktop Screenshot](./images/virtual_desktop.png)](https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server)
+[![Virtual Desktop Screenshot](./images/virtual_desktop.jpg)](https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server)
 **AWS Cloud Infrastructure & Remote Desktop**
 `AWS EC2` `Windows Server` `RDP` `Security Groups`
 - Set up a **fully functional Virtual Windows Desktop** on AWS using Windows Server.
