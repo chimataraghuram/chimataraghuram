@@ -337,7 +337,7 @@
 <!--START_SECTION:activity-->
 1. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)
 2. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)
-3. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server](https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server)
+3. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)
 4. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server](https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server)
 5. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server](https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server)
 <!--END_SECTION:activity-->
