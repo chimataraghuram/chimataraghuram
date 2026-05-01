@@ -137,7 +137,7 @@
 ## 🚀 TOP PROJECTS 📌
 
 ### 🌐 [PORTFOLIO](https://github.com/chimataraghuram/PORTFOLIO)
-[![Portfolio Screenshot](./images/portfolio.png)](https://chimataraghuram.vercel.app/)
+<a href="https://chimataraghuram.vercel.app/"><img src="./images/portfolio.png" alt="Portfolio Screenshot" width="100%"></a>
 **Official Developer Portfolio with Hidden Mini-Game**
 `TypeScript` `React 18` `Vite` `Tailwind CSS` `Canvas API`
 - Official portfolio featuring a custom **Space Invaders-style minigame** and AI integrations.
@@ -151,7 +151,7 @@
 <hr>
 
 ### 🔎 [PROJECT-FINDER](https://github.com/chimataraghuram/PROJECT-FINDER)
-[![Project Finder Screenshot](./images/project_finder.png)](https://github.com/chimataraghuram/PROJECT-FINDER/)
+<a href="https://github.com/chimataraghuram/PROJECT-FINDER/"><img src="./images/project_finder.png" alt="Project Finder Screenshot" width="100%"></a>
 **The Ultimate Research & Discovery Engine 🚀**
 `TypeScript` `React 19` `Node.js` `MongoDB` `Google Gemini AI` `Framer Motion`
 - High-density research engine to discover open-source projects, AI models, and technical datasets.
@@ -166,7 +166,7 @@
 <hr>
 
 ### 🛒 [TECHBOY-STORE](https://github.com/chimataraghuram/TECHBOY-STORE)
-[![Techboy Store Screenshot](./images/techboy_store.png)](https://github.com/chimataraghuram/TECHBOY-STORE)
+<a href="https://github.com/chimataraghuram/TECHBOY-STORE"><img src="./images/techboy_store.png" alt="Techboy Store Screenshot" width="100%"></a>
 **Modern E-Commerce Application**
 `React` `Vite` `JavaScript` `CSS3`
 - **Modern e-commerce web application** with clean, responsive UI.
@@ -177,7 +177,7 @@
 <hr>
 
 ### ☁️ [Virtual Windows Desktop](https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server)
-[![Virtual Desktop Screenshot](./images/virtual_desktop.jpg)](https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server)
+<a href="https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server"><img src="./images/virtual_desktop.jpg" alt="Virtual Desktop Screenshot" width="100%"></a>
 **AWS Cloud Infrastructure & Remote Desktop**
 `AWS EC2` `Windows Server` `RDP` `Security Groups`
 - Set up a **fully functional Virtual Windows Desktop** on AWS using Windows Server.
@@ -196,7 +196,7 @@
 ## 📂 Other Projects
 
 ### 🤖 [TECHBOY-AI](https://github.com/chimataraghuram/TECHBOY-AI)
-[![Techboy AI Screenshot](./images/techboy_ai.png)](https://chimataraghuram.github.io/TECHBOY-AI/)
+<a href="https://chimataraghuram.github.io/TECHBOY-AI/"><img src="./images/techboy_ai.png" alt="Techboy AI Screenshot" width="100%"></a>
 **Premium AI Portfolio Assistant**
 `TypeScript` `React` `Google Gemini 2.0` `Glassmorphism`
 - Built a **premium AI-powered portfolio assistant** with custom Sunset Glassmorphism design.
@@ -217,7 +217,7 @@
 
 
 ### ✈️ [TravelGuideAI](https://github.com/chimataraghuram/Explore-With-Ai-Custom-Itineraries-For-Your-Next-Journey)
-[![Travel Guide AI Screenshot](./images/travel_guide.png)](https://github.com/chimataraghuram/Explore-With-Ai-Custom-Itineraries-For-Your-Next-Journey)
+<a href="https://github.com/chimataraghuram/Explore-With-Ai-Custom-Itineraries-For-Your-Next-Journey"><img src="./images/travel_guide.png" alt="Travel Guide AI Screenshot" width="100%"></a>
 **AI-Powered Neural Travel Planner**
 `Python` `Streamlit` `FastAPI` `Google Gemini 1.5`
 - AI-driven travel intelligence platform — a **"Neural Travel Architect"**.
@@ -227,7 +227,7 @@
 <hr>
 
 ### 🏠 [House Prediction](https://github.com/chimataraghuram/House-Prediction)
-[![House Prediction Screenshot](./images/house_prediction.png)](https://chimataraghuram.github.io/House-Prediction/)
+<a href="https://chimataraghuram.github.io/House-Prediction/"><img src="./images/house_prediction.png" alt="House Prediction Screenshot" width="100%"></a>
 **AI-Powered Real Estate Valuation**
 `React 18` `FastAPI` `Scikit-learn` `Framer Motion`
 - **Random Forest ML model** for high-accuracy house price predictions.
@@ -239,7 +239,7 @@
 <hr>
 
 ### 🦋 [Enchanted Wings](https://github.com/chimataraghuram/Enchanted-Wings-Marvels-of-butterfly-species)
-[![Enchanted Wings Screenshot](./images/enchanted_wings.png)](https://chimataraghuram.github.io/Enchanted-Wings-Marvels-of-butterfly-species/)
+<a href="https://chimataraghuram.github.io/Enchanted-Wings-Marvels-of-butterfly-species/"><img src="./images/enchanted_wings.png" alt="Enchanted Wings Screenshot" width="100%"></a>
 **AI Butterfly Species Classifier**
 `React` `Vite` `FastAPI` `TensorFlow` `Keras`
 - **Deep Learning model** for butterfly species identification with modern React UI.
