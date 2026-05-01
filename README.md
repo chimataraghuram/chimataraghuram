@@ -199,7 +199,6 @@
 - Set up a **fully functional Virtual Windows Desktop** on AWS using Windows Server.
 - Configured secure remote access and performance optimization for cloud computing.
 - Part of a broader AWS deployment suite including [Ubuntu Server setups](https://github.com/chimataraghuram/ProtoType-Website-Using-ubuntu-Server-On-AWS).
-
 🔗 [View Project](https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server)
 
 
