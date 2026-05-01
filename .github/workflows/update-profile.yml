@@ -1,0 +1,167 @@
+name: Update Profile Stats
+
+on:
+  schedule:
+    - cron: "0 * * * *" # Every hour
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install Python dependencies
+        run: pip install requests
+
+      - name: Run Deployments Count Script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/update_deployments.py
+
+      - name: Run Repositories Count Script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # PAT: ${{ secrets.PAT }} # Uncomment if using a PAT for private repos
+        run: python3 .github/scripts/update_repositories.py
+
+      - name: Fetch and Update Activity
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const username = 'chimataraghuram';
+            const { data: events } = await github.rest.activity.listPublicEventsForUser({
+              username: username,
+              per_page: 30
+            });
+            
+            let activity = [];
+            for (const ev of events) {
+              if (activity.length >= 5) break;
+              let repo = ev.repo.name;
+              let url = `https://github.com/${repo}`;
+              
+              if (ev.type === 'PushEvent') {
+                let commits = ev.payload.size || (ev.payload.commits ? ev.payload.commits.length : 1);
+                let branch = ev.payload.ref ? ev.payload.ref.replace('refs/heads/', '') : 'main';
+                activity.push(`1. 🚀 Pushed ${commits} commit(s) to ${branch} in [${repo}](${url})`);
+              } else if (ev.type === 'IssuesEvent') {
+                let action = ev.payload.action;
+                let issueUrl = ev.payload.issue.html_url;
+                let emoji = action === 'opened' ? '❗' : (action === 'closed' ? '🔒' : '🗣️');
+                activity.push(`1. ${emoji} ${action.charAt(0).toUpperCase() + action.slice(1)} issue [#${ev.payload.issue.number}](${issueUrl}) in [${repo}](${url})`);
+              } else if (ev.type === 'PullRequestEvent') {
+                let action = ev.payload.action;
+                let prUrl = ev.payload.pull_request.html_url;
+                activity.push(`1. 🔄 ${action.charAt(0).toUpperCase() + action.slice(1)} PR [#${ev.payload.pull_request.number}](${prUrl}) in [${repo}](${url})`);
+              } else if (ev.type === 'CreateEvent') {
+                let refType = ev.payload.ref_type;
+                activity.push(`1. 🎉 Created ${refType} in [${repo}](${url})`);
+              } else if (ev.type === 'WatchEvent') {
+                activity.push(`1. ⭐ Starred [${repo}](${url})`);
+              } else if (ev.type === 'ForkEvent') {
+                activity.push(`1. 🍴 Forked [${repo}](${url})`);
+              } else {
+                continue;
+              }
+            }
+            
+            activity = activity.map((line, index) => line.replace(/^1\./, `${index + 1}.`));
+            if (activity.length === 0) activity.push("No recent activity found.");
+            
+            const readme = fs.readFileSync('README.md', 'utf8');
+            const newReadme = readme.replace(
+              /<!--START_SECTION:activity-->[\s\S]*<!--END_SECTION:activity-->/,
+              `<!--START_SECTION:activity-->\n${activity.join('\n')}\n<!--END_SECTION:activity-->`
+            );
+            fs.writeFileSync('README.md', newReadme);
+
+      - name: Fetch and Update Achievements
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+
+            // Fetch the profile HTML to parse current achievements reliably
+            const headers = {
+              'Accept': 'text/html,application/xhtml+xml',
+              'User-Agent': 'Mozilla/5.0 (compatible; GitHub-Actions-Bot)'
+            };
+
+            let achievements = [];
+
+            try {
+              const response = await fetch('https://github.com/chimataraghuram?tab=achievements', { headers });
+              const html = await response.text();
+
+              // Try multiple regex patterns for robustness across GitHub HTML changes
+              const patterns = [
+                /class="achievement-badge[^"]*"[^>]*src="([^"]*githubassets[^"]*)"[^>]*alt="([^"]*)"/g,
+                /src="(https:\/\/github\.githubassets\.com\/[^"]+)"[^>]*class="achievement-badge[^"]*"[^>]*alt="([^"]*)"/g,
+                /src="(https:\/\/github\.githubassets\.com\/(?:assets|images)\/modules\/profile\/achievements\/[^"]+\.png[^"]*)"[^>]*alt="([^"]*)"/g
+              ];
+
+              const seen = new Set();
+
+              for (const pattern of patterns) {
+                let match;
+                const tempAchievements = [];
+                while ((match = pattern.exec(html)) !== null) {
+                  const src = match[1];
+                  const alt = match[2] || 'Achievement';
+                  if (!seen.has(src)) {
+                    seen.add(src);
+                    tempAchievements.push(`    <img src="${src}" width="100" alt="${alt}" />`);
+                  }
+                }
+                if (tempAchievements.length > 0) {
+                  achievements = tempAchievements;
+                  console.log(`Found ${achievements.length} achievements using pattern.`);
+                  break;
+                }
+              }
+
+              if (achievements.length === 0) {
+                console.log('Could not parse achievements from HTML. Keeping existing values.');
+                return;
+              }
+            } catch (err) {
+              console.log(`Error fetching achievements: ${err.message}`);
+              return;
+            }
+
+            const readme = fs.readFileSync('README.md', 'utf8');
+            const newReadme = readme.replace(
+              /<!--START_SECTION:achievements-->[\s\S]*<!--END_SECTION:achievements-->/,
+              `<!--START_SECTION:achievements-->\n${achievements.join('\n')}\n<!--END_SECTION:achievements-->`
+            );
+
+            if (readme !== newReadme) {
+              fs.writeFileSync('README.md', newReadme);
+              console.log('Updated achievements successfully!');
+            } else {
+              console.log('No new achievements to update.');
+            }
+
+      - name: Commit and Push
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git commit -m "docs: auto-update profile stats" || echo "No changes to commit"
+          git pull --rebase origin main
+          git push origin main
