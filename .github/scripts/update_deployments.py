@@ -15,14 +15,18 @@ def main():
         "X-GitHub-Api-Version": "2022-11-28"
     }
 
-    # Count live deployments across all repos with Vercel/GitHub Pages deployments
-    live_repos = [
-        "chimataraghuram/PORTFOLIO",
-        "chimataraghuram/PROJECT-FINDER",
-        "chimataraghuram/TECHBOY-AI",
-        "chimataraghuram/House-Prediction",
-        "chimataraghuram/Enchanted-Wings-Marvels-of-butterfly-species",
-    ]
+    # Fetch all repositories dynamically to check for deployments
+    live_repos = []
+    repos_url = "https://api.github.com/users/chimataraghuram/repos?per_page=100"
+    try:
+        repos_resp = requests.get(repos_url, headers=headers)
+        if repos_resp.status_code == 200:
+            repos_data = repos_resp.json()
+            live_repos = [repo["full_name"] for repo in repos_data]
+        else:
+            print(f"Warning: Could not fetch repos (status {repos_resp.status_code}). Falling back to empty list.")
+    except Exception as e:
+        print(f"Error fetching repos: {e}")
 
     total_deployments = 0
     for repo in live_repos:
