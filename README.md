@@ -25,7 +25,9 @@
   <!-- START_SECTION:deployments -->
   <img src="https://img.shields.io/badge/Deployments-846-22c55e?style=for-the-badge&logo=vercel" />
   <!-- END_SECTION:deployments -->
-  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=a855f7&label=Repositories&query=public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fchimataraghuram" />
+  <!-- START_SECTION:repositories -->
+  <img src="https://img.shields.io/badge/Repositories-26-a855f7?style=for-the-badge&logo=github" />
+  <!-- END_SECTION:repositories -->
 </p>
 
 <!-- OPEN TO WORK -->
