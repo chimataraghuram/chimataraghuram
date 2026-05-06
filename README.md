@@ -30,9 +30,13 @@
   <!-- END_SECTION:repositories -->
 </p>
 
-<!-- OPEN TO WORK -->
+<!-- OPEN TO WORK / HIRE ME -->
 <p align="center">
   <img src="https://img.shields.io/badge/🟢%20Open%20to%20Work-Internships%20%26%20Collaborations-22c55e?style=for-the-badge&logoColor=white" />
+  <br/><br/>
+  <a href="mailto:chimataraghuram02a@gmail.com">
+    <img src="https://img.shields.io/badge/💼%20Hire%20Me-Let's%20Build%20Together!-a855f7?style=for-the-badge&logoColor=white" />
+  </a>
 </p>
 
 
@@ -69,6 +73,7 @@
         <li>🌍 Based in <b>Vijayawada, Andhra Pradesh, India</b></li>
         <li>🔭 Currently building: <a href="https://github.com/chimataraghuram/PORTFOLIO">PORTFOLIO</a> · <a href="https://github.com/chimataraghuram/PROJECT-FINDER">PROJECT-FINDER</a> · <a href="https://github.com/chimataraghuram/TECHBOY-AI">TECHBOY-AI</a></li>
         <li>📫 Reach me: <a href="https://www.linkedin.com/in/chimataraghuram/">LinkedIn</a> · <a href="https://linktr.ee/chimataraghuram">Linktree</a> · <a href="mailto:chimataraghuram02a@gmail.com">Email</a></li>
+        <li>⚡ Fun fact: I built a <b>Space Invaders minigame</b> hidden inside my own portfolio — find it if you can! 🎮</li>
       </ul>
     </td>
   </tr>
@@ -124,7 +129,7 @@
 
 ## 🚀 TOP PROJECTS 📌
 
-### 🌐 [PORTFOLIO](https://github.com/chimataraghuram/PORTFOLIO)
+### 🌐 [PORTFOLIO](https://github.com/chimataraghuram/PORTFOLIO) ![Live](https://img.shields.io/badge/Status-🟢%20Live-22c55e?style=flat-square)
 [![Portfolio Screenshot](./images/portfolio.png)](https://chimataraghuram.vercel.app/)
 **Official Developer Portfolio with Hidden Mini-Game**
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React 18](https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Canvas API](https://img.shields.io/badge/Canvas_API-FF6B6B?style=flat-square&logoColor=white)
@@ -139,7 +144,7 @@
 
 <hr>
 
-### 🔎 [PROJECT-FINDER](https://github.com/chimataraghuram/PROJECT-FINDER)
+### 🔎 [PROJECT-FINDER](https://github.com/chimataraghuram/PROJECT-FINDER) ![Live](https://img.shields.io/badge/Status-🟢%20Live-22c55e?style=flat-square)
 [![Project Finder Screenshot](./images/project_finder.png)](https://github.com/chimataraghuram/PROJECT-FINDER/)
 **The Ultimate Research & Discovery Engine 🚀**
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React 19](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Google Gemini AI](https://img.shields.io/badge/Google_Gemini_AI-4285F4?style=flat-square&logo=google&logoColor=white) ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
@@ -155,7 +160,7 @@
 
 <hr>
 
-### 🛒 [TECHBOY-STORE](https://github.com/chimataraghuram/TECHBOY-STORE)
+### 🛒 [TECHBOY-STORE](https://github.com/chimataraghuram/TECHBOY-STORE) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square)
 [![Techboy Store Screenshot](./images/techboy_store.png)](https://github.com/chimataraghuram/TECHBOY-STORE)
 **Modern E-Commerce Application**
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
@@ -167,7 +172,7 @@
 
 <hr>
 
-### ☁️ [Virtual Windows Desktop](https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server)
+### ☁️ [Virtual Windows Desktop](https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square)
 <a href="https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server"><img src="./images/virtual_desktop.jpg" alt="Virtual Desktop Screenshot" width="900" height="400"/></a>
 **AWS Cloud Infrastructure & Remote Desktop**
 ![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonaws&logoColor=white) ![Windows Server](https://img.shields.io/badge/Windows_Server-0078D4?style=flat-square&logo=windows&logoColor=white) ![RDP](https://img.shields.io/badge/RDP-00A4EF?style=flat-square&logoColor=white) ![Security Groups](https://img.shields.io/badge/Security_Groups-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
@@ -186,7 +191,7 @@
 
 ## 📂 Other Projects
 
-### 🤖 [TECHBOY-AI](https://github.com/chimataraghuram/TECHBOY-AI)
+### 🤖 [TECHBOY-AI](https://github.com/chimataraghuram/TECHBOY-AI) ![Live](https://img.shields.io/badge/Status-🟢%20Live-22c55e?style=flat-square)
 [![Techboy AI Screenshot](./images/techboy_ai.png)](https://chimataraghuram.github.io/TECHBOY-AI/)
 **Premium AI Portfolio Assistant**
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Google Gemini 2.0](https://img.shields.io/badge/Google_Gemini_2.0-4285F4?style=flat-square&logo=google&logoColor=white) ![Glassmorphism](https://img.shields.io/badge/Glassmorphism-a855f7?style=flat-square&logoColor=white)
@@ -208,7 +213,7 @@
 <div align="left">
 
 
-### ✈️ [TravelGuideAI](https://github.com/chimataraghuram/Explore-With-Ai-Custom-Itineraries-For-Your-Next-Journey)
+### ✈️ [TravelGuideAI](https://github.com/chimataraghuram/Explore-With-Ai-Custom-Itineraries-For-Your-Next-Journey) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square)
 [![Travel Guide AI Screenshot](./images/travel_guide.png)](https://github.com/chimataraghuram/Explore-With-Ai-Custom-Itineraries-For-Your-Next-Journey)
 **AI-Powered Neural Travel Planner**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Google Gemini 1.5](https://img.shields.io/badge/Google_Gemini_1.5-4285F4?style=flat-square&logo=google&logoColor=white)
@@ -218,7 +223,7 @@
 
 <hr>
 
-### 🏠 [House Prediction](https://github.com/chimataraghuram/House-Prediction)
+### 🏠 [House Prediction](https://github.com/chimataraghuram/House-Prediction) ![Live](https://img.shields.io/badge/Status-🟢%20Live-22c55e?style=flat-square)
 [![House Prediction Screenshot](./images/house_prediction.png)](https://chimataraghuram.github.io/House-Prediction/)
 **AI-Powered Real Estate Valuation**
 ![React 18](https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
@@ -231,7 +236,7 @@
 
 <hr>
 
-### 🦋 [Enchanted Wings](https://github.com/chimataraghuram/Enchanted-Wings-Marvels-of-butterfly-species)
+### 🦋 [Enchanted Wings](https://github.com/chimataraghuram/Enchanted-Wings-Marvels-of-butterfly-species) ![Live](https://img.shields.io/badge/Status-🟢%20Live-22c55e?style=flat-square)
 [![Enchanted Wings Screenshot](./images/enchanted_wings.png)](https://chimataraghuram.github.io/Enchanted-Wings-Marvels-of-butterfly-species/)
 **AI Butterfly Species Classifier**
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
@@ -244,7 +249,7 @@
 
 <hr>
 
-### 🛡️ [Network IDS](https://github.com/chimataraghuram/AI-Based-Network-Intrusion-Detection-System)
+### 🛡️ [Network IDS](https://github.com/chimataraghuram/AI-Based-Network-Intrusion-Detection-System) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square)
 **AI Cybersecurity — Intrusion Detection**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![Grok API](https://img.shields.io/badge/Grok_API-1DA1F2?style=flat-square&logoColor=white)
 - Detects **DDoS attacks** using Random Forest ML and Generative AI (Grok).
@@ -253,7 +258,7 @@
 
 <hr>
 
-### 🛡️ [Phishing Detector](https://github.com/chimataraghuram/AI_Powered_Phishing_Email_Detector)
+### 🛡️ [Phishing Detector](https://github.com/chimataraghuram/AI_Powered_Phishing_Email_Detector) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square)
 **AI Cybersecurity — Email Protection**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Machine Learning](https://img.shields.io/badge/Machine_Learning-0ea5e9?style=flat-square&logoColor=white) ![NLP](https://img.shields.io/badge/NLP-7c3aed?style=flat-square&logoColor=white)
 - Detects phishing emails using **AI/ML classification** with NLP-based text analysis.
@@ -386,6 +391,8 @@
 
 <div align="center">
   <strong>Let's build something amazing together! 🚀</strong>
+  <br/><br/>
+  <img src="https://visitcount.itsvg.in/api?id=chimataraghuram&label=Profile%20Visitors&color=6&icon=5&pretty=true" />
 </div>
 
 <!-- FOOTER -->
