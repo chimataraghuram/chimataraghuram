@@ -76,18 +76,6 @@
 
 <br/>
 
-### 📊 GitHub Analytics
-
-<div align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=chimataraghuram&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&text_color=ffffff&icon_color=0ea5e9&v=1" width="49%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=chimataraghuram&theme=tokyonight&hide_border=true&background=0d1117&ring=a855f7&fire=c026d3&currStreakLabel=0ea5e9&stroke=a855f7&sideLabels=ffffff&dates=ffffff&v=1" width="49%" />
-</div>
-
-<br/>
-
-
-<br/>
-
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&height=15&color=0:7c3aed,50:c026d3,100:0ea5e9" width="100%" />
 </div>
@@ -353,6 +341,15 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&height=15&color=0:7c3aed,50:c026d3,100:0ea5e9" width="100%" />
 </div>
+
+## 📊 GitHub Analytics
+
+<div align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=chimataraghuram&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&text_color=ffffff&icon_color=0ea5e9&v=1" width="49%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=chimataraghuram&theme=tokyonight&hide_border=true&background=0d1117&ring=a855f7&fire=c026d3&currStreakLabel=0ea5e9&stroke=a855f7&sideLabels=ffffff&dates=ffffff&v=1" width="49%" />
+</div>
+
+<br/>
 
 ## 🎨 Contribution Graph
 
