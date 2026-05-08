@@ -133,9 +133,6 @@
 [![Portfolio Screenshot](./images/portfolio.png)](https://chimataraghuram.vercel.app/)
 **Official Developer Portfolio with Hidden Mini-Game**
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React 18](https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Canvas API](https://img.shields.io/badge/Canvas_API-FF6B6B?style=flat-square&logoColor=white)
-<details>
-<summary>✨ Key Features</summary>
-
 - Custom **Space Invaders-style minigame** hidden as an Easter egg inside the portfolio.
 - Sleek **glassmorphism UI** with 60FPS parallax scrolling and animated particle effects.
 - Synthetic retro-game audio engine built with the **Web Audio API** — no external libraries.
@@ -143,7 +140,6 @@
 - Fully **responsive design** across all devices and screen sizes.
 - Blazing-fast performance powered by **TypeScript + React 18 + Vite**.
 
-</details>
 
 
 🔗 [Live Demo](https://chimataraghuram.vercel.app/)
@@ -156,9 +152,6 @@
 [![Project Finder Screenshot](./images/project_finder.png)](https://github.com/chimataraghuram/PROJECT-FINDER/)
 **The Ultimate Research & Discovery Engine 🚀**
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React 19](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Google Gemini AI](https://img.shields.io/badge/Google_Gemini_AI-4285F4?style=flat-square&logo=google&logoColor=white) ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
-<details>
-<summary>✨ Key Features</summary>
-
 - High-density research engine to discover open-source projects, AI models, and technical datasets.
 - Unified discovery across **GitHub, Hugging Face, Kaggle, and LinkedIn** with platform-native profiles.
 - Integrated with **TECHBOY AI** for architectural reviews and pro-grade technical analysis.
@@ -166,7 +159,6 @@
 - Secure **cloud sync** to save, tag, and revisit research sessions anytime.
 - Advanced filtering by stars, language, license, and last activity date.
 
-</details>
 
 
 🔗 [Live Demo](https://chimataraghuram.github.io/PROJECT-FINDER/)
@@ -179,9 +171,6 @@
 [![Techboy Store Screenshot](./images/techboy_store.png)](https://github.com/chimataraghuram/TECHBOY-STORE)
 **Modern E-Commerce Application**
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-<details>
-<summary>✨ Key Features</summary>
-
 - **Modern e-commerce web application** with a clean, responsive UI built in React.
 - Product catalog with **category filters** and real-time search functionality.
 - Full **cart management** — add, remove, and update item quantities seamlessly.
@@ -189,7 +178,6 @@
 - Mobile-first **responsive design** that works across all screen sizes.
 - Fast load performance powered by **Vite** with optimized bundle output.
 
-</details>
 
 
 🔗 [GitHub Repo](https://github.com/chimataraghuram/TECHBOY-STORE)
@@ -200,9 +188,6 @@
 <a href="https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server"><img src="./images/virtual_desktop.jpg" alt="Virtual Desktop Screenshot" width="900" height="400"/></a>
 **AWS Cloud Infrastructure & Remote Desktop**
 ![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonaws&logoColor=white) ![Windows Server](https://img.shields.io/badge/Windows_Server-0078D4?style=flat-square&logo=windows&logoColor=white) ![RDP](https://img.shields.io/badge/RDP-00A4EF?style=flat-square&logoColor=white) ![Security Groups](https://img.shields.io/badge/Security_Groups-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-<details>
-<summary>✨ Key Features</summary>
-
 - Deployed a fully functional **Windows Server** on AWS EC2 as a virtual desktop environment.
 - Configured **RDP (Remote Desktop Protocol)** for secure remote access from any device.
 - Set up **Security Groups** and inbound rules for fine-grained port access control.
@@ -210,7 +195,6 @@
 - Part of a broader **AWS deployment suite** including Ubuntu Server infrastructure.
 - Documented end-to-end setup for reproducible cloud desktop environments.
 
-</details>
 
 🔗 [View Project](https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server)
 
@@ -227,9 +211,6 @@
 [![Techboy AI Screenshot](./images/techboy_ai.png)](https://chimataraghuram.github.io/TECHBOY-AI/)
 **Premium AI Portfolio Assistant**
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Google Gemini 2.0](https://img.shields.io/badge/Google_Gemini_2.0-4285F4?style=flat-square&logo=google&logoColor=white) ![Glassmorphism](https://img.shields.io/badge/Glassmorphism-a855f7?style=flat-square&logoColor=white)
-<details>
-<summary>✨ Key Features</summary>
-
 - **Premium AI portfolio assistant** with a custom Sunset Glassmorphism visual design.
 - Powered by **Google Gemini 2.0 Flash API** with real-time token streaming for instant replies.
 - Layered **backdrop blurs** and fluid jelly interaction animations for a premium feel.
@@ -237,7 +218,6 @@
 - Deep portfolio knowledge base — answers questions about all projects, skills, and experience.
 - Zero-latency streaming responses with a smooth, chat-native user experience.
 
-</details>
 
 
 🔗 [Live Demo](https://chimataraghuram.github.io/TECHBOY-AI/)
@@ -257,9 +237,6 @@
 [![Travel Guide AI Screenshot](./images/travel_guide.png)](https://github.com/chimataraghuram/Explore-With-Ai-Custom-Itineraries-For-Your-Next-Journey)
 **AI-Powered Neural Travel Planner**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Google Gemini 1.5](https://img.shields.io/badge/Google_Gemini_1.5-4285F4?style=flat-square&logo=google&logoColor=white)
-<details>
-<summary>✨ Key Features</summary>
-
 - AI-driven travel intelligence — acts as a **"Neural Travel Architect"** for every trip.
 - **Hyper-personalization** based on travel style, budget, duration, and preferences.
 - **Climate-aware logic** that factors in seasons, weather patterns, and local conditions.
@@ -267,7 +244,6 @@
 - **Adaptive Packing Assistant** that recommends gear based on destination and climate.
 - **Google Maps integration** to surface hidden local gems beyond tourist spots.
 
-</details>
 
 <hr>
 
@@ -275,9 +251,6 @@
 [![House Prediction Screenshot](./images/house_prediction.png)](https://chimataraghuram.github.io/House-Prediction/)
 **AI-Powered Real Estate Valuation**
 ![React 18](https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
-<details>
-<summary>✨ Key Features</summary>
-
 - **Random Forest ML model** trained for high-accuracy house price predictions.
 - Geospatial analysis using **latitude/longitude** for precise location-based valuation.
 - Premium **liquid glassmorphism UI** with smooth animated transitions.
@@ -285,7 +258,6 @@
 - Interactive feature inputs: bedrooms, bathrooms, area (sqft), and amenities.
 - Backend powered by **FastAPI** serving a Scikit-learn model with sub-second response.
 
-</details>
 
 
 🔗 [Live Demo](https://chimataraghuram.github.io/House-Prediction/)
@@ -296,9 +268,6 @@
 [![Enchanted Wings Screenshot](./images/enchanted_wings.png)](https://chimataraghuram.github.io/Enchanted-Wings-Marvels-of-butterfly-species/)
 **AI Butterfly Species Classifier**
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
-<details>
-<summary>✨ Key Features</summary>
-
 - **Deep Learning classifier** (TensorFlow + Keras) for butterfly species identification.
 - Real-time species search with images and info fetched dynamically from **Wikipedia**.
 - **Drag-and-drop image upload** for instant, frictionless classification.
@@ -306,7 +275,6 @@
 - Fully **responsive design** optimized for mobile, tablet, and desktop.
 - Fast modern frontend built with **React + Vite** for a smooth user experience.
 
-</details>
 
 
 🔗 [Live Demo](https://chimataraghuram.github.io/Enchanted-Wings-Marvels-of-butterfly-species/)
@@ -316,9 +284,6 @@
 ### 🛡️ [Network IDS](https://github.com/chimataraghuram/AI-Based-Network-Intrusion-Detection-System) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square)
 **AI Cybersecurity — Intrusion Detection**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![Grok API](https://img.shields.io/badge/Grok_API-1DA1F2?style=flat-square&logoColor=white)
-<details>
-<summary>✨ Key Features</summary>
-
 - Detects **DDoS attacks** in real-time using a Random Forest ML model.
 - Combines traditional ML with **Grok LLM explanations** for human-readable security insights.
 - **Simulate and inject** custom network packets for live testing and model training.
@@ -326,16 +291,12 @@
 - Train the model on custom datasets directly from the **Streamlit UI**.
 - End-to-end pipeline from packet capture to AI-generated threat explanation.
 
-</details>
 
 <hr>
 
 ### 🛡️ [Phishing Detector](https://github.com/chimataraghuram/AI_Powered_Phishing_Email_Detector) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square)
 **AI Cybersecurity — Email Protection**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Machine Learning](https://img.shields.io/badge/Machine_Learning-0ea5e9?style=flat-square&logoColor=white) ![NLP](https://img.shields.io/badge/NLP-7c3aed?style=flat-square&logoColor=white)
-<details>
-<summary>✨ Key Features</summary>
-
 - Detects phishing emails using **AI/ML classification** with NLP-based text analysis.
 - Inspects **URLs** for malicious redirects, spoofed domains, and suspicious patterns.
 - **Email header analysis** for sender authentication and DKIM/SPF validation.
@@ -343,7 +304,6 @@
 - Lightweight Python backend — easy to integrate with any mail client or pipeline.
 - Combats email-based cyber threats with **high-accuracy ML model** performance.
 
-</details>
 
 </div>
 </details>
