@@ -23,7 +23,7 @@
   <img src="https://img.shields.io/github/followers/chimataraghuram?label=Followers&style=for-the-badge&color=c026d3" />
   <img src="https://img.shields.io/github/stars/chimataraghuram?label=Stars&style=for-the-badge&color=0ea5e9" />
   <!-- START_SECTION:deployments -->
-  <img src="https://img.shields.io/badge/Deployments-1075-22c55e?style=for-the-badge&logo=vercel" />
+  <img src="https://img.shields.io/badge/Deployments-1089-22c55e?style=for-the-badge&logo=vercel" />
   <!-- END_SECTION:deployments -->
   <!-- START_SECTION:repositories -->
   <img src="https://img.shields.io/badge/Repositories-26-a855f7?style=for-the-badge&logo=github" />
@@ -375,10 +375,10 @@
 
 <!--START_SECTION:activity-->
 1. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/PORTFOLIO](https://github.com/chimataraghuram/PORTFOLIO)
-2. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)
-3. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)
-4. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)
-5. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)
+2. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/PORTFOLIO](https://github.com/chimataraghuram/PORTFOLIO)
+3. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/PORTFOLIO](https://github.com/chimataraghuram/PORTFOLIO)
+4. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/PORTFOLIO](https://github.com/chimataraghuram/PORTFOLIO)
+5. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/PORTFOLIO](https://github.com/chimataraghuram/PORTFOLIO)
 <!--END_SECTION:activity-->
 
 <br/>
