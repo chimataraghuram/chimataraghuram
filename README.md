@@ -374,11 +374,7 @@
 ## 🕒 Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/PORTFOLIO](https://github.com/chimataraghuram/PORTFOLIO)
-2. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/PORTFOLIO](https://github.com/chimataraghuram/PORTFOLIO)
-3. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/PORTFOLIO](https://github.com/chimataraghuram/PORTFOLIO)
-4. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/PORTFOLIO](https://github.com/chimataraghuram/PORTFOLIO)
-5. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/PORTFOLIO](https://github.com/chimataraghuram/PORTFOLIO)
+No recent activity found.
 <!--END_SECTION:activity-->
 
 <br/>
