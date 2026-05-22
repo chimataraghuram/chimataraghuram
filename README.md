@@ -374,7 +374,7 @@
 
 <!--START_SECTION:activity-->
 1. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)
-2. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/PORTFOLIO](https://github.com/chimataraghuram/PORTFOLIO)
+2. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)
 3. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/PORTFOLIO](https://github.com/chimataraghuram/PORTFOLIO)
 4. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/PORTFOLIO](https://github.com/chimataraghuram/PORTFOLIO)
 5. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/PORTFOLIO](https://github.com/chimataraghuram/PORTFOLIO)
