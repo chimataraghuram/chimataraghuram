@@ -20,8 +20,12 @@
 <!-- BADGES -->
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=chimataraghuram&label=Profile+Views&color=7c3aed&style=for-the-badge" />
-  <img src="https://img.shields.io/github/followers/chimataraghuram?label=Followers&style=for-the-badge&color=c026d3" />
-  <img src="https://img.shields.io/github/stars/chimataraghuram?label=Stars&style=for-the-badge&color=0ea5e9" />
+  <!-- START_SECTION:followers -->
+  <img src="https://img.shields.io/badge/Followers-4-c026d3?style=for-the-badge" />
+  <!-- END_SECTION:followers -->
+  <!-- START_SECTION:stars -->
+  <img src="https://img.shields.io/badge/Stars-8-0ea5e9?style=for-the-badge" />
+  <!-- END_SECTION:stars -->
   <!-- START_SECTION:deployments -->
   <img src="https://img.shields.io/badge/Deployments-1305-22c55e?style=for-the-badge&logo=vercel" />
   <!-- END_SECTION:deployments -->
@@ -392,14 +396,6 @@
 <div align="center">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=chimataraghuram&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&text_color=ffffff&icon_color=0ea5e9&v=1" width="49%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=chimataraghuram&theme=tokyonight&hide_border=true&background=0d1117&ring=a855f7&fire=c026d3&currStreakLabel=0ea5e9&stroke=a855f7&sideLabels=ffffff&dates=ffffff&v=1" width="49%" />
-</div>
-
-<br/>
-
-## 🎨 Contribution Graph
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=chimataraghuram&theme=tokyonight&area=true&hide_border=true&bg_color=0d1117&color=a855f7&line=0ea5e9&point=ffffff&v=1" width="100%" />
 </div>
 
 <br/>
