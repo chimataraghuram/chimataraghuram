@@ -15,6 +15,8 @@ def main():
         "X-GitHub-Api-Version": "2022-11-28"
     }
 
+    has_stars = False
+    total_stars = 0
     # Fetch all repositories dynamically to check for deployments
     live_repos = []
     repos_url = "https://api.github.com/users/chimataraghuram/repos?per_page=100"
@@ -23,6 +25,8 @@ def main():
         if repos_resp.status_code == 200:
             repos_data = repos_resp.json()
             live_repos = [repo["full_name"] for repo in repos_data]
+            total_stars = sum(repo.get("stargazers_count", 0) for repo in repos_data)
+            has_stars = True
         else:
             print(f"Warning: Could not fetch repos (status {repos_resp.status_code}). Falling back to empty list.")
     except Exception as e:
@@ -69,6 +73,15 @@ def main():
 
     replacement = f"<!-- START_SECTION:deployments -->\n{badge}\n  <!-- END_SECTION:deployments -->"
     new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+
+    if has_stars:
+        stars_badge = f'<img src="https://img.shields.io/badge/Stars-{total_stars}-0ea5e9?style=for-the-badge" />'
+        stars_pattern = r"<!-- START_SECTION:stars -->.*?<!-- END_SECTION:stars -->"
+        if re.search(stars_pattern, new_content, flags=re.DOTALL):
+            stars_replacement = f"<!-- START_SECTION:stars -->\n  {stars_badge}\n  <!-- END_SECTION:stars -->"
+            new_content = re.sub(stars_pattern, stars_replacement, new_content, flags=re.DOTALL)
+        else:
+            print("Warning: Could not find stars section tags in README.md")
 
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(new_content)

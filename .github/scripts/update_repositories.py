@@ -20,6 +20,7 @@ def main():
         
         data = resp.json()
         total_repos = data.get("public_repos", 0)
+        followers = data.get("followers", 0)
         
         # If PAT is provided, we can fetch total repositories including private ones
         if os.environ.get("PAT"):
@@ -34,7 +35,7 @@ def main():
         print(f"Error: {e}")
         sys.exit(1)
 
-    print(f"Found {total_repos} repositories.")
+    print(f"Found {total_repos} repositories and {followers} followers.")
 
     if not os.path.exists("README.md"):
         print("Error: README.md not found")
@@ -52,6 +53,16 @@ def main():
 
     replacement = f"<!-- START_SECTION:repositories -->\n  {badge}\n  <!-- END_SECTION:repositories -->"
     new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+
+    followers_badge = f'<img src="https://img.shields.io/badge/Followers-{followers}-c026d3?style=for-the-badge" />'
+    followers_pattern = r"<!-- START_SECTION:followers -->.*?<!-- END_SECTION:followers -->"
+    
+    if not re.search(followers_pattern, new_content, flags=re.DOTALL):
+        print("Error: Could not find followers section tags in README.md")
+        sys.exit(1)
+
+    followers_replacement = f"<!-- START_SECTION:followers -->\n  {followers_badge}\n  <!-- END_SECTION:followers -->"
+    new_content = re.sub(followers_pattern, followers_replacement, new_content, flags=re.DOTALL)
 
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(new_content)
