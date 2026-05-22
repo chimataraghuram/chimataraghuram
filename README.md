@@ -321,28 +321,27 @@
 
 **Programming**
 <br/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+<img src="https://img.shields.io/badge/Python-1a1b26?style=for-the-badge&logo=python&logoColor=a855f7" /> <img src="https://img.shields.io/badge/JavaScript-1a1b26?style=for-the-badge&logo=javascript&logoColor=a855f7" />
 
 **Frontend**
 <br/>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/HTML5-1a1b26?style=for-the-badge&logo=html5&logoColor=a855f7" /> <img src="https://img.shields.io/badge/CSS3-1a1b26?style=for-the-badge&logo=css3&logoColor=a855f7" /> <img src="https://img.shields.io/badge/React-1a1b26?style=for-the-badge&logo=react&logoColor=a855f7" /> <img src="https://img.shields.io/badge/TypeScript-1a1b26?style=for-the-badge&logo=typescript&logoColor=a855f7" />
 
 **Backend**
 <br/>
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" /> <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-
+<img src="https://img.shields.io/badge/Node.js-1a1b26?style=for-the-badge&logo=nodedotjs&logoColor=a855f7" /> <img src="https://img.shields.io/badge/FastAPI-1a1b26?style=for-the-badge&logo=fastapi&logoColor=a855f7" />
 
 **AI & Automation**
 <br/>
-<img src="https://img.shields.io/badge/Ollama-FFFFFF?style=for-the-badge&logo=Ollama&logoColor=black" /> <img src="https://img.shields.io/badge/OpenClaw-FF4B4B?style=for-the-badge&logo=microbot&logoColor=white" /> <img src="https://img.shields.io/badge/NanoClaw-00A67E?style=for-the-badge&logo=microchip&logoColor=white" /> <img src="https://img.shields.io/badge/n8n-FF6D5A?style=for-the-badge&logo=n8n&logoColor=white" /> <img src="https://img.shields.io/badge/OpenRouter-E8E8E8?style=for-the-badge&logo=openai&logoColor=black" /> <img src="https://img.shields.io/badge/Google%20AI%20Studio-4285F4?style=for-the-badge&logo=google&logoColor=white" />
+<img src="https://img.shields.io/badge/Ollama-1a1b26?style=for-the-badge&logo=ollama&logoColor=a855f7" /> <img src="https://img.shields.io/badge/OpenClaw-1a1b26?style=for-the-badge&logo=microbot&logoColor=a855f7" /> <img src="https://img.shields.io/badge/NanoClaw-1a1b26?style=for-the-badge&logo=microchip&logoColor=a855f7" /> <img src="https://img.shields.io/badge/n8n-1a1b26?style=for-the-badge&logo=n8n&logoColor=a855f7" /> <img src="https://img.shields.io/badge/OpenRouter-1a1b26?style=for-the-badge&logo=openai&logoColor=a855f7" /> <img src="https://img.shields.io/badge/Google%20AI%20Studio-1a1b26?style=for-the-badge&logo=google&logoColor=a855f7" />
 
 **Databases**
 <br/>
-<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" /> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
+<img src="https://img.shields.io/badge/MongoDB-1a1b26?style=for-the-badge&logo=mongodb&logoColor=a855f7" /> <img src="https://img.shields.io/badge/Firebase-1a1b26?style=for-the-badge&logo=firebase&logoColor=a855f7" />
 
 **Tools & Platforms**
 <br/>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" /> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" /> <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white" /> <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+<img src="https://img.shields.io/badge/Git-1a1b26?style=for-the-badge&logo=git&logoColor=a855f7" /> <img src="https://img.shields.io/badge/GitHub-1a1b26?style=for-the-badge&logo=github&logoColor=a855f7" /> <img src="https://img.shields.io/badge/Docker-1a1b26?style=for-the-badge&logo=docker&logoColor=a855f7" /> <img src="https://img.shields.io/badge/Figma-1a1b26?style=for-the-badge&logo=figma&logoColor=a855f7" /> <img src="https://img.shields.io/badge/Render-1a1b26?style=for-the-badge&logo=render&logoColor=a855f7" /> <img src="https://img.shields.io/badge/Vercel-1a1b26?style=for-the-badge&logo=vercel&logoColor=a855f7" />
 
 </div>
 
@@ -386,6 +385,18 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&height=15&color=0:7c3aed,50:c026d3,100:0ea5e9" width="100%" />
 </div>
+
+<br/>
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=chimataraghuram&theme=tokyonight&no-bg=true&no-frame=true&margin-w=15&margin-h=15" alt="GitHub Trophies" />
+  </a>
+</div>
+
+<br/>
 
 ## 📊 GitHub Analytics
 
