@@ -27,7 +27,7 @@
   <img src="https://img.shields.io/badge/Stars-8-0ea5e9?style=for-the-badge" />
   <!-- END_SECTION:stars -->
   <!-- START_SECTION:deployments -->
-  <img src="https://img.shields.io/badge/Deployments-1336-22c55e?style=for-the-badge&logo=vercel" />
+  <img src="https://img.shields.io/badge/Deployments-1337-22c55e?style=for-the-badge&logo=vercel" />
   <!-- END_SECTION:deployments -->
   <!-- START_SECTION:repositories -->
   <img src="https://img.shields.io/badge/Repositories-26-a855f7?style=for-the-badge&logo=github" />
