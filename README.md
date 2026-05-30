@@ -115,10 +115,11 @@
 <tr>
 <td colspan="2" valign="top">
 
-### 🤖 [Generative AI Intern](https://www.linkedin.com/in/chimataraghuram/)
-**SmartBridge**
-- Worked with **Generative AI models** and explored **Large Language Model (LLM)** applications and workflows.
-- Built and tested **AI-driven workflows**, gaining hands-on experience in prompt engineering and automation concepts.
+### 🤖 [AI & Machine Learning Intern](https://www.linkedin.com/in/chimataraghuram/)
+**Smartbridge** | *06/2025 – 07/2025*
+- Developed and trained machine learning models using Python on real-world datasets.
+- Explored Artificial Intelligence (AI) algorithms and backend database integrations.
+<br/>📍 *Remote*
 
 </td>
 </tr>
