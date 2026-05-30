@@ -118,7 +118,9 @@
 ### 🤖 [AI & Machine Learning Intern](https://www.linkedin.com/in/chimataraghuram/)
 **Smartbridge** | *06/2025 – 07/2025*
 - Developed and trained machine learning models using Python on real-world datasets.
-- Explored Artificial Intelligence (AI) algorithms and backend database integrations.
+- Applied data preprocessing, model evaluation and deployment techniques across multiple projects.
+- Integrated AI solutions into practical applications under Google for Developers — India Edu Program.
+- Gained hands-on exposure to end-to-end AI workflow from data handling to model deployment.
 <br/>📍 *Remote*
 
 </td>
