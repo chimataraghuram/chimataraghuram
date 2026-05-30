@@ -146,14 +146,14 @@
 
 
 
-🔗 [Live Demo](https://chimataraghuram.vercel.app/)
+🔗 [Live Demo](https://chimataraghuram.vercel.app/) · 🐙 [GitHub Repo](https://github.com/chimataraghuram/PORTFOLIO)
 
 
 
 <hr>
 
 ### 🔎 [PROJECT-FINDER](https://github.com/chimataraghuram/PROJECT-FINDER) ![Live](https://img.shields.io/badge/Status-🟢%20Live-22c55e?style=flat-square)
-[![Project Finder Screenshot](./images/project_finder.png)](https://github.com/chimataraghuram/PROJECT-FINDER/)
+[![Project Finder Screenshot](./images/project_finder.png)](https://chimataraghuram.github.io/PROJECT-FINDER/)
 **The Ultimate Research & Discovery Engine 🚀**
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React 19](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Google Gemini AI](https://img.shields.io/badge/Google_Gemini_AI-4285F4?style=flat-square&logo=google&logoColor=white) ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
 - High-density research engine to discover open-source projects, AI models, and technical datasets.
@@ -165,7 +165,7 @@
 
 
 
-🔗 [Live Demo](https://chimataraghuram.github.io/PROJECT-FINDER/)
+🔗 [Live Demo](https://chimataraghuram.github.io/PROJECT-FINDER/) · 🐙 [GitHub Repo](https://github.com/chimataraghuram/PROJECT-FINDER)
 
 
 
@@ -184,7 +184,7 @@
 
 
 
-🔗 [GitHub Repo](https://github.com/chimataraghuram/TECHBOY-STORE)
+🐙 [GitHub Repo](https://github.com/chimataraghuram/TECHBOY-STORE)
 
 <hr>
 
@@ -200,7 +200,7 @@
 - Documented end-to-end setup for reproducible cloud desktop environments.
 
 
-🔗 [View Project](https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server)
+🐙 [GitHub Repo](https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server)
 
 
 <br/>
@@ -224,7 +224,7 @@
 
 
 
-🔗 [Live Demo](https://chimataraghuram.github.io/TECHBOY-AI/)
+🔗 [Live Demo](https://chimataraghuram.github.io/TECHBOY-AI/) · 🐙 [GitHub Repo](https://github.com/chimataraghuram/TECHBOY-AI)
 
 <hr>
 
@@ -249,6 +249,9 @@
 - **Google Maps integration** to surface hidden local gems beyond tourist spots.
 
 
+🐙 [GitHub Repo](https://github.com/chimataraghuram/Explore-With-Ai-Custom-Itineraries-For-Your-Next-Journey)
+
+
 <hr>
 
 ### 🏠 [House Prediction](https://github.com/chimataraghuram/House-Prediction) ![Live](https://img.shields.io/badge/Status-🟢%20Live-22c55e?style=flat-square)
@@ -264,7 +267,7 @@
 
 
 
-🔗 [Live Demo](https://chimataraghuram.github.io/House-Prediction/)
+🔗 [Live Demo](https://chimataraghuram.github.io/House-Prediction/) · 🐙 [GitHub Repo](https://github.com/chimataraghuram/House-Prediction)
 
 <hr>
 
@@ -281,11 +284,12 @@
 
 
 
-🔗 [Live Demo](https://chimataraghuram.github.io/Enchanted-Wings-Marvels-of-butterfly-species/)
+🔗 [Live Demo](https://chimataraghuram.github.io/Enchanted-Wings-Marvels-of-butterfly-species/) · 🐙 [GitHub Repo](https://github.com/chimataraghuram/Enchanted-Wings-Marvels-of-butterfly-species)
 
 <hr>
 
 ### 🛡️ [Network IDS](https://github.com/chimataraghuram/AI-Based-Network-Intrusion-Detection-System) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square)
+[![Network IDS Screenshot](https://opengraph.githubassets.com/1/chimataraghuram/AI-Based-Network-Intrusion-Detection-System)](https://github.com/chimataraghuram/AI-Based-Network-Intrusion-Detection-System)
 **AI Cybersecurity — Intrusion Detection**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![Grok API](https://img.shields.io/badge/Grok_API-1DA1F2?style=flat-square&logoColor=white)
 - Detects **DDoS attacks** in real-time using a Random Forest ML model.
@@ -295,10 +299,13 @@
 - Train the model on custom datasets directly from the **Streamlit UI**.
 - End-to-end pipeline from packet capture to AI-generated threat explanation.
 
+🐙 [GitHub Repo](https://github.com/chimataraghuram/AI-Based-Network-Intrusion-Detection-System)
+
 
 <hr>
 
 ### 🛡️ [Phishing Detector](https://github.com/chimataraghuram/AI_Powered_Phishing_Email_Detector) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square)
+[![Phishing Detector Screenshot](https://opengraph.githubassets.com/1/chimataraghuram/AI_Powered_Phishing_Email_Detector)](https://github.com/chimataraghuram/AI_Powered_Phishing_Email_Detector)
 **AI Cybersecurity — Email Protection**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Machine Learning](https://img.shields.io/badge/Machine_Learning-0ea5e9?style=flat-square&logoColor=white) ![NLP](https://img.shields.io/badge/NLP-7c3aed?style=flat-square&logoColor=white)
 - Detects phishing emails using **AI/ML classification** with NLP-based text analysis.
@@ -307,6 +314,8 @@
 - Real-time **classification with confidence scoring** for transparent AI decisions.
 - Lightweight Python backend — easy to integrate with any mail client or pipeline.
 - Combats email-based cyber threats with **high-accuracy ML model** performance.
+
+🐙 [GitHub Repo](https://github.com/chimataraghuram/AI_Powered_Phishing_Email_Detector)
 
 
 </div>
