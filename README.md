@@ -146,7 +146,7 @@
 
 
 
-🔗 [Live Demo](https://chimataraghuram.vercel.app/) · 🐙 [GitHub Repo](https://github.com/chimataraghuram/PORTFOLIO)
+[![Live Demo](https://img.shields.io/badge/🔗%20Live%20Demo-chimataraghuram.vercel.app-22c55e?style=for-the-badge&logoColor=white)](https://chimataraghuram.vercel.app/) [![GitHub Repo](https://img.shields.io/badge/🐙%20GitHub%20Repo-PORTFOLIO-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/PORTFOLIO)
 
 
 
@@ -165,14 +165,14 @@
 
 
 
-🔗 [Live Demo](https://chimataraghuram.github.io/PROJECT-FINDER/) · 🐙 [GitHub Repo](https://github.com/chimataraghuram/PROJECT-FINDER)
+[![Live Demo](https://img.shields.io/badge/🔗%20Live%20Demo-PROJECT--FINDER-22c55e?style=for-the-badge&logoColor=white)](https://chimataraghuram.github.io/PROJECT-FINDER/) [![GitHub Repo](https://img.shields.io/badge/🐙%20GitHub%20Repo-PROJECT--FINDER-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/PROJECT-FINDER)
 
 
 
 <hr>
 
 ### 🛒 [TECHBOY-STORE](https://github.com/chimataraghuram/TECHBOY-STORE) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square)
-[![Techboy Store Screenshot](./images/techboy_store.png)](https://github.com/chimataraghuram/TECHBOY-STORE)
+[![Techboy Store Screenshot](./images/techboy_store.png)](https://techboy-store.vercel.app/)
 **Modern E-Commerce Application**
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 - **Modern e-commerce web application** with a clean, responsive UI built in React.
@@ -184,7 +184,7 @@
 
 
 
-🐙 [GitHub Repo](https://github.com/chimataraghuram/TECHBOY-STORE)
+[![Live Demo](https://img.shields.io/badge/🔗%20Live%20Demo-techboy--store.vercel.app-22c55e?style=for-the-badge&logoColor=white)](https://techboy-store.vercel.app/) [![GitHub Repo](https://img.shields.io/badge/🐙%20GitHub%20Repo-TECHBOY--STORE-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/TECHBOY-STORE)
 
 <hr>
 
@@ -200,7 +200,7 @@
 - Documented end-to-end setup for reproducible cloud desktop environments.
 
 
-🐙 [GitHub Repo](https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server)
+[![GitHub Repo](https://img.shields.io/badge/🐙%20GitHub%20Repo-Virtual--Windows--Desktop-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server)
 
 
 <br/>
@@ -224,7 +224,7 @@
 
 
 
-🔗 [Live Demo](https://chimataraghuram.github.io/TECHBOY-AI/) · 🐙 [GitHub Repo](https://github.com/chimataraghuram/TECHBOY-AI)
+[![Live Demo](https://img.shields.io/badge/🔗%20Live%20Demo-TECHBOY--AI-22c55e?style=for-the-badge&logoColor=white)](https://chimataraghuram.github.io/TECHBOY-AI/) [![GitHub Repo](https://img.shields.io/badge/🐙%20GitHub%20Repo-TECHBOY--AI-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/TECHBOY-AI)
 
 <hr>
 
@@ -249,7 +249,7 @@
 - **Google Maps integration** to surface hidden local gems beyond tourist spots.
 
 
-🐙 [GitHub Repo](https://github.com/chimataraghuram/Explore-With-Ai-Custom-Itineraries-For-Your-Next-Journey)
+[![GitHub Repo](https://img.shields.io/badge/🐙%20GitHub%20Repo-TravelGuideAI-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/Explore-With-Ai-Custom-Itineraries-For-Your-Next-Journey)
 
 
 <hr>
@@ -267,7 +267,7 @@
 
 
 
-🔗 [Live Demo](https://chimataraghuram.github.io/House-Prediction/) · 🐙 [GitHub Repo](https://github.com/chimataraghuram/House-Prediction)
+[![Live Demo](https://img.shields.io/badge/🔗%20Live%20Demo-House%20Prediction-22c55e?style=for-the-badge&logoColor=white)](https://chimataraghuram.github.io/House-Prediction/) [![GitHub Repo](https://img.shields.io/badge/🐙%20GitHub%20Repo-House--Prediction-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/House-Prediction)
 
 <hr>
 
@@ -284,7 +284,7 @@
 
 
 
-🔗 [Live Demo](https://chimataraghuram.github.io/Enchanted-Wings-Marvels-of-butterfly-species/) · 🐙 [GitHub Repo](https://github.com/chimataraghuram/Enchanted-Wings-Marvels-of-butterfly-species)
+[![Live Demo](https://img.shields.io/badge/🔗%20Live%20Demo-Enchanted%20Wings-22c55e?style=for-the-badge&logoColor=white)](https://chimataraghuram.github.io/Enchanted-Wings-Marvels-of-butterfly-species/) [![GitHub Repo](https://img.shields.io/badge/🐙%20GitHub%20Repo-Enchanted--Wings-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/Enchanted-Wings-Marvels-of-butterfly-species)
 
 <hr>
 
@@ -299,7 +299,7 @@
 - Train the model on custom datasets directly from the **Streamlit UI**.
 - End-to-end pipeline from packet capture to AI-generated threat explanation.
 
-🐙 [GitHub Repo](https://github.com/chimataraghuram/AI-Based-Network-Intrusion-Detection-System)
+[![GitHub Repo](https://img.shields.io/badge/🐙%20GitHub%20Repo-Network--IDS-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/AI-Based-Network-Intrusion-Detection-System)
 
 
 <hr>
@@ -315,7 +315,7 @@
 - Lightweight Python backend — easy to integrate with any mail client or pipeline.
 - Combats email-based cyber threats with **high-accuracy ML model** performance.
 
-🐙 [GitHub Repo](https://github.com/chimataraghuram/AI_Powered_Phishing_Email_Detector)
+[![GitHub Repo](https://img.shields.io/badge/🐙%20GitHub%20Repo-Phishing--Detector-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/AI_Powered_Phishing_Email_Detector)
 
 
 </div>
