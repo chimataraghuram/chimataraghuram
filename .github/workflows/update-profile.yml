@@ -2,18 +2,26 @@ name: Update Profile Stats
 
 on:
   schedule:
-    - cron: "0 * * * *" # Every hour
+    - cron: "0 */6 * * *" # Every 6 hours (deployments scan is slow)
   workflow_dispatch:
   push:
     branches:
       - main
+    paths:
+      - ".github/workflows/update-profile.yml"
+      - ".github/scripts/**"
 
 permissions:
   contents: write
 
+concurrency:
+  group: update-profile-stats
+  cancel-in-progress: true
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -30,12 +38,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 .github/scripts/update_deployments.py
-
-      - name: Run Repositories Count Script
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # PAT: ${{ secrets.PAT }} # Uncomment if using a PAT for private repos
-        run: python3 .github/scripts/update_repositories.py
 
       - name: Fetch and Update Activity
         uses: actions/github-script@v7
@@ -162,6 +164,10 @@ jobs:
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add README.md
-          git commit -m "docs: auto-update profile stats" || echo "No changes to commit"
-          git pull --rebase origin main
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "docs: auto-update profile stats"
+          git pull --rebase --autostash origin main
           git push origin main
