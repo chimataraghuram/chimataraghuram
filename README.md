@@ -225,8 +225,16 @@
 
 <hr>
 
+<div align="center">
+<details>
+<summary>
+  <b>Show More Projects</b>
+</summary>
+<br/>
+<div align="left">
+
 ### 🤖 [AI Image Generation Bot](https://github.com/chimataraghuram/ai-image-generation-bot-n8n) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square)
-[![AI Image Generation Bot Screenshot](https://opengraph.githubassets.com/1/chimataraghuram/ai-image-generation-bot-n8n)](https://github.com/chimataraghuram/ai-image-generation-bot-n8n)
+[![AI Image Generation Bot Screenshot](./images/ai_image_bot.png)](https://github.com/chimataraghuram/ai-image-generation-bot-n8n)
 **AI Image Generation Bot (n8n + Gemini + OpenAI)**
 ![n8n](https://img.shields.io/badge/n8n-FF6D5A?style=flat-square&logo=n8n&logoColor=white) ![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=flat-square&logo=google&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white) ![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white)
 - **Telegram Interface**: Seamless input and output interface for users.
@@ -238,14 +246,6 @@
 [![GitHub Repo](https://img.shields.io/badge/🐙%20GitHub%20Repo-AI--Image--Bot-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/ai-image-generation-bot-n8n)
 
 <hr>
-<div align="center">
-<details>
-<summary>
-  <b>Show More Projects</b>
-</summary>
-<br/>
-<div align="left">
-
 
 ### ✈️ [TravelGuideAI](https://github.com/chimataraghuram/Explore-With-Ai-Custom-Itineraries-For-Your-Next-Journey) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square)
 [![Travel Guide AI Screenshot](./images/travel_guide.png)](https://github.com/chimataraghuram/Explore-With-Ai-Custom-Itineraries-For-Your-Next-Journey)
