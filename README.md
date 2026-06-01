@@ -23,7 +23,7 @@
   <img src="https://img.shields.io/github/followers/chimataraghuram?label=Followers&color=c026d3&style=for-the-badge" />
   <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=Stars&color=0ea5e9&style=for-the-badge&query=%24.stars&url=https://api.github-star-counter.workers.dev/user/chimataraghuram" />
   <!-- START_SECTION:deployments -->
-  <img src="https://img.shields.io/badge/Deployments-1471-22c55e?style=for-the-badge&logo=vercel" />
+  <img src="https://img.shields.io/badge/Deployments-1474-22c55e?style=for-the-badge&logo=vercel" />
   <!-- END_SECTION:deployments -->
   <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=Repositories&color=a855f7&style=for-the-badge&query=%24.public_repos&url=https://api.github.com/users/chimataraghuram" />
 </p>
@@ -397,10 +397,10 @@
 ## 🕒 Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/TECHBOY-STORE](https://github.com/chimataraghuram/TECHBOY-STORE)
-2. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/TECHBOY-STORE](https://github.com/chimataraghuram/TECHBOY-STORE)
-3. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/TECHBOY-STORE](https://github.com/chimataraghuram/TECHBOY-STORE)
-4. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/TECHBOY-STORE](https://github.com/chimataraghuram/TECHBOY-STORE)
+1. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)
+2. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)
+3. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)
+4. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)
 5. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/TECHBOY-STORE](https://github.com/chimataraghuram/TECHBOY-STORE)
 <!--END_SECTION:activity-->
 
