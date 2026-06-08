@@ -397,11 +397,11 @@
 ## 🕒 Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/AWS-EC2-Website-Deployment-Using-Ubuntu-Apache2](https://github.com/chimataraghuram/AWS-EC2-Website-Deployment-Using-Ubuntu-Apache2)
-2. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/AWS-EC2-Website-Deployment-Using-Ubuntu-Apache2](https://github.com/chimataraghuram/AWS-EC2-Website-Deployment-Using-Ubuntu-Apache2)
-3. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/AWS-EC2-Website-Deployment-Using-Ubuntu-Apache2](https://github.com/chimataraghuram/AWS-EC2-Website-Deployment-Using-Ubuntu-Apache2)
-4. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/AWS-EC2-Website-Deployment-Using-Ubuntu-Apache2](https://github.com/chimataraghuram/AWS-EC2-Website-Deployment-Using-Ubuntu-Apache2)
-5. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/AWS-EC2-Website-Deployment-Using-Ubuntu-Apache2](https://github.com/chimataraghuram/AWS-EC2-Website-Deployment-Using-Ubuntu-Apache2)
+1. ⭐ Starred [chimataraghuram/QR-Code-Generator](https://github.com/chimataraghuram/QR-Code-Generator)
+2. ⭐ Starred [chimataraghuram/Rock-Paper-Scissors-Game](https://github.com/chimataraghuram/Rock-Paper-Scissors-Game)
+3. ⭐ Starred [chimataraghuram/Advanced-CSS-Styling-and-Responsive-Design](https://github.com/chimataraghuram/Advanced-CSS-Styling-and-Responsive-Design)
+4. ⭐ Starred [chimataraghuram/HTML-Structure-and-Basic-Server-Interaction-](https://github.com/chimataraghuram/HTML-Structure-and-Basic-Server-Interaction-)
+5. ⭐ Starred [chimataraghuram/Database-Integration-and-User-Authentication](https://github.com/chimataraghuram/Database-Integration-and-User-Authentication)
 <!--END_SECTION:activity-->
 
 <br/>
