@@ -84,12 +84,78 @@ jobs:
             activity = activity.map((line, index) => line.replace(/^1\./, `${index + 1}.`));
             if (activity.length === 0) activity.push("No recent activity found.");
             
-            const readme = fs.readFileSync('README.md', 'utf8');
-            const newReadme = readme.replace(
+            let contributionsContent = 'No external contributions found.';
+            try {
+              const { data: prData } = await github.rest.search.issuesAndPullRequests({
+                q: 'type:pr author:chimataraghuram -user:chimataraghuram'
+              });
+              
+              if (prData && prData.items && prData.items.length > 0) {
+                const repos = {};
+                for (const item of prData.items) {
+                  const repoUrl = item.repository_url;
+                  const repoName = repoUrl.replace('https://api.github.com/repos/', '');
+                  if (!repos[repoName]) {
+                    repos[repoName] = {
+                      stars: 0,
+                      description: '',
+                      prs: []
+                    };
+                  }
+                  repos[repoName].prs.push({
+                    number: item.number,
+                    title: item.title,
+                    url: item.html_url
+                  });
+                }
+                
+                for (const repoName of Object.keys(repos)) {
+                  try {
+                    const [owner, repo] = repoName.split('/');
+                    const { data: repoDetails } = await github.rest.repos.get({
+                      owner,
+                      repo
+                    });
+                    repos[repoName].stars = repoDetails.stargazers_count;
+                    repos[repoName].description = repoDetails.description || '';
+                  } catch (err) {
+                    console.log(`Failed to fetch repo details for ${repoName}: ${err.message}`);
+                  }
+                }
+                
+                let contributionsMarkdown = [];
+                for (const [repoName, info] of Object.entries(repos)) {
+                  const starCount = info.stars >= 1000 ? `${(info.stars / 1000).toFixed(0)}k+` : info.stars;
+                  let md = `> ### 📦 **[${repoName}](https://github.com/${repoName})** *(${starCount} ⭐)*\n`;
+                  if (info.description) {
+                    md += `> _${info.description}_\n> \n`;
+                  }
+                  for (const pr of info.prs) {
+                    let emoji = '🔧';
+                    if (pr.title.toLowerCase().includes('fix')) emoji = '🔧';
+                    else if (pr.title.toLowerCase().includes('feat') || pr.title.toLowerCase().includes('add')) emoji = '✨';
+                    else if (pr.title.toLowerCase().includes('doc') || pr.title.toLowerCase().includes('readme')) emoji = '📝';
+                    
+                    md += `> *   ${emoji} **[PR #${pr.number}](${pr.url})** — ${pr.title}\n`;
+                  }
+                  contributionsMarkdown.push(md);
+                }
+                contributionsContent = contributionsMarkdown.join('\n<br/>\n\n');
+              }
+            } catch (err) {
+              console.log(`Failed to fetch contributions: ${err.message}`);
+            }
+
+            let readme = fs.readFileSync('README.md', 'utf8');
+            readme = readme.replace(
               /<!--START_SECTION:activity-->[\s\S]*<!--END_SECTION:activity-->/,
               `<!--START_SECTION:activity-->\n${activity.join('\n')}\n<!--END_SECTION:activity-->`
             );
-            fs.writeFileSync('README.md', newReadme);
+            readme = readme.replace(
+              /<!--START_SECTION:contributions-->[\s\S]*<!--END_SECTION:contributions-->/,
+              `<!--START_SECTION:contributions-->\n${contributionsContent}\n<!--END_SECTION:contributions-->`
+            );
+            fs.writeFileSync('README.md', readme);
 
       - name: Fetch and Update Achievements
         uses: actions/github-script@v7
