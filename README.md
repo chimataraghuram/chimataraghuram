@@ -396,21 +396,12 @@
 
 ## 🕒 Recent Activity & Open Source Contributions
 
-<table>
-  <tr>
-    <td width="100%">
-      <h3>📦 <a href="https://github.com/localsend/localsend">localsend/localsend</a> (35k+ ⭐)</h3>
-      <p style="font-size: 1.05em; line-height: 1.6;">
-        Contributed fixes and feature improvements to LocalSend, a popular open-source cross-platform file sharing alternative.
-      </p>
-      <ul>
-        <li>🔧 <b><a href="https://github.com/localsend/localsend/pull/3114">PR #3114</a></b>: Resolved Windows tray icon degradation issue by binding native <code>app_icon.ico</code> resources directly into the executable.</li>
-        <li>📂 <b><a href="https://github.com/localsend/localsend/pull/3113">PR #3113</a></b>: Added automatic handling for duplicate incoming file names, preventing unintended overwrites.</li>
-        <li>🌐 <b><a href="https://github.com/localsend/localsend/pull/3112">PR #3112</a></b>: Developed port auto-fallback to automatically bind next available ports when default port is occupied.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+> ### 📦 **[localsend/localsend](https://github.com/localsend/localsend)** *(35k+ ⭐)*
+> _Contributed fixes and feature improvements to LocalSend, a popular open-source cross-platform file sharing alternative._
+> 
+> *   🔧 **[PR #3114](https://github.com/localsend/localsend/pull/3114)** — Resolved Windows tray icon degradation by using native `app_icon.ico` resource directly inside the executable.
+> *   📂 **[PR #3113](https://github.com/localsend/localsend/pull/3113)** — Added automatic duplicate filename handling on reception to prevent file overwrites.
+> *   🌐 **[PR #3112](https://github.com/localsend/localsend/pull/3112)** — Developed port auto-fallback to automatically bind the next available port when default port is occupied.
 
 <br/>
 
