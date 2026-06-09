@@ -402,7 +402,7 @@
 2. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)
 3. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)
 4. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)
-5. 🔄 Opened PR [#3114](undefined) in [localsend/localsend](https://github.com/localsend/localsend)
+5. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)
 <!--END_SECTION:activity-->
 
 <br/>
@@ -410,12 +410,13 @@
 ### 🤝 Featured Open Source Contributions
 
 <!--START_SECTION:contributions-->
-> ### 📦 **[localsend/localsend](https://github.com/localsend/localsend)** *(35k+ ⭐)*
-> _Contributed fixes and feature improvements to LocalSend, a popular open-source cross-platform file sharing alternative._
+> ### 📦 **[localsend/localsend](https://github.com/localsend/localsend)** *(83k+ ⭐)*
+> _An open-source cross-platform alternative to AirDrop_
 > 
-> *   🔧 **[PR #3114](https://github.com/localsend/localsend/pull/3114)** — Resolved Windows tray icon degradation by using native `app_icon.ico` resource directly inside the executable.
-> *   📂 **[PR #3113](https://github.com/localsend/localsend/pull/3113)** — Added automatic duplicate filename handling on reception to prevent file overwrites.
-> *   🌐 **[PR #3112](https://github.com/localsend/localsend/pull/3112)** — Developed port auto-fallback to automatically bind the next available port when default port is occupied.
+> *   🔧 **[PR #3114](https://github.com/localsend/localsend/pull/3114)** — fix(windows): prevent tray icon degradation by using native app_icon
+> *   🔧 **[PR #3113](https://github.com/localsend/localsend/pull/3113)** — fix: automatically handle duplicate filenames to prevent overwrite on receive
+> *   🔧 **[PR #3112](https://github.com/localsend/localsend/pull/3112)** — fix: auto-fallback to next available port when default port is in use
+
 <!--END_SECTION:contributions-->
 
 <br/>
