@@ -409,12 +409,14 @@
 
 ### 🤝 Featured Open Source Contributions
 
+<!--START_SECTION:contributions-->
 > ### 📦 **[localsend/localsend](https://github.com/localsend/localsend)** *(35k+ ⭐)*
 > _Contributed fixes and feature improvements to LocalSend, a popular open-source cross-platform file sharing alternative._
 > 
 > *   🔧 **[PR #3114](https://github.com/localsend/localsend/pull/3114)** — Resolved Windows tray icon degradation by using native `app_icon.ico` resource directly inside the executable.
 > *   📂 **[PR #3113](https://github.com/localsend/localsend/pull/3113)** — Added automatic duplicate filename handling on reception to prevent file overwrites.
 > *   🌐 **[PR #3112](https://github.com/localsend/localsend/pull/3112)** — Developed port auto-fallback to automatically bind the next available port when default port is occupied.
+<!--END_SECTION:contributions-->
 
 <br/>
 
