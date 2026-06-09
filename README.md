@@ -206,6 +206,30 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&height=15&color=0:7c3aed,50:c026d3,100:0ea5e9" width="100%" />
 </div>
 
+## 🤝 Open Source Contributions
+
+<table>
+  <tr>
+    <td width="100%">
+      <h3>📦 <a href="https://github.com/localsend/localsend">localsend/localsend</a> (35k+ ⭐)</h3>
+      <p style="font-size: 1.05em; line-height: 1.6;">
+        Contributed fixes and feature improvements to LocalSend, a popular open-source cross-platform file sharing alternative.
+      </p>
+      <ul>
+        <li>🔧 <b><a href="https://github.com/localsend/localsend/pull/3114">PR #3114</a></b>: Resolved Windows tray icon degradation issue by binding native <code>app_icon.ico</code> resources directly into the executable.</li>
+        <li>📂 <b><a href="https://github.com/localsend/localsend/pull/3113">PR #3113</a></b>: Added automatic handling for duplicate incoming file names, preventing unintended overwrites.</li>
+        <li>🌐 <b><a href="https://github.com/localsend/localsend/pull/3112">PR #3112</a></b>: Developed port auto-fallback to automatically bind next available ports when default port is occupied.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=15&color=0:7c3aed,50:c026d3,100:0ea5e9" width="100%" />
+</div>
+
 ## 📂 Other Projects
 
 ### 🤖 [TECHBOY-AI](https://github.com/chimataraghuram/TECHBOY-AI) ![Live](https://img.shields.io/badge/Status-🟢%20Live-22c55e?style=flat-square)
