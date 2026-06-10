@@ -183,6 +183,22 @@
 
 [![Live Demo](https://img.shields.io/badge/🔗%20Live%20Demo-techboy--store.vercel.app-22c55e?style=for-the-badge&logoColor=white)](https://techboy-store.vercel.app/) [![GitHub Repo](https://img.shields.io/badge/🐙%20GitHub%20Repo-TECHBOY--STORE-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/TECHBOY-STORE)
 
+<hr>
+
+### ☁️ [AWS EC2 Website Deployment](https://github.com/chimataraghuram/AWS-EC2-Website-Deployment-Using-Ubuntu-Apache2) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square)
+**Static Website Deployment on AWS EC2**
+![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonaws&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white) ![Apache2](https://img.shields.io/badge/Apache2-D22128?style=flat-square&logo=apache&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+- Deployed a **static portfolio website** on an AWS EC2 Ubuntu Server.
+- Configured **Apache2 web server** for reliable and secure web hosting.
+- Set up **Security Groups** allowing SSH, HTTP, and HTTPS traffic.
+- Managed **Linux server administration** and automated file transfers.
+- Established secure remote connection workflows using **SSH keys**.
+- Hands-on implementation of **cloud computing** and real-world deployment practices.
+
+
+[![Deployment Video](https://img.shields.io/badge/🎥%20Deployment%20Video-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/chimataraghuram_aws-ec2-ubuntu-ugcPost-7342919873024401408-oiGl/) [![GitHub Repo](https://img.shields.io/badge/🐙%20GitHub%20Repo-AWS--EC2--Deployment-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/AWS-EC2-Website-Deployment-Using-Ubuntu-Apache2)
+
+
 <br/>
 
 <div align="center">
