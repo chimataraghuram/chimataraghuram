@@ -186,6 +186,7 @@
 <hr>
 
 ### ☁️ [AWS EC2 Website Deployment](https://github.com/chimataraghuram/AWS-EC2-Website-Deployment-Using-Ubuntu-Apache2) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square)
+<a href="https://github.com/chimataraghuram/AWS-EC2-Website-Deployment-Using-Ubuntu-Apache2"><img src="./images/aws_ec2_deployment.png" alt="AWS EC2 Deployment Screenshot" width="900" height="400"/></a>
 **Static Website Deployment on AWS EC2**
 ![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonaws&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white) ![Apache2](https://img.shields.io/badge/Apache2-D22128?style=flat-square&logo=apache&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 - Deployed a **static portfolio website** on an AWS EC2 Ubuntu Server.
