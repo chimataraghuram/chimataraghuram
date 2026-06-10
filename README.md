@@ -183,23 +183,6 @@
 
 [![Live Demo](https://img.shields.io/badge/🔗%20Live%20Demo-techboy--store.vercel.app-22c55e?style=for-the-badge&logoColor=white)](https://techboy-store.vercel.app/) [![GitHub Repo](https://img.shields.io/badge/🐙%20GitHub%20Repo-TECHBOY--STORE-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/TECHBOY-STORE)
 
-<hr>
-
-### ☁️ [Virtual Windows Desktop](https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square)
-<a href="https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server"><img src="./images/virtual_desktop.jpg" alt="Virtual Desktop Screenshot" width="900" height="400"/></a>
-**AWS Cloud Infrastructure & Remote Desktop**
-![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonaws&logoColor=white) ![Windows Server](https://img.shields.io/badge/Windows_Server-0078D4?style=flat-square&logo=windows&logoColor=white) ![RDP](https://img.shields.io/badge/RDP-00A4EF?style=flat-square&logoColor=white) ![Security Groups](https://img.shields.io/badge/Security_Groups-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-- Deployed a fully functional **Windows Server** on AWS EC2 as a virtual desktop environment.
-- Configured **RDP (Remote Desktop Protocol)** for secure remote access from any device.
-- Set up **Security Groups** and inbound rules for fine-grained port access control.
-- Optimized instance performance for smooth cloud computing workloads.
-- Part of a broader **AWS deployment suite** including Ubuntu Server infrastructure.
-- Documented end-to-end setup for reproducible cloud desktop environments.
-
-
-[![GitHub Repo](https://img.shields.io/badge/🐙%20GitHub%20Repo-Virtual--Windows--Desktop-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server)
-
-
 <br/>
 
 <div align="center">
@@ -244,6 +227,22 @@
 - **End-to-End Stability**: Built-in error handling and rate-limit mitigation via n8n workflows.
 
 [![GitHub Repo](https://img.shields.io/badge/🐙%20GitHub%20Repo-AI--Image--Bot-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/ai-image-generation-bot-n8n)
+
+<hr>
+
+### ☁️ [Virtual Windows Desktop](https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square)
+<a href="https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server"><img src="./images/virtual_desktop.jpg" alt="Virtual Desktop Screenshot" width="900" height="400"/></a>
+**AWS Cloud Infrastructure & Remote Desktop**
+![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonaws&logoColor=white) ![Windows Server](https://img.shields.io/badge/Windows_Server-0078D4?style=flat-square&logo=windows&logoColor=white) ![RDP](https://img.shields.io/badge/RDP-00A4EF?style=flat-square&logoColor=white) ![Security Groups](https://img.shields.io/badge/Security_Groups-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+- Deployed a fully functional **Windows Server** on AWS EC2 as a virtual desktop environment.
+- Configured **RDP (Remote Desktop Protocol)** for secure remote access from any device.
+- Set up **Security Groups** and inbound rules for fine-grained port access control.
+- Optimized instance performance for smooth cloud computing workloads.
+- Part of a broader **AWS deployment suite** including Ubuntu Server infrastructure.
+- Documented end-to-end setup for reproducible cloud desktop environments.
+
+
+[![GitHub Repo](https://img.shields.io/badge/🐙%20GitHub%20Repo-Virtual--Windows--Desktop-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server)
 
 <hr>
 
