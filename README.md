@@ -414,11 +414,11 @@
 
 ### ⚡ Latest Activity Logs
 <!--START_SECTION:activity-->
-1. ⭐ Starred [videolan/vlc](https://github.com/videolan/vlc)
-2. ⭐ Starred [brave/brave-browser](https://github.com/brave/brave-browser)
-3. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/PORTFOLIO](https://github.com/chimataraghuram/PORTFOLIO)
-4. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/PORTFOLIO](https://github.com/chimataraghuram/PORTFOLIO)
-5. 🚀 Pushed 1 commit(s) to main in [chimataraghuram/PORTFOLIO](https://github.com/chimataraghuram/PORTFOLIO)
+1. 🔄 Opened PR [#37240](undefined) in [brave/brave-core](https://github.com/brave/brave-core)
+2. 🎉 Created branch in [chimataraghuram/brave-core](https://github.com/chimataraghuram/brave-core)
+3. 🍴 Forked [brave/brave-core](https://github.com/brave/brave-core)
+4. ⭐ Starred [videolan/vlc](https://github.com/videolan/vlc)
+5. ⭐ Starred [brave/brave-browser](https://github.com/brave/brave-browser)
 <!--END_SECTION:activity-->
 
 <br/>
@@ -426,6 +426,13 @@
 ### 🤝 Featured Open Source Contributions
 
 <!--START_SECTION:contributions-->
+> ### 📦 **[brave/brave-core](https://github.com/brave/brave-core)** *(3k+ ⭐)*
+> _Core engine for the Brave browser for mobile and desktop. For issues https://github.com/brave/brave-browser/issues_
+> 
+> *   🔧 **[PR #37240](https://github.com/brave/brave-core/pull/37240)** — fix: pass country parameter to Brave Search URL to respect location s…
+
+<br/>
+
 > ### 📦 **[localsend/localsend](https://github.com/localsend/localsend)** *(83k+ ⭐)*
 > _An open-source cross-platform alternative to AirDrop_
 > 
