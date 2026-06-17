@@ -412,11 +412,24 @@
 
 ## 🕒 Recent Activity
 <!--START_SECTION:activity-->
-1. 🔄 Opened PR [#37240](undefined) in [brave/brave-core](https://github.com/brave/brave-core)
-2. 🎉 Created branch in [chimataraghuram/brave-core](https://github.com/chimataraghuram/brave-core)
-3. 🍴 Forked [brave/brave-core](https://github.com/brave/brave-core)
-4. ⭐ Starred [videolan/vlc](https://github.com/videolan/vlc)
-5. ⭐ Starred [brave/brave-browser](https://github.com/brave/brave-browser)
+> ### 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)**
+> _Updates pushed_
+<br/>
+
+> ### 🔄 Opened PR [#37240](https://github.com/brave/brave-core/pull/37240) in **[brave/brave-core](https://github.com/brave/brave-core)**
+> _Pull Request #37240_
+<br/>
+
+> ### 🎉 Created branch in **[chimataraghuram/brave-core](https://github.com/chimataraghuram/brave-core)**
+> _Started a new branch_
+<br/>
+
+> ### 🍴 Forked **[brave/brave-core](https://github.com/brave/brave-core)**
+> _Created a copy for personal contribution_
+<br/>
+
+> ### ⭐ Starred **[videolan/vlc](https://github.com/videolan/vlc)**
+> _Showed some love to this repository_
 <!--END_SECTION:activity-->
 
 <br/>
