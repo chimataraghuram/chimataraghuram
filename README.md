@@ -410,9 +410,7 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&height=15&color=0:7c3aed,50:c026d3,100:0ea5e9" width="100%" />
 </div>
 
-## 🕒 Recent Activity & Open Source Contributions
-
-### ⚡ Latest Activity Logs
+## 🕒 Recent Activity
 <!--START_SECTION:activity-->
 1. 🔄 Opened PR [#37240](undefined) in [brave/brave-core](https://github.com/brave/brave-core)
 2. 🎉 Created branch in [chimataraghuram/brave-core](https://github.com/chimataraghuram/brave-core)
@@ -423,7 +421,11 @@
 
 <br/>
 
-### 🤝 Featured Open Source Contributions
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=15&color=0:7c3aed,50:c026d3,100:0ea5e9" width="100%" />
+</div>
+
+## 🤝 Open Source Contributions
 
 <!--START_SECTION:contributions-->
 > ### 📦 **[brave/brave-core](https://github.com/brave/brave-core)** *(3k+ ⭐)*
