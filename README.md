@@ -23,7 +23,7 @@
   <img src="https://img.shields.io/github/followers/chimataraghuram?label=Followers&color=c026d3&style=for-the-badge" />
   <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=Stars&color=0ea5e9&style=for-the-badge&query=%24.stars&url=https://api.github-star-counter.workers.dev/user/chimataraghuram" />
   <!-- START_SECTION:deployments -->
-  <img src="https://img.shields.io/badge/Deployments-1596-22c55e?style=for-the-badge&logo=vercel" />
+  <img src="https://img.shields.io/badge/Deployments-1610-22c55e?style=for-the-badge&logo=vercel" />
   <!-- END_SECTION:deployments -->
   <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=Repositories&color=a855f7&style=for-the-badge&query=%24.public_repos&url=https://api.github.com/users/chimataraghuram" />
 </p>
@@ -412,11 +412,11 @@
 
 ## 🕒 Recent Activity
 <!--START_SECTION:activity-->
-- 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)** — _Updates pushed_ `(Jun 17)`
-- 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)** — _Updates pushed_ `(Jun 17)`
-- 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)** — _Updates pushed_ `(Jun 17)`
-- 🔄 Opened PR [#37240](https://github.com/brave/brave-core/pull/37240) in **[brave/brave-core](https://github.com/brave/brave-core)** — _Pull Request #37240_ `(Jun 14)`
-- 🎉 Created branch in **[chimataraghuram/brave-core](https://github.com/chimataraghuram/brave-core)** `(Jun 14)`
+- 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/PORTFOLIO](https://github.com/chimataraghuram/PORTFOLIO)** — _Updates pushed_ `(Jun 17)`
+- 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/PORTFOLIO](https://github.com/chimataraghuram/PORTFOLIO)** — _Updates pushed_ `(Jun 17)`
+- 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/PORTFOLIO](https://github.com/chimataraghuram/PORTFOLIO)** — _Updates pushed_ `(Jun 17)`
+- 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/PORTFOLIO](https://github.com/chimataraghuram/PORTFOLIO)** — _Updates pushed_ `(Jun 17)`
+- 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/PORTFOLIO](https://github.com/chimataraghuram/PORTFOLIO)** — _Updates pushed_ `(Jun 17)`
 <!--END_SECTION:activity-->
 
 <br/>
