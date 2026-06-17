@@ -56,31 +56,33 @@ jobs:
               let repo = ev.repo.name;
               let url = `https://github.com/${repo}`;
               
+              let dateStr = new Date(ev.created_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+              
               if (ev.type === 'PushEvent') {
                 let commits = ev.payload.size || (ev.payload.commits ? ev.payload.commits.length : 1);
                 let branch = ev.payload.ref ? ev.payload.ref.replace('refs/heads/', '') : 'main';
                 let commitMsg = ev.payload.commits && ev.payload.commits.length > 0 ? (ev.payload.commits[0].message || 'Updates pushed').split('\n')[0] : 'Updates pushed';
-                activity.push(`> ### 🚀 Pushed ${commits} commit(s) to \`${branch}\` in **[${repo}](${url})**\n> _${commitMsg}_`);
+                activity.push(`- 🚀 Pushed ${commits} commit(s) to \`${branch}\` in **[${repo}](${url})** — _${commitMsg}_ \`(${dateStr})\``);
               } else if (ev.type === 'IssuesEvent') {
                 let action = ev.payload.action;
                 let issueNum = ev.payload.issue.number;
                 let issueUrl = ev.payload.issue.html_url || `https://github.com/${repo}/issues/${issueNum}`;
                 let title = ev.payload.issue.title || `Issue #${issueNum}`;
                 let emoji = action === 'opened' ? '❗' : (action === 'closed' ? '🔒' : '🗣️');
-                activity.push(`> ### ${emoji} ${action.charAt(0).toUpperCase() + action.slice(1)} Issue [#${issueNum}](${issueUrl}) in **[${repo}](${url})**\n> _${title}_`);
+                activity.push(`- ${emoji} ${action.charAt(0).toUpperCase() + action.slice(1)} Issue [#${issueNum}](${issueUrl}) in **[${repo}](${url})** — _${title}_ \`(${dateStr})\``);
               } else if (ev.type === 'PullRequestEvent') {
                 let action = ev.payload.action;
                 let prNum = ev.payload.number || ev.payload.pull_request.number;
                 let prUrl = ev.payload.pull_request.html_url || `https://github.com/${repo}/pull/${prNum}`;
                 let title = ev.payload.pull_request.title || `Pull Request #${prNum}`;
-                activity.push(`> ### 🔄 ${action.charAt(0).toUpperCase() + action.slice(1)} PR [#${prNum}](${prUrl}) in **[${repo}](${url})**\n> _${title}_`);
+                activity.push(`- 🔄 ${action.charAt(0).toUpperCase() + action.slice(1)} PR [#${prNum}](${prUrl}) in **[${repo}](${url})** — _${title}_ \`(${dateStr})\``);
               } else if (ev.type === 'CreateEvent') {
                 let refType = ev.payload.ref_type;
-                activity.push(`> ### 🎉 Created ${refType} in **[${repo}](${url})**\n> _Started a new ${refType}_`);
+                activity.push(`- 🎉 Created ${refType} in **[${repo}](${url})** \`(${dateStr})\``);
               } else if (ev.type === 'WatchEvent') {
-                activity.push(`> ### ⭐ Starred **[${repo}](${url})**\n> _Showed some love to this repository_`);
+                activity.push(`- ⭐ Starred **[${repo}](${url})** \`(${dateStr})\``);
               } else if (ev.type === 'ForkEvent') {
-                activity.push(`> ### 🍴 Forked **[${repo}](${url})**\n> _Created a copy for personal contribution_`);
+                activity.push(`- 🍴 Forked **[${repo}](${url})** \`(${dateStr})\``);
               } else {
                 continue;
               }
@@ -153,7 +155,7 @@ jobs:
             let readme = fs.readFileSync('README.md', 'utf8');
             readme = readme.replace(
               /<!--START_SECTION:activity-->[\s\S]*<!--END_SECTION:activity-->/,
-              `<!--START_SECTION:activity-->\n${activity.join('\n<br/>\n\n')}\n<!--END_SECTION:activity-->`
+              `<!--START_SECTION:activity-->\n${activity.join('\n')}\n<!--END_SECTION:activity-->`
             );
             readme = readme.replace(
               /<!--START_SECTION:contributions-->[\s\S]*<!--END_SECTION:contributions-->/,
