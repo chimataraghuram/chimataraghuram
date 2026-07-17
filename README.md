@@ -23,7 +23,7 @@
   <img src="https://img.shields.io/github/followers/chimataraghuram?label=Followers&color=c026d3&style=for-the-badge" />
   <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=Stars&color=0ea5e9&style=for-the-badge&query=%24.stars&url=https://api.github-star-counter.workers.dev/user/chimataraghuram" />
   <!-- START_SECTION:deployments -->
-  <img src="https://img.shields.io/badge/Deployments-0-22c55e?style=for-the-badge&logo=vercel" />
+  <img src="https://img.shields.io/badge/Deployments-1653-22c55e?style=for-the-badge&logo=vercel" />
   <!-- END_SECTION:deployments -->
   <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=Repositories&color=a855f7&style=for-the-badge&query=%24.public_repos&url=https://api.github.com/users/chimataraghuram" />
 </p>
@@ -428,7 +428,20 @@
 ## 🤝 Open Source Contributions
 
 <!--START_SECTION:contributions-->
-No external contributions found.
+> ### 📦 **[brave/brave-core](https://github.com/brave/brave-core)** *(3k+ ⭐)*
+> _Core engine for the Brave browser for mobile and desktop. For issues https://github.com/brave/brave-browser/issues_
+> 
+> *   🔧 **[PR #37240](https://github.com/brave/brave-core/pull/37240)** — fix: pass country parameter to Brave Search URL to respect location s…
+
+<br/>
+
+> ### 📦 **[localsend/localsend](https://github.com/localsend/localsend)** *(85k+ ⭐)*
+> _An open-source cross-platform alternative to AirDrop_
+> 
+> *   🔧 **[PR #3114](https://github.com/localsend/localsend/pull/3114)** — fix(windows): prevent tray icon degradation by using native app_icon
+> *   🔧 **[PR #3113](https://github.com/localsend/localsend/pull/3113)** — fix: automatically handle duplicate filenames to prevent overwrite on receive
+> *   🔧 **[PR #3112](https://github.com/localsend/localsend/pull/3112)** — fix: auto-fallback to next available port when default port is in use
+
 <!--END_SECTION:contributions-->
 
 <br/>
