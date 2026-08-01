@@ -435,7 +435,7 @@
 
 <br/>
 
-> ### 📦 **[localsend/localsend](https://github.com/localsend/localsend)** *(86k+ ⭐)*
+> ### 📦 **[localsend/localsend](https://github.com/localsend/localsend)** *(87k+ ⭐)*
 > _An open-source cross-platform alternative to AirDrop_
 > 
 > *   🔧 **[PR #3114](https://github.com/localsend/localsend/pull/3114)** — fix(windows): prevent tray icon degradation by using native app_icon
