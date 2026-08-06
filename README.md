@@ -412,8 +412,8 @@
 
 ## 🕒 Recent Activity
 <!--START_SECTION:activity-->
-- 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/Online-Exam-Monitoring-Integrity-Analytics-Platform](https://github.com/chimataraghuram/Online-Exam-Monitoring-Integrity-Analytics-Platform)** — _Updates pushed_ `(Jul 28)`
-- 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/Online-Exam-Monitoring-Integrity-Analytics-Platform](https://github.com/chimataraghuram/Online-Exam-Monitoring-Integrity-Analytics-Platform)** — _Updates pushed_ `(Jul 27)`
+- 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/Development-of-Smart-Examination-Monitoring-platform-with-Integrity-Analysis-Reporting-System](https://github.com/chimataraghuram/Development-of-Smart-Examination-Monitoring-platform-with-Integrity-Analysis-Reporting-System)** — _Updates pushed_ `(Jul 28)`
+- 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/Development-of-Smart-Examination-Monitoring-platform-with-Integrity-Analysis-Reporting-System](https://github.com/chimataraghuram/Development-of-Smart-Examination-Monitoring-platform-with-Integrity-Analysis-Reporting-System)** — _Updates pushed_ `(Jul 27)`
 - 🚀 Pushed 1 commit(s) to `main` in **[narlasahithyareddy/Online_Exam_Monitoring_System](https://github.com/narlasahithyareddy/Online_Exam_Monitoring_System)** — _Updates pushed_ `(Jul 26)`
 - 🚀 Pushed 1 commit(s) to `main` in **[narlasahithyareddy/Online_Exam_Monitoring_System](https://github.com/narlasahithyareddy/Online_Exam_Monitoring_System)** — _Updates pushed_ `(Jul 26)`
 - 🚀 Pushed 1 commit(s) to `main` in **[narlasahithyareddy/Online_Exam_Monitoring_System](https://github.com/narlasahithyareddy/Online_Exam_Monitoring_System)** — _Updates pushed_ `(Jul 26)`
