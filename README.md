@@ -428,7 +428,7 @@
 ## 🤝 Open Source Contributions
 
 <!--START_SECTION:contributions-->
-> ### 📦 **[brave/brave-core](https://github.com/brave/brave-core)** *(3k+ ⭐)*
+> ### 📦 **[brave/brave-core](https://github.com/brave/brave-core)** *(4k+ ⭐)*
 > _Core engine for the Brave browser for mobile and desktop. For issues https://github.com/brave/brave-browser/issues_
 > 
 > *   🔧 **[PR #37240](https://github.com/brave/brave-core/pull/37240)** — fix: pass country parameter to Brave Search URL to respect location s…
