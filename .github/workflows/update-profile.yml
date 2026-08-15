@@ -167,6 +167,17 @@ jobs:
               /<!--START_SECTION:contributions-->[\s\S]*<!--END_SECTION:contributions-->/,
               `<!--START_SECTION:contributions-->\n${contributionsContent}\n<!--END_SECTION:contributions-->`
             );
+            
+            const currentDate = new Date().toISOString().split('T')[0];
+            readme = readme.replace(
+              /github-contribution-grid-snake-dark\.svg(\?v=[a-zA-Z0-9-]+)?/g,
+              `github-contribution-grid-snake-dark.svg?v=${currentDate}`
+            );
+            readme = readme.replace(
+              /github-contribution-grid-snake\.svg(\?v=[a-zA-Z0-9-]+)?/g,
+              `github-contribution-grid-snake.svg?v=${currentDate}`
+            );
+            
             fs.writeFileSync('README.md', readme);
 
       - name: Fetch and Update Achievements
