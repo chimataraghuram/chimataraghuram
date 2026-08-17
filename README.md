@@ -89,19 +89,20 @@
 <tr>
 <td width="50%" valign="top">
 
-### 🐍 [Python Full Stack Intern](https://www.linkedin.com/in/chimataraghuram/)
-**Nipuna Technology** | *11/2023 – 05/2024*
-- Developed a web application by implementing **frontend interfaces** and backend logic using Python-based technologies.
-- Gained hands-on experience in **API integration**, application structure, and full-stack development fundamentals.
-<br/>📍 *Vijayawada, Andhra Pradesh*
+### 🤖 [AI Software Developer Intern (Stipend)](https://www.linkedin.com/in/chimataraghuram/)
+**Jaimini Group** | *07/2026 – Present*
+- Leading development and deployment of **AI-powered products and automation systems** using Python.
+- Building and maintaining **backend infrastructure, CRM, and web systems** for live production deployment.
+- Implementing **AI integrations** and converting business ideas into technically sound, production-grade solutions.
+<br/>📍 *Remote*
 
 </td>
 <td width="50%" valign="top">
 
-### ☁️ [Cloud Computing Intern](https://www.linkedin.com/in/chimataraghuram/)
-**APSSDC** | *05/2025 – 07/2025*
-- Deployed web applications on **cloud platforms** and configured hosting environments.
-- Gained hands-on experience in cloud fundamentals including **deployment workflows**, scalability basics, and resource management.
+### 🐍 [Python Backend Intern](https://www.linkedin.com/in/chimataraghuram/)
+**Infosys Springboard 7.0** | *2026 – Present*
+- Working on **Python backend development** as part of the Infosys Springboard Virtual Internship 7.0.
+- Applying core **Python and backend development concepts** to real-world problem statements and assignments.
 <br/>📍 *Remote*
 
 </td>
@@ -109,12 +110,11 @@
 <tr>
 <td colspan="2" valign="top">
 
-### 🤖 [AI & Machine Learning Intern](https://www.linkedin.com/in/chimataraghuram/)
-**Smartbridge** | *06/2025 – 07/2025*
-- Developed and trained machine learning models using Python on real-world datasets.
-- Applied data preprocessing, model evaluation and deployment techniques across multiple projects.
-- Integrated AI solutions into practical applications under Google for Developers — India Edu Program.
-- Gained hands-on exposure to end-to-end AI workflow from data handling to model deployment.
+### ☁️ [Cloud Computing Intern](https://www.linkedin.com/in/chimataraghuram/)
+**APSSDC** | *05/2025 – 07/2025*
+- Deployed web applications on **AWS EC2** with Nginx, security groups, HTTPS, and CI/CD pipelines.
+- Worked hands-on with **EC2, S3, IAM, and Lambda**, exploring serverless architecture and monitoring.
+- Built a **cloud automation mini-project** demonstrating an end-to-end AWS deployment workflow.
 <br/>📍 *Remote*
 
 </td>
