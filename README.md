@@ -59,7 +59,7 @@
 <table>
   <tr>
     <td width="30%">
-      <img src="./images/coding_from_home.gif" alt="Coding GIF" width="250"/>
+      <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/coding_from_home.gif" alt="Coding GIF" width="250"/>
     </td>
     <td width="70%">
       <h2>Hello! I'm <b>Chimata Raghuram</b> 👋</h2>
@@ -131,7 +131,7 @@
 ## 🚀 TOP PROJECTS 📌
 
 ### 🌐 [PORTFOLIO](https://github.com/chimataraghuram/PORTFOLIO) ![Live](https://img.shields.io/badge/Status-🟢%20Live-22c55e?style=flat-square)
-[![Portfolio Screenshot](./images/portfolio.png)](https://chimataraghuram.vercel.app/)
+[![Portfolio Screenshot](https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/portfolio.png)](https://chimataraghuram.vercel.app/)
 **Official Developer Portfolio with Hidden Mini-Game**
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React 18](https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Canvas API](https://img.shields.io/badge/Canvas_API-FF6B6B?style=flat-square&logoColor=white)
 - Custom **Space Invaders-style minigame** hidden as an Easter egg inside the portfolio.
@@ -150,7 +150,7 @@
 <hr>
 
 ### 🔎 [PROJECT-FINDER](https://github.com/chimataraghuram/PROJECT-FINDER) ![Live](https://img.shields.io/badge/Status-🟢%20Live-22c55e?style=flat-square)
-[![Project Finder Screenshot](./images/project_finder.png)](https://chimataraghuram.github.io/PROJECT-FINDER/)
+[![Project Finder Screenshot](https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/project_finder.png)](https://chimataraghuram.github.io/PROJECT-FINDER/)
 **The Ultimate Research & Discovery Engine 🚀**
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React 19](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Google Gemini AI](https://img.shields.io/badge/Google_Gemini_AI-4285F4?style=flat-square&logo=google&logoColor=white) ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
 - High-density research engine to discover open-source projects, AI models, and technical datasets.
@@ -169,7 +169,7 @@
 <hr>
 
 ### 🛒 [TECHBOY-STORE](https://github.com/chimataraghuram/TECHBOY-STORE) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square)
-[![Techboy Store Screenshot](./images/techboy_store.png)](https://techboy-store.vercel.app/)
+[![Techboy Store Screenshot](https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/techboy_store.png)](https://techboy-store.vercel.app/)
 **Modern E-Commerce Application**
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 - **Modern e-commerce web application** with a clean, responsive UI built in React.
@@ -186,7 +186,7 @@
 <hr>
 
 ### ☁️ [AWS EC2 Website Deployment](https://github.com/chimataraghuram/AWS-EC2-Website-Deployment-Using-Ubuntu-Apache2) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square)
-<a href="https://github.com/chimataraghuram/AWS-EC2-Website-Deployment-Using-Ubuntu-Apache2"><img src="./images/aws_ec2_deployment.png" alt="AWS EC2 Deployment Screenshot" width="900" height="400"/></a>
+<a href="https://github.com/chimataraghuram/AWS-EC2-Website-Deployment-Using-Ubuntu-Apache2"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/aws_ec2_deployment.png" alt="AWS EC2 Deployment Screenshot" width="900" height="400"/></a>
 **Static Website Deployment on AWS EC2**
 ![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonaws&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white) ![Apache2](https://img.shields.io/badge/Apache2-D22128?style=flat-square&logo=apache&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 - Deployed a **static portfolio website** on an AWS EC2 Ubuntu Server.
@@ -209,7 +209,7 @@
 ## 📂 Other Projects
 
 ### 🤖 [TECHBOY-AI](https://github.com/chimataraghuram/TECHBOY-AI) ![Live](https://img.shields.io/badge/Status-🟢%20Live-22c55e?style=flat-square)
-[![Techboy AI Screenshot](./images/techboy_ai.png)](https://chimataraghuram.github.io/TECHBOY-AI/)
+[![Techboy AI Screenshot](https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/techboy_ai.png)](https://chimataraghuram.github.io/TECHBOY-AI/)
 **Premium AI Portfolio Assistant**
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Google Gemini 2.0](https://img.shields.io/badge/Google_Gemini_2.0-4285F4?style=flat-square&logo=google&logoColor=white) ![Glassmorphism](https://img.shields.io/badge/Glassmorphism-a855f7?style=flat-square&logoColor=white)
 - **Premium AI portfolio assistant** with a custom Sunset Glassmorphism visual design.
@@ -234,7 +234,7 @@
 <div align="left">
 
 ### 🤖 [AI Image Generation Bot](https://github.com/chimataraghuram/ai-image-generation-bot-n8n) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square)
-[![AI Image Generation Bot Screenshot](./images/AI%20Image%20Generation%20Bot%20using%20N8N.png)](https://github.com/chimataraghuram/ai-image-generation-bot-n8n)
+[![AI Image Generation Bot Screenshot](https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/AI%20Image%20Generation%20Bot%20using%20N8N.png)](https://github.com/chimataraghuram/ai-image-generation-bot-n8n)
 **AI Image Generation Bot (n8n + Gemini + OpenAI)**
 ![n8n](https://img.shields.io/badge/n8n-FF6D5A?style=flat-square&logo=n8n&logoColor=white) ![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=flat-square&logo=google&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white) ![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white)
 - **Telegram Interface**: Seamless input and output interface for users.
@@ -248,7 +248,7 @@
 <hr>
 
 ### ☁️ [Virtual Windows Desktop](https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square)
-<a href="https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server"><img src="./images/virtual_desktop.jpg" alt="Virtual Desktop Screenshot" width="900" height="400"/></a>
+<a href="https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/virtual_desktop.jpg" alt="Virtual Desktop Screenshot" width="900" height="400"/></a>
 **AWS Cloud Infrastructure & Remote Desktop**
 ![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonaws&logoColor=white) ![Windows Server](https://img.shields.io/badge/Windows_Server-0078D4?style=flat-square&logo=windows&logoColor=white) ![RDP](https://img.shields.io/badge/RDP-00A4EF?style=flat-square&logoColor=white) ![Security Groups](https://img.shields.io/badge/Security_Groups-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 - Deployed a fully functional **Windows Server** on AWS EC2 as a virtual desktop environment.
@@ -264,7 +264,7 @@
 <hr>
 
 ### ✈️ [TravelGuideAI](https://github.com/chimataraghuram/Explore-With-Ai-Custom-Itineraries-For-Your-Next-Journey) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square)
-[![Travel Guide AI Screenshot](./images/travel_guide.png)](https://github.com/chimataraghuram/Explore-With-Ai-Custom-Itineraries-For-Your-Next-Journey)
+[![Travel Guide AI Screenshot](https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/travel_guide.png)](https://github.com/chimataraghuram/Explore-With-Ai-Custom-Itineraries-For-Your-Next-Journey)
 **AI-Powered Neural Travel Planner**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Google Gemini 1.5](https://img.shields.io/badge/Google_Gemini_1.5-4285F4?style=flat-square&logo=google&logoColor=white)
 - AI-driven travel intelligence — acts as a **"Neural Travel Architect"** for every trip.
@@ -281,7 +281,7 @@
 <hr>
 
 ### 🏠 [House Prediction](https://github.com/chimataraghuram/House-Prediction) ![Live](https://img.shields.io/badge/Status-🟢%20Live-22c55e?style=flat-square)
-[![House Prediction Screenshot](./images/house_prediction.png)](https://chimataraghuram.github.io/House-Prediction/)
+[![House Prediction Screenshot](https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/house_prediction.png)](https://chimataraghuram.github.io/House-Prediction/)
 **AI-Powered Real Estate Valuation**
 ![React 18](https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
 - **Random Forest ML model** trained for high-accuracy house price predictions.
@@ -298,7 +298,7 @@
 <hr>
 
 ### 🦋 [Enchanted Wings](https://github.com/chimataraghuram/Enchanted-Wings-Marvels-of-butterfly-species) ![Live](https://img.shields.io/badge/Status-🟢%20Live-22c55e?style=flat-square)
-[![Enchanted Wings Screenshot](./images/enchanted_wings.png)](https://chimataraghuram.github.io/Enchanted-Wings-Marvels-of-butterfly-species/)
+[![Enchanted Wings Screenshot](https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/enchanted_wings.png)](https://chimataraghuram.github.io/Enchanted-Wings-Marvels-of-butterfly-species/)
 **AI Butterfly Species Classifier**
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
 - **Deep Learning classifier** (TensorFlow + Keras) for butterfly species identification.
