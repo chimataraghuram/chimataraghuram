@@ -23,7 +23,7 @@
   <img src="https://img.shields.io/github/followers/chimataraghuram?label=Followers&color=c026d3&style=for-the-badge" />
   <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=Stars&color=0ea5e9&style=for-the-badge&query=%24.stars&url=https://api.github-star-counter.workers.dev/user/chimataraghuram" />
   <!-- START_SECTION:deployments -->
-  <img src="https://img.shields.io/badge/Deployments-1590-22c55e?style=for-the-badge&logo=vercel" />
+  <img src="https://img.shields.io/badge/Deployments-1676-22c55e?style=for-the-badge&logo=vercel" />
   <!-- END_SECTION:deployments -->
   <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=Repositories&color=a855f7&style=for-the-badge&query=%24.public_repos&url=https://api.github.com/users/chimataraghuram" />
 </p>
@@ -416,7 +416,7 @@
 - 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/PROJECT-FINDER](https://github.com/chimataraghuram/PROJECT-FINDER)** — _Updates pushed_ `(Aug 30)`
 - 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/PROJECT-FINDER](https://github.com/chimataraghuram/PROJECT-FINDER)** — _Updates pushed_ `(Aug 30)`
 - 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/PROJECT-FINDER](https://github.com/chimataraghuram/PROJECT-FINDER)** — _Updates pushed_ `(Aug 30)`
-- 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/Development-of-Smart-Examination-Monitoring-platform-with-Integrity-Analysis-Reporting-System](https://github.com/chimataraghuram/Development-of-Smart-Examination-Monitoring-platform-with-Integrity-Analysis-Reporting-System)** — _Updates pushed_ `(Aug 28)`
+- 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/PROJECT-FINDER](https://github.com/chimataraghuram/PROJECT-FINDER)** — _Updates pushed_ `(Aug 30)`
 <!--END_SECTION:activity-->
 
 <br/>
