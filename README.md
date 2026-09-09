@@ -428,7 +428,20 @@
 ## 🤝 Open Source Contributions
 
 <!--START_SECTION:contributions-->
-No external contributions found.
+> ### 📦 **[brave/brave-core](https://github.com/brave/brave-core)** *(4k+ ⭐)*
+> _Core engine for the Brave browser for mobile and desktop. For issues https://github.com/brave/brave-browser/issues_
+> 
+> *   🔧 **[PR #37240](https://github.com/brave/brave-core/pull/37240)** — fix: pass country parameter to Brave Search URL to respect location s…
+
+<br/>
+
+> ### 📦 **[localsend/localsend](https://github.com/localsend/localsend)** *(90k+ ⭐)*
+> _An open-source cross-platform alternative to AirDrop_
+> 
+> *   🔧 **[PR #3114](https://github.com/localsend/localsend/pull/3114)** — fix(windows): prevent tray icon degradation by using native app_icon
+> *   🔧 **[PR #3113](https://github.com/localsend/localsend/pull/3113)** — fix: automatically handle duplicate filenames to prevent overwrite on receive
+> *   🔧 **[PR #3112](https://github.com/localsend/localsend/pull/3112)** — fix: auto-fallback to next available port when default port is in use
+
 <!--END_SECTION:contributions-->
 
 <br/>
