@@ -23,7 +23,7 @@
   <img src="https://img.shields.io/github/followers/chimataraghuram?label=Followers&color=c026d3&style=for-the-badge" />
   <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=Stars&color=0ea5e9&style=for-the-badge&query=%24.stars&url=https://api.github-star-counter.workers.dev/user/chimataraghuram" />
   <!-- START_SECTION:deployments -->
-  <img src="https://img.shields.io/badge/Deployments-1719-22c55e?style=for-the-badge&logo=vercel" />
+  <img src="https://img.shields.io/badge/Deployments-1721-22c55e?style=for-the-badge&logo=vercel" />
   <!-- END_SECTION:deployments -->
   <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=Repositories&color=a855f7&style=for-the-badge&query=%24.public_repos&url=https://api.github.com/users/chimataraghuram" />
 </p>
@@ -416,7 +416,7 @@
 - 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/TECHBOY-STORE](https://github.com/chimataraghuram/TECHBOY-STORE)** — _Updates pushed_ `(Sep 25)`
 - 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/TECHBOY-STORE](https://github.com/chimataraghuram/TECHBOY-STORE)** — _Updates pushed_ `(Sep 25)`
 - 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/TECHBOY-STORE](https://github.com/chimataraghuram/TECHBOY-STORE)** — _Updates pushed_ `(Sep 25)`
-- 🚀 Pushed 1 commit(s) to `main` in **[girija4224/urban-growth-monitoring-system](https://github.com/girija4224/urban-growth-monitoring-system)** — _Updates pushed_ `(Sep 24)`
+- 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/TECHBOY-STORE](https://github.com/chimataraghuram/TECHBOY-STORE)** — _Updates pushed_ `(Sep 25)`
 <!--END_SECTION:activity-->
 
 <br/>
