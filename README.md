@@ -23,7 +23,7 @@
   <img src="https://img.shields.io/github/followers/chimataraghuram?label=Followers&color=c026d3&style=for-the-badge" />
   <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=Stars&color=0ea5e9&style=for-the-badge&query=%24.stars&url=https://api.github-star-counter.workers.dev/user/chimataraghuram" />
   <!-- START_SECTION:deployments -->
-  <img src="https://img.shields.io/badge/Deployments-1739-22c55e?style=for-the-badge&logo=vercel" />
+  <img src="https://img.shields.io/badge/Deployments-1740-22c55e?style=for-the-badge&logo=vercel" />
   <!-- END_SECTION:deployments -->
   <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=Repositories&color=a855f7&style=for-the-badge&query=%24.public_repos&url=https://api.github.com/users/chimataraghuram" />
 </p>
@@ -435,7 +435,7 @@
 
 <br/>
 
-> ### 📦 **[localsend/localsend](https://github.com/localsend/localsend)** *(93k+ ⭐)*
+> ### 📦 **[localsend/localsend](https://github.com/localsend/localsend)** *(94k+ ⭐)*
 > _An open-source cross-platform alternative to AirDrop_
 > 
 > *   🔧 **[PR #3114](https://github.com/localsend/localsend/pull/3114)** — fix(windows): prevent tray icon degradation by using native app_icon
