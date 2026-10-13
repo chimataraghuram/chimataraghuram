@@ -18,22 +18,21 @@
 </div>
 
 <!-- BADGES -->
+<!-- START_SECTION:profile_stats -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=chimataraghuram&label=Profile+Views&color=7c3aed&style=for-the-badge" />
-  <img src="https://img.shields.io/github/followers/chimataraghuram?label=Followers&color=c026d3&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=Stars&color=0ea5e9&style=for-the-badge&query=%24.stars&url=https://api.github-star-counter.workers.dev/user/chimataraghuram" />
-  <!-- START_SECTION:deployments -->
-  <img src="https://img.shields.io/badge/Deployments-1763-22c55e?style=for-the-badge&logo=vercel" />
-  <!-- END_SECTION:deployments -->
-  <img src="https://img.shields.io/badge/dynamic/json?logo=github&label=Repositories&color=a855f7&style=for-the-badge&query=%24.public_repos&url=https://api.github.com/users/chimataraghuram" />
+  <img src="https://komarev.com/ghpvc/?username=chimataraghuram&label=Profile+Views&color=7c3aed&style=for-the-badge&logo=eye&logoColor=white" alt="Profile Views" />
+  <img src="https://img.shields.io/badge/Followers-14-c026d3?style=for-the-badge&logo=github&logoColor=white" alt="Followers" />
+  <img src="https://img.shields.io/badge/Stars-14-0ea5e9?style=for-the-badge&logo=star&logoColor=white" alt="Stars" />
+  <img src="https://img.shields.io/badge/Deployments-1763-22c55e?style=for-the-badge&logo=vercel&logoColor=white" alt="Deployments" />
+  <img src="https://img.shields.io/badge/Repositories-24-a855f7?style=for-the-badge&logo=git&logoColor=white" alt="Repositories" />
 </p>
+<!-- END_SECTION:profile_stats -->
 
 <!-- OPEN TO WORK / HIRE ME -->
 <p align="center">
-  <img src="https://img.shields.io/badge/🟢%20Open%20to%20Work-Internships%20%26%20Collaborations-22c55e?style=for-the-badge&logoColor=white" />
-  <br/><br/>
+  <img src="https://img.shields.io/badge/Status-Open%20to%20Work-22c55e?style=for-the-badge&logo=target&logoColor=white" alt="Open to Work" />
   <a href="mailto:chimataraghuram02a@gmail.com">
-    <img src="https://img.shields.io/badge/💼%20Hire%20Me-Let's%20Build%20Together!-a855f7?style=for-the-badge&logoColor=white" />
+    <img src="https://img.shields.io/badge/Hire%20Me-Let's%20Build%20Together!-7c3aed?style=for-the-badge&logo=gmail&logoColor=white" alt="Hire Me" />
   </a>
 </p>
 

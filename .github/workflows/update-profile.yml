@@ -102,6 +102,35 @@ jobs:
               `<!--START_SECTION:activity-->\n${activity.join('\n')}\n<!--END_SECTION:activity-->`
             );
             
+            // Update Profile Stats Section automatically
+            let followers = 14;
+            let publicRepos = 24;
+            let totalStars = 14;
+            try {
+              const { data: userResp } = await github.rest.users.getByUsername({ username: 'chimataraghuram' });
+              if (userResp) {
+                followers = userResp.followers || followers;
+                publicRepos = userResp.public_repos || publicRepos;
+              }
+              const { data: reposData } = await github.rest.repos.listForUser({ username: 'chimataraghuram', per_page: 100 });
+              if (reposData) {
+                totalStars = reposData.reduce((acc, r) => acc + (r.stargazers_count || 0), 0);
+              }
+            } catch (err) {
+              console.log(`Failed to fetch user stats: ${err.message}`);
+            }
+
+            // Extract existing deployments count or keep current
+            const depMatch = readme.match(/Deployments-(\d+)-/);
+            const deploymentsCount = depMatch ? depMatch[1] : '1763';
+
+            const statsBlock = `<!-- START_SECTION:profile_stats -->\n<p align="center">\n  <img src="https://komarev.com/ghpvc/?username=chimataraghuram&label=Profile+Views&color=7c3aed&style=for-the-badge" alt="Profile Views" />\n  <img src="https://img.shields.io/badge/Followers-${followers}-c026d3?style=for-the-badge&logo=github&logoColor=white" alt="Followers" />\n  <img src="https://img.shields.io/badge/Stars-${totalStars}-0ea5e9?style=for-the-badge&logo=star&logoColor=white" alt="Stars" />\n  <img src="https://img.shields.io/badge/Deployments-${deploymentsCount}-22c55e?style=for-the-badge&logo=vercel&logoColor=white" alt="Deployments" />\n  <img src="https://img.shields.io/badge/Repositories-${publicRepos}-a855f7?style=for-the-badge&logo=git&logoColor=white" alt="Repositories" />\n</p>\n<!-- END_SECTION:profile_stats -->`;
+
+            readme = readme.replace(
+              /<!-- START_SECTION:profile_stats -->[\s\S]*<!-- END_SECTION:profile_stats -->/,
+              statsBlock
+            );
+
             const currentDate = new Date().toISOString().split('T')[0];
             readme = readme.replace(
               /github-contribution-grid-snake-dark\.svg(\?v=[a-zA-Z0-9-]+)?/g,
