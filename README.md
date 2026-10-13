@@ -44,9 +44,9 @@
   <br/>
   <a href="https://github.com/chimataraghuram?tab=achievements">
 <!--START_SECTION:achievements-->
-    <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="100" />
-    <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="100" />
-    <img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="100" />
+    <img src="https://github.githubassets.com/assets/pull-shark-bronze-a37accb528d1.png" width="100" alt="Pull Shark" />
+    <img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="100" alt="YOLO" />
+    <img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="100" alt="Quickdraw" />
 <!--END_SECTION:achievements-->
   </a>
   <br/>
