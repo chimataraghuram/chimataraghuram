@@ -88,9 +88,11 @@ def main():
     pattern = r"<!-- BADGES -->.*?<!-- OPEN TO WORK / HIRE ME -->"
     if re.search(pattern, content, flags=re.DOTALL):
         new_content = re.sub(pattern, f"<!-- BADGES -->\n{stats_block}\n\n<!-- OPEN TO WORK / HIRE ME -->", content, flags=re.DOTALL)
-    else:
+    elif "<!-- START_SECTION:profile_stats -->" in content:
         pattern_sec = r"<!-- START_SECTION:profile_stats -->.*?<!-- END_SECTION:profile_stats -->"
         new_content = re.sub(pattern_sec, stats_block, content, flags=re.DOTALL)
+    else:
+        new_content = content
 
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(new_content)
