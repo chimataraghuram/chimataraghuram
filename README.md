@@ -461,8 +461,8 @@
 | 💼 **LinkedIn** | 🐙 **GitHub** | 🌐 **Portfolio** |
 | :---: | :---: | :---: |
 | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chimataraghuram/) | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram) | [![Portfolio](https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chimataraghuram.vercel.app/) |
-| 📧 **Email** | 🔗 **Linktree** | ☕ **Buy Me a Coffee** |
-| [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chimataraghuram02a@gmail.com) | [![Linktree](https://img.shields.io/badge/Linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/chimataraghuram) | [![BuyMeACoffee](https://img.shields.io/badge/Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/chimataraghuram) |
+| 💻 **LeetCode** | 📧 **Email** | ☕ **Buy Me a Coffee** |
+| [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/chimataraghuram/) | [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chimataraghuram02a@gmail.com) | [![BuyMeACoffee](https://img.shields.io/badge/Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/chimataraghuram) |
 
 <br/>
 
