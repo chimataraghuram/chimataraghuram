@@ -17,35 +17,10 @@
   </picture>
 </div>
 
-<!-- BADGES -->
-<!-- START_SECTION:profile_stats -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=chimataraghuram&label=Profile+Views&color=7c3aed&style=for-the-badge" alt="Profile Views" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Followers-14-c026d3?style=for-the-badge&logo=github&logoColor=white" alt="Followers" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Stars-14-0ea5e9?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAxNy4yN0wxOC4xOCAyMWwtMS42NC03LjAzTDIyIDkuMjRsLTcuMTktLjYxTDEyIDIgOS4xOSA4LjYzIDIgOS4yNGw1LjQ2IDQuNzNMNS44MiAyMXoiLz48L3N2Zz4%3D" alt="Stars" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Deployments-1763-22c55e?style=for-the-badge&logo=vercel&logoColor=white" alt="Deployments" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Repositories-24-a855f7?style=for-the-badge&logo=git&logoColor=white" alt="Repositories" />
-  &nbsp;
-  <a href="https://leetcode.com/u/chimataraghuram/"><img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Profile" /></a>
-</p>
-<!-- END_SECTION:profile_stats -->
-
-<!-- OPEN TO WORK / HIRE ME -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Open_to_Work-Actively_Looking-22c55e?style=for-the-badge&logo=target&logoColor=white" alt="Open to Work" />
-  &nbsp;
-  <a href="mailto:chimataraghuram02a@gmail.com">
-    <img src="https://img.shields.io/badge/Hire_Me-chimataraghuram02a%40gmail.com-7c3aed?style=for-the-badge&logo=gmail&logoColor=white" alt="Hire Me" />
-  </a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/chimataraghuram/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xOSAzYTIgMiAwIDAgMSAyIDJ2MTRhMiAyIDAgMCAxLTIgMkg1YTIgMiAwIDAgMS0yLTJWNWEyIDIgMCAwIDEgMi0yaDE0bS0uNSAxNS41di01LjNhMy4yNiAzLjI2IDAgMCAwLTMuMjYtMy4yNmMtLjg1IDAtMS44NC41Mi0yLjI4IDEuM3YtMS4xMWgtMi43OXY4LjM3aDIuNzl2LTQuOTNjMC0uNzcuNjItMS40IDEuMzktMS40YTEuNCAxLjQgMCAwIDEgMS40IDEuNHY0LjkzaDIuNzVNNi40NiAxMC45djguMzdIOS4yVjEwLjlINi40Nk03LjgzIDYuMzJhMS42NyAxLjY3IDAgMCAwLTEuNjcgMS42NyAxLjY3IDEuNjcgMCAwIDAgMS42NyAxLjY3IDEuNjcgMS42NyAwIDAgMCAxLjY3LTEuNjdjMC0uOTItLjc1LTEuNjctMS42Ny0xLjY3WiIvPjwvc3ZnPg%3D%3D" alt="LinkedIn" />
-  </a>
-</p>
+<!-- BADGES & SOCIAL LINKS -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/profile_badges.png" alt="Chimata Raghuram - Stats & Connect" width="100%" />
+</div>
 
 
 
