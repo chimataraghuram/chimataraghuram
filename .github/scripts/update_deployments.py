@@ -66,14 +66,21 @@ def main():
     with open("README.md", "r", encoding="utf-8") as f:
         content = f.read()
 
+    star_logo = "data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAxNy4yN0wxOC4xOCAyMWwtMS42NC03LjAzTDIyIDkuMjRsLTcuMTktLjYxTDEyIDIgOS4xOSA4LjYzIDIgOS4yNGw1LjQ2IDQuNzNMNS44MiAyMXoiLz48L3N2Zz4%3D"
     stats_block = (
         '<!-- START_SECTION:profile_stats -->\n'
         '<p align="center">\n'
         f'  <img src="https://komarev.com/ghpvc/?username={username}&label=Profile+Views&color=7c3aed&style=for-the-badge" alt="Profile Views" />\n'
+        '  &nbsp;\n'
         f'  <img src="https://img.shields.io/badge/Followers-{followers}-c026d3?style=for-the-badge&logo=github&logoColor=white" alt="Followers" />\n'
-        f'  <img src="https://img.shields.io/badge/Stars-{total_stars}-0ea5e9?style=for-the-badge&logo=star&logoColor=white" alt="Stars" />\n'
+        '  &nbsp;\n'
+        f'  <img src="https://img.shields.io/badge/Stars-{total_stars}-0ea5e9?style=for-the-badge&logo={star_logo}" alt="Stars" />\n'
+        '  &nbsp;\n'
         f'  <img src="https://img.shields.io/badge/Deployments-{total_deployments}-22c55e?style=for-the-badge&logo=vercel&logoColor=white" alt="Deployments" />\n'
+        '  &nbsp;\n'
         f'  <img src="https://img.shields.io/badge/Repositories-{public_repos}-a855f7?style=for-the-badge&logo=git&logoColor=white" alt="Repositories" />\n'
+        '  &nbsp;\n'
+        '  <a href="https://leetcode.com/u/chimataraghuram/"><img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Profile" /></a>\n'
         '</p>\n'
         '<!-- END_SECTION:profile_stats -->'
     )
