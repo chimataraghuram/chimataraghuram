@@ -70,7 +70,7 @@
         <li>🚀 Python Full-Stack Developer | Actively Learning & Tech Enthusiast</li>
         <li>🌍 Based in <b>Vijayawada, Andhra Pradesh, India</b></li>
         <li>🔭 Currently building: <a href="https://github.com/chimataraghuram/PORTFOLIO">PORTFOLIO</a> · <a href="https://github.com/chimataraghuram/PROJECT-FINDER">PROJECT-FINDER</a> · <a href="https://github.com/chimataraghuram/TECHBOY-AI">TECHBOY-AI</a></li>
-        <li>📫 Reach me: <a href="https://www.linkedin.com/in/chimataraghuram/">LinkedIn</a> · <a href="https://linktr.ee/chimataraghuram">Linktree</a> · <a href="mailto:chimataraghuram02a@gmail.com">Email</a></li>
+        <li>📫 Reach me: <a href="https://www.linkedin.com/in/chimataraghuram/">LinkedIn</a> · <a href="https://leetcode.com/u/chimataraghuram/">LeetCode</a> · <a href="mailto:chimataraghuram02a@gmail.com">Email</a></li>
         <li>⚡ Fun fact: I built a <b>Space Invaders minigame</b> hidden inside my own portfolio — find it if you can! 🎮</li>
       </ul>
     </td>
