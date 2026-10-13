@@ -90,19 +90,18 @@
 <td width="50%" valign="top">
 
 ### 🤖 [AI Software Developer Intern (Stipend)](https://www.linkedin.com/in/chimataraghuram/)
-**Jaimini Group** | *07/2026 – Present*
-- Leading development and deployment of **AI-powered products and automation systems** using Python.
-- Building and maintaining **backend infrastructure, CRM, and web systems** for live production deployment.
-- Implementing **AI integrations** and converting business ideas into technically sound, production-grade solutions.
+**Jaimini Group** | *Jul 2026 – Present*
+- Owned end-to-end backend development for **NQAS.ai**, an AI-powered healthcare quality assessment platform, integrating six AI modules from architecture through deployment.
+- Conducted backend and API testing, managed GitHub deployment, and tracked tasks in **Jira** while collaborating with design and cloud teams.
 <br/>📍 *Remote*
 
 </td>
 <td width="50%" valign="top">
 
 ### 🐍 [Python Backend Intern](https://www.linkedin.com/in/chimataraghuram/)
-**Infosys Springboard 7.0** | *2026 – Present*
-- Working on **Python backend development** as part of the Infosys Springboard Virtual Internship 7.0.
-- Applying core **Python and backend development concepts** to real-world problem statements and assignments.
+**Infosys Springboard 7.0** | *Jun 2026 – Sep 2026*
+- Built **OpenCV-based face and tab-switch monitoring** with integrity scoring for ExamMonitor, an AI-powered exam monitoring platform, in a 4-member Agile team using Python, Flask, and SQLite.
+- Wrote unit tests, tracked defects, and maintained Agile documentation (sprint backlog, retrospectives) under a mentor-guided sprint process.
 <br/>📍 *Remote*
 
 </td>
@@ -111,7 +110,7 @@
 <td colspan="2" valign="top">
 
 ### ☁️ [Cloud Computing Intern](https://www.linkedin.com/in/chimataraghuram/)
-**APSSDC** | *05/2025 – 07/2025*
+**APSSDC** | *May 2025 – Jul 2025*
 - Deployed web applications on **AWS EC2** with Nginx, security groups, HTTPS, and CI/CD pipelines.
 - Worked hands-on with **EC2, S3, IAM, and Lambda**, exploring serverless architecture and monitoring.
 - Built a **cloud automation mini-project** demonstrating an end-to-end AWS deployment workflow.
