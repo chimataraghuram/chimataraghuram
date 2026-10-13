@@ -20,7 +20,7 @@
 <!-- BADGES -->
 <!-- START_SECTION:profile_stats -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=chimataraghuram&label=Profile+Views&color=7c3aed&style=for-the-badge&logo=eye&logoColor=white" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=chimataraghuram&label=Profile+Views&color=7c3aed&style=for-the-badge" alt="Profile Views" />
   <img src="https://img.shields.io/badge/Followers-14-c026d3?style=for-the-badge&logo=github&logoColor=white" alt="Followers" />
   <img src="https://img.shields.io/badge/Stars-14-0ea5e9?style=for-the-badge&logo=star&logoColor=white" alt="Stars" />
   <img src="https://img.shields.io/badge/Deployments-1763-22c55e?style=for-the-badge&logo=vercel&logoColor=white" alt="Deployments" />
@@ -405,11 +405,11 @@
 
 ## 🕒 Recent Activity
 <!--START_SECTION:activity-->
-- ⭐ Starred **[hiteshchoudhary/Codebox](https://github.com/hiteshchoudhary/Codebox)** `(Oct 7)`
-- 🎉 Created branch in **[chimataraghuram/Aqua](https://github.com/chimataraghuram/Aqua)** `(Oct 1)`
-- 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/Aqua](https://github.com/chimataraghuram/Aqua)** — _Updates pushed_ `(Oct 1)`
-- ⭐ Starred **[Appllama/appllama-skills](https://github.com/Appllama/appllama-skills)** `(Oct 1)`
-- ⭐ Starred **[arunbhardwaj/LeetHub-2.0](https://github.com/arunbhardwaj/LeetHub-2.0)** `(Sep 30)`
+- 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)** — _Updates pushed_ `(Oct 13)`
+- 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)** — _Updates pushed_ `(Oct 13)`
+- 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)** — _Updates pushed_ `(Oct 13)`
+- 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)** — _Updates pushed_ `(Oct 13)`
+- 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)** — _Updates pushed_ `(Oct 13)`
 <!--END_SECTION:activity-->
 
 <br/>
