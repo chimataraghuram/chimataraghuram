@@ -47,14 +47,6 @@
   </a>
 </p>
 
-<!-- GITHUB STATS CARDS -->
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=chimataraghuram&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=22c55e&text_color=c9d1d9&ring_color=7c3aed&include_all_commits=true&count_private=true" width="49%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chimataraghuram&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=a855f7&text_color=c9d1d9&langs_count=8" width="49%" alt="Top Languages" />
-</div>
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=chimataraghuram&theme=radical&hide_border=true&background=0d1117&stroke=7c3aed&ring=a855f7&fire=22c55e&currStreakLabel=22c55e&sideLabels=c9d1d9&dates=c9d1d9&currStreakNum=a855f7&sideNums=a855f7" width="60%" alt="GitHub Streak" />
-</div>
 
 
 <!-- ACHIEVEMENTS -->
