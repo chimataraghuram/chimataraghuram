@@ -24,17 +24,17 @@
         🚀 <b>Python Full-Stack Developer</b> | Actively Learning & Tech Enthusiast<br/>
         📍 <b>Based in</b> Vijayawada, Andhra Pradesh, India
       </p>
-      <p style="margin: 0 0 14px 0; line-height: 1.9; color: #CBD5E1;">
-        🛠 <b>Currently Building:</b><br/>
-        <a href="https://github.com/chimataraghuram/PROJECT-FINDER"><img src="https://img.shields.io/badge/PROJECT--FINDER-00E5FF?style=for-the-badge&logo=github&logoColor=060913&labelColor=060913&color=00E5FF" height="24" alt="PROJECT-FINDER" /></a>&nbsp;
-        <a href="https://github.com/chimataraghuram/TECHBOY-STORE"><img src="https://img.shields.io/badge/TECHBOY--STORE-D946EF?style=for-the-badge&logo=github&logoColor=white&labelColor=060913&color=D946EF" height="24" alt="TECHBOY-STORE" /></a>&nbsp;
-        <a href="https://github.com/chimataraghuram/TECHBOY-AI"><img src="https://img.shields.io/badge/TECHBOY--AI-00C896?style=for-the-badge&logo=github&logoColor=white&labelColor=060913&color=00C896" height="24" alt="TECHBOY-AI" /></a>
+      <p style="margin: 0 0 14px 0; line-height: 2; color: #CBD5E1;">
+        🛠 <b>Currently building:</b><br/>
+        <a href="https://github.com/chimataraghuram/PROJECT-FINDER"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_project_finder.png" height="28" alt="PROJECT-FINDER" /></a>&nbsp;
+        <a href="https://github.com/chimataraghuram/TECHBOY-STORE"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_techboy_store.png" height="28" alt="TECHBOY-STORE" /></a>&nbsp;
+        <a href="https://github.com/chimataraghuram/TECHBOY-AI"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_techboy_ai.png" height="28" alt="TECHBOY-AI" /></a>
       </p>
-      <p style="margin: 0 0 14px 0; line-height: 1.9; color: #CBD5E1;">
-        ✉️ <b>Reach Me:</b><br/>
-        <a href="https://www.linkedin.com/in/chimataraghuram/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=060913&color=0A66C2" height="24" alt="LinkedIn" /></a>&nbsp;
-        <a href="https://leetcode.com/u/chimataraghuram/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=060913&color=FFA116" height="24" alt="LeetCode" /></a>&nbsp;
-        <a href="mailto:chimataraghuram02a@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=060913&color=EA4335" height="24" alt="Email" /></a>
+      <p style="margin: 0 0 14px 0; line-height: 2; color: #CBD5E1;">
+        ✉️ <b>Reach me:</b><br/>
+        <a href="https://www.linkedin.com/in/chimataraghuram/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_linkedin.png" height="30" alt="LinkedIn" /></a>&nbsp;
+        <a href="https://leetcode.com/u/chimataraghuram/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_leetcode.png" height="30" alt="LeetCode" /></a>&nbsp;
+        <a href="mailto:chimataraghuram02a@gmail.com"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_email.png" height="30" alt="Email" /></a>
       </p>
       <p style="font-size: 0.98em; line-height: 1.5; margin: 0 0 6px 0; color: #CBD5E1;">
         ⚡ <b>Fun Fact:</b> I built a <b>Space Invaders minigame</b> hidden inside my own portfolio — find it if you can! 👾
