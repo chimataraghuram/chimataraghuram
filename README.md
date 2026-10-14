@@ -508,7 +508,7 @@
     <tr>
       <td align="center">🚀</td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
-      <td>Fix Profile Views badge by migrating to reliable Shields....</td>
+      <td>Replace flat shields with exact neon glowing pill buttons...</td>
       <td align="center"><code>Oct 14</code></td>
     </tr>
     <tr>
