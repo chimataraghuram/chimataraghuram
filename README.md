@@ -512,7 +512,7 @@
     <tr>
       <td align="center">🚀</td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
-      <td>Redesign Recent Activity section with modern table layout...</td>
+      <td>Redesign Let's Connect section with modern card layout an...</td>
       <td align="center"><code>Oct 14</code></td>
     </tr>
     <tr>
