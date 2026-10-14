@@ -20,54 +20,32 @@
       <p style="font-size: 1.05em; line-height: 1.6; margin: 0 0 16px 0; color: #E2E8F0;">
         A B.Tech student with a diploma background in <b>AI & ML</b>, focused on developing Python full-stack with AI-powered and automated applications.
       </p>
-      <table style="border: none; background: transparent; width: 100%;">
-        <tr style="border: none;">
-          <td width="36" valign="middle" align="center" style="border: none; padding: 4px 10px 4px 0;">
-            <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/icon_rocket.png" width="30" height="30" alt="Role" />
-          </td>
-          <td valign="middle" style="border: none; padding: 4px 0; color: #CBD5E1; font-size: 1em;">
-            Python <b>Full-Stack Developer</b> | Actively Learning & Tech Enthusiast
-          </td>
-        </tr>
-        <tr style="border: none;">
-          <td width="36" valign="middle" align="center" style="border: none; padding: 4px 10px 4px 0;">
-            <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/icon_pin.png" width="30" height="30" alt="Location" />
-          </td>
-          <td valign="middle" style="border: none; padding: 4px 0; color: #CBD5E1; font-size: 1em;">
-            Based in <b>Vijayawada, Andhra Pradesh, India</b>
-          </td>
-        </tr>
-        <tr style="border: none;">
-          <td width="36" valign="middle" align="center" style="border: none; padding: 6px 10px 6px 0;">
-            <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/icon_wrench.png" width="30" height="30" alt="Building" />
-          </td>
-          <td valign="middle" style="border: none; padding: 6px 0; color: #CBD5E1; font-size: 1em;">
-            Currently building:<br/>
-            <a href="https://github.com/chimataraghuram/PROJECT-FINDER"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_project_finder.png" height="28" style="vertical-align: middle;" alt="PROJECT-FINDER" /></a>&nbsp;
-            <a href="https://github.com/chimataraghuram/TECHBOY-STORE"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_techboy_store.png" height="28" style="vertical-align: middle;" alt="TECHBOY-STORE" /></a>&nbsp;
-            <a href="https://github.com/chimataraghuram/TECHBOY-AI"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_techboy_ai.png" height="28" style="vertical-align: middle;" alt="TECHBOY-AI" /></a>
-          </td>
-        </tr>
-        <tr style="border: none;">
-          <td width="36" valign="middle" align="center" style="border: none; padding: 6px 10px 6px 0;">
-            <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/icon_mail.png" width="30" height="30" alt="Reach Me" />
-          </td>
-          <td valign="middle" style="border: none; padding: 6px 0; color: #CBD5E1; font-size: 1em;">
-            Reach me:<br/>
-            <a href="https://www.linkedin.com/in/chimataraghuram/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_linkedin.png" height="30" style="vertical-align: middle;" alt="LinkedIn" /></a>&nbsp;
-            <a href="https://leetcode.com/u/chimataraghuram/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_leetcode.png" height="30" style="vertical-align: middle;" alt="LeetCode" /></a>&nbsp;
-            <a href="mailto:chimataraghuram02a@gmail.com"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_email.png" height="30" style="vertical-align: middle;" alt="Email" /></a>
-          </td>
-        </tr>
-        <tr style="border: none;">
-          <td width="36" valign="middle" align="center" style="border: none; padding: 6px 10px 6px 0;">
-            <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/icon_bolt.png" width="30" height="30" alt="Fun Fact" />
-          </td>
-          <td valign="middle" style="border: none; padding: 6px 0; color: #CBD5E1; font-size: 0.98em;">
-            <b>Fun fact:</b> I built a <b>Space Invaders minigame</b> hidden inside my own portfolio — find it if you can! 👾
-          </td>
-        </tr>
-      </table>
+      <p style="margin: 0 0 10px 0; line-height: 1.8; color: #CBD5E1; font-size: 1em;">
+        <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/icon_rocket.png" width="24" height="24" style="vertical-align: middle; margin-right: 8px;" alt="Role" />
+        Python <b>Full-Stack Developer</b> | Actively Learning & Tech Enthusiast
+      </p>
+      <p style="margin: 0 0 12px 0; line-height: 1.8; color: #CBD5E1; font-size: 1em;">
+        <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/icon_pin.png" width="24" height="24" style="vertical-align: middle; margin-right: 8px;" alt="Location" />
+        Based in <b>Vijayawada, Andhra Pradesh, India</b>
+      </p>
+      <p style="margin: 0 0 14px 0; line-height: 2.2; color: #CBD5E1; font-size: 1em;">
+        <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/icon_wrench.png" width="24" height="24" style="vertical-align: middle; margin-right: 8px;" alt="Building" />
+        <b>Currently building:</b><br/>
+        <a href="https://github.com/chimataraghuram/PROJECT-FINDER"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_project_finder.png" height="30" style="vertical-align: middle;" alt="PROJECT-FINDER" /></a>&nbsp;
+        <a href="https://github.com/chimataraghuram/TECHBOY-STORE"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_techboy_store.png" height="30" style="vertical-align: middle;" alt="TECHBOY-STORE" /></a>&nbsp;
+        <a href="https://github.com/chimataraghuram/TECHBOY-AI"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_techboy_ai.png" height="30" style="vertical-align: middle;" alt="TECHBOY-AI" /></a>
+      </p>
+      <p style="margin: 0 0 14px 0; line-height: 2.2; color: #CBD5E1; font-size: 1em;">
+        <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/icon_mail.png" width="24" height="24" style="vertical-align: middle; margin-right: 8px;" alt="Reach Me" />
+        <b>Reach me:</b><br/>
+        <a href="https://www.linkedin.com/in/chimataraghuram/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_linkedin.png" height="32" style="vertical-align: middle;" alt="LinkedIn" /></a>&nbsp;
+        <a href="https://leetcode.com/u/chimataraghuram/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_leetcode.png" height="32" style="vertical-align: middle;" alt="LeetCode" /></a>&nbsp;
+        <a href="mailto:chimataraghuram02a@gmail.com"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_email.png" height="32" style="vertical-align: middle;" alt="Email" /></a>
+      </p>
+      <p style="margin: 0 0 6px 0; line-height: 1.6; color: #CBD5E1; font-size: 0.98em;">
+        <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/icon_bolt.png" width="24" height="24" style="vertical-align: middle; margin-right: 8px;" alt="Fun Fact" />
+        <b>Fun fact:</b> I built a <b>Space Invaders minigame</b> hidden inside my own portfolio — find it if you can! 👾
+      </p>
     </td>
   </tr>
 </table>
