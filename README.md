@@ -1,21 +1,18 @@
-<!-- BANNER -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=250&text=Chimata%20Raghu%20Ram&fontAlign=50&fontAlignY=40&color=0:7c3aed,50:c026d3,100:0ea5e9&fontSize=70&desc=Python%20Full-Stack%20Developer%20-%20Actively%20Learning%20and%20Tech%20Enthusiast&descAlign=50&descAlignY=65&descSize=22&animation=fadeIn" alt="Chimata Raghuram - GitHub Banner" />
-</div>
-
-<!-- DYNAMIC TYPING SUBTITLE -->
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=a855f7&center=true&vCenter=true&width=800&lines=Python+Full-Stack+Developer;B.Tech+(AIML)+Undergraduate;AIML+Diploma+Holder;Tech+Enthusiast" />
-</p>
-
-<!-- ABOUT ME -->
-<table>
+<!-- HERO & ABOUT ME -->
+<table width="100%">
   <tr>
-    <td width="30%">
+    <td colspan="2" align="center" style="padding: 0;">
+      <img src="https://capsule-render.vercel.app/api?type=waving&height=230&text=Chimata%20Raghu%20Ram&fontAlign=50&fontAlignY=40&color=0:7c3aed,50:c026d3,100:0ea5e9&fontSize=65&desc=Python%20Full-Stack%20Developer%20-%20Actively%20Learning%20and%20Tech%20Enthusiast&descAlign=50&descAlignY=65&descSize=20&animation=fadeIn" width="100%" alt="Chimata Raghuram - GitHub Banner" />
+    </td>
+  </tr>
+  <tr>
+    <td width="30%" align="center" valign="middle">
       <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/coding_from_home.gif" alt="Coding GIF" width="250"/>
     </td>
     <td width="70%">
       <h2>Hello! I'm <b>Chimata Raghuram</b> 👋</h2>
+      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=a855f7&vCenter=true&width=550&lines=Python+Full-Stack+Developer;B.Tech+(AIML)+Undergraduate;AIML+Diploma+Holder;Tech+Enthusiast" alt="Typing Subtitle" />
+      <br/><br/>
       <p style="font-size: 1.15em; line-height: 1.6;">
         A B.Tech student with a diploma background in AI & ML, focused on developing Python full stack with AI powered and automated application
       </p>
