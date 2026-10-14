@@ -13,24 +13,30 @@
     <td width="42%" align="center" valign="middle">
       <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/raghuram_dev.png" width="100%" alt="Chimata Raghuram - Python Developer" />
     </td>
-    <td width="58%" valign="top">
-      <br/>
-      <img src="https://img.shields.io/badge/%F0%9F%8E%93%20EDUCATION-B.Tech%20(AIML)%20%E2%80%94%20UNDERGRADUATE-00E5FF?style=for-the-badge&labelColor=060913&color=00E5FF" alt="Education: B.Tech (AIML) — Undergraduate" />
-      <br/><br/>
-      <p style="font-size: 1.1em; line-height: 1.6; color: #E2E8F0;">
+    <td width="58%" valign="top" style="padding-left: 16px;">
+      <p style="margin: 6px 0 14px 0;">
+        <img src="https://img.shields.io/badge/%F0%9F%8E%93%20EDUCATION-B.Tech%20(AIML)%20%E2%80%94%20UNDERGRADUATE-00E5FF?style=for-the-badge&labelColor=060913&color=00E5FF" height="26" alt="Education: B.Tech (AIML) — Undergraduate" />
+      </p>
+      <p style="font-size: 1.05em; line-height: 1.6; margin: 0 0 16px 0; color: #E2E8F0;">
         A B.Tech student with a diploma background in <b>AI & ML</b>, focused on developing Python full-stack applications powered by AI and automation.
       </p>
-      <p style="font-size: 1.05em; line-height: 2.1; color: #CBD5E1;">
+      <p style="font-size: 1.02em; line-height: 1.8; margin: 0 0 14px 0; color: #CBD5E1;">
         🚀 <b>Role:</b> Python Full-Stack Developer | Actively Learning & Tech Enthusiast<br/>
-        📍 <b>Location:</b> Vijayawada, Andhra Pradesh, India<br/>
-        🛠 <b>Currently Building:</b>&nbsp;
+        📍 <b>Location:</b> Vijayawada, Andhra Pradesh, India
+      </p>
+      <p style="margin: 0 0 14px 0; line-height: 1.9; color: #CBD5E1;">
+        🛠 <b>Currently Building:</b><br/>
         <a href="https://github.com/chimataraghuram/PROJECT-FINDER"><img src="https://img.shields.io/badge/PROJECT--FINDER-00E5FF?style=for-the-badge&logo=github&logoColor=060913&labelColor=060913&color=00E5FF" height="24" alt="PROJECT-FINDER" /></a>&nbsp;
         <a href="https://github.com/chimataraghuram/TECHBOY-STORE"><img src="https://img.shields.io/badge/TECHBOY--STORE-D946EF?style=for-the-badge&logo=github&logoColor=white&labelColor=060913&color=D946EF" height="24" alt="TECHBOY-STORE" /></a>&nbsp;
-        <a href="https://github.com/chimataraghuram/TECHBOY-AI"><img src="https://img.shields.io/badge/TECHBOY--AI-00C896?style=for-the-badge&logo=github&logoColor=white&labelColor=060913&color=00C896" height="24" alt="TECHBOY-AI" /></a><br/>
-        ✉️ <b>Reach Me:</b>&nbsp;
-        <a href="https://www.linkedin.com/in/chimataraghuram/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=060913&color=0A66C2" height="24" alt="LinkedIn" /></a>&nbsp;
+        <a href="https://github.com/chimataraghuram/TECHBOY-AI"><img src="https://img.shields.io/badge/TECHBOY--AI-00C896?style=for-the-badge&logo=github&logoColor=white&labelColor=060913&color=00C896" height="24" alt="TECHBOY-AI" /></a>
+      </p>
+      <p style="margin: 0 0 14px 0; line-height: 1.9; color: #CBD5E1;">
+        ✉️ <b>Reach Me:</b><br/>
+        <a href="https://www.linkedin.com/in/chimataraghuram/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=060913&color=0A66C2" height="24" alt="LinkedIn" /></a>&nbsp;
         <a href="https://leetcode.com/u/chimataraghuram/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=060913&color=FFA116" height="24" alt="LeetCode" /></a>&nbsp;
-        <a href="mailto:chimataraghuram02a@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=060913&color=EA4335" height="24" alt="Email" /></a><br/>
+        <a href="mailto:chimataraghuram02a@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=060913&color=EA4335" height="24" alt="Email" /></a>
+      </p>
+      <p style="font-size: 0.98em; line-height: 1.5; margin: 0 0 6px 0; color: #CBD5E1;">
         ⚡ <b>Fun Fact:</b> I built a <b>Space Invaders minigame</b> hidden inside my own portfolio — find it if you can! 👾
       </p>
     </td>
