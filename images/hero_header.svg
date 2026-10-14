@@ -1,31 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 135" width="100%" height="135">
   <defs>
-    <!-- Smooth flowing animated neon gradient -->
-    <linearGradient id="animatedTitleGrad" x1="0%" y1="0%" x2="200%" y2="0%">
-      <stop offset="0%" stop-color="#00E5FF">
-        <animate attributeName="stop-color" values="#00E5FF;#D946EF;#7C3AED;#00E5FF" dur="6s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="35%" stop-color="#D946EF">
-        <animate attributeName="stop-color" values="#D946EF;#7C3AED;#00E5FF;#D946EF" dur="6s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="70%" stop-color="#7C3AED">
-        <animate attributeName="stop-color" values="#7C3AED;#00E5FF;#D946EF;#7C3AED" dur="6s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="100%" stop-color="#00E5FF">
-        <animate attributeName="stop-color" values="#00E5FF;#D946EF;#7C3AED;#00E5FF" dur="6s" repeatCount="indefinite" />
-      </stop>
+    <!-- Vibrant title gradient: cyan -> magenta -> neon purple -->
+    <linearGradient id="neonTitle" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF" />
+      <stop offset="45%" stop-color="#D946EF" />
+      <stop offset="80%" stop-color="#A855F7" />
+      <stop offset="100%" stop-color="#00E5FF" />
     </linearGradient>
 
-    <!-- Animated accent underline gradient -->
-    <linearGradient id="animatedUnderline" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Accent line gradient -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.1" />
-      <stop offset="30%" stop-color="#00E5FF" stop-opacity="0.9">
-        <animate attributeName="offset" values="0.1;0.4;0.1" dur="4s" repeatCount="indefinite" />
-      </stop>
+      <stop offset="25%" stop-color="#00E5FF" stop-opacity="0.9" />
       <stop offset="50%" stop-color="#D946EF" stop-opacity="1" />
-      <stop offset="70%" stop-color="#A855F7" stop-opacity="0.9">
-        <animate attributeName="offset" values="0.9;0.6;0.9" dur="4s" repeatCount="indefinite" />
-      </stop>
+      <stop offset="75%" stop-color="#A855F7" stop-opacity="0.9" />
       <stop offset="100%" stop-color="#00E5FF" stop-opacity="0.1" />
     </linearGradient>
 
@@ -35,17 +23,7 @@
       <circle cx="0" cy="0" r="1.5" fill="#D946EF" fill-opacity="0.2" />
     </pattern>
 
-    <!-- Pulsing ambient glow filters -->
-    <filter id="neonGlowPulse" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="5" result="blur1" />
-      <feGaussianBlur stdDeviation="12" result="blur2" />
-      <feMerge>
-        <feMergeNode in="blur2" />
-        <feMergeNode in="blur1" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-
+    <!-- Pulsing ambient glow filter -->
     <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="3" result="blur" />
       <feMerge>
@@ -53,30 +31,30 @@
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
+
+    <!-- Typewriter clip paths -->
+    <!-- Full text width is around 760px. We animate the clip path width to reveal the text letter-by-letter like a typewriter! -->
+    <clipPath id="typewriterClip">
+      <rect x="120" y="20" width="0" height="55">
+        <!-- Types out from 0 to 760 over 3.2s, pauses till 7s, then repeats -->
+        <animate attributeName="width" values="0; 0; 760; 760; 0" keyTimes="0; 0.08; 0.55; 0.92; 1" dur="7s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
   </defs>
 
   <style>
-    @keyframes wave {
-      0% { transform: rotate(0deg); }
-      15% { transform: rotate(14deg); }
-      30% { transform: rotate(-8deg); }
-      45% { transform: rotate(14deg); }
-      60% { transform: rotate(-4deg); }
-      75% { transform: rotate(10deg); }
-      100% { transform: rotate(0deg); }
+    /* Blinking typing caret cursor */
+    @keyframes blinkCaret {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
     }
-    .waving-hand {
-      transform-origin: 755px 45px;
-      animation: wave 2.2s infinite ease-in-out;
-      display: inline-block;
+    @keyframes moveCursor {
+      0%, 8% { transform: translateX(122px); opacity: 1; }
+      55%, 92% { transform: translateX(878px); opacity: 1; }
+      96%, 100% { transform: translateX(122px); opacity: 0; }
     }
-
-    @keyframes pulseOpacity {
-      0%, 100% { opacity: 0.55; }
-      50% { opacity: 0.95; }
-    }
-    .pulse-glow {
-      animation: pulseOpacity 3.5s infinite ease-in-out;
+    .typing-cursor {
+      animation: moveCursor 7s infinite linear, blinkCaret 0.8s infinite;
     }
 
     @keyframes slashPulse {
@@ -99,13 +77,13 @@
   <!-- Background subtle grid -->
   <rect x="0" y="0" width="1000" height="135" fill="url(#circuitGrid)" />
 
-  <!-- Accent slashes on top-left (animated) -->
+  <!-- Accent slashes on top-left -->
   <g class="slash-anim" filter="url(#subtleGlow)">
     <line x1="36" y1="36" x2="56" y2="16" stroke="#D946EF" stroke-width="3.5" stroke-linecap="round" />
     <line x1="50" y1="36" x2="70" y2="16" stroke="#00E5FF" stroke-width="3.5" stroke-linecap="round" />
   </g>
 
-  <!-- Cyber corner particles on top-right (animated twinkle) -->
+  <!-- Cyber corner particles on top-right -->
   <g fill="#00E5FF">
     <rect class="dot-1" x="915" y="20" width="4" height="4" rx="1" />
     <rect class="dot-2" x="927" y="20" width="4" height="4" rx="1" fill="#D946EF" />
@@ -117,30 +95,27 @@
     <rect class="dot-2" x="945" y="30" width="4" height="4" rx="1" fill="#00E5FF" />
   </g>
 
-  <!-- Main Title -->
-  <g text-anchor="middle">
-    <!-- Pulsing ambient glow layer for title -->
-    <text class="pulse-glow" x="500" y="60" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-weight="900" font-size="36" letter-spacing="2" fill="url(#animatedTitleGrad)" filter="url(#neonGlowPulse)">
-      HELLO! I'M CHIMATA RAGHURAM
-    </text>
-
-    <!-- Sharp foreground layer for title -->
-    <text x="500" y="60" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-weight="900" font-size="36" letter-spacing="2">
-      <tspan fill="#FFFFFF">HELLO! I'M </tspan>
-      <tspan fill="url(#animatedTitleGrad)" filter="url(#subtleGlow)">CHIMATA RAGHURAM</tspan>
-    </text>
-
-    <!-- Waving hand emoji with rotation animation -->
-    <g class="waving-hand">
-      <text x="755" y="60" font-family="'Segoe UI Emoji', 'Apple Color Emoji', sans-serif" font-size="34">👋</text>
+  <!-- Typewriter animated Main Title -->
+  <g clip-path="url(#typewriterClip)">
+    <g text-anchor="middle">
+      <text x="500" y="60" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-weight="900" font-size="36" letter-spacing="2">
+        <tspan fill="#FFFFFF">HELLO! I'M </tspan>
+        <tspan fill="url(#neonTitle)" filter="url(#subtleGlow)">CHIMATA RAGHURAM</tspan>
+        <tspan fill="#FFD23F"> 👋</tspan>
+      </text>
     </g>
+  </g>
 
-    <!-- Subtitle -->
+  <!-- Blinking Neon Writing Cursor -->
+  <rect class="typing-cursor" y="28" width="4" height="34" rx="2" fill="#00E5FF" filter="url(#subtleGlow)" />
+
+  <!-- Subtitle -->
+  <g text-anchor="middle">
     <text x="500" y="94" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-weight="500" font-size="17" fill="#CBD5E1" letter-spacing="0.5">
       Python Full-Stack Developer <tspan fill="#00E5FF" font-weight="700">•</tspan> Actively Learning and Tech Enthusiast
     </text>
 
-    <!-- Animated glowing accent underline underneath subtitle -->
-    <line x1="280" y1="112" x2="720" y2="112" stroke="url(#animatedUnderline)" stroke-width="2.5" stroke-linecap="round" filter="url(#subtleGlow)" />
+    <!-- Glowing accent underline underneath subtitle -->
+    <line x1="280" y1="112" x2="720" y2="112" stroke="url(#accentGrad)" stroke-width="2.5" stroke-linecap="round" filter="url(#subtleGlow)" />
   </g>
 </svg>
