@@ -1,14 +1,14 @@
-<!-- HERO & ABOUT ME -->
+<!-- HERO HEADER -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header.svg">
+    <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header.svg" width="100%" alt="Hello! I'm Chimata Raghuram" />
+  </picture>
+</div>
+
+<!-- ABOUT ME -->
 <table width="100%">
-  <tr>
-    <td colspan="2" align="center" style="padding: 0;">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header.svg">
-        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header.svg">
-        <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header.svg" width="100%" alt="Hello! I'm Chimata Raghuram" />
-      </picture>
-    </td>
-  </tr>
   <tr>
     <td width="42%" align="center" valign="middle">
       <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/raghuram_dev.png" width="100%" alt="Chimata Raghuram - Python Developer" />
