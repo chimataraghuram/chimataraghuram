@@ -492,7 +492,7 @@
     <tr>
       <td align="center">🚀</td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
-      <td>Revert "Redesign Achievements section with modern badge h...</td>
+      <td>Fix Profile Views badge by migrating to reliable Shields....</td>
       <td align="center"><code>Oct 14</code></td>
     </tr>
     <tr>
