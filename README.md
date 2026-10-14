@@ -10,10 +10,10 @@
     </td>
   </tr>
   <tr>
-    <td width="42%" align="center" valign="middle">
-      <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/raghuram_dev.png" width="100%" alt="Chimata Raghuram - Python Developer" />
+    <td width="44%" align="center" valign="middle">
+      <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/raghuram_dev.png?v=2026-10-14" width="100%" alt="Chimata Raghuram - Python Developer" />
     </td>
-    <td width="58%" valign="top" style="padding-left: 20px;">
+    <td width="56%" valign="top" style="padding-left: 20px;">
       <p style="margin: 4px 0 14px 0;">
         <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_btech.png" height="36" alt="B.Tech (AIML)" />
       </p>
