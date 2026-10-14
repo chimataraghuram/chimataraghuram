@@ -471,12 +471,60 @@
 </div>
 
 ## 🕒 Recent Activity
+
+<div align="center">
+  <p align="center">
+    <img src="https://img.shields.io/badge/Activity-Live_GitHub_Feed-7c3aed?style=for-the-badge&logo=github&logoColor=white" alt="Live Feed" />
+    &nbsp;
+    <img src="https://img.shields.io/badge/Status-Actively_Contributing-22c55e?style=for-the-badge&logo=git&logoColor=white" alt="Contributing" />
+  </p>
+</div>
+
+<br/>
+
 <!--START_SECTION:activity-->
-- 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)** — _Updates pushed_ `(Oct 13)`
-- 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)** — _Updates pushed_ `(Oct 13)`
-- 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)** — _Updates pushed_ `(Oct 13)`
-- 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)** — _Updates pushed_ `(Oct 13)`
-- 🚀 Pushed 1 commit(s) to `main` in **[chimataraghuram/chimataraghuram](https://github.com/chimataraghuram/chimataraghuram)** — _Updates pushed_ `(Oct 13)`
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="8%" align="center">Action</th>
+      <th width="32%" align="left">Repository</th>
+      <th width="45%" align="left">Activity</th>
+      <th width="15%" align="center">Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">🚀</td>
+      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram</b></a></td>
+      <td>Redesign Currently Learning section with modern card layout</td>
+      <td align="center"><code>Oct 14</code></td>
+    </tr>
+    <tr>
+      <td align="center">⭐</td>
+      <td><a href="https://github.com/hiteshchoudhary/Codebox"><b>hiteshchoudhary/Codebox</b></a></td>
+      <td>Starred repository</td>
+      <td align="center"><code>Oct 07</code></td>
+    </tr>
+    <tr>
+      <td align="center">🎉</td>
+      <td><a href="https://github.com/chimataraghuram/Aqua"><b>chimataraghuram/Aqua</b></a></td>
+      <td>Created new branch in repository</td>
+      <td align="center"><code>Oct 01</code></td>
+    </tr>
+    <tr>
+      <td align="center">🚀</td>
+      <td><a href="https://github.com/chimataraghuram/Aqua"><b>chimataraghuram/Aqua</b></a></td>
+      <td>Pushed updates to <code>main</code></td>
+      <td align="center"><code>Oct 01</code></td>
+    </tr>
+    <tr>
+      <td align="center">⭐</td>
+      <td><a href="https://github.com/Appllama/appllama-skills"><b>Appllama/appllama-skills</b></a></td>
+      <td>Starred repository</td>
+      <td align="center"><code>Oct 01</code></td>
+    </tr>
+  </tbody>
+</table>
 <!--END_SECTION:activity-->
 
 <br/>
