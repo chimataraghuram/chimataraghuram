@@ -52,16 +52,32 @@
 <!-- ACHIEVEMENTS -->
 <div align="center">
   <br/>
-  <a href="https://github.com/chimataraghuram?tab=achievements">
+  <p align="center">
+    <a href="https://github.com/chimataraghuram?tab=achievements" target="_blank">
+      <img src="https://img.shields.io/badge/GitHub-Official_Achievements-7c3aed?style=for-the-badge&logo=github&logoColor=white" alt="Official GitHub Achievements" />
+      &nbsp;
+      <img src="https://img.shields.io/badge/Milestones-Unlocked-22c55e?style=for-the-badge&logo=trophy&logoColor=white" alt="Milestones Unlocked" />
+    </a>
+  </p>
+
+  <p align="center">
 <!--START_SECTION:achievements-->
-    <img src="https://github.githubassets.com/assets/pull-shark-bronze-a37accb528d1.png" width="100" alt="Pull Shark" />
-    <img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="100" alt="YOLO" />
-    <img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="100" alt="Quickdraw" />
+    <a href="https://github.com/chimataraghuram?tab=achievements" target="_blank"><img src="https://github.githubassets.com/assets/pull-shark-bronze-a37accb528d1.png" width="95" alt="Pull Shark" /></a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/chimataraghuram?tab=achievements" target="_blank"><img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="95" alt="YOLO" /></a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/chimataraghuram?tab=achievements" target="_blank"><img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="95" alt="Quickdraw" /></a>
 <!--END_SECTION:achievements-->
-  </a>
-  <br/>
-  <strong>Official GitHub Achievements</strong>
+  </p>
+
+  <p align="center">
+    <sub>🏆 <b>Pull Shark (Bronze)</b> &nbsp;·&nbsp; 🚀 <b>YOLO</b> &nbsp;·&nbsp; ⚡ <b>Quickdraw</b></sub>
+    <br/>
+    <sub><i>Click badges to inspect verified milestones on GitHub</i></sub>
+  </p>
 </div>
+
+<br/>
 
 
 ## ⚡ About Me

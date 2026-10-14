@@ -234,7 +234,7 @@ jobs:
                   const alt = match[2] || 'Achievement';
                   if (!seen.has(src)) {
                     seen.add(src);
-                    tempAchievements.push(`    <img src="${src}" width="100" alt="${alt}" />`);
+                    tempAchievements.push(`    <a href="https://github.com/chimataraghuram?tab=achievements" target="_blank"><img src="${src}" width="95" alt="${alt}" /></a>`);
                   }
                 }
                 if (tempAchievements.length > 0) {
@@ -256,7 +256,7 @@ jobs:
             const readme = fs.readFileSync('README.md', 'utf8');
             const newReadme = readme.replace(
               /<!--START_SECTION:achievements-->[\s\S]*<!--END_SECTION:achievements-->/,
-              `<!--START_SECTION:achievements-->\n${achievements.join('\n')}\n<!--END_SECTION:achievements-->`
+              `<!--START_SECTION:achievements-->\n${achievements.join('\n    &nbsp;&nbsp;\n')}\n<!--END_SECTION:achievements-->`
             );
 
             if (readme !== newReadme) {
