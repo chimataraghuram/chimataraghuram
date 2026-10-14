@@ -389,26 +389,82 @@
 
 </div>
 
----
+<br/>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=15&color=0:7c3aed,50:c026d3,100:0ea5e9" width="100%" />
+</div>
 
 ## 🌱 Currently Learning
 
 <div align="center">
+  <p align="center">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=c026d3&center=true&vCenter=true&width=650&lines=🎯+Main+Focus:+Agentic+Automation+%26+AI+Agents;⚡+Next-Gen+Autonomous+Workflows;🤖+Lightweight+%26+Monolithic+Architectures" alt="Main Focus: Agentic Automation & AI Agents" />
+  </p>
 
-### 🎯 Main Focus: Agentic Automation & AI Agents
-| 🔧 Technology | 🚀 Goal |
-| :--- | :--- |
-| 🔄 **n8n** | Hyper-automation & Workflow Orchestration |
-| 🤖 **OpenClaw** | Monolithic AI Agents & Local System Integration |
-| 🔬 **NanoClaw** | Secure, Containerized Lightweight AI Agents |
-
-
-
+  <p align="center">
+    <img src="https://img.shields.io/badge/Domain-AI_Agents_%26_Automation-7c3aed?style=for-the-badge&logo=probot&logoColor=white" alt="Domain" />
+    &nbsp;
+    <img src="https://img.shields.io/badge/Status-Actively_Building-22c55e?style=for-the-badge&logo=target&logoColor=white" alt="Status" />
+  </p>
 </div>
 
----
+<br/>
 
+<table width="100%">
+  <tr>
+    <td width="33.3%" align="center" valign="top">
+      <br/>
+      <img src="https://img.shields.io/badge/n8n-FF6D5A?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" />
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Track-Workflow_Orchestration-FF6D5A?style=flat-square" alt="Workflow Orchestration" />
+      <br/><br/>
+      <b>🔄 Hyper-Automation</b>
+      <br/><br/>
+      <p align="left">
+        🎯 <b>Goal:</b> Hyper-automation & Workflow Orchestration<br/><br/>
+        • Event-driven multi-step automation<br/>
+        • AI tool-calling & autonomous pipelines<br/>
+        • Multi-service webhook & API chaining
+      </p>
+      <br/>
+    </td>
+    <td width="33.3%" align="center" valign="top">
+      <br/>
+      <img src="https://img.shields.io/badge/OpenClaw-FF4B4B?style=for-the-badge&logo=microbot&logoColor=white" alt="OpenClaw" />
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Track-Monolithic_AI_Agents-c026d3?style=flat-square" alt="Monolithic AI Agents" />
+      <br/><br/>
+      <b>🤖 System Integration</b>
+      <br/><br/>
+      <p align="left">
+        🎯 <b>Goal:</b> Monolithic AI Agents & Local System Integration<br/><br/>
+        • End-to-end autonomous agent control<br/>
+        • Deep local environment & OS execution<br/>
+        • State persistence & complex reasoning
+      </p>
+      <br/>
+    </td>
+    <td width="33.3%" align="center" valign="top">
+      <br/>
+      <img src="https://img.shields.io/badge/NanoClaw-00A67E?style=for-the-badge&logo=microchip&logoColor=white" alt="NanoClaw" />
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Track-Containerized_Agents-0ea5e9?style=flat-square" alt="Containerized Agents" />
+      <br/><br/>
+      <b>🔬 Secure Micro-Agents</b>
+      <br/><br/>
+      <p align="left">
+        🎯 <b>Goal:</b> Secure, Containerized Lightweight AI Agents<br/><br/>
+        • Sandboxed & containerized execution<br/>
+        • Ultra-lightweight memory footprint<br/>
+        • High-security isolation & task boundaries
+      </p>
+      <br/>
+    </td>
+  </tr>
+</table>
 
+<br/>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&height=15&color=0:7c3aed,50:c026d3,100:0ea5e9" width="100%" />
