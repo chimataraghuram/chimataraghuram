@@ -496,7 +496,7 @@
     <tr>
       <td align="center">🚀</td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
-      <td>Redesign Let's Connect section with modern card layout an...</td>
+      <td>Revert "Redesign Achievements section with modern badge h...</td>
       <td align="center"><code>Oct 14</code></td>
     </tr>
     <tr>
