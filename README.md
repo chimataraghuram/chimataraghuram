@@ -533,25 +533,95 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&height=15&color=0:7c3aed,50:c026d3,100:0ea5e9" width="100%" />
 </div>
 
-
-
-
-
+<br/>
 
 ## 📬 Let's Connect
 
 <div align="center">
+  <p align="center">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=0ea5e9&center=true&vCenter=true&width=600&lines=💬+Let's+Connect+%26+Collaborate;🚀+Open+to+AI+%26+Full-Stack+Opportunities;📫+Reach+Out+Anytime!" alt="Let's Connect" />
+  </p>
 
-| 💼 **LinkedIn** | 🐙 **GitHub** | 🌐 **Portfolio** |
-| :---: | :---: | :---: |
-| [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chimataraghuram/) | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram) | [![Portfolio](https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chimataraghuram.vercel.app/) |
-| 💻 **LeetCode** | 📧 **Email** | ☕ **Buy Me a Coffee** |
-| [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/chimataraghuram/) | [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chimataraghuram02a@gmail.com) | [![BuyMeACoffee](https://img.shields.io/badge/Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/chimataraghuram) |
+  <p align="center">
+    <img src="https://img.shields.io/badge/Open_To-Collaborations_%26_Hiring-22c55e?style=for-the-badge&logo=target&logoColor=white" alt="Open to Collaborations" />
+    &nbsp;
+    <img src="https://img.shields.io/badge/Response_Time-%3C_24_Hours-7c3aed?style=for-the-badge&logo=clock&logoColor=white" alt="Response Time" />
+  </p>
+</div>
 
 <br/>
 
-*Click the buttons above to reach out! I'm always open to discussing new AI projects and collaborations.*
+<table width="100%">
+  <tr>
+    <td width="33.3%" align="center" valign="top">
+      <br/>
+      <a href="https://www.linkedin.com/in/chimataraghuram/" target="_blank">
+        <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+      </a>
+      <br/><br/>
+      <b>💼 Professional Network</b>
+      <p align="center">Let's connect, share insights & discuss career opportunities</p>
+      <br/>
+    </td>
+    <td width="33.3%" align="center" valign="top">
+      <br/>
+      <a href="https://chimataraghuram.vercel.app/" target="_blank">
+        <img src="https://img.shields.io/badge/Portfolio-7c3aed?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
+      </a>
+      <br/><br/>
+      <b>🌐 Interactive Showcase</b>
+      <p align="center">Explore live project demos, architecture reviews & mini-games</p>
+      <br/>
+    </td>
+    <td width="33.3%" align="center" valign="top">
+      <br/>
+      <a href="mailto:chimataraghuram02a@gmail.com">
+        <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+      </a>
+      <br/><br/>
+      <b>📧 Direct Inquiries</b>
+      <p align="center">Fast response for project collaborations, freelancing & roles</p>
+      <br/>
+    </td>
+  </tr>
+  <tr>
+    <td width="33.3%" align="center" valign="top">
+      <br/>
+      <a href="https://github.com/chimataraghuram" target="_blank">
+        <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+      </a>
+      <br/><br/>
+      <b>🐙 Open Source</b>
+      <p align="center">Browse repositories, star projects & check latest commits</p>
+      <br/>
+    </td>
+    <td width="33.3%" align="center" valign="top">
+      <br/>
+      <a href="https://leetcode.com/u/chimataraghuram/" target="_blank">
+        <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" />
+      </a>
+      <br/><br/>
+      <b>💻 Problem Solving</b>
+      <p align="center">Algorithmic solutions, data structures & competitive coding</p>
+      <br/>
+    </td>
+    <td width="33.3%" align="center" valign="top">
+      <br/>
+      <a href="https://buymeacoffee.com/chimataraghuram" target="_blank">
+        <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Coffee" />
+      </a>
+      <br/><br/>
+      <b>☕ Support & Fuel</b>
+      <p align="center">Fuel open-source AI builds, research & developer tools</p>
+      <br/>
+    </td>
+  </tr>
+</table>
 
+<br/>
+
+<div align="center">
+  <p><i>💡 Click any button above to reach out — I'm always open to discussing new AI projects, agent workflows, and collaborations!</i></p>
 </div>
 
 
