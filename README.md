@@ -15,7 +15,7 @@
     </td>
     <td width="58%" valign="top" style="padding-left: 16px;">
       <p style="margin: 6px 0 14px 0;">
-        <img src="https://img.shields.io/badge/%F0%9F%8E%93%20EDUCATION-B.Tech%20(AIML)%20%E2%80%94%20UNDERGRADUATE-00E5FF?style=for-the-badge&labelColor=060913&color=00E5FF" height="26" alt="Education: B.Tech (AIML) — Undergraduate" />
+        <img src="https://img.shields.io/badge/%E2%9C%A8%20ABOUT%20ME-B.Tech%20(AIML)%20%E2%80%94%20UNDERGRADUATE-00E5FF?style=for-the-badge&labelColor=060913&color=00E5FF" height="26" alt="About Me: B.Tech (AIML) — Undergraduate" />
       </p>
       <p style="font-size: 1.05em; line-height: 1.6; margin: 0 0 16px 0; color: #E2E8F0;">
         A B.Tech student with a diploma background in <b>AI & ML</b>, focused on developing Python full-stack applications powered by AI and automation.
