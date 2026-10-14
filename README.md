@@ -55,7 +55,7 @@
 <!-- BADGES -->
 <!-- START_SECTION:profile_stats -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=chimataraghuram&label=Profile+Views&color=7c3aed&style=for-the-badge" alt="Profile Views" />
+  <img src="https://img.shields.io/badge/Profile_Views-2%2C012-7c3aed?style=for-the-badge&logo=eye&logoColor=white" alt="Profile Views" />
   &nbsp;
   <img src="https://img.shields.io/badge/Followers-14-c026d3?style=for-the-badge&logo=github&logoColor=white" alt="Followers" />
   &nbsp;
