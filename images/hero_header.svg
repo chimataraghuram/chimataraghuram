@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 115" width="100%" height="115">
+  <defs>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF" />
+      <stop offset="45%" stop-color="#C026D3" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Accent slashes on top-left -->
+  <line x1="35" y1="35" x2="55" y2="15" stroke="#C026D3" stroke-width="3.5" stroke-linecap="round" opacity="0.9" />
+  <line x1="48" y1="35" x2="68" y2="15" stroke="#00E5FF" stroke-width="3.5" stroke-linecap="round" opacity="0.9" />
+
+  <!-- Main Title -->
+  <g text-anchor="middle">
+    <text x="500" y="55" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-weight="900" font-size="38" letter-spacing="2">
+      <tspan fill="#FFFFFF">HELLO! I'M </tspan>
+      <tspan fill="url(#titleGrad)" filter="url(#glow)">CHIMATA RAGHURAM</tspan>
+      <tspan fill="#FFD23F"> 👋</tspan>
+    </text>
+
+    <!-- Subtitle -->
+    <text x="500" y="90" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-weight="500" font-size="18" fill="#94A3B8" letter-spacing="0.5">
+      Python Full-Stack Developer <tspan fill="#00E5FF">•</tspan> Actively Learning and Tech Enthusiast
+    </text>
+  </g>
+</svg>

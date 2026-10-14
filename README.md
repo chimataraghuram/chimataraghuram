@@ -2,27 +2,37 @@
 <table width="100%">
   <tr>
     <td colspan="2" align="center" style="padding: 0;">
-      <img src="https://capsule-render.vercel.app/api?type=waving&height=230&text=Chimata%20Raghu%20Ram&fontAlign=50&fontAlignY=40&color=0:7c3aed,50:c026d3,100:0ea5e9&fontSize=65&desc=Python%20Full-Stack%20Developer%20-%20Actively%20Learning%20and%20Tech%20Enthusiast&descAlign=50&descAlignY=65&descSize=20&animation=fadeIn" width="100%" alt="Chimata Raghuram - GitHub Banner" />
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header.svg">
+        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header.svg">
+        <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header.svg" width="100%" alt="Hello! I'm Chimata Raghuram" />
+      </picture>
     </td>
   </tr>
   <tr>
-    <td width="30%" align="center" valign="middle">
-      <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/coding_from_home.gif" alt="Coding GIF" width="250"/>
+    <td width="42%" align="center" valign="middle">
+      <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/raghuram_dev.png" width="100%" alt="Chimata Raghuram - Python Developer" />
     </td>
-    <td width="70%">
-      <h2>Hello! I'm <b>Chimata Raghuram</b> 👋</h2>
-      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=a855f7&vCenter=true&width=550&lines=Python+Full-Stack+Developer;B.Tech+(AIML)+Undergraduate;AIML+Diploma+Holder;Tech+Enthusiast" alt="Typing Subtitle" />
+    <td width="58%" valign="top">
+      <br/>
+      <img src="https://img.shields.io/badge/%F0%9F%8E%93%20B.Tech%20(AIML)-Undergraduate-00E5FF?style=for-the-badge&labelColor=080c14" alt="B.Tech (AIML)" />
       <br/><br/>
-      <p style="font-size: 1.15em; line-height: 1.6;">
-        A B.Tech student with a diploma background in AI & ML, focused on developing Python full stack with AI powered and automated application
+      <p style="font-size: 1.1em; line-height: 1.6;">
+        A B.Tech student with a diploma background in <b>AI & ML</b>, focused on developing Python full-stack with AI-powered and automated applications.
       </p>
-      <ul style="font-size: 1.1em; line-height: 1.8;">
-        <li>🚀 Python Full-Stack Developer | Actively Learning & Tech Enthusiast</li>
-        <li>🌍 Based in <b>Vijayawada, Andhra Pradesh, India</b></li>
-        <li>🔭 Currently building: <a href="https://github.com/chimataraghuram/PORTFOLIO">PORTFOLIO</a> · <a href="https://github.com/chimataraghuram/PROJECT-FINDER">PROJECT-FINDER</a> · <a href="https://github.com/chimataraghuram/TECHBOY-AI">TECHBOY-AI</a></li>
-        <li>📫 Reach me: <a href="https://www.linkedin.com/in/chimataraghuram/">LinkedIn</a> · <a href="https://leetcode.com/u/chimataraghuram/">LeetCode</a> · <a href="mailto:chimataraghuram02a@gmail.com">Email</a></li>
-        <li>⚡ Fun fact: I built a <b>Space Invaders minigame</b> hidden inside my own portfolio — find it if you can! 🎮</li>
-      </ul>
+      <p style="font-size: 1.05em; line-height: 1.9;">
+        🚀 <b>Python Full-Stack Developer</b> | Actively Learning & Tech Enthusiast<br/>
+        📍 <b>Based in</b> Vijayawada, Andhra Pradesh, India<br/>
+        🛠 <b>Currently building:</b>&nbsp;
+        <a href="https://github.com/chimataraghuram/PROJECT-FINDER"><img src="https://img.shields.io/badge/PROJECT--FINDER-00E5FF?style=flat-square&logo=github&logoColor=black" alt="PROJECT-FINDER" /></a>&nbsp;
+        <a href="https://github.com/chimataraghuram/TECHBOY-STORE"><img src="https://img.shields.io/badge/TECHBOY--STORE-C026D3?style=flat-square&logo=github&logoColor=white" alt="TECHBOY-STORE" /></a>&nbsp;
+        <a href="https://github.com/chimataraghuram/TECHBOY-AI"><img src="https://img.shields.io/badge/TECHBOY--AI-00C896?style=flat-square&logo=github&logoColor=white" alt="TECHBOY-AI" /></a><br/>
+        ✉️ <b>Reach me:</b>&nbsp;
+        <a href="https://www.linkedin.com/in/chimataraghuram/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
+        <a href="https://leetcode.com/u/chimataraghuram/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=white" alt="LeetCode" /></a>&nbsp;
+        <a href="mailto:chimataraghuram02a@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a><br/>
+        ⚡ <b>Fun fact:</b> I built a <b>Space Invaders minigame</b> hidden inside my own portfolio — find it if you can! 👾
+      </p>
     </td>
   </tr>
 </table>
