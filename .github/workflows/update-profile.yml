@@ -49,57 +49,111 @@ jobs:
             try {
               const response = await github.rest.activity.listPublicEventsForUser({
                 username: username,
-                per_page: 30
+                per_page: 50
               });
               events = response.data || [];
             } catch (err) {
               console.log(`Failed to fetch events: ${err.message}`);
             }
             
-            let activity = [];
+            let activityRows = [];
+            let seen = new Set();
             for (const ev of events) {
-              if (activity.length >= 5) break;
+              if (activityRows.length >= 5) break;
               let repo = ev.repo.name;
               let url = `https://github.com/${repo}`;
-              
+              let repoShort = repo.replace(`${username}/`, '');
               let dateStr = new Date(ev.created_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
               
+              let icon = '⚡';
+              let desc = '';
+              let key = '';
+              
               if (ev.type === 'PushEvent') {
-                let commits = ev.payload.size || (ev.payload.commits ? ev.payload.commits.length : 1);
+                icon = '🚀';
+                key = `push-${repo}`;
+                if (seen.has(key)) continue;
+                seen.add(key);
+                
                 let branch = ev.payload.ref ? ev.payload.ref.replace('refs/heads/', '') : 'main';
-                let commitMsg = ev.payload.commits && ev.payload.commits.length > 0 ? (ev.payload.commits[0].message || 'Updates pushed').split('\n')[0] : 'Updates pushed';
-                activity.push(`- 🚀 Pushed ${commits} commit(s) to \`${branch}\` in **[${repo}](${url})** — _${commitMsg}_ \`(${dateStr})\``);
+                let commitMsg = '';
+                if (ev.payload.commits && ev.payload.commits.length > 0 && ev.payload.commits[0].message) {
+                  commitMsg = ev.payload.commits[0].message.split('\n')[0];
+                } else if (ev.payload.head) {
+                  try {
+                    const [owner, rName] = repo.split('/');
+                    const commitData = await github.rest.repos.getCommit({
+                      owner,
+                      repo: rName,
+                      ref: ev.payload.head
+                    });
+                    commitMsg = commitData.data.commit.message.split('\n')[0];
+                  } catch (e) {
+                    commitMsg = `Pushed updates to \`${branch}\``;
+                  }
+                } else {
+                  commitMsg = `Pushed updates to \`${branch}\``;
+                }
+                
+                if (commitMsg.length > 60) commitMsg = commitMsg.slice(0, 57) + '...';
+                desc = commitMsg;
               } else if (ev.type === 'IssuesEvent') {
+                icon = '❗';
                 let action = ev.payload.action;
                 let issueNum = ev.payload.issue.number;
-                let issueUrl = ev.payload.issue.html_url || `https://github.com/${repo}/issues/${issueNum}`;
                 let title = ev.payload.issue.title || `Issue #${issueNum}`;
-                let emoji = action === 'opened' ? '❗' : (action === 'closed' ? '🔒' : '🗣️');
-                activity.push(`- ${emoji} ${action.charAt(0).toUpperCase() + action.slice(1)} Issue [#${issueNum}](${issueUrl}) in **[${repo}](${url})** — _${title}_ \`(${dateStr})\``);
+                if (title.length > 50) title = title.slice(0, 47) + '...';
+                desc = `${action.charAt(0).toUpperCase() + action.slice(1)} issue #${issueNum} — ${title}`;
+                key = `issue-${repo}-${issueNum}`;
+                if (seen.has(key)) continue;
+                seen.add(key);
               } else if (ev.type === 'PullRequestEvent') {
+                icon = '🔄';
                 let action = ev.payload.action;
                 let prNum = ev.payload.number || ev.payload.pull_request.number;
-                let prUrl = ev.payload.pull_request.html_url || `https://github.com/${repo}/pull/${prNum}`;
-                let title = ev.payload.pull_request.title || `Pull Request #${prNum}`;
-                activity.push(`- 🔄 ${action.charAt(0).toUpperCase() + action.slice(1)} PR [#${prNum}](${prUrl}) in **[${repo}](${url})** — _${title}_ \`(${dateStr})\``);
+                let title = ev.payload.pull_request.title || `PR #${prNum}`;
+                if (title.length > 50) title = title.slice(0, 47) + '...';
+                desc = `${action.charAt(0).toUpperCase() + action.slice(1)} PR #${prNum} — ${title}`;
+                key = `pr-${repo}-${prNum}`;
+                if (seen.has(key)) continue;
+                seen.add(key);
               } else if (ev.type === 'CreateEvent') {
-                let refType = ev.payload.ref_type;
-                activity.push(`- 🎉 Created ${refType} in **[${repo}](${url})** \`(${dateStr})\``);
+                icon = '🎉';
+                let refType = ev.payload.ref_type || 'repository';
+                desc = `Created new ${refType} in repository`;
+                key = `create-${repo}-${refType}`;
+                if (seen.has(key)) continue;
+                seen.add(key);
               } else if (ev.type === 'WatchEvent') {
-                activity.push(`- ⭐ Starred **[${repo}](${url})** \`(${dateStr})\``);
+                icon = '⭐';
+                desc = `Starred repository`;
+                key = `watch-${repo}`;
+                if (seen.has(key)) continue;
+                seen.add(key);
               } else if (ev.type === 'ForkEvent') {
-                activity.push(`- 🍴 Forked **[${repo}](${url})** \`(${dateStr})\``);
+                icon = '🍴';
+                desc = `Forked repository`;
+                key = `fork-${repo}`;
+                if (seen.has(key)) continue;
+                seen.add(key);
               } else {
                 continue;
               }
+              
+              activityRows.push(`    <tr>\n      <td align="center">${icon}</td>\n      <td><a href="${url}"><b>${repo}</b></a></td>\n      <td>${desc}</td>\n      <td align="center"><code>${dateStr}</code></td>\n    </tr>`);
             }
             
-            if (activity.length === 0) activity.push("No recent activity found.");
+            let tableContent = '';
+            if (activityRows.length === 0) {
+              tableContent = '<p align="center"><i>No recent activity found.</i></p>';
+            } else {
+              tableContent = `<table width="100%">\n  <thead>\n    <tr>\n      <th width="8%" align="center">Action</th>\n      <th width="32%" align="left">Repository</th>\n      <th width="45%" align="left">Activity</th>\n      <th width="15%" align="center">Date</th>\n    </tr>\n  </thead>\n  <tbody>\n${activityRows.join('\n')}\n  </tbody>\n</table>`;
+            }
             
             let readme = fs.readFileSync('README.md', 'utf8');
             readme = readme.replace(
               /<!--START_SECTION:activity-->[\s\S]*<!--END_SECTION:activity-->/,
-              `<!--START_SECTION:activity-->\n${activity.join('\n')}\n<!--END_SECTION:activity-->`
+              `<!--START_SECTION:activity-->\n${tableContent}\n<!--END_SECTION:activity-->`
             );
             
             // Update Profile Stats Section automatically
