@@ -30,18 +30,6 @@
   </tr>
 </table>
 
-<!-- OPEN TO WORK / HIRE ME -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Open_to_Work-Actively_Looking-22c55e?style=for-the-badge&logo=target&logoColor=white" alt="Open to Work" />
-  &nbsp;
-  <a href="mailto:chimataraghuram02a@gmail.com">
-    <img src="https://img.shields.io/badge/Hire_Me-chimataraghuram02a%40gmail.com-7c3aed?style=for-the-badge&logo=gmail&logoColor=white" alt="Hire Me" />
-  </a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/chimataraghuram/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xOSAzYTIgMiAwIDAgMSAyIDJ2MTRhMiAyIDAgMCAxLTIgMkg1YTIgMiAwIDAgMS0yLTJWNWEyIDIgMCAwIDEgMi0yaDE0bS0uNSAxNS41di01LjNhMy4yNiAzLjI2IDAgMCAwLTMuMjYtMy4yNmMtLjg1IDAtMS44NC41Mi0yLjI4IDEuM3YtMS4xMWgtMi43OXY4LjM3aDIuNzl2LTQuOTNjMC0uNzcuNjItMS40IDEuMzktMS40YTEuNCAxLjQgMCAwIDEgMS40IDEuNHY0LjkzaDIuNzVNNi40NiAxMC45djguMzdIOS4yVjEwLjlINi40Nk03LjgzIDYuMzJhMS42NyAxLjY3IDAgMCAwLTEuNjcgMS42NyAxLjY3IDEuNjcgMCAwIDAgMS42NyAxLjY3IDEuNjcgMS42NyAwIDAgMCAxLjY3LTEuNjdjMC0uOTItLjc1LTEuNjctMS42Ny0xLjY3WiIvPjwvc3ZnPg%3D%3D" alt="LinkedIn" />
-  </a>
-</p>
 
 <!-- SNAKE CONTRIBUTION GRAPH -->
 <div align="center">
@@ -68,6 +56,19 @@
   <a href="https://leetcode.com/u/chimataraghuram/"><img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Profile" /></a>
 </p>
 <!-- END_SECTION:profile_stats -->
+
+<!-- OPEN TO WORK / HIRE ME -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Open_to_Work-Actively_Looking-22c55e?style=for-the-badge&logo=target&logoColor=white" alt="Open to Work" />
+  &nbsp;
+  <a href="mailto:chimataraghuram02a@gmail.com">
+    <img src="https://img.shields.io/badge/Hire_Me-chimataraghuram02a%40gmail.com-7c3aed?style=for-the-badge&logo=gmail&logoColor=white" alt="Hire Me" />
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/chimataraghuram/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xOSAzYTIgMiAwIDAgMSAyIDJ2MTRhMiAyIDAgMCAxLTIgMkg1YTIgMiAwIDAgMS0yLTJWNWEyIDIgMCAwIDEgMi0yaDE0bS0uNSAxNS41di01LjNhMy4yNiAzLjI2IDAgMCAwLTMuMjYtMy4yNmMtLjg1IDAtMS44NC41Mi0yLjI4IDEuM3YtMS4xMWgtMi43OXY4LjM3aDIuNzl2LTQuOTNjMC0uNzcuNjItMS40IDEuMzktMS40YTEuNCAxLjQgMCAwIDEgMS40IDEuNHY0LjkzaDIuNzVNNi40NiAxMC45djguMzdIOS4yVjEwLjlINi40Nk03LjgzIDYuMzJhMS42NyAxLjY3IDAgMCAwLTEuNjcgMS42NyAxLjY3IDEuNjcgMCAwIDAgMS42NyAxLjY3IDEuNjcgMS42NyAwIDAgMCAxLjY3LTEuNjdjMC0uOTItLjc1LTEuNjctMS42Ny0xLjY3WiIvPjwvc3ZnPg%3D%3D" alt="LinkedIn" />
+  </a>
+</p>
 
 <!-- ACHIEVEMENTS -->
 <div align="center">
