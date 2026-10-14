@@ -3,9 +3,9 @@
   <tr>
     <td colspan="2" align="center" style="padding: 0;">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header.png">
-        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header.png">
-        <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header.png" width="100%" alt="Hello! I'm Chimata Raghuram" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg">
+        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg">
+        <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg" width="100%" alt="Hello! I'm Chimata Raghuram" />
       </picture>
     </td>
   </tr>
