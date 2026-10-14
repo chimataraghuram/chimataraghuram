@@ -8,6 +8,41 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=a855f7&center=true&vCenter=true&width=800&lines=Python+Full-Stack+Developer;B.Tech+(AIML)+Undergraduate;AIML+Diploma+Holder;Tech+Enthusiast" />
 </p>
 
+<!-- ABOUT ME -->
+<table>
+  <tr>
+    <td width="30%">
+      <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/coding_from_home.gif" alt="Coding GIF" width="250"/>
+    </td>
+    <td width="70%">
+      <h2>Hello! I'm <b>Chimata Raghuram</b> 👋</h2>
+      <p style="font-size: 1.15em; line-height: 1.6;">
+        A B.Tech student with a diploma background in AI & ML, focused on developing Python full stack with AI powered and automated application
+      </p>
+      <ul style="font-size: 1.1em; line-height: 1.8;">
+        <li>🚀 Python Full-Stack Developer | Actively Learning & Tech Enthusiast</li>
+        <li>🌍 Based in <b>Vijayawada, Andhra Pradesh, India</b></li>
+        <li>🔭 Currently building: <a href="https://github.com/chimataraghuram/PORTFOLIO">PORTFOLIO</a> · <a href="https://github.com/chimataraghuram/PROJECT-FINDER">PROJECT-FINDER</a> · <a href="https://github.com/chimataraghuram/TECHBOY-AI">TECHBOY-AI</a></li>
+        <li>📫 Reach me: <a href="https://www.linkedin.com/in/chimataraghuram/">LinkedIn</a> · <a href="https://leetcode.com/u/chimataraghuram/">LeetCode</a> · <a href="mailto:chimataraghuram02a@gmail.com">Email</a></li>
+        <li>⚡ Fun fact: I built a <b>Space Invaders minigame</b> hidden inside my own portfolio — find it if you can! 🎮</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<!-- OPEN TO WORK / HIRE ME -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Open_to_Work-Actively_Looking-22c55e?style=for-the-badge&logo=target&logoColor=white" alt="Open to Work" />
+  &nbsp;
+  <a href="mailto:chimataraghuram02a@gmail.com">
+    <img src="https://img.shields.io/badge/Hire_Me-chimataraghuram02a%40gmail.com-7c3aed?style=for-the-badge&logo=gmail&logoColor=white" alt="Hire Me" />
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/chimataraghuram/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xOSAzYTIgMiAwIDAgMSAyIDJ2MTRhMiAyIDAgMCAxLTIgMkg1YTIgMiAwIDAgMS0yLTJWNWEyIDIgMCAwIDEgMi0yaDE0bS0uNSAxNS41di01LjNhMy4yNiAzLjI2IDAgMCAwLTMuMjYtMy4yNmMtLjg1IDAtMS44NC41Mi0yLjI4IDEuM3YtMS4xMWgtMi43OXY4LjM3aDIuNzl2LTQuOTNjMC0uNzcuNjItMS40IDEuMzktMS40YTEuNCAxLjQgMCAwIDEgMS40IDEuNHY0LjkzaDIuNzVNNi40NiAxMC45djguMzdIOS4yVjEwLjlINi40Nk03LjgzIDYuMzJhMS42NyAxLjY3IDAgMCAwLTEuNjcgMS42NyAxLjY3IDEuNjcgMCAwIDAgMS42NyAxLjY3IDEuNjcgMS42NyAwIDAgMCAxLjY3LTEuNjdjMC0uOTItLjc1LTEuNjctMS42Ny0xLjY3WiIvPjwvc3ZnPg%3D%3D" alt="LinkedIn" />
+  </a>
+</p>
+
 <!-- SNAKE CONTRIBUTION GRAPH -->
 <div align="center">
   <picture>
@@ -34,21 +69,6 @@
 </p>
 <!-- END_SECTION:profile_stats -->
 
-<!-- OPEN TO WORK / HIRE ME -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Open_to_Work-Actively_Looking-22c55e?style=for-the-badge&logo=target&logoColor=white" alt="Open to Work" />
-  &nbsp;
-  <a href="mailto:chimataraghuram02a@gmail.com">
-    <img src="https://img.shields.io/badge/Hire_Me-chimataraghuram02a%40gmail.com-7c3aed?style=for-the-badge&logo=gmail&logoColor=white" alt="Hire Me" />
-  </a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/chimataraghuram/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xOSAzYTIgMiAwIDAgMSAyIDJ2MTRhMiAyIDAgMCAxLTIgMkg1YTIgMiAwIDAgMS0yLTJWNWEyIDIgMCAwIDEgMi0yaDE0bS0uNSAxNS41di01LjNhMy4yNiAzLjI2IDAgMCAwLTMuMjYtMy4yNmMtLjg1IDAtMS44NC41Mi0yLjI4IDEuM3YtMS4xMWgtMi43OXY4LjM3aDIuNzl2LTQuOTNjMC0uNzcuNjItMS40IDEuMzktMS40YTEuNCAxLjQgMCAwIDEgMS40IDEuNHY0LjkzaDIuNzVNNi40NiAxMC45djguMzdIOS4yVjEwLjlINi40Nk03LjgzIDYuMzJhMS42NyAxLjY3IDAgMCAwLTEuNjcgMS42NyAxLjY3IDEuNjcgMCAwIDAgMS42NyAxLjY3IDEuNjcgMS42NyAwIDAgMCAxLjY3LTEuNjdjMC0uOTItLjc1LTEuNjctMS42Ny0xLjY3WiIvPjwvc3ZnPg%3D%3D" alt="LinkedIn" />
-  </a>
-</p>
-
-
-
 <!-- ACHIEVEMENTS -->
 <div align="center">
   <br/>
@@ -62,30 +82,6 @@
   <br/>
   <strong>Official GitHub Achievements</strong>
 </div>
-
-
-## ⚡ About Me
-
-<table>
-  <tr>
-    <td width="30%">
-      <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/coding_from_home.gif" alt="Coding GIF" width="250"/>
-    </td>
-    <td width="70%">
-      <h2>Hello! I'm <b>Chimata Raghuram</b> 👋</h2>
-      <p style="font-size: 1.15em; line-height: 1.6;">
-        A B.Tech student with a diploma background in AI & ML, focused on developing Python full stack with AI powered and automated application
-      </p>
-      <ul style="font-size: 1.1em; line-height: 1.8;">
-        <li>🚀 Python Full-Stack Developer | Actively Learning & Tech Enthusiast</li>
-        <li>🌍 Based in <b>Vijayawada, Andhra Pradesh, India</b></li>
-        <li>🔭 Currently building: <a href="https://github.com/chimataraghuram/PORTFOLIO">PORTFOLIO</a> · <a href="https://github.com/chimataraghuram/PROJECT-FINDER">PROJECT-FINDER</a> · <a href="https://github.com/chimataraghuram/TECHBOY-AI">TECHBOY-AI</a></li>
-        <li>📫 Reach me: <a href="https://www.linkedin.com/in/chimataraghuram/">LinkedIn</a> · <a href="https://leetcode.com/u/chimataraghuram/">LeetCode</a> · <a href="mailto:chimataraghuram02a@gmail.com">Email</a></li>
-        <li>⚡ Fun fact: I built a <b>Space Invaders minigame</b> hidden inside my own portfolio — find it if you can! 🎮</li>
-      </ul>
-    </td>
-  </tr>
-</table>
 
 <br/>
 
