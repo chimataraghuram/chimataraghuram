@@ -15,15 +15,14 @@
     </td>
     <td width="58%" valign="top" style="padding-left: 16px;">
       <p style="margin: 6px 0 14px 0;">
-        <img src="https://img.shields.io/badge/%E2%9C%A8%20ABOUT%20ME-00E5FF?style=for-the-badge&labelColor=060913&color=00E5FF" height="26" alt="About Me" />
+        <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_btech.png" height="38" alt="B.Tech (AIML)" />
       </p>
       <p style="font-size: 1.05em; line-height: 1.6; margin: 0 0 16px 0; color: #E2E8F0;">
-        A B.Tech student with a diploma background in <b>AI & ML</b>, focused on developing Python full-stack applications powered by AI and automation.
+        A B.Tech student with a diploma background in <b>AI & ML</b>, focused on developing Python full-stack with AI-powered and automated applications.
       </p>
       <p style="font-size: 1.02em; line-height: 1.8; margin: 0 0 14px 0; color: #CBD5E1;">
-        🎓 <b>Education:</b> B.Tech (AIML) — Undergraduate<br/>
-        🚀 <b>Role:</b> Python Full-Stack Developer | Actively Learning & Tech Enthusiast<br/>
-        📍 <b>Location:</b> Vijayawada, Andhra Pradesh, India
+        🚀 <b>Python Full-Stack Developer</b> | Actively Learning & Tech Enthusiast<br/>
+        📍 <b>Based in</b> Vijayawada, Andhra Pradesh, India
       </p>
       <p style="margin: 0 0 14px 0; line-height: 1.9; color: #CBD5E1;">
         🛠 <b>Currently Building:</b><br/>
