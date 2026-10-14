@@ -15,7 +15,7 @@
     </td>
     <td width="56%" valign="top" style="padding-left: 20px;">
       <p style="margin: 4px 0 14px 0;">
-        <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_btech.png" height="36" alt="B.Tech (AIML)" />
+        <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_about_me.svg" height="36" alt="About Me" />
       </p>
       <p style="font-size: 1.05em; line-height: 1.6; margin: 0 0 16px 0; color: #E2E8F0;">
         A B.Tech student with a diploma background in <b>AI & ML</b>, focused on developing Python full-stack with AI-powered and automated applications.
