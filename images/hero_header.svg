@@ -19,8 +19,8 @@
     </filter>
   </defs>
 
-  <!-- Cyber frame background -->
-  <rect x="2" y="2" width="996" height="126" rx="16" fill="#070a12" stroke="url(#neonBorder)" stroke-width="2" />
+  <!-- Cyber frame background (borderless) -->
+  <rect x="0" y="0" width="1000" height="130" fill="transparent" />
 
   <!-- Accent slashes on top-left -->
   <line x1="32" y1="38" x2="52" y2="18" stroke="#C026D3" stroke-width="3.5" stroke-linecap="round" opacity="0.9" />
