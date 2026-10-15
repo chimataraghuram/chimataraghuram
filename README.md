@@ -71,7 +71,7 @@
   &nbsp;
   <img src="https://img.shields.io/badge/Stars-14-0ea5e9?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAxNy4yN0wxOC4xOCAyMWwtMS42NC03LjAzTDIyIDkuMjRsLTcuMTktLjYxTDEyIDIgOS4xOSA4LjYzIDIgOS4yNGw1LjQ2IDQuNzNMNS44MiAyMXoiLz48L3N2Zz4%3D" alt="Stars" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Deployments-1771-22c55e?style=for-the-badge&logo=vercel&logoColor=white" alt="Deployments" />
+  <img src="https://img.shields.io/badge/Deployments-1772-22c55e?style=for-the-badge&logo=vercel&logoColor=white" alt="Deployments" />
   &nbsp;
   <img src="https://img.shields.io/badge/Repositories-24-a855f7?style=for-the-badge&logo=git&logoColor=white" alt="Repositories" />
   &nbsp;
@@ -515,7 +515,7 @@
     <tr>
       <td align="center">🚀</td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
-      <td>Separate hero header from table to remove dividing table ...</td>
+      <td>Restore premium futuristic neon glows, gradient typograph...</td>
       <td align="center"><code>Oct 14</code></td>
     </tr>
     <tr>
@@ -523,24 +523,6 @@
       <td><a href="https://github.com/hiteshchoudhary/Codebox"><b>hiteshchoudhary/Codebox</b></a></td>
       <td>Starred repository</td>
       <td align="center"><code>Oct 7</code></td>
-    </tr>
-    <tr>
-      <td align="center">🎉</td>
-      <td><a href="https://github.com/chimataraghuram/Aqua"><b>chimataraghuram/Aqua</b></a></td>
-      <td>Created new branch in repository</td>
-      <td align="center"><code>Oct 1</code></td>
-    </tr>
-    <tr>
-      <td align="center">🚀</td>
-      <td><a href="https://github.com/chimataraghuram/Aqua"><b>chimataraghuram/Aqua</b></a></td>
-      <td>Build production-ready cross-browser Aqua extension</td>
-      <td align="center"><code>Oct 1</code></td>
-    </tr>
-    <tr>
-      <td align="center">⭐</td>
-      <td><a href="https://github.com/Appllama/appllama-skills"><b>Appllama/appllama-skills</b></a></td>
-      <td>Starred repository</td>
-      <td align="center"><code>Oct 1</code></td>
     </tr>
   </tbody>
 </table>
