@@ -515,7 +515,7 @@
     <tr>
       <td align="center">🚀</td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
-      <td>Reposition Open to Work and Hire Me badges next to stats ...</td>
+      <td>Change badge label from EDUCATION to ABOUT ME</td>
       <td align="center"><code>Oct 14</code></td>
     </tr>
     <tr>
