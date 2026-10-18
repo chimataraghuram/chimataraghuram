@@ -1,23 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 36" width="160" height="36">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 165 38" width="165" height="38">
   <defs>
     <linearGradient id="badgeBorder" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.6" />
-      <stop offset="100%" stop-color="#818CF8" stop-opacity="0.3" />
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#818CF8" />
+      <stop offset="100%" stop-color="#C084FC" />
     </linearGradient>
-    <linearGradient id="badgeBg" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="badgeBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0F172A" />
-      <stop offset="100%" stop-color="#0B1120" />
+      <stop offset="100%" stop-color="#1E293B" />
     </linearGradient>
   </defs>
 
-  <!-- Clean modern pill -->
-  <rect x="1" y="1" width="158" height="34" rx="17" fill="url(#badgeBg)" stroke="url(#badgeBorder)" stroke-width="1.2" />
-
-  <!-- Sleek Star Icon -->
-  <path d="M22 11 L24 16 L29 18 L24 20 L22 25 L20 20 L15 18 L20 16 Z" fill="#38BDF8" />
-
+  <rect x="1" y="1" width="163" height="36" rx="18" fill="url(#badgeBg)" stroke="url(#badgeBorder)" stroke-width="1.4" />
+  
+  <!-- Modern Sparkle Icon -->
+  <text x="18" y="25" font-family="'Segoe UI Emoji', sans-serif" font-size="16">✨</text>
+  
   <!-- Text -->
-  <text x="38" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-weight="700" font-size="13" letter-spacing="1.5" fill="#F1F5F9">
+  <text x="46" y="25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-weight="800" font-size="14" letter-spacing="1.2" fill="#F8FAFC">
     ABOUT ME
   </text>
 </svg>

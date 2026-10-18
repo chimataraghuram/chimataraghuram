@@ -1,24 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 85" width="100%" height="auto">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 125" width="100%" height="auto">
   <defs>
-    <!-- Clean, subtle text gradient -->
-    <linearGradient id="normalGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#58A6FF" />
-      <stop offset="100%" stop-color="#38BDF8" />
+    <!-- Dark Glassmorphism Gradient -->
+    <linearGradient id="cardSurface" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="50%" stop-color="#111C35" />
+      <stop offset="100%" stop-color="#0B1120" />
     </linearGradient>
 
-    <!-- Typing clip path: width 0 to 550px -->
+    <!-- Top Edge Shimmer Line -->
+    <linearGradient id="edgeShimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0" />
+      <stop offset="25%" stop-color="#38BDF8" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.9" />
+      <stop offset="75%" stop-color="#C084FC" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Vibrant Gradient Text -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#818CF8" />
+      <stop offset="100%" stop-color="#C084FC" />
+    </linearGradient>
+
+    <!-- Typing clip path: 40px to 540px -->
     <clipPath id="typeClip">
-      <rect x="0" y="0" width="0" height="52">
-        <animate attributeName="width" values="0; 0; 545; 545; 0" keyTimes="0; 0.05; 0.50; 0.90; 1" dur="6.5s" repeatCount="indefinite" />
+      <rect x="36" y="32" width="0" height="52">
+        <animate attributeName="width" values="0; 0; 530; 530; 0" keyTimes="0; 0.05; 0.50; 0.90; 1" dur="6.5s" repeatCount="indefinite" />
       </rect>
     </clipPath>
   </defs>
 
   <style>
     @keyframes moveCaret {
-      0%, 5% { transform: translateX(0px); opacity: 1; }
+      0%, 5% { transform: translateX(38px); opacity: 1; }
       50%, 90% { transform: translateX(548px); opacity: 1; }
-      96%, 100% { transform: translateX(0px); opacity: 0; }
+      96%, 100% { transform: translateX(38px); opacity: 0; }
     }
     @keyframes blinkCaret {
       0%, 49% { opacity: 1; }
@@ -29,26 +46,50 @@
     }
   </style>
 
-  <!-- Centered / Left-aligned Animated Headline (Transparent, No Box) -->
-  <g transform="translate(10, 8)">
-    <g clip-path="url(#typeClip)">
-      <text x="0" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-weight="800" font-size="30" letter-spacing="0.5">
-        <tspan fill="#F0F6FC">HELLO! I'M </tspan>
-        <tspan fill="url(#normalGrad)">CHIMATA RAGHURAM</tspan>
-      </text>
-    </g>
+  <!-- Modern Card Background with Subtle Border -->
+  <rect x="1" y="1" width="978" height="123" rx="14" fill="url(#cardSurface)" stroke="#1E293B" stroke-width="1.2" />
+  
+  <!-- Shimmer Top Edge (1.5px accent line) -->
+  <line x1="25" y1="1" x2="955" y2="1" stroke="url(#edgeShimmer)" stroke-width="2" />
 
-    <!-- Caret Cursor -->
-    <rect class="caret" y="10" width="3" height="30" rx="1.5" fill="#58A6FF" />
+  <!-- Window Dots / Terminal Lights -->
+  <circle cx="32" cy="24" r="4.5" fill="#EF4444" opacity="0.85" />
+  <circle cx="48" cy="24" r="4.5" fill="#F59E0B" opacity="0.85" />
+  <circle cx="64" cy="24" r="4.5" fill="#10B981" opacity="0.85" />
 
-    <!-- Waving Hand -->
-    <g transform="translate(560, 10)">
-      <text y="26" font-family="'Segoe UI Emoji', 'Apple Color Emoji', sans-serif" font-size="26">👋</text>
-    </g>
+  <!-- Code Tag Prompt -->
+  <text x="82" y="28" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="12" font-weight="600" fill="#64748B">~/chimataraghuram/portfolio</text>
 
-    <!-- Subtitle (Clean Slate / GitHub Secondary Text) -->
-    <text x="2" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-weight="400" font-size="15.5" fill="#8B949E">
-      Python Full-Stack Developer • Actively Learning and Tech Enthusiast
+  <!-- Live Status Pill Badge (Top Right) -->
+  <g transform="translate(810, 13)">
+    <rect width="146" height="24" rx="12" fill="#064E3B" fill-opacity="0.4" stroke="#10B981" stroke-width="1" stroke-opacity="0.4" />
+    <circle cx="16" cy="12" r="4" fill="#10B981">
+      <animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="29" y="16.5" fill="#34D399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="0.5">OPEN TO WORK</text>
+  </g>
+
+  <!-- Animated Typed Title -->
+  <g clip-path="url(#typeClip)">
+    <text x="40" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-weight="900" font-size="30" letter-spacing="0.6">
+      <tspan fill="#F8FAFC">HELLO! I'M </tspan>
+      <tspan fill="url(#textGrad)">CHIMATA RAGHURAM</tspan>
     </text>
   </g>
+
+  <!-- Caret Cursor -->
+  <rect class="caret" y="48" width="3" height="30" rx="1.5" fill="#38BDF8" />
+
+  <!-- Waving Hand next to name -->
+  <g transform="translate(562, 50)">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="0 14 14; 16 14 14; 0 14 14; 16 14 14; 0 14 14" dur="2s" repeatCount="indefinite" />
+      <text x="0" y="24" font-family="'Segoe UI Emoji', 'Apple Color Emoji', sans-serif" font-size="26">👋</text>
+    </g>
+  </g>
+
+  <!-- Subtitle -->
+  <text x="40" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-weight="500" font-size="15" fill="#94A3B8" letter-spacing="0.3">
+    Python Full-Stack Developer • Actively Learning &amp; Tech Enthusiast
+  </text>
 </svg>
