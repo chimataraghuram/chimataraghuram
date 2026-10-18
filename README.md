@@ -515,7 +515,7 @@
     <tr>
       <td align="center">🚀</td>
       <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b>chimataraghuram/TECHBOY-STORE</b></a></td>
-      <td>feat: enhance modals, specs sheet, gallery, RAG service, ...</td>
+      <td>feat: replace redundant account info with wishlist mobile...</td>
       <td align="center"><code>Oct 18</code></td>
     </tr>
     <tr>
