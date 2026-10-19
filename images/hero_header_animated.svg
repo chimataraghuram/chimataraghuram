@@ -1,32 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 125" width="100%" height="auto">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 120" width="100%" height="auto">
   <defs>
-    <!-- Dark Glassmorphism Gradient -->
-    <linearGradient id="cardSurface" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0F172A" />
-      <stop offset="50%" stop-color="#111C35" />
-      <stop offset="100%" stop-color="#0B1120" />
+    <!-- Modern Dark Gradient Background -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0F1D" />
+      <stop offset="50%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#0A0F1D" />
     </linearGradient>
 
-    <!-- Top Edge Shimmer Line -->
-    <linearGradient id="edgeShimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Top Highlight Border Shimmer -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38BDF8" stop-opacity="0" />
-      <stop offset="25%" stop-color="#38BDF8" stop-opacity="0.8" />
-      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.9" />
-      <stop offset="75%" stop-color="#C084FC" stop-opacity="0.8" />
+      <stop offset="20%" stop-color="#38BDF8" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.8" />
+      <stop offset="80%" stop-color="#C084FC" stop-opacity="0.6" />
       <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
     </linearGradient>
 
     <!-- Vibrant Gradient Text -->
-    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38BDF8" />
-      <stop offset="50%" stop-color="#818CF8" />
-      <stop offset="100%" stop-color="#C084FC" />
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF" />
+      <stop offset="50%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#A855F7" />
     </linearGradient>
 
-    <!-- Typing clip path: 40px to 540px -->
+    <!-- Soft Typing Cursor Glow -->
+    <filter id="caretGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Typing clip path: 40px to 545px -->
     <clipPath id="typeClip">
-      <rect x="36" y="32" width="0" height="52">
-        <animate attributeName="width" values="0; 0; 530; 530; 0" keyTimes="0; 0.05; 0.50; 0.90; 1" dur="6.5s" repeatCount="indefinite" />
+      <rect x="38" y="22" width="0" height="52">
+        <animate attributeName="width" values="0; 0; 545; 545; 0" keyTimes="0; 0.05; 0.50; 0.90; 1" dur="6.5s" repeatCount="indefinite" />
       </rect>
     </clipPath>
   </defs>
@@ -34,7 +43,7 @@
   <style>
     @keyframes moveCaret {
       0%, 5% { transform: translateX(38px); opacity: 1; }
-      50%, 90% { transform: translateX(548px); opacity: 1; }
+      50%, 90% { transform: translateX(562px); opacity: 1; }
       96%, 100% { transform: translateX(38px); opacity: 0; }
     }
     @keyframes blinkCaret {
@@ -46,50 +55,33 @@
     }
   </style>
 
-  <!-- Modern Card Background with Subtle Border -->
-  <rect x="1" y="1" width="978" height="123" rx="14" fill="url(#cardSurface)" stroke="#1E293B" stroke-width="1.2" />
+  <!-- Modern Dark Glass Card Surface -->
+  <rect x="1" y="1" width="978" height="118" rx="14" fill="url(#bgGrad)" stroke="#1E293B" stroke-width="1.2" />
   
-  <!-- Shimmer Top Edge (1.5px accent line) -->
-  <line x1="25" y1="1" x2="955" y2="1" stroke="url(#edgeShimmer)" stroke-width="2" />
-
-  <!-- Window Dots / Terminal Lights -->
-  <circle cx="32" cy="24" r="4.5" fill="#EF4444" opacity="0.85" />
-  <circle cx="48" cy="24" r="4.5" fill="#F59E0B" opacity="0.85" />
-  <circle cx="64" cy="24" r="4.5" fill="#10B981" opacity="0.85" />
-
-  <!-- Code Tag Prompt -->
-  <text x="82" y="28" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="12" font-weight="600" fill="#64748B">~/chimataraghuram/portfolio</text>
-
-  <!-- Live Status Pill Badge (Top Right) -->
-  <g transform="translate(810, 13)">
-    <rect width="146" height="24" rx="12" fill="#064E3B" fill-opacity="0.4" stroke="#10B981" stroke-width="1" stroke-opacity="0.4" />
-    <circle cx="16" cy="12" r="4" fill="#10B981">
-      <animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite" />
-    </circle>
-    <text x="29" y="16.5" fill="#34D399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="0.5">OPEN TO WORK</text>
-  </g>
+  <!-- Subtle Glowing Top Accent Border -->
+  <line x1="20" y1="1" x2="960" y2="1" stroke="url(#borderGrad)" stroke-width="2" />
 
   <!-- Animated Typed Title -->
   <g clip-path="url(#typeClip)">
-    <text x="40" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-weight="900" font-size="30" letter-spacing="0.6">
-      <tspan fill="#F8FAFC">HELLO! I'M </tspan>
-      <tspan fill="url(#textGrad)">CHIMATA RAGHURAM</tspan>
+    <text x="40" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-weight="900" font-size="32" letter-spacing="0.8">
+      <tspan fill="#FFFFFF">HELLO! I'M </tspan>
+      <tspan fill="url(#titleGrad)">CHIMATA RAGHURAM</tspan>
     </text>
   </g>
 
   <!-- Caret Cursor -->
-  <rect class="caret" y="48" width="3" height="30" rx="1.5" fill="#38BDF8" />
+  <rect class="caret" y="34" width="3.5" height="34" rx="1.5" fill="#00E5FF" filter="url(#caretGlow)" />
 
-  <!-- Waving Hand next to name -->
-  <g transform="translate(562, 50)">
+  <!-- Waving Hand -->
+  <g transform="translate(574, 34)">
     <g>
       <animateTransform attributeName="transform" type="rotate" values="0 14 14; 16 14 14; 0 14 14; 16 14 14; 0 14 14" dur="2s" repeatCount="indefinite" />
-      <text x="0" y="24" font-family="'Segoe UI Emoji', 'Apple Color Emoji', sans-serif" font-size="26">👋</text>
+      <text x="0" y="27" font-family="'Segoe UI Emoji', 'Apple Color Emoji', sans-serif" font-size="28">👋</text>
     </g>
   </g>
 
   <!-- Subtitle -->
-  <text x="40" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-weight="500" font-size="15" fill="#94A3B8" letter-spacing="0.3">
+  <text x="40" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-weight="500" font-size="15.5" fill="#94A3B8" letter-spacing="0.4">
     Python Full-Stack Developer • Actively Learning &amp; Tech Enthusiast
   </text>
 </svg>
