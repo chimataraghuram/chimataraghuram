@@ -32,10 +32,10 @@
       </feMerge>
     </filter>
 
-    <!-- Typing clip path: 40px to 545px -->
+    <!-- Typing clip path: width 0 to 630px -->
     <clipPath id="typeClip">
-      <rect x="38" y="22" width="0" height="52">
-        <animate attributeName="width" values="0; 0; 545; 545; 0" keyTimes="0; 0.05; 0.50; 0.90; 1" dur="6.5s" repeatCount="indefinite" />
+      <rect x="36" y="22" width="0" height="52">
+        <animate attributeName="width" values="0; 0; 630; 630; 0" keyTimes="0; 0.05; 0.50; 0.90; 1" dur="6.5s" repeatCount="indefinite" />
       </rect>
     </clipPath>
   </defs>
@@ -43,7 +43,7 @@
   <style>
     @keyframes moveCaret {
       0%, 5% { transform: translateX(38px); opacity: 1; }
-      50%, 90% { transform: translateX(562px); opacity: 1; }
+      50%, 90% { transform: translateX(625px); opacity: 1; }
       96%, 100% { transform: translateX(38px); opacity: 0; }
     }
     @keyframes blinkCaret {
@@ -69,11 +69,11 @@
     </text>
   </g>
 
-  <!-- Caret Cursor -->
+  <!-- Caret Cursor positioned cleanly after the M -->
   <rect class="caret" y="34" width="3.5" height="34" rx="1.5" fill="#00E5FF" filter="url(#caretGlow)" />
 
-  <!-- Waving Hand -->
-  <g transform="translate(574, 34)">
+  <!-- Waving Hand placed cleanly after the caret -->
+  <g transform="translate(642, 34)">
     <g>
       <animateTransform attributeName="transform" type="rotate" values="0 14 14; 16 14 14; 0 14 14; 16 14 14; 0 14 14" dur="2s" repeatCount="indefinite" />
       <text x="0" y="27" font-family="'Segoe UI Emoji', 'Apple Color Emoji', sans-serif" font-size="28">👋</text>
