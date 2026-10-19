@@ -71,7 +71,7 @@
   &nbsp;
   <img src="https://img.shields.io/badge/Stars-14-0ea5e9?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAxNy4yN0wxOC4xOCAyMWwtMS42NC03LjAzTDIyIDkuMjRsLTcuMTktLjYxTDEyIDIgOS4xOSA4LjYzIDIgOS4yNGw1LjQ2IDQuNzNMNS44MiAyMXoiLz48L3N2Zz4%3D" alt="Stars" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Deployments-1807-22c55e?style=for-the-badge&logo=vercel&logoColor=white" alt="Deployments" />
+  <img src="https://img.shields.io/badge/Deployments-1808-22c55e?style=for-the-badge&logo=vercel&logoColor=white" alt="Deployments" />
   &nbsp;
   <img src="https://img.shields.io/badge/Repositories-24-a855f7?style=for-the-badge&logo=git&logoColor=white" alt="Repositories" />
   &nbsp;
@@ -515,13 +515,13 @@
     <tr>
       <td align="center">🚀</td>
       <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b>chimataraghuram/TECHBOY-STORE</b></a></td>
-      <td>feat(hero): 3D product card mosaic with mouse parallax, A...</td>
+      <td>feat: modernize profile tab filter navigation with glowin...</td>
       <td align="center"><code>Oct 18</code></td>
     </tr>
     <tr>
       <td align="center">🚀</td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
-      <td>Refine hero and profile section into a sleek, premium, vi...</td>
+      <td>Switch to clean, normal profile styling without flashy ne...</td>
       <td align="center"><code>Oct 18</code></td>
     </tr>
   </tbody>
