@@ -50,9 +50,9 @@
 <div align="center">
   <br/>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake-dark.svg?v=2026-10-23">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake.svg?v=2026-10-23">
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake.svg?v=2026-10-23" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake-dark.svg?v=2026-10-24">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake.svg?v=2026-10-24">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake.svg?v=2026-10-24" width="100%" />
   </picture>
   <br/><br/>
 </div>
