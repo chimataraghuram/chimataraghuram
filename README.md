@@ -507,15 +507,15 @@
   </thead>
   <tbody>
     <tr>
-      <td align="center">🔄</td>
+      <td align="center">🚀</td>
       <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b>chimataraghuram/TECHBOY-STORE</b></a></td>
-      <td>Merged PR #3 — PR #3</td>
+      <td>Merge pull request #2 from chimataraghuram/chimataraghura...</td>
       <td align="center"><code>Oct 24</code></td>
     </tr>
     <tr>
-      <td align="center">🚀</td>
+      <td align="center">🔄</td>
       <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b>chimataraghuram/TECHBOY-STORE</b></a></td>
-      <td>feat: implement AI Price Drop Radar and modernize README ...</td>
+      <td>Merged PR #3 — PR #3</td>
       <td align="center"><code>Oct 24</code></td>
     </tr>
     <tr>
