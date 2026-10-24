@@ -10,41 +10,40 @@
     </td>
   </tr>
   <tr>
-    <td width="41%" align="center" valign="middle">
+    <td width="40%" align="center" valign="middle">
       <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/raghuram_dev.png?v=2026-10-14" width="100%" alt="Chimata Raghuram - Python Developer" />
     </td>
-    <td width="59%" valign="top" style="padding-left: 20px;">
-      <p style="margin: 0 0 14px 0;">
-        <img src="https://img.shields.io/badge/%E2%9C%A8%20ABOUT%20ME-38BDF8?style=for-the-badge&logoColor=white&labelColor=0F172A&color=0284C7" height="28" alt="About Me" />
+    <td width="60%" valign="top" style="padding-left: 20px;">
+      <p style="margin: 0 0 12px 0;">
+        <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_about_me.svg?v=20261025" height="26" alt="About Me" />
       </p>
-      <p style="font-size: 1.02em; line-height: 1.6; margin: 0 0 16px 0; color: #CBD5E1;">
-        A B.Tech student with a diploma background in <b>AI & ML</b>, focused on developing Python full-stack with AI-powered and automated applications.
+      <p style="font-size: 1.02em; line-height: 1.6; margin: 0 0 14px 0; color: #CBD5E1;">
+        A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on developing Python full-stack with AI-powered and automated applications.
       </p>
-      <p style="margin: 0 0 10px 0; line-height: 1.8; color: #CBD5E1; font-size: 0.98em;">
-        🚀 <b>Role:</b> Python <b>Full-Stack Developer</b> | Actively Learning & Tech Enthusiast
+      <p style="margin: 0 0 10px 0; line-height: 1.7; color: #CBD5E1; font-size: 0.96em;">
+        🚀 <b>Specialization:</b> Python Full-Stack &amp; AI-Driven Web Applications
       </p>
-      <p style="margin: 0 0 14px 0; line-height: 1.8; color: #CBD5E1; font-size: 0.98em;">
-        📍 <b>Location:</b> Based in <b>Vijayawada, Andhra Pradesh, India</b>
+      <p style="margin: 0 0 14px 0; line-height: 1.7; color: #CBD5E1; font-size: 0.96em;">
+        📍 <b>Location:</b> Vijayawada, Andhra Pradesh, India
       </p>
-      <p style="margin: 0 0 14px 0; line-height: 2.2; color: #CBD5E1; font-size: 0.98em;">
-        🛠️ <b>Currently building:</b><br/>
-        <a href="https://github.com/chimataraghuram/PROJECT-FINDER"><img src="https://img.shields.io/badge/PROJECT--FINDER-38BDF8?style=for-the-badge&logo=github&logoColor=white&labelColor=0F172A&color=0284C7" height="26" style="vertical-align: middle;" alt="PROJECT-FINDER" /></a>&nbsp;
-        <a href="https://github.com/chimataraghuram/TECHBOY-STORE"><img src="https://img.shields.io/badge/TECHBOY--STORE-818CF8?style=for-the-badge&logo=github&logoColor=white&labelColor=0F172A&color=4F46E5" height="26" style="vertical-align: middle;" alt="TECHBOY-STORE" /></a>&nbsp;
-        <a href="https://github.com/chimataraghuram/TECHBOY-AI"><img src="https://img.shields.io/badge/TECHBOY--AI-2DD4BF?style=for-the-badge&logo=github&logoColor=white&labelColor=0F172A&color=0D9488" height="26" style="vertical-align: middle;" alt="TECHBOY-AI" /></a>
+      <p style="margin: 0 0 14px 0; line-height: 2.2; color: #CBD5E1; font-size: 0.96em;">
+        🛠️ <b>Featured Projects:</b><br/>
+        <a href="https://github.com/chimataraghuram/PROJECT-FINDER"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_project_finder.svg?v=20261025" height="28" style="vertical-align: middle; margin-right: 4px;" alt="PROJECT-FINDER" /></a>
+        <a href="https://github.com/chimataraghuram/TECHBOY-STORE"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_techboy_store.svg?v=20261025" height="28" style="vertical-align: middle; margin-right: 4px;" alt="TECHBOY-STORE" /></a>
+        <a href="https://github.com/chimataraghuram/TECHBOY-AI"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_techboy_ai.svg?v=20261025" height="28" style="vertical-align: middle;" alt="TECHBOY-AI" /></a>
       </p>
-      <p style="margin: 0 0 14px 0; line-height: 2.2; color: #CBD5E1; font-size: 0.98em;">
-        📬 <b>Reach me:</b><br/>
-        <a href="https://www.linkedin.com/in/chimataraghuram/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0F172A&color=0A66C2" height="26" style="vertical-align: middle;" alt="LinkedIn" /></a>&nbsp;
-        <a href="https://leetcode.com/u/chimataraghuram/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=0F172A&color=D97706" height="26" style="vertical-align: middle;" alt="LeetCode" /></a>&nbsp;
-        <a href="mailto:chimataraghuram02a@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0F172A&color=DC2626" height="26" style="vertical-align: middle;" alt="Email" /></a>
+      <p style="margin: 0 0 14px 0; line-height: 2.2; color: #CBD5E1; font-size: 0.96em;">
+        📬 <b>Connect with me:</b><br/>
+        <a href="https://www.linkedin.com/in/chimataraghuram/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_linkedin.svg?v=20261025" height="28" style="vertical-align: middle; margin-right: 4px;" alt="LinkedIn" /></a>
+        <a href="https://leetcode.com/u/chimataraghuram/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_leetcode.svg?v=20261025" height="28" style="vertical-align: middle; margin-right: 4px;" alt="LeetCode" /></a>
+        <a href="mailto:chimataraghuram02a@gmail.com"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_email.svg?v=20261025" height="28" style="vertical-align: middle;" alt="Email" /></a>
       </p>
-      <p style="margin: 0 0 4px 0; line-height: 1.6; color: #94A3B8; font-size: 0.95em;">
-        👾 <b>Fun fact:</b> I built a <b>Space Invaders minigame</b> hidden inside my own portfolio — find it if you can!
+      <p style="margin: 0 0 4px 0; line-height: 1.5; color: #94A3B8; font-size: 0.93em;">
+        👾 <b>Fun fact:</b> Hidden Space Invaders minigame inside my portfolio — can you find it?
       </p>
     </td>
   </tr>
 </table>
-
 
 <!-- SNAKE CONTRIBUTION GRAPH -->
 <div align="center">

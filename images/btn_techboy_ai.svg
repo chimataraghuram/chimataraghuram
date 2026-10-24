@@ -1,5 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 30" width="128" height="30">
-  <rect x="1" y="1" width="126" height="28" rx="14" fill="#0A2022" stroke="#0D9488" stroke-width="1.2" />
-  <path d="M19 8 L20.5 12 L24 13.5 L20.5 15 L19 19 L17.5 15 L14 13.5 L17.5 12 Z" fill="#2DD4BF" />
-  <text x="31" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-weight="700" font-size="10.5" letter-spacing="0.4" fill="#2DD4BF">TECHBOY-AI</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="28" viewBox="0 0 120 28">
+  <rect x="0.5" y="0.5" width="119" height="27" rx="6" fill="#0C2024" stroke="#173336" stroke-width="1"/>
+  <g transform="translate(10, 6.5)">
+    <path fill="#2DD4BF" d="M7.5 0a2.5 2.5 0 00-2.5 2.5v.6A4.5 4.5 0 002 6.5H1a1 1 0 00-1 1v1a1 1 0 001 1h1a4.5 4.5 0 003 3.4v.6a2.5 2.5 0 005 0v-.6a4.5 4.5 0 003-3.4h1a1 1 0 001-1v-1a1 1 0 00-1-1h-1a4.5 4.5 0 00-3-3.4v-.6A2.5 2.5 0 007.5 0zm0 4.5A2.5 2.5 0 115 7a2.5 2.5 0 012.5-2.5z"/>
+  </g>
+  <text x="32" y="18" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="0.3">TECHBOY-AI</text>
 </svg>
