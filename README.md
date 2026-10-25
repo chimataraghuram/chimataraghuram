@@ -55,11 +55,11 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 <p align="center">
   <img src="https://img.shields.io/badge/Profile_Views-2%2C014-7c3aed?style=for-the-badge&logo=eye&logoColor=white" alt="Profile Views" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Followers-15-c026d3?style=for-the-badge&logo=github&logoColor=white" alt="Followers" />
+  <img src="https://img.shields.io/badge/Followers-14-c026d3?style=for-the-badge&logo=github&logoColor=white" alt="Followers" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Stars-42-0ea5e9?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAxNy4yN0wxOC4xOCAyMWwtMS42NC03LjAzTDIyIDkuMjRsLTcuMTktLjYxTDEyIDIgOS4xOSA4LjYzIDIgOS4yNGw1LjQ2IDQuNzNMNS44MiAyMXoiLz48L3N2Zz4%3D" alt="Stars" />
+  <img src="https://img.shields.io/badge/Stars-43-0ea5e9?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAxNy4yN0wxOC4xOCAyMWwtMS42NC03LjAzTDIyIDkuMjRsLTcuMTktLjYxTDEyIDIgOS4xOSA4LjYzIDIgOS4yNGw1LjQ2IDQuNzNMNS44MiAyMXoiLz48L3N2Zz4%3D" alt="Stars" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Deployments-1839-22c55e?style=for-the-badge&logo=vercel&logoColor=white" alt="Deployments" />
+  <img src="https://img.shields.io/badge/Deployments-1840-22c55e?style=for-the-badge&logo=vercel&logoColor=white" alt="Deployments" />
   &nbsp;
   <img src="https://img.shields.io/badge/Repositories-24-a855f7?style=for-the-badge&logo=git&logoColor=white" alt="Repositories" />
   &nbsp;
@@ -501,15 +501,15 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
   </thead>
   <tbody>
     <tr>
-      <td align="center">🚀</td>
-      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
-      <td>Remove Fun fact minigame text from profile</td>
-      <td align="center"><code>Oct 25</code></td>
-    </tr>
-    <tr>
       <td align="center">⭐</td>
       <td><a href="https://github.com/chimataraghuram/PROJECT-FINDER"><b>chimataraghuram/PROJECT-FINDER</b></a></td>
       <td>Starred repository</td>
+      <td align="center"><code>Oct 25</code></td>
+    </tr>
+    <tr>
+      <td align="center">🚀</td>
+      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
+      <td>Update TECHBOY-AI button with chatbot icon</td>
       <td align="center"><code>Oct 25</code></td>
     </tr>
     <tr>
