@@ -61,9 +61,9 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Profile_Views-2%2C014-7c3aed?style=for-the-badge&logo=eye&logoColor=white" alt="Profile Views" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Followers-13-c026d3?style=for-the-badge&logo=github&logoColor=white" alt="Followers" />
+  <img src="https://img.shields.io/badge/Followers-15-c026d3?style=for-the-badge&logo=github&logoColor=white" alt="Followers" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Stars-14-0ea5e9?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAxNy4yN0wxOC4xOCAyMWwtMS42NC03LjAzTDIyIDkuMjRsLTcuMTktLjYxTDEyIDIgOS4xOSA4LjYzIDIgOS4yNGw1LjQ2IDQuNzNMNS44MiAyMXoiLz48L3N2Zz4%3D" alt="Stars" />
+  <img src="https://img.shields.io/badge/Stars-18-0ea5e9?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAxNy4yN0wxOC4xOCAyMWwtMS42NC03LjAzTDIyIDkuMjRsLTcuMTktLjYxTDEyIDIgOS4xOSA4LjYzIDIgOS4yNGw1LjQ2IDQuNzNMNS44MiAyMXoiLz48L3N2Zz4%3D" alt="Stars" />
   &nbsp;
   <img src="https://img.shields.io/badge/Deployments-1838-22c55e?style=for-the-badge&logo=vercel&logoColor=white" alt="Deployments" />
   &nbsp;
@@ -507,6 +507,18 @@
   </thead>
   <tbody>
     <tr>
+      <td align="center">⭐</td>
+      <td><a href="https://github.com/chimataraghuram/PROJECT-FINDER"><b>chimataraghuram/PROJECT-FINDER</b></a></td>
+      <td>Starred repository</td>
+      <td align="center"><code>Oct 25</code></td>
+    </tr>
+    <tr>
+      <td align="center">🚀</td>
+      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
+      <td>Refine About Me section with modern neat dark pill button...</td>
+      <td align="center"><code>Oct 24</code></td>
+    </tr>
+    <tr>
       <td align="center">🚀</td>
       <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b>chimataraghuram/TECHBOY-STORE</b></a></td>
       <td>Merge pull request #2 from chimataraghuram/chimataraghura...</td>
@@ -522,18 +534,6 @@
       <td align="center">🔄</td>
       <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b>chimataraghuram/TECHBOY-STORE</b></a></td>
       <td>Merged PR #1 — PR #1</td>
-      <td align="center"><code>Oct 24</code></td>
-    </tr>
-    <tr>
-      <td align="center">🔄</td>
-      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b>chimataraghuram/TECHBOY-STORE</b></a></td>
-      <td>Merged PR #2 — PR #2</td>
-      <td align="center"><code>Oct 24</code></td>
-    </tr>
-    <tr>
-      <td align="center">🎉</td>
-      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b>chimataraghuram/TECHBOY-STORE</b></a></td>
-      <td>Created new branch in repository</td>
       <td align="center"><code>Oct 24</code></td>
     </tr>
   </tbody>
