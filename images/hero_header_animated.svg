@@ -46,10 +46,10 @@
       </feMerge>
     </filter>
 
-    <!-- Typing clip path: width 0 to 635px -->
+    <!-- Typing clip path: width 0 to 650px (ample room for all letters) -->
     <clipPath id="typeClip">
       <rect x="0" y="10" width="0" height="56">
-        <animate attributeName="width" values="0; 0; 635; 635; 0" keyTimes="0; 0.05; 0.50; 0.90; 1" dur="6.5s" repeatCount="indefinite" />
+        <animate attributeName="width" values="0; 0; 650; 650; 0" keyTimes="0; 0.05; 0.50; 0.90; 1" dur="6.5s" repeatCount="indefinite" />
       </rect>
     </clipPath>
   </defs>
@@ -57,7 +57,7 @@
   <style>
     @keyframes moveCaret {
       0%, 5% { transform: translateX(2px); opacity: 1; }
-      50%, 90% { transform: translateX(628px); opacity: 1; }
+      50%, 90% { transform: translateX(642px); opacity: 1; }
       96%, 100% { transform: translateX(2px); opacity: 0; }
     }
     @keyframes blinkCaret {
@@ -75,13 +75,13 @@
       animation: moveCaret 6.5s infinite, blinkCaret 0.8s infinite;
     }
     .hand {
-      transform-origin: 648px 48px;
+      transform-origin: 666px 48px;
       animation: waveHand 2.5s infinite ease-in-out;
     }
   </style>
 
   <!-- Top Animated Headline (Centered in 980px width) -->
-  <g transform="translate(155, 0)">
+  <g transform="translate(138, 0)">
     <!-- Clipped Animated Headline -->
     <g clip-path="url(#typeClip)">
       <text x="0" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Display', Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="36" letter-spacing="0.8">
@@ -93,8 +93,8 @@
     <!-- Neon Typing Cursor -->
     <rect class="caret" x="0" y="20" width="4" height="38" rx="2" fill="#00E5FF" />
 
-    <!-- Waving Hand Emoji -->
-    <text class="hand" x="644" y="52" font-family="'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif" font-size="34">👋</text>
+    <!-- Waving Hand Emoji (Comfortably spaced after text & caret) -->
+    <text class="hand" x="656" y="52" font-family="'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif" font-size="34">👋</text>
   </g>
 
   <!-- Horizontal Cyber Subtitle Beam (Passing through central pill) -->
