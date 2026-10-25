@@ -1,22 +1,18 @@
 <!-- HERO & ABOUT ME -->
 <table width="100%">
   <tr>
-    <td colspan="2" align="center" style="padding: 0 0 16px 0;">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261019c">
-        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261019c">
-        <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261019c" width="100%" alt="Hello! I'm Chimata Raghuram" />
-      </picture>
-    </td>
-  </tr>
-  <tr>
-    <td width="38%" align="center" valign="middle">
+    <td width="36%" align="center" valign="middle">
       <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/raghuram_dev.png?v=20261025b" width="100%" alt="Chimata Raghuram - Python Developer" />
     </td>
-    <td width="62%" valign="top" style="padding-left: 20px;">
-      <p style="margin: 0 0 12px 0;">
-        <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_about_me.svg?v=20261025" height="26" alt="About Me" />
-      </p>
+    <td width="64%" valign="top" style="padding-left: 20px;">
+      <div style="margin-bottom: 12px;">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261025d">
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261025d">
+          <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261025d" width="100%" alt="Chimata Raghuram" />
+        </picture>
+      </div>
+
       <p style="font-size: 1.02em; line-height: 1.6; margin: 0 0 14px 0; color: #CBD5E1;">
         A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on developing Python full-stack with AI-powered and automated applications.
       </p>
