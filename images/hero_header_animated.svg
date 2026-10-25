@@ -14,9 +14,32 @@
       <stop offset="100%" stop-color="#A855F7" />
     </linearGradient>
 
-    <!-- Neon Glow Filter -->
-    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2.5" result="blur" />
+    <!-- Cyan Beam Gradient (Left dot to Cyan node) -->
+    <linearGradient id="cyanBeamGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.25" />
+      <stop offset="30%" stop-color="#00E5FF" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="1" />
+    </linearGradient>
+
+    <!-- Purple Beam Gradient (Purple node to Right dot) -->
+    <linearGradient id="purpleBeamGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="1" />
+      <stop offset="70%" stop-color="#A855F7" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0.25" />
+    </linearGradient>
+
+    <!-- Cyan Diffuse Glow Filter -->
+    <filter id="cyanGlow" filterUnits="userSpaceOnUse" x="0" y="70" width="400" height="60">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Purple Diffuse Glow Filter -->
+    <filter id="purpleGlow" filterUnits="userSpaceOnUse" x="650" y="70" width="330" height="60">
+      <feGaussianBlur stdDeviation="5" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
@@ -68,7 +91,7 @@
     </g>
 
     <!-- Neon Typing Cursor -->
-    <rect class="caret" x="0" y="20" width="4" height="38" rx="2" fill="#00E5FF" filter="url(#neonGlow)" />
+    <rect class="caret" x="0" y="20" width="4" height="38" rx="2" fill="#00E5FF" />
 
     <!-- Waving Hand Emoji -->
     <text class="hand" x="644" y="52" font-family="'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif" font-size="34">👋</text>
@@ -76,28 +99,49 @@
 
   <!-- Horizontal Cyber Subtitle Beam (Passing through central pill) -->
   <g transform="translate(0, 92)">
-    <!-- Left Cyber Line and Dots (Neon Cyan) -->
-    <circle cx="48" cy="14" r="2" fill="#00E5FF" opacity="0.6" />
-    <circle cx="62" cy="14" r="3" fill="#00E5FF" opacity="0.8" />
-    <circle cx="78" cy="14" r="4.5" fill="#00E5FF" filter="url(#neonGlow)" />
-    <!-- Cyan Glowing Beam -->
-    <line x1="88" y1="14" x2="236" y2="14" stroke="#00E5FF" stroke-width="2" filter="url(#neonGlow)" />
-    <!-- Cyan Ring Node -->
-    <circle cx="238" cy="14" r="6" fill="#070C16" stroke="#00E5FF" stroke-width="2.5" filter="url(#neonGlow)" />
+    <!-- Left Cyber Dots (Neon Cyan) -->
+    <circle cx="44" cy="15" r="2.2" fill="#00E5FF" opacity="0.6" />
+    <circle cx="59" cy="15" r="3.2" fill="#00E5FF" opacity="0.85" />
+    <!-- Big glowing 3rd dot from which beam radiates -->
+    <circle cx="76" cy="15" r="8" fill="#00E5FF" opacity="0.3" filter="url(#cyanGlow)" />
+    <circle cx="76" cy="15" r="4.6" fill="#00E5FF" />
 
-    <!-- Center Subtitle Pill (Width: 480px, Height: 28px, centered at x=250 to 730) -->
+    <!-- Left Cyan Glowing Beam (Layered for intense neon glow) -->
+    <line x1="80" y1="15" x2="238" y2="15" stroke="#00E5FF" stroke-width="12" stroke-opacity="0.12" stroke-linecap="round" />
+    <line x1="80" y1="15" x2="238" y2="15" stroke="#00E5FF" stroke-width="5" stroke-opacity="0.35" stroke-linecap="round" />
+    <line x1="80" y1="15" x2="238" y2="15" stroke="url(#cyanBeamGrad)" stroke-width="2.2" stroke-linecap="round" />
+
+    <!-- Cyan Connecting Segment into Pill -->
+    <line x1="238" y1="15" x2="252" y2="15" stroke="#00E5FF" stroke-width="2" />
+
+    <!-- Left Node Circle (Neon Cyan Outer Ring + Solid White Core) -->
+    <circle cx="238" cy="15" r="12" fill="#00E5FF" opacity="0.25" filter="url(#cyanGlow)" />
+    <circle cx="238" cy="15" r="6.5" fill="#070C16" stroke="#00E5FF" stroke-width="2.5" />
+    <circle cx="238" cy="15" r="3.2" fill="#FFFFFF" />
+
+    <!-- Center Subtitle Pill (x=250 to 730, perfectly centered) -->
     <g transform="translate(250, 0)">
-      <rect x="0" y="0" width="480" height="28" rx="14" fill="#090E1A" stroke="url(#pillBorder)" stroke-width="1.3" />
-      <text x="240" y="18.5" text-anchor="middle" fill="#F1F5F9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" letter-spacing="0.3">Python Full-Stack Developer • Actively Learning &amp; Tech Enthusiast</text>
+      <rect x="0" y="0" width="480" height="30" rx="15" fill="#070C16" stroke="url(#pillBorder)" stroke-width="1.3" />
+      <text x="240" y="19.5" text-anchor="middle" fill="#F1F5F9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" letter-spacing="0.3">Python Full-Stack Developer • Actively Learning &amp; Tech Enthusiast</text>
     </g>
 
-    <!-- Right Ring Node -->
-    <circle cx="742" cy="14" r="6" fill="#070C16" stroke="#A855F7" stroke-width="2.5" filter="url(#neonGlow)" />
-    <!-- Purple Glowing Beam -->
-    <line x1="744" y1="14" x2="892" y2="14" stroke="#A855F7" stroke-width="2" filter="url(#neonGlow)" />
+    <!-- Right Connecting Segment from Pill -->
+    <line x1="728" y1="15" x2="742" y2="15" stroke="#A855F7" stroke-width="2" />
+
+    <!-- Right Node Circle (Neon Purple Outer Ring + Solid White Core) -->
+    <circle cx="742" cy="15" r="12" fill="#A855F7" opacity="0.25" filter="url(#purpleGlow)" />
+    <circle cx="742" cy="15" r="6.5" fill="#070C16" stroke="#A855F7" stroke-width="2.5" />
+    <circle cx="742" cy="15" r="3.2" fill="#FFFFFF" />
+
+    <!-- Right Purple Glowing Beam (Layered for intense neon glow) -->
+    <line x1="742" y1="15" x2="900" y2="15" stroke="#A855F7" stroke-width="12" stroke-opacity="0.12" stroke-linecap="round" />
+    <line x1="742" y1="15" x2="900" y2="15" stroke="#A855F7" stroke-width="5" stroke-opacity="0.35" stroke-linecap="round" />
+    <line x1="742" y1="15" x2="900" y2="15" stroke="url(#purpleBeamGrad)" stroke-width="2.2" stroke-linecap="round" />
+
     <!-- Right Cyber Dots (Purple) -->
-    <circle cx="902" cy="14" r="4.5" fill="#A855F7" filter="url(#neonGlow)" />
-    <circle cx="918" cy="14" r="3" fill="#A855F7" opacity="0.8" />
-    <circle cx="932" cy="14" r="2" fill="#A855F7" opacity="0.6" />
+    <circle cx="904" cy="15" r="8" fill="#A855F7" opacity="0.3" filter="url(#purpleGlow)" />
+    <circle cx="904" cy="15" r="4.6" fill="#A855F7" />
+    <circle cx="921" cy="15" r="3.2" fill="#A855F7" opacity="0.85" />
+    <circle cx="936" cy="15" r="2.2" fill="#A855F7" opacity="0.6" />
   </g>
 </svg>
