@@ -51,35 +51,47 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
   <br/><br/>
 </div>
 
-<!-- BADGES -->
-<!-- START_SECTION:profile_stats -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Profile_Views-2%2C014-7c3aed?style=for-the-badge&logo=eye&logoColor=white" alt="Profile Views" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Followers-14-c026d3?style=for-the-badge&logo=github&logoColor=white" alt="Followers" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Stars-43-0ea5e9?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAxNy4yN0wxOC4xOCAyMWwtMS42NC03LjAzTDIyIDkuMjRsLTcuMTktLjYxTDEyIDIgOS4xOSA4LjYzIDIgOS4yNGw1LjQ2IDQuNzNMNS44MiAyMXoiLz48L3N2Zz4%3D" alt="Stars" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Deployments-1841-22c55e?style=for-the-badge&logo=vercel&logoColor=white" alt="Deployments" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Repositories-24-a855f7?style=for-the-badge&logo=git&logoColor=white" alt="Repositories" />
-  &nbsp;
-  <a href="https://leetcode.com/u/chimataraghuram/"><img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Profile" /></a>
-</p>
-<!-- END_SECTION:profile_stats -->
+<!-- GITHUB STATS DASHBOARD -->
+<div align="center">
 
-<!-- OPEN TO WORK / HIRE ME -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Open_to_Work-Actively_Looking-22c55e?style=for-the-badge&logo=target&logoColor=white" alt="Open to Work" />
-  &nbsp;
-  <a href="mailto:chimataraghuram02a@gmail.com">
-    <img src="https://img.shields.io/badge/Hire_Me-chimataraghuram02a%40gmail.com-7c3aed?style=for-the-badge&logo=gmail&logoColor=white" alt="Hire Me" />
-  </a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/chimataraghuram/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xOSAzYTIgMiAwIDAgMSAyIDJ2MTRhMiAyIDAgMCAxLTIgMkg1YTIgMiAwIDAgMS0yLTJWNWEyIDIgMCAwIDEgMi0yaDE0bS0uNSAxNS41di01LjNhMy4yNiAzLjI2IDAgMCAwLTMuMjYtMy4yNmMtLjg1IDAtMS44NC41Mi0yLjI4IDEuM3YtMS4xMWgtMi43OXY4LjM3aDIuNzl2LTQuOTNjMC0uNzcuNjItMS40IDEuMzktMS40YTEuNCAxLjQgMCAwIDEgMS40IDEuNHY0LjkzaDIuNzVNNi40NiAxMC45djguMzdIOS4yVjEwLjlINi40Nk03LjgzIDYuMzJhMS42NyAxLjY3IDAgMCAwLTEuNjcgMS42NyAxLjY3IDEuNjcgMCAwIDAgMS42NyAxLjY3IDEuNjcgMS42NyAwIDAgMCAxLjY3LTEuNjdjMC0uOTItLjc1LTEuNjctMS42Ny0xLjY3WiIvPjwvc3ZnPg%3D%3D" alt="LinkedIn" />
-  </a>
-</p>
+<h2> <span style="color:#22d3ee">GITHUB</span> <span style="color:#a855f7">STATS</span> </h2>
+
+<table>
+  <tr>
+    <td align="left" width="190">
+      <img src="https://img.shields.io/badge/◉-PROFILE_VIEWS-7c3aed?style=for-the-badge&labelColor=171b24" alt="Profile views" /><br/>
+      <img src="https://komarev.com/ghpvc/?username=chimataraghuram&style=flat-square&color=a855f7&label=VISITORS" alt="Profile visitors" />
+    </td>
+    <td align="left" width="150">
+      <img src="https://img.shields.io/github/followers/chimataraghuram?style=for-the-badge&logo=github&label=FOLLOWERS&color=0ea5e9&labelColor=171b24" alt="GitHub followers" />
+    </td>
+    <td align="left" width="130">
+      <img src="https://img.shields.io/badge/STARS-43-f59e0b?style=for-the-badge&logo=github&logoColor=white&labelColor=171b24" alt="Stars" />
+    </td>
+    <td align="left" width="160">
+      <img src="https://img.shields.io/badge/DEPLOYMENTS-1841-f43f5e?style=for-the-badge&logo=rocket&logoColor=white&labelColor=171b24" alt="Deployments" />
+    </td>
+    <td align="left" width="160">
+      <img src="https://img.shields.io/github/repos/chimataraghuram?style=for-the-badge&logo=github&label=REPOSITORIES&color=10b981&labelColor=171b24" alt="Repositories" />
+    </td>
+  </tr>
+</table>
+
+<hr/>
+
+<h2><span style="color:#22d3ee">CONNECT</span> <span style="color:#a855f7">&amp; MORE</span></h2>
+
+<a href="https://leetcode.com/u/chimataraghuram/"><img src="https://img.shields.io/badge/LEETCODE-Open_Profile-f59e0b?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=171b24" alt="LeetCode" /></a>
+&nbsp;
+<img src="https://img.shields.io/badge/OPEN_TO_WORK-Available-10b981?style=for-the-badge&logo=briefcase&logoColor=white&labelColor=171b24" alt="Open to work" />
+&nbsp;
+<img src="https://img.shields.io/badge/ACTIVELY_LOOKING-Opportunities-0ea5e9?style=for-the-badge&logo=target&logoColor=white&labelColor=171b24" alt="Actively looking" />
+&nbsp;
+<a href="mailto:chimataraghuram02a@gmail.com"><img src="https://img.shields.io/badge/EMAIL-Contact-f43f5e?style=for-the-badge&logo=gmail&logoColor=white&labelColor=171b24" alt="Email" /></a>
+&nbsp;
+<a href="https://www.linkedin.com/in/chimataraghuram/"><img src="https://img.shields.io/badge/LINKEDIN-Connect-a855f7?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=171b24" alt="LinkedIn" /></a>
+
+</div>
 
 <!-- ACHIEVEMENTS -->
 <div align="center">
