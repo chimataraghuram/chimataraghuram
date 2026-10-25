@@ -29,6 +29,7 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 </p>
 <p style="margin: 0 0 4px 0; line-height: 2.2; color: #CBD5E1; font-size: 0.96em;">
 📬 <b>Connect with me:</b><br/>
+<a href="https://chimataraghuram.vercel.app/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_portfolio.svg?v=20261026" height="28" style="vertical-align: middle; margin-right: 4px;" alt="Portfolio" /></a>
 <a href="https://www.linkedin.com/in/chimataraghuram/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_linkedin.svg?v=20261026" height="28" style="vertical-align: middle; margin-right: 4px;" alt="LinkedIn" /></a>
 <a href="https://leetcode.com/u/chimataraghuram/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_leetcode.svg?v=20261026" height="28" style="vertical-align: middle; margin-right: 4px;" alt="LeetCode" /></a>
 <a href="mailto:chimataraghuram02a@gmail.com"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_email.svg?v=20261026" height="28" style="vertical-align: middle;" alt="Email" /></a>
