@@ -1,11 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 180" width="100%" height="auto">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 135" width="100%" height="auto">
   <defs>
-    <!-- Background Gradient matching mockup -->
-    <linearGradient id="headerBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070C16" />
-      <stop offset="100%" stop-color="#0A101D" />
-    </linearGradient>
-
     <!-- Vibrant Gradient Text -->
     <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00E5FF" />
@@ -13,46 +7,23 @@
       <stop offset="100%" stop-color="#A855F7" />
     </linearGradient>
 
-    <!-- Cyan wave gradient -->
-    <linearGradient id="cyanWave" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.8" />
-      <stop offset="70%" stop-color="#00E5FF" stop-opacity="0.5" />
-      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0" />
-    </linearGradient>
-
-    <!-- Purple wave gradient -->
-    <linearGradient id="purpleWave" x1="100%" y1="0%" x2="0%" y2="0%">
-      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.8" />
-      <stop offset="70%" stop-color="#A855F7" stop-opacity="0.5" />
-      <stop offset="100%" stop-color="#A855F7" stop-opacity="0" />
-    </linearGradient>
-
-    <!-- Pill border gradient -->
-    <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.5" />
-      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#C084FC" stop-opacity="0.5" />
+    <!-- Pill border gradient (Cyan to Purple) -->
+    <linearGradient id="pillBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF" />
+      <stop offset="50%" stop-color="#818CF8" />
+      <stop offset="100%" stop-color="#A855F7" />
     </linearGradient>
 
     <!-- Neon Glow Filter -->
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
 
-    <!-- Caret Glow -->
-    <filter id="caretGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-
-    <!-- Typing clip path: width 0 to 630px -->
+    <!-- Typing clip path: width 0 to 635px -->
     <clipPath id="typeClip">
       <rect x="0" y="10" width="0" height="56">
         <animate attributeName="width" values="0; 0; 635; 635; 0" keyTimes="0; 0.05; 0.50; 0.90; 1" dur="6.5s" repeatCount="indefinite" />
@@ -81,24 +52,13 @@
       animation: moveCaret 6.5s infinite, blinkCaret 0.8s infinite;
     }
     .hand {
-      transform-origin: 650px 48px;
+      transform-origin: 648px 48px;
       animation: waveHand 2.5s infinite ease-in-out;
     }
   </style>
 
-  <!-- Glowing Wave Accents (Left Cyan, Right Purple) -->
-  <path d="M-10,135 Q180,95 380,140" fill="none" stroke="url(#cyanWave)" stroke-width="2.5" />
-  <path d="M-10,145 Q160,110 360,140" fill="none" stroke="url(#cyanWave)" stroke-width="1.2" opacity="0.6" />
-  <circle cx="100" cy="120" r="3" fill="#00E5FF" opacity="0.8" />
-  <line x1="20" y1="120" x2="80" y2="120" stroke="#00E5FF" stroke-width="1" opacity="0.4" />
-
-  <path d="M990,135 Q800,95 600,140" fill="none" stroke="url(#purpleWave)" stroke-width="2.5" />
-  <path d="M990,145 Q820,110 620,140" fill="none" stroke="url(#purpleWave)" stroke-width="1.2" opacity="0.6" />
-  <circle cx="880" cy="120" r="3" fill="#A855F7" opacity="0.8" />
-  <line x1="900" y1="120" x2="960" y2="120" stroke="#A855F7" stroke-width="1" opacity="0.4" />
-
-  <!-- Centered Animated Headline Group -->
-  <g transform="translate(150, 0)">
+  <!-- Top Animated Headline (Centered in 980px width) -->
+  <g transform="translate(155, 0)">
     <!-- Clipped Animated Headline -->
     <g clip-path="url(#typeClip)">
       <text x="0" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Display', Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="36" letter-spacing="0.8">
@@ -108,25 +68,36 @@
     </g>
 
     <!-- Neon Typing Cursor -->
-    <rect class="caret" x="0" y="20" width="4" height="38" rx="2" fill="#00E5FF" filter="url(#caretGlow)" />
+    <rect class="caret" x="0" y="20" width="4" height="38" rx="2" fill="#00E5FF" filter="url(#neonGlow)" />
 
     <!-- Waving Hand Emoji -->
     <text class="hand" x="644" y="52" font-family="'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif" font-size="34">👋</text>
+  </g>
 
-    <!-- Subtitle -->
-    <text x="110" y="86" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="500" font-size="15" letter-spacing="0.4">
-      Python Full-Stack Developer • Actively Learning &amp; Tech Enthusiast
-    </text>
+  <!-- Horizontal Cyber Subtitle Beam (Passing through central pill) -->
+  <g transform="translate(0, 92)">
+    <!-- Left Cyber Line and Dots (Neon Cyan) -->
+    <circle cx="48" cy="14" r="2" fill="#00E5FF" opacity="0.6" />
+    <circle cx="62" cy="14" r="3" fill="#00E5FF" opacity="0.8" />
+    <circle cx="78" cy="14" r="4.5" fill="#00E5FF" filter="url(#neonGlow)" />
+    <!-- Cyan Glowing Beam -->
+    <line x1="88" y1="14" x2="236" y2="14" stroke="#00E5FF" stroke-width="2" filter="url(#neonGlow)" />
+    <!-- Cyan Ring Node -->
+    <circle cx="238" cy="14" r="6" fill="#070C16" stroke="#00E5FF" stroke-width="2.5" filter="url(#neonGlow)" />
 
-    <!-- Center Pill: AIML DIPLOMA HOLDER -->
-    <g transform="translate(230, 110)">
-      <rect x="0" y="0" width="220" height="30" rx="15" fill="#0E1326" stroke="url(#pillGrad)" stroke-width="1.2" />
-      <text x="110" y="19.5" text-anchor="middle" fill="#818CF8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.2">AIML DIPLOMA HOLDER</text>
+    <!-- Center Subtitle Pill (Width: 480px, Height: 28px, centered at x=250 to 730) -->
+    <g transform="translate(250, 0)">
+      <rect x="0" y="0" width="480" height="28" rx="14" fill="#090E1A" stroke="url(#pillBorder)" stroke-width="1.3" />
+      <text x="240" y="18.5" text-anchor="middle" fill="#F1F5F9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" letter-spacing="0.3">Python Full-Stack Developer • Actively Learning &amp; Tech Enthusiast</text>
     </g>
-    <!-- Accent line passing behind pill -->
-    <line x1="80" y1="125" x2="225" y2="125" stroke="#38BDF8" stroke-width="1" opacity="0.6" />
-    <circle cx="225" cy="125" r="2.5" fill="#38BDF8" />
-    <line x1="455" y1="125" x2="600" y2="125" stroke="#A855F7" stroke-width="1" opacity="0.6" />
-    <circle cx="455" cy="125" r="2.5" fill="#A855F7" />
+
+    <!-- Right Ring Node -->
+    <circle cx="742" cy="14" r="6" fill="#070C16" stroke="#A855F7" stroke-width="2.5" filter="url(#neonGlow)" />
+    <!-- Purple Glowing Beam -->
+    <line x1="744" y1="14" x2="892" y2="14" stroke="#A855F7" stroke-width="2" filter="url(#neonGlow)" />
+    <!-- Right Cyber Dots (Purple) -->
+    <circle cx="902" cy="14" r="4.5" fill="#A855F7" filter="url(#neonGlow)" />
+    <circle cx="918" cy="14" r="3" fill="#A855F7" opacity="0.8" />
+    <circle cx="932" cy="14" r="2" fill="#A855F7" opacity="0.6" />
   </g>
 </svg>
