@@ -44,9 +44,9 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 <div align="center">
   <br/>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake-dark.svg?v=2026-10-26">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake.svg?v=2026-10-26">
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake.svg?v=2026-10-26" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake-dark.svg?v=2026-10-25">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake.svg?v=2026-10-25">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake.svg?v=2026-10-25" width="100%" />
   </picture>
   <br/><br/>
 </div>
@@ -538,13 +538,13 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
     <tr>
       <td align="center">🚀</td>
       <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b>chimataraghuram/TECHBOY-STORE</b></a></td>
-      <td>style(footer): modernize command center layout with cyber...</td>
+      <td>Merge pull request #3 from chimataraghuram/chimataraghura...</td>
       <td align="center"><code>Oct 24</code></td>
     </tr>
     <tr>
       <td align="center">🚀</td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
-      <td>Fix typing animation clipping on letter M and adjust care...</td>
+      <td>style: combine stats and connect in one dashboard section</td>
       <td align="center"><code>Oct 25</code></td>
     </tr>
     <tr>
