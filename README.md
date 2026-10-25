@@ -49,9 +49,9 @@
 <div align="center">
   <br/>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake-dark.svg?v=2026-10-24">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake.svg?v=2026-10-24">
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake.svg?v=2026-10-24" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake-dark.svg?v=2026-10-25">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake.svg?v=2026-10-25">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake.svg?v=2026-10-25" width="100%" />
   </picture>
   <br/><br/>
 </div>
@@ -59,13 +59,13 @@
 <!-- BADGES -->
 <!-- START_SECTION:profile_stats -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Profile_Views-2%2C013-7c3aed?style=for-the-badge&logo=eye&logoColor=white" alt="Profile Views" />
+  <img src="https://img.shields.io/badge/Profile_Views-2%2C014-7c3aed?style=for-the-badge&logo=eye&logoColor=white" alt="Profile Views" />
   &nbsp;
   <img src="https://img.shields.io/badge/Followers-13-c026d3?style=for-the-badge&logo=github&logoColor=white" alt="Followers" />
   &nbsp;
   <img src="https://img.shields.io/badge/Stars-14-0ea5e9?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAxNy4yN0wxOC4xOCAyMWwtMS42NC03LjAzTDIyIDkuMjRsLTcuMTktLjYxTDEyIDIgOS4xOSA4LjYzIDIgOS4yNGw1LjQ2IDQuNzNMNS44MiAyMXoiLz48L3N2Zz4%3D" alt="Stars" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Deployments-1837-22c55e?style=for-the-badge&logo=vercel&logoColor=white" alt="Deployments" />
+  <img src="https://img.shields.io/badge/Deployments-1838-22c55e?style=for-the-badge&logo=vercel&logoColor=white" alt="Deployments" />
   &nbsp;
   <img src="https://img.shields.io/badge/Repositories-24-a855f7?style=for-the-badge&logo=git&logoColor=white" alt="Repositories" />
   &nbsp;
