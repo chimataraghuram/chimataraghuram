@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="120" height="28" viewBox="0 0 120 28">
-  <rect x="0.5" y="0.5" width="119" height="27" rx="6" fill="#0C2024" stroke="#173336" stroke-width="1"/>
-  <g transform="translate(10, 6.5)">
-    <path fill="#2DD4BF" d="M7.5 0a2.5 2.5 0 00-2.5 2.5v.6A4.5 4.5 0 002 6.5H1a1 1 0 00-1 1v1a1 1 0 001 1h1a4.5 4.5 0 003 3.4v.6a2.5 2.5 0 005 0v-.6a4.5 4.5 0 003-3.4h1a1 1 0 001-1v-1a1 1 0 00-1-1h-1a4.5 4.5 0 00-3-3.4v-.6A2.5 2.5 0 007.5 0zm0 4.5A2.5 2.5 0 115 7a2.5 2.5 0 012.5-2.5z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="126" height="30" viewBox="0 0 126 30">
+  <rect x="0.5" y="0.5" width="125" height="29" rx="6" fill="#081E21" stroke="#0D9488" stroke-width="1.2"/>
+  <g transform="translate(11, 7)">
+    <path fill="#2DD4BF" d="M8 0.5a2 2 0 00-2 2v.8a4 4 0 00-1.8.8l-.6-.6a2 2 0 00-2.8 2.8l.6.6a4 4 0 00-.8 1.8H.5a2 2 0 000 4h.9a4 4 0 00.8 1.8l-.6.6a2 2 0 002.8 2.8l.6-.6a4 4 0 001.8.8v.8a2 2 0 004 0v-.8a4 4 0 001.8-.8l.6.6a2 2 0 002.8-2.8l-.6-.6a4 4 0 00.8-1.8h.9a2 2 0 000-4h-.9a4 4 0 00-.8-1.8l.6-.6a2 2 0 00-2.8-2.8l-.6.6a4 4 0 00-1.8-.8V2.5a2 2 0 00-2-2zm0 4.5a3 3 0 110 6 3 3 0 010-6z"/>
   </g>
-  <text x="32" y="18" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="0.3">TECHBOY-AI</text>
+  <text x="34" y="19" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0.4">TECHBOY-AI</text>
 </svg>

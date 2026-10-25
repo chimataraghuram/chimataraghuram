@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="28" viewBox="0 0 100 28">
-  <rect x="0.5" y="0.5" width="99" height="27" rx="6" fill="#1C150D" stroke="#382918" stroke-width="1"/>
-  <g transform="translate(10, 6.5)">
-    <path fill="#F59E0B" d="M9.8 1.7a1.3 1.3 0 00-1.8 0L2.8 6.9a3.8 3.8 0 000 5.4l2.8 2.8a3.8 3.8 0 005.4 0l1.8-1.8a1.3 1.3 0 10-1.8-1.8L9.2 13.3a1.3 1.3 0 01-1.8 0l-2.8-2.8a1.3 1.3 0 010-1.8l5.2-5.2a1.3 1.3 0 000-1.8zM7.2 9.5h6.5a1.3 1.3 0 000-2.5H7.2a1.3 1.3 0 000 2.5z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="106" height="30" viewBox="0 0 106 30">
+  <rect x="0.5" y="0.5" width="105" height="29" rx="6" fill="#1D1409" stroke="#D97706" stroke-width="1.2"/>
+  <g transform="translate(11, 7)">
+    <path fill="#F59E0B" d="M10.5 1.8a1.4 1.4 0 00-2 0L3 7.4a4.1 4.1 0 000 5.8l3 3a4.1 4.1 0 005.8 0l2-2a1.4 1.4 0 10-2-2l-2 2a1.4 1.4 0 01-2 0l-3-3a1.4 1.4 0 010-2l5.6-5.6a1.4 1.4 0 000-2zM7.7 10.2h7a1.4 1.4 0 000-2.7h-7a1.4 1.4 0 000 2.7z"/>
   </g>
-  <text x="32" y="18" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="0.3">LeetCode</text>
+  <text x="34" y="19" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0.4">LeetCode</text>
 </svg>
