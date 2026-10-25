@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub Stats | Chimatara Ghuram</title>
+<style>
+:root{color-scheme:dark;--bg:#0b1017;--panel:#151c25;--border:#303a48;--cyan:#22d3ee;--purple:#a855f7;--blue:#0ea5e9;--amber:#f59e0b;--rose:#fb4d68;--green:#10d3a0}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 50% -20%,#182232 0%,var(--bg) 65%);color:#eef3fb;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;padding:42px 22px}
+main{max-width:1500px;margin:auto}.heading{display:flex;align-items:center;gap:28px;justify-content:center;margin:0 0 44px;font-size:clamp(20px,3vw,32px);letter-spacing:.22em;font-weight:800}.heading:before,.heading:after{content:"";height:2px;flex:1;max-width:420px;background:linear-gradient(90deg,var(--cyan),var(--purple));position:relative}.heading span{background:linear-gradient(90deg,var(--cyan),var(--purple));color:transparent;background-clip:text}
+.stats{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:18px}.stat{--accent:var(--purple);display:flex;align-items:center;gap:18px;min-height:104px;padding:14px 20px;background:linear-gradient(115deg,color-mix(in srgb,var(--accent) 10%,transparent),transparent 42%),var(--panel);border:1px solid var(--border);border-radius:60px;position:relative;overflow:hidden;text-decoration:none;color:inherit;transition:transform .18s,border-color .18s,box-shadow .18s}.stat:before{content:"";position:absolute;inset:0 auto 0 0;width:5px;background:var(--accent)}.stat:hover,.connect:hover{transform:translateY(-3px);border-color:var(--accent);box-shadow:0 8px 28px color-mix(in srgb,var(--accent) 20%,transparent)}.icon{display:grid;place-items:center;flex:0 0 62px;height:62px;border-radius:50%;background:var(--accent);color:#fff;font-size:27px;font-weight:800;box-shadow:0 0 0 8px color-mix(in srgb,var(--accent) 18%,transparent)}.stat .label{font-size:13px;color:#aeb9c9;font-weight:750;letter-spacing:.08em;white-space:nowrap}.stat .value{font-size:clamp(22px,2.2vw,30px);font-weight:850;line-height:1.4;color:var(--accent)}.purple{--accent:#a855f7}.blue{--accent:#0ea5e9}.amber{--accent:#f59e0b}.rose{--accent:#fb4d68}.green{--accent:#10d3a0}
+.rule{display:flex;align-items:center;gap:24px;margin:48px 0 34px;color:#8591a3}.rule:before,.rule:after{content:"";height:1px;background:#354050;flex:1}.github-mark{font-size:25px;background:#202936;border:1px solid #3b4657;width:46px;height:46px;border-radius:50%;display:grid;place-items:center}
+.connect{display:grid;grid-template-columns:1fr 1.12fr 1.2fr 1.65fr .9fr;gap:14px}.connect a{--accent:var(--purple);display:flex;align-items:center;gap:14px;min-height:76px;border:1.5px solid var(--accent);border-radius:45px;background:linear-gradient(110deg,color-mix(in srgb,var(--accent) 12%,transparent),transparent 48%),var(--panel);color:#edf2f8;text-decoration:none;padding:10px 16px;transition:transform .18s,border-color .18s,box-shadow .18s;min-width:0}.connect .icon{flex-basis:48px;height:48px;font-size:22px;box-shadow:0 0 0 6px color-mix(in srgb,var(--accent) 17%,transparent)}.connect .text{font-size:clamp(10px,.9vw,14px);font-weight:800;letter-spacing:.04em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.arrow{margin-left:auto;color:var(--accent);font-size:24px}.connect .amber{--accent:var(--amber)}.connect .green{--accent:var(--green)}.connect .blue{--accent:var(--blue)}.connect .rose{--accent:var(--rose)}.connect .purple{--accent:var(--purple)}.note{text-align:center;color:#657286;font-size:12px;margin:30px 0 0}
+@media(max-width:1050px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.connect{grid-template-columns:repeat(2,minmax(0,1fr))}.connect a:nth-child(4){grid-column:span 2}}
+@media(max-width:560px){body{padding:26px 12px}.stats{grid-template-columns:1fr}.stat{min-height:88px}.heading{letter-spacing:.1em;gap:12px;margin-bottom:28px}.connect{grid-template-columns:1fr}.connect a:nth-child(4){grid-column:auto}.rule{margin:32px 0 24px}}
+</style>
+</head>
+<body><main>
+<h1 class="heading"><span>GITHUB STATS</span></h1>
+<section class="stats" aria-label="GitHub statistics">
+<a class="stat purple" href="https://github.com/chimataraghuram" aria-label="Open GitHub profile"><span class="icon">◉</span><span><span class="label">PROFILE VIEWS</span><br><span class="value" id="views">VISIT PROFILE ↗</span></span></a>
+<a class="stat blue" href="https://github.com/chimataraghuram?tab=followers"><span class="icon">♟</span><span><span class="label">FOLLOWERS</span><br><span class="value" id="followers">View followers ↗</span></span></a>
+<a class="stat amber" href="https://github.com/chimataraghuram?tab=repositories"><span class="icon">★</span><span><span class="label">STARS</span><br><span class="value" id="stars">View stars ↗</span></span></a>
+<a class="stat rose" href="https://github.com/chimataraghuram?tab=repositories"><span class="icon">➤</span><span><span class="label">DEPLOYMENTS</span><br><span class="value">VIEW PROJECTS ↗</span></span></a>
+<a class="stat green" href="https://github.com/chimataraghuram?tab=repositories"><span class="icon">▣</span><span><span class="label">REPOSITORIES</span><br><span class="value" id="repos">Explore repos ↗</span></span></a>
+</section>
+<div class="rule"><span class="github-mark">●</span></div>
+<h2 class="heading"><span>CONNECT &amp; MORE</span></h2>
+<nav class="connect" aria-label="Contact and profile links">
+<a class="amber" href="https://leetcode.com/u/chimataraghuram/"><span class="icon">&lt;/&gt;</span><span class="text">LEETCODE</span><span class="arrow">→</span></a>
+<a class="green" href="https://github.com/chimataraghuram"><span class="icon">▣</span><span class="text">OPEN TO WORK</span><span class="arrow">→</span></a>
+<a class="blue" href="https://www.linkedin.com/in/chimataraghuram/"><span class="icon">◎</span><span class="text">ACTIVELY LOOKING</span><span class="arrow">→</span></a>
+<a class="rose" href="mailto:chimataraghuram02a@gmail.com"><span class="icon">✉</span><span class="text">CHIMATARAGHURAM02A@GMAIL.COM</span><span class="arrow">→</span></a>
+<a class="purple" href="https://www.linkedin.com/in/chimataraghuram/"><span class="icon">in</span><span class="text">LINKEDIN</span><span class="arrow">→</span></a>
+</nav>
+<p class="note">AI · FULL-STACK DEVELOPMENT · CLOUD &amp; AUTOMATION</p>
+</main>
+<script>
+fetch('https://api.github.com/users/chimataraghuram').then(r=>r.ok?r.json():null).then(d=>{if(!d)return;document.getElementById('followers').textContent=d.followers.toLocaleString();document.getElementById('repos').textContent=d.public_repos.toLocaleString();}).catch(()=>{});
+fetch('https://api.github.com/users/chimataraghuram/repos?per_page=100&sort=updated').then(r=>r.ok?r.json():null).then(rs=>{if(Array.isArray(rs)){let n=rs.reduce((s,r)=>s+r.stargazers_count,0);document.getElementById('stars').textContent=n.toLocaleString();}}).catch(()=>{});
+</script>
+</body></html>
