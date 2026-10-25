@@ -25,7 +25,7 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 🛠️ <b>Featured Projects:</b><br/>
 <a href="https://github.com/chimataraghuram/PROJECT-FINDER"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_project_finder.svg?v=20261025h" height="28" style="vertical-align: middle; margin-right: 4px;" alt="PROJECT-FINDER" /></a>
 <a href="https://github.com/chimataraghuram/TECHBOY-STORE"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_techboy_store.svg?v=20261025h" height="28" style="vertical-align: middle; margin-right: 4px;" alt="TECHBOY-STORE" /></a>
-<a href="https://github.com/chimataraghuram/TECHBOY-AI"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_techboy_ai.svg?v=20261025h" height="28" style="vertical-align: middle;" alt="TECHBOY-AI" /></a>
+<a href="https://github.com/chimataraghuram/TECHBOY-AI"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_techboy_ai.svg?v=20261025i" height="28" style="vertical-align: middle;" alt="TECHBOY-AI" /></a>
 </p>
 <p style="margin: 0 0 4px 0; line-height: 2.2; color: #CBD5E1; font-size: 0.96em;">
 📬 <b>Connect with me:</b><br/>

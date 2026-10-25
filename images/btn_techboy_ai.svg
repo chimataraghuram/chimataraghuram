@@ -1,7 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="126" height="30" viewBox="0 0 126 30">
-  <rect x="0.5" y="0.5" width="125" height="29" rx="6" fill="#081E21" stroke="#0D9488" stroke-width="1.2"/>
-  <g transform="translate(11, 7)">
-    <path fill="#2DD4BF" d="M8 0.5a2 2 0 00-2 2v.8a4 4 0 00-1.8.8l-.6-.6a2 2 0 00-2.8 2.8l.6.6a4 4 0 00-.8 1.8H.5a2 2 0 000 4h.9a4 4 0 00.8 1.8l-.6.6a2 2 0 002.8 2.8l.6-.6a4 4 0 001.8.8v.8a2 2 0 004 0v-.8a4 4 0 001.8-.8l.6.6a2 2 0 002.8-2.8l-.6-.6a4 4 0 00.8-1.8h.9a2 2 0 000-4h-.9a4 4 0 00-.8-1.8l.6-.6a2 2 0 00-2.8-2.8l-.6.6a4 4 0 00-1.8-.8V2.5a2 2 0 00-2-2zm0 4.5a3 3 0 110 6 3 3 0 010-6z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="30" viewBox="0 0 128 30">
+  <rect x="0.5" y="0.5" width="127" height="29" rx="6" fill="#081E21" stroke="#0D9488" stroke-width="1.2"/>
+  <g transform="translate(10, 7)">
+    <g fill="#2DD4BF">
+      <!-- Microchip Outer Body -->
+      <rect x="2" y="2" width="12" height="12" rx="2.5" fill="#0A2224" stroke="#2DD4BF" stroke-width="1.3"/>
+      <!-- Top & Bottom Pins -->
+      <line x1="5" y1="0.5" x2="5" y2="2" stroke="#2DD4BF" stroke-width="1.2" stroke-linecap="round"/>
+      <line x1="8" y1="0.5" x2="8" y2="2" stroke="#2DD4BF" stroke-width="1.2" stroke-linecap="round"/>
+      <line x1="11" y1="0.5" x2="11" y2="2" stroke="#2DD4BF" stroke-width="1.2" stroke-linecap="round"/>
+      <line x1="5" y1="14" x2="5" y2="15.5" stroke="#2DD4BF" stroke-width="1.2" stroke-linecap="round"/>
+      <line x1="8" y1="14" x2="8" y2="15.5" stroke="#2DD4BF" stroke-width="1.2" stroke-linecap="round"/>
+      <line x1="11" y1="14" x2="11" y2="15.5" stroke="#2DD4BF" stroke-width="1.2" stroke-linecap="round"/>
+      <!-- Left & Right Pins -->
+      <line x1="0.5" y1="5" x2="2" y2="5" stroke="#2DD4BF" stroke-width="1.2" stroke-linecap="round"/>
+      <line x1="0.5" y1="8" x2="2" y2="8" stroke="#2DD4BF" stroke-width="1.2" stroke-linecap="round"/>
+      <line x1="0.5" y1="11" x2="2" y2="11" stroke="#2DD4BF" stroke-width="1.2" stroke-linecap="round"/>
+      <line x1="14" y1="5" x2="15.5" y2="5" stroke="#2DD4BF" stroke-width="1.2" stroke-linecap="round"/>
+      <line x1="14" y1="8" x2="15.5" y2="8" stroke="#2DD4BF" stroke-width="1.2" stroke-linecap="round"/>
+      <line x1="14" y1="11" x2="15.5" y2="11" stroke="#2DD4BF" stroke-width="1.2" stroke-linecap="round"/>
+      <!-- AI Text centered inside chip -->
+      <text x="8" y="10.8" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="7.5" fill="#2DD4BF" letter-spacing="-0.3">AI</text>
+    </g>
   </g>
   <text x="34" y="19" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0.4">TECHBOY-AI</text>
 </svg>
