@@ -57,40 +57,40 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 <h2> <span style="color:#22d3ee">GITHUB</span> <span style="color:#a855f7">STATS</span> </h2>
 
 <table>
-  <tr>
-    <td align="left" width="360">
-      <a href="https://komarev.com/ghpvc/?username=chimataraghuram" style="text-decoration:none">
-        <img src="https://img.shields.io/badge/◉-PROFILE_VIEWS-7c3aed?style=for-the-badge&labelColor=171b24" alt="Profile views" />
-      </a><br/>
-      <a href="https://github.com/chimataraghuram" style="text-decoration:none">
-        <img src="https://komarev.com/ghpvc/?username=chimataraghuram&style=flat-square&color=a855f7&label=VISITORS" alt="Profile visitors" />
-      </a>
-    </td>
-    <td align="left" width="260">
-      <a href="https://github.com/chimataraghuram?tab=followers" style="text-decoration:none">
-        <img src="https://img.shields.io/badge/●-FOLLOWERS-0ea5e9?style=for-the-badge&labelColor=171b24" alt="Followers" /><br/>
-        <img src="https://img.shields.io/github/followers/chimataraghuram?style=flat-square&color=0ea5e9&label=FOLLOWERS" alt="Follower count" />
-      </a>
-    </td>
-    <td align="left" width="220">
-      <a href="https://github.com/chimataraghuram?tab=repositories" style="text-decoration:none">
-        <img src="https://img.shields.io/badge/★-STARS-f59e0b?style=for-the-badge&labelColor=171b24" alt="Stars" /><br/>
-        <img src="https://img.shields.io/github/stars/chimataraghuram?style=flat-square&color=f59e0b&label=STARS" alt="Star count" />
-      </a>
-    </td>
-    <td align="left" width="270">
-      <a href="https://github.com/chimataraghuram?tab=repositories" style="text-decoration:none">
-        <img src="https://img.shields.io/badge/🚀-DEPLOYMENTS-f43f5e?style=for-the-badge&labelColor=171b24" alt="Deployments" /><br/>
-        <img src="https://img.shields.io/badge/VIEW-Projects-f43f5e?style=flat-square&labelColor=171b24" alt="View projects" />
-      </a>
-    </td>
-    <td align="left" width="270">
-      <a href="https://github.com/chimataraghuram?tab=repositories" style="text-decoration:none">
-        <img src="https://img.shields.io/badge/▣-REPOSITORIES-10b981?style=for-the-badge&labelColor=171b24" alt="Repositories" /><br/>
-        <img src="https://img.shields.io/badge/EXPLORE-Projects-10b981?style=flat-square&labelColor=171b24" alt="Explore repositories" />
-      </a>
-    </td>
-  </tr>
+<tr>
+<td align="center">
+<a href="https://github.com/chimataraghuram" style="text-decoration:none">
+<img src="https://img.shields.io/badge/◉-PROFILE_VIEWS-7c3aed?style=for-the-badge&labelColor=171b24" alt="Profile views" />
+</a><br/>
+<a href="https://komarev.com/ghpvc/?username=chimataraghuram" style="text-decoration:none">
+<img src="https://img.shields.io/badge/VISITORS-View%20Profile-a855f7?style=flat-square&labelColor=303744" alt="Profile visitors" />
+</a>
+</td>
+<td align="center">
+<a href="https://github.com/chimataraghuram?tab=followers" style="text-decoration:none">
+<img src="https://img.shields.io/badge/●-FOLLOWERS-0ea5e9?style=for-the-badge&labelColor=171b24" alt="Followers" /><br/>
+<img src="https://img.shields.io/github/followers/chimataraghuram?style=flat-square&color=0ea5e9&labelColor=303744&label=FOLLOWERS" alt="Follower count" />
+</a>
+</td>
+<td align="center">
+<a href="https://github.com/chimataraghuram?tab=repositories" style="text-decoration:none">
+<img src="https://img.shields.io/badge/★-STARS-f59e0b?style=for-the-badge&labelColor=171b24" alt="Stars" /><br/>
+<img src="https://img.shields.io/github/stars/chimataraghuram?style=flat-square&color=f59e0b&labelColor=303744&label=STARS" alt="Star count" />
+</a>
+</td>
+<td align="center">
+<a href="https://github.com/chimataraghuram?tab=repositories" style="text-decoration:none">
+<img src="https://img.shields.io/badge/🚀-DEPLOYMENTS-f43f5e?style=for-the-badge&labelColor=171b24" alt="Deployments and projects" /><br/>
+<img src="https://img.shields.io/badge/VIEW-PROJECTS-f43f5e?style=flat-square&labelColor=303744" alt="View projects" />
+</a>
+</td>
+<td align="center">
+<a href="https://github.com/chimataraghuram?tab=repositories" style="text-decoration:none">
+<img src="https://img.shields.io/badge/▣-REPOSITORIES-10b981?style=for-the-badge&labelColor=171b24" alt="Repositories" /><br/>
+<img src="https://img.shields.io/badge/EXPLORE-PROJECTS-10b981?style=flat-square&labelColor=303744" alt="Explore projects" />
+</a>
+</td>
+</tr>
 </table>
 
 <hr/>
@@ -98,33 +98,33 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 <h2> <span style="color:#22d3ee">CONNECT</span> <span style="color:#a855f7">&amp; MORE</span> </h2>
 
 <table>
-  <tr>
-    <td align="center">
-      <a href="https://leetcode.com/u/chimataraghuram/" style="text-decoration:none">
-        <img src="https://img.shields.io/badge/‹%2F›-LEETCODE-f59e0b?style=for-the-badge&labelColor=171b24" alt="LeetCode" />
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/chimataraghuram" style="text-decoration:none">
-        <img src="https://img.shields.io/badge/▣-OPEN_TO_WORK-10b981?style=for-the-badge&labelColor=171b24" alt="Open to work" />
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://www.linkedin.com/in/chimataraghuram/" style="text-decoration:none">
-        <img src="https://img.shields.io/badge/◎-ACTIVELY_LOOKING-0ea5e9?style=for-the-badge&labelColor=171b24" alt="Actively looking" />
-      </a>
-    </td>
-    <td align="center">
-      <a href="mailto:chimataraghuram02a@gmail.com" style="text-decoration:none">
-        <img src="https://img.shields.io/badge/✉-CHIMATARAGHURAM02A%40GMAIL.COM-f43f5e?style=for-the-badge&labelColor=171b24" alt="Email" />
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://www.linkedin.com/in/chimataraghuram/" style="text-decoration:none">
-        <img src="https://img.shields.io/badge/in-LINKEDIN-a855f7?style=for-the-badge&labelColor=171b24" alt="LinkedIn" />
-      </a>
-    </td>
-  </tr>
+<tr>
+<td align="center">
+<a href="https://leetcode.com/u/chimataraghuram/" style="text-decoration:none">
+<img src="https://img.shields.io/badge/‹%2F›-LEETCODE-f59e0b?style=for-the-badge&labelColor=171b24" alt="LeetCode" />
+</a>
+</td>
+<td align="center">
+<a href="https://github.com/chimataraghuram" style="text-decoration:none">
+<img src="https://img.shields.io/badge/▣-OPEN_TO_WORK-10b981?style=for-the-badge&labelColor=171b24" alt="Open to work" />
+</a>
+</td>
+<td align="center">
+<a href="https://www.linkedin.com/in/chimataraghuram/" style="text-decoration:none">
+<img src="https://img.shields.io/badge/◎-ACTIVELY_LOOKING-0ea5e9?style=for-the-badge&labelColor=171b24" alt="Actively looking" />
+</a>
+</td>
+<td align="center">
+<a href="mailto:chimataraghuram02a@gmail.com" style="text-decoration:none">
+<img src="https://img.shields.io/badge/✉-EMAIL-f43f5e?style=for-the-badge&labelColor=171b24" alt="Email" />
+</a>
+</td>
+<td align="center">
+<a href="https://www.linkedin.com/in/chimataraghuram/" style="text-decoration:none">
+<img src="https://img.shields.io/badge/in-LINKEDIN-a855f7?style=for-the-badge&labelColor=171b24" alt="LinkedIn" />
+</a>
+</td>
+</tr>
 </table>
 
 </div>
