@@ -53,44 +53,15 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 
 <!-- GITHUB STATS DASHBOARD -->
 <div align="center">
-
-<h2> <span style="color:#22d3ee">GITHUB</span> <span style="color:#a855f7">STATS</span> </h2>
-
-<table>
-  <tr>
-    <td align="left" width="190">
-      <img src="https://img.shields.io/badge/◉-PROFILE_VIEWS-7c3aed?style=for-the-badge&labelColor=171b24" alt="Profile views" /><br/>
-      <img src="https://komarev.com/ghpvc/?username=chimataraghuram&style=flat-square&color=a855f7&label=VISITORS" alt="Profile visitors" />
-    </td>
-    <td align="left" width="150">
-      <img src="https://img.shields.io/github/followers/chimataraghuram?style=for-the-badge&logo=github&label=FOLLOWERS&color=0ea5e9&labelColor=171b24" alt="GitHub followers" />
-    </td>
-    <td align="left" width="130">
-      <img src="https://img.shields.io/badge/STARS-43-f59e0b?style=for-the-badge&logo=github&logoColor=white&labelColor=171b24" alt="Stars" />
-    </td>
-    <td align="left" width="160">
-      <img src="https://img.shields.io/badge/DEPLOYMENTS-1841-f43f5e?style=for-the-badge&logo=rocket&logoColor=white&labelColor=171b24" alt="Deployments" />
-    </td>
-    <td align="left" width="160">
-      <img src="https://img.shields.io/github/repos/chimataraghuram?style=for-the-badge&logo=github&label=REPOSITORIES&color=10b981&labelColor=171b24" alt="Repositories" />
-    </td>
-  </tr>
-</table>
-
-<hr/>
-
-<h2><span style="color:#22d3ee">CONNECT</span> <span style="color:#a855f7">&amp; MORE</span></h2>
-
-<a href="https://leetcode.com/u/chimataraghuram/"><img src="https://img.shields.io/badge/LEETCODE-Open_Profile-f59e0b?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=171b24" alt="LeetCode" /></a>
-&nbsp;
-<img src="https://img.shields.io/badge/OPEN_TO_WORK-Available-10b981?style=for-the-badge&logo=briefcase&logoColor=white&labelColor=171b24" alt="Open to work" />
-&nbsp;
-<img src="https://img.shields.io/badge/ACTIVELY_LOOKING-Opportunities-0ea5e9?style=for-the-badge&logo=target&logoColor=white&labelColor=171b24" alt="Actively looking" />
-&nbsp;
-<a href="mailto:chimataraghuram02a@gmail.com"><img src="https://img.shields.io/badge/EMAIL-Contact-f43f5e?style=for-the-badge&logo=gmail&logoColor=white&labelColor=171b24" alt="Email" /></a>
-&nbsp;
-<a href="https://www.linkedin.com/in/chimataraghuram/"><img src="https://img.shields.io/badge/LINKEDIN-Connect-a855f7?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=171b24" alt="LinkedIn" /></a>
-
+  <a href="https://github.com/chimataraghuram">
+    <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/github-stats-connect-dashboard.svg?v=2" alt="GitHub Stats and Connect Dashboard" width="100%" />
+  </a>
+  <br/>
+  <p>
+    <a href="https://leetcode.com/u/chimataraghuram/">LeetCode</a> ·
+    <a href="mailto:chimataraghuram02a@gmail.com">Email</a> ·
+    <a href="https://www.linkedin.com/in/chimataraghuram/">LinkedIn</a>
+  </p>
 </div>
 
 <!-- ACHIEVEMENTS -->
