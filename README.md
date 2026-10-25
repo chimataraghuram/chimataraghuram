@@ -33,9 +33,6 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 <a href="https://leetcode.com/u/chimataraghuram/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_leetcode.svg?v=20261025" height="28" style="vertical-align: middle; margin-right: 4px;" alt="LeetCode" /></a>
 <a href="mailto:chimataraghuram02a@gmail.com"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_email.svg?v=20261025" height="28" style="vertical-align: middle;" alt="Email" /></a>
 </p>
-<p style="margin: 0 0 4px 0; line-height: 1.5; color: #94A3B8; font-size: 0.93em;">
-👾 <b>Fun fact:</b> Hidden Space Invaders minigame inside my portfolio — can you find it?
-</p>
 </td>
 </tr>
 </table>
