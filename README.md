@@ -4,13 +4,13 @@
 <td style="padding: 24px 24px 22px 24px;">
 <div align="center" style="margin-bottom: 20px;">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261026d">
-<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261026d">
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261026d" width="100%" alt="Chimata Raghuram" />
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261026e">
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261026e">
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261026e" width="100%" alt="Chimata Raghuram" />
 </picture>
 </div>
 <div>
-<img align="left" width="350" src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/raghuram_dev.png?v=20261026" alt="Chimata Raghuram" />
+<img align="left" width="310" src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/raghuram_dev.png?v=20261026e" alt="Chimata Raghuram" />
 <div>
 <p style="font-size: 1.02em; line-height: 1.6; margin: 0 0 14px 0; color: #CBD5E1;">
 A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on developing Python full-stack with AI-powered and automated applications.
