@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="2" viewBox="0 0 900 2">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="20" viewBox="0 0 900 20">
   <defs>
     <linearGradient id="divGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#1E293B" stop-opacity="0"/>
-      <stop offset="25%" stop-color="#00F5FF" stop-opacity="0.6"/>
-      <stop offset="50%" stop-color="#A855F7" stop-opacity="0.8"/>
-      <stop offset="75%" stop-color="#10B981" stop-opacity="0.6"/>
+      <stop offset="25%" stop-color="#00F5FF" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#A855F7" stop-opacity="0.9"/>
+      <stop offset="75%" stop-color="#10B981" stop-opacity="0.8"/>
       <stop offset="100%" stop-color="#1E293B" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <rect x="50" y="0" width="800" height="2" rx="1" fill="url(#divGrad)"/>
+  <rect x="50" y="9" width="800" height="2" rx="1" fill="url(#divGrad)"/>
 </svg>
