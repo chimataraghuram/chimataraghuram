@@ -72,7 +72,10 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 
 <!-- ACHIEVEMENTS -->
 <div align="center">
-  <br/>
+  <a href="https://github.com/chimataraghuram?tab=achievements">
+    <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_github_achievements.svg?v=20261027" width="850" alt="GITHUB ACHIEVEMENTS" />
+  </a>
+  <br/><br/>
 <!--START_SECTION:achievements-->
   <a href="https://github.com/chimataraghuram?achievement=pull-shark&tab=achievements">
     <img src="https://github.githubassets.com/assets/pull-shark-bronze-a37accb528d1.png" width="100" alt="Pull Shark" />
@@ -86,10 +89,6 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
     <img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="100" alt="Quickdraw" />
   </a>
 <!--END_SECTION:achievements-->
-  <br/><br/>
-  <a href="https://github.com/chimataraghuram?tab=achievements">
-    <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_github_achievements.svg?v=20261027" width="850" alt="GITHUB ACHIEVEMENTS" />
-  </a>
 </div>
 
 <br/>
