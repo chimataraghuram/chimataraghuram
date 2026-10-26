@@ -140,7 +140,7 @@ jobs:
                 continue;
               }
               
-              activityRows.push(`    <tr>\n      <td align="center">${icon}</td>\n      <td><a href="${url}"><b>${repo}</b></a></td>\n      <td>${desc}</td>\n      <td align="center"><code>${dateStr}</code></td>\n    </tr>`);
+              activityRows.push(`    <tr>\n      <td align="center">${icon}</td>\n      <td><a href="${url}"><b>${repo}</b></a></td>\n      <td>${desc}</td>\n      <td align="center"><img src="https://img.shields.io/badge/${encodeURIComponent(dateStr)}-1E293B?style=flat-square&color=0EA5E9" height="18" alt="${dateStr}" /></td>\n    </tr>`);
             }
             
             let tableContent = '';

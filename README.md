@@ -484,11 +484,11 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 </div>
 
 <div align="center">
-  <p align="center">
-    <img src="https://img.shields.io/badge/Activity-Live_GitHub_Feed-7c3aed?style=for-the-badge&logo=github&logoColor=white" alt="Live Feed" />
-    &nbsp;
-    <img src="https://img.shields.io/badge/Status-Actively_Contributing-22c55e?style=for-the-badge&logo=git&logoColor=white" alt="Contributing" />
-  </p>
+<p align="center">
+<img src="https://img.shields.io/badge/Activity-Live_GitHub_Feed-7c3aed?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="Live Feed" />
+&nbsp;
+<img src="https://img.shields.io/badge/Status-Actively_Contributing-10B981?style=for-the-badge&logo=git&logoColor=white&labelColor=0d1117" alt="Contributing" />
+</p>
 </div>
 
 <br/>
@@ -508,31 +508,31 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
       <td align="center">🚀</td>
       <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b>chimataraghuram/TECHBOY-STORE</b></a></td>
       <td>style(footer): modernize command center layout with cyber...</td>
-      <td align="center"><code>Oct 24</code></td>
+      <td align="center"><img src="https://img.shields.io/badge/Oct 24-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 24" /></td>
     </tr>
     <tr>
       <td align="center">🚀</td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
       <td>Fix typing animation clipping on letter M and adjust care...</td>
-      <td align="center"><code>Oct 25</code></td>
+      <td align="center"><img src="https://img.shields.io/badge/Oct 25-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 25" /></td>
     </tr>
     <tr>
       <td align="center">🎉</td>
       <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b>chimataraghuram/TECHBOY-STORE</b></a></td>
       <td>Created new branch in repository</td>
-      <td align="center"><code>Oct 24</code></td>
+      <td align="center"><img src="https://img.shields.io/badge/Oct 24-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 24" /></td>
     </tr>
     <tr>
       <td align="center">⭐</td>
       <td><a href="https://github.com/chimataraghuram/PROJECT-FINDER"><b>chimataraghuram/PROJECT-FINDER</b></a></td>
       <td>Starred repository</td>
-      <td align="center"><code>Oct 25</code></td>
+      <td align="center"><img src="https://img.shields.io/badge/Oct 25-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 25" /></td>
     </tr>
     <tr>
       <td align="center">🔄</td>
       <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b>chimataraghuram/TECHBOY-STORE</b></a></td>
       <td>Merged PR #3 — PR #3</td>
-      <td align="center"><code>Oct 24</code></td>
+      <td align="center"><img src="https://img.shields.io/badge/Oct 24-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 24" /></td>
     </tr>
   </tbody>
 </table>
