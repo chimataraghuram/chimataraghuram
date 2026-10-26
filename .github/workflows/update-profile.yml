@@ -264,9 +264,7 @@ jobs:
                     else if (lowerAlt.includes('heart on sleeve') || lowerSrc.includes('heart-on-your-sleeve')) slug = 'heart-on-your-sleeve';
                     else slug = lowerAlt.replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
-                    tempAchievements.push(`  <a href="https://github.com/chimataraghuram?achievement=${slug}&tab=achievements">
-    <img src="${src}" width="100" alt="${alt}" />
-  </a>`);
+                    tempAchievements.push(`  <a href="https://github.com/chimataraghuram?achievement=${slug}&tab=achievements">\n    <img src="${src}" width="100" alt="${alt}" />\n  </a>`);
                   }
                 }
                 if (tempAchievements.length > 0) {
