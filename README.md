@@ -69,7 +69,7 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 <div align="center">
 <br/>
 <a href="https://github.com/chimataraghuram?tab=achievements">
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/achievements_banner.png?v=20261027" width="100%" alt="Official GitHub Achievements" />
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_achievements_card.svg?v=20261027" width="100%" alt="Official GitHub Achievements" />
 </a>
 <div style="display:none">
 <!--START_SECTION:achievements-->
