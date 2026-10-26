@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="48" viewBox="0 0 900 48">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="54" viewBox="0 0 900 54">
   <defs>
     <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00F5FF"/>
@@ -16,30 +16,30 @@
   </defs>
 
   <!-- Left Cyber Beam -->
-  <line x1="80" y1="24" x2="291" y2="24" stroke="#00E5FF" stroke-width="10" stroke-opacity="0.15" stroke-linecap="round" />
-  <line x1="80" y1="24" x2="291" y2="24" stroke="url(#cyanBeamGrad)" stroke-width="2.6" stroke-linecap="round" />
-  <circle cx="294" cy="24" r="6" fill="#00E5FF" fill-opacity="0.25" />
-  <circle cx="294" cy="24" r="3.8" fill="#00E5FF" />
-  <circle cx="294" cy="24" r="1.6" fill="#FFFFFF" />
+  <line x1="70" y1="27" x2="252" y2="27" stroke="#00E5FF" stroke-width="12" stroke-opacity="0.16" stroke-linecap="round" />
+  <line x1="70" y1="27" x2="252" y2="27" stroke="url(#cyanBeamGrad)" stroke-width="3" stroke-linecap="round" />
+  <circle cx="255" cy="27" r="7" fill="#00E5FF" fill-opacity="0.25" />
+  <circle cx="255" cy="27" r="4.2" fill="#00E5FF" />
+  <circle cx="255" cy="27" r="1.8" fill="#FFFFFF" />
 
   <!-- Badge Icon -->
-  <g transform="translate(307, 12)">
-    <circle cx="12" cy="12" r="11" fill="#070C16" stroke="#00E5FF" stroke-width="1.8"/>
+  <g transform="translate(272, 13)">
+    <circle cx="14" cy="14" r="13" fill="#070C16" stroke="#00E5FF" stroke-width="2"/>
 
     <!-- Rocket Icon -->
-    <path d="M12 4.5 C15.5 8 16.5 12.5 15.5 16 L13 16 L12 15 L11 16 L8.5 16 C7.5 12.5 8.5 8 12 4.5 Z" fill="none" stroke="#00E5FF" stroke-width="1.5" />
-    <path d="M8.5 12.5 L6 15 L6 16.5 L8.5 16.5" fill="none" stroke="#00E5FF" stroke-width="1.3" />
-    <path d="M15.5 12.5 L18 15 L18 16.5 L15.5 16.5" fill="none" stroke="#00E5FF" stroke-width="1.3" />
-    <circle cx="12" cy="10" r="1.5" fill="#00E5FF" />
+    <path d="M14 5 C18 9 19.5 14.5 18 19 L15 19 L14 17.5 L13 19 L10 19 C8.5 14.5 10 9 14 5 Z" fill="none" stroke="#00E5FF" stroke-width="1.6" />
+    <path d="M10 15 L7 18 L7 19.5 L10 19.5" fill="none" stroke="#00E5FF" stroke-width="1.4" />
+    <path d="M18 15 L21 18 L21 19.5 L18 19.5" fill="none" stroke="#00E5FF" stroke-width="1.4" />
+    <circle cx="14" cy="11.5" r="1.8" fill="#00E5FF" />
   </g>
 
   <!-- Title Text -->
-  <text x="450" y="31" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Pro Display', Helvetica, Arial, sans-serif" font-size="20" font-weight="900" letter-spacing="4" fill="url(#headerGrad)">TOP PROJECTS</text>
+  <text x="450" y="35" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Pro Display', Helvetica, Arial, sans-serif" font-size="25" font-weight="900" letter-spacing="4.5" fill="url(#headerGrad)">TOP PROJECTS</text>
 
   <!-- Right Cyber Beam -->
-  <circle cx="567" cy="24" r="6" fill="#EC4899" fill-opacity="0.25" />
-  <circle cx="567" cy="24" r="3.8" fill="#EC4899" />
-  <circle cx="567" cy="24" r="1.6" fill="#FFFFFF" />
-  <line x1="570" y1="24" x2="820" y2="24" stroke="url(#purpleBeamGrad)" stroke-width="2.6" stroke-linecap="round" />
-  <line x1="570" y1="24" x2="820" y2="24" stroke="#EC4899" stroke-width="10" stroke-opacity="0.15" stroke-linecap="round" />
+  <circle cx="597" cy="27" r="7" fill="#EC4899" fill-opacity="0.25" />
+  <circle cx="597" cy="27" r="4.2" fill="#EC4899" />
+  <circle cx="597" cy="27" r="1.8" fill="#FFFFFF" />
+  <line x1="600" y1="27" x2="830" y2="27" stroke="url(#purpleBeamGrad)" stroke-width="3" stroke-linecap="round" />
+  <line x1="600" y1="27" x2="830" y2="27" stroke="#EC4899" stroke-width="12" stroke-opacity="0.16" stroke-linecap="round" />
 </svg>
