@@ -537,15 +537,15 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
   <tbody>
     <tr>
       <td align="center">🚀</td>
-      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b>chimataraghuram/TECHBOY-STORE</b></a></td>
-      <td>Merge pull request #3 from chimataraghuram/chimataraghura...</td>
-      <td align="center"><code>Oct 24</code></td>
+      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
+      <td>style: refine clickable stats cards and connection buttons</td>
+      <td align="center"><code>Oct 25</code></td>
     </tr>
     <tr>
       <td align="center">🚀</td>
-      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
-      <td>style: combine stats and connect in one dashboard section</td>
-      <td align="center"><code>Oct 25</code></td>
+      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b>chimataraghuram/TECHBOY-STORE</b></a></td>
+      <td>Merge pull request #3 from chimataraghuram/chimataraghura...</td>
+      <td align="center"><code>Oct 24</code></td>
     </tr>
     <tr>
       <td align="center">🎉</td>
