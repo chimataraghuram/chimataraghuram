@@ -73,15 +73,23 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 <!-- ACHIEVEMENTS -->
 <div align="center">
   <br/>
-  <a href="https://github.com/chimataraghuram?tab=achievements">
 <!--START_SECTION:achievements-->
+  <a href="https://github.com/chimataraghuram?achievement=pull-shark&tab=achievements">
     <img src="https://github.githubassets.com/assets/pull-shark-bronze-a37accb528d1.png" width="100" alt="Pull Shark" />
-    <img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="100" alt="YOLO" />
-    <img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="100" alt="Quickdraw" />
-<!--END_SECTION:achievements-->
   </a>
-  <br/>
-  <strong>Official GitHub Achievements</strong>
+  &nbsp;
+  <a href="https://github.com/chimataraghuram?achievement=yolo&tab=achievements">
+    <img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="100" alt="YOLO" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/chimataraghuram?achievement=quickdraw&tab=achievements">
+    <img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="100" alt="Quickdraw" />
+  </a>
+<!--END_SECTION:achievements-->
+  <br/><br/>
+  <a href="https://github.com/chimataraghuram?tab=achievements">
+    <strong>Official GitHub Achievements</strong>
+  </a>
 </div>
 
 <br/>

@@ -252,7 +252,21 @@ jobs:
                   const alt = match[2] || 'Achievement';
                   if (!seen.has(src)) {
                     seen.add(src);
-                    tempAchievements.push(`    <img src="${src}" width="100" alt="${alt}" />`);
+                    let slug = 'achievements';
+                    const lowerAlt = alt.toLowerCase();
+                    const lowerSrc = src.toLowerCase();
+                    if (lowerAlt.includes('pull shark') || lowerSrc.includes('pull-shark')) slug = 'pull-shark';
+                    else if (lowerAlt.includes('yolo') || lowerSrc.includes('yolo')) slug = 'yolo';
+                    else if (lowerAlt.includes('quickdraw') || lowerSrc.includes('quickdraw')) slug = 'quickdraw';
+                    else if (lowerAlt.includes('pair extra') || lowerSrc.includes('pair-extraordinaire')) slug = 'pair-extraordinaire';
+                    else if (lowerAlt.includes('galaxy brain') || lowerSrc.includes('galaxy-brain')) slug = 'galaxy-brain';
+                    else if (lowerAlt.includes('starstruck') || lowerSrc.includes('starstruck')) slug = 'starstruck';
+                    else if (lowerAlt.includes('heart on sleeve') || lowerSrc.includes('heart-on-your-sleeve')) slug = 'heart-on-your-sleeve';
+                    else slug = lowerAlt.replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+                    tempAchievements.push(`  <a href="https://github.com/chimataraghuram?achievement=${slug}&tab=achievements">
+    <img src="${src}" width="100" alt="${alt}" />
+  </a>`);
                   }
                 }
                 if (tempAchievements.length > 0) {
@@ -274,7 +288,7 @@ jobs:
             const readme = fs.readFileSync('README.md', 'utf8');
             const newReadme = readme.replace(
               /<!--START_SECTION:achievements-->[\s\S]*<!--END_SECTION:achievements-->/,
-              `<!--START_SECTION:achievements-->\n${achievements.join('\n')}\n<!--END_SECTION:achievements-->`
+              `<!--START_SECTION:achievements-->\n${achievements.join('\n  &nbsp;\n')}\n<!--END_SECTION:achievements-->`
             );
 
             if (readme !== newReadme) {
