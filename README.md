@@ -417,70 +417,58 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 </div>
 
 <div align="center">
-  <p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=c026d3&center=true&vCenter=true&width=650&lines=🎯+Main+Focus:+Agentic+Automation+%26+AI+Agents;⚡+Next-Gen+Autonomous+Workflows;🤖+Lightweight+%26+Monolithic+Architectures" alt="Main Focus: Agentic Automation & AI Agents" />
-  </p>
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=c026d3&center=true&vCenter=true&width=650&lines=🎯+Main+Focus:+Agentic+Automation+%26+AI+Agents;⚡+Next-Gen+Autonomous+Workflows;🔬+Lightweight+%26+Monolithic+Architectures" alt="Main Focus: Agentic Automation & AI Agents" />
+</p>
 
-  <p align="center">
-    <img src="https://img.shields.io/badge/Domain-AI_Agents_%26_Automation-7c3aed?style=for-the-badge&logo=probot&logoColor=white" alt="Domain" />
-    &nbsp;
-    <img src="https://img.shields.io/badge/Status-Actively_Building-22c55e?style=for-the-badge&logo=target&logoColor=white" alt="Status" />
-  </p>
+<p align="center">
+<img src="https://img.shields.io/badge/Domain-AI_Agents_%26_Automation-7c3aed?style=for-the-badge&logo=probot&logoColor=white&labelColor=0d1117" alt="Domain" />
+&nbsp;
+<img src="https://img.shields.io/badge/Status-Actively_Building-10B981?style=for-the-badge&logo=target&logoColor=white&labelColor=0d1117" alt="Status" />
+</p>
 </div>
 
 <br/>
 
 <table width="100%">
-  <tr>
-    <td width="33.3%" align="center" valign="top">
-      <br/>
-      <img src="https://img.shields.io/badge/n8n-FF6D5A?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" />
-      <br/><br/>
-      <img src="https://img.shields.io/badge/Track-Workflow_Orchestration-FF6D5A?style=flat-square" alt="Workflow Orchestration" />
-      <br/><br/>
-      <b>🔄 Hyper-Automation</b>
-      <br/><br/>
-      <p align="left">
-        🎯 <b>Goal:</b> Hyper-automation & Workflow Orchestration<br/><br/>
-        • Event-driven multi-step automation<br/>
-        • AI tool-calling & autonomous pipelines<br/>
-        • Multi-service webhook & API chaining
-      </p>
-      <br/>
-    </td>
-    <td width="33.3%" align="center" valign="top">
-      <br/>
-      <img src="https://img.shields.io/badge/OpenClaw-FF4B4B?style=for-the-badge&logo=microbot&logoColor=white" alt="OpenClaw" />
-      <br/><br/>
-      <img src="https://img.shields.io/badge/Track-Monolithic_AI_Agents-c026d3?style=flat-square" alt="Monolithic AI Agents" />
-      <br/><br/>
-      <b>🤖 System Integration</b>
-      <br/><br/>
-      <p align="left">
-        🎯 <b>Goal:</b> Monolithic AI Agents & Local System Integration<br/><br/>
-        • End-to-end autonomous agent control<br/>
-        • Deep local environment & OS execution<br/>
-        • State persistence & complex reasoning
-      </p>
-      <br/>
-    </td>
-    <td width="33.3%" align="center" valign="top">
-      <br/>
-      <img src="https://img.shields.io/badge/NanoClaw-00A67E?style=for-the-badge&logo=microchip&logoColor=white" alt="NanoClaw" />
-      <br/><br/>
-      <img src="https://img.shields.io/badge/Track-Containerized_Agents-0ea5e9?style=flat-square" alt="Containerized Agents" />
-      <br/><br/>
-      <b>🔬 Secure Micro-Agents</b>
-      <br/><br/>
-      <p align="left">
-        🎯 <b>Goal:</b> Secure, Containerized Lightweight AI Agents<br/><br/>
-        • Sandboxed & containerized execution<br/>
-        • Ultra-lightweight memory footprint<br/>
-        • High-security isolation & task boundaries
-      </p>
-      <br/>
-    </td>
-  </tr>
+<tr>
+<td width="33.3%" valign="top">
+<h4>⚡ <a href="https://github.com/chimataraghuram">n8n</a> <img src="https://img.shields.io/badge/Orchestration-FF6D5A?style=flat-square" height="18" alt="Orchestration" align="right" /></h4>
+<b>Hyper-Automation</b> &nbsp; <img src="https://img.shields.io/badge/●_Active-10B981?style=flat-square" height="16" alt="Active" align="right" />
+<br/><br/>
+<p>🎯 <b>Core Focus:</b> Multi-system automation & tool pipelines</p>
+<ul>
+<li>Event-driven multi-step workflow automation</li>
+<li>AI tool-calling & autonomous pipelines</li>
+<li>Multi-service webhook & API chaining</li>
+</ul>
+<p>🏷️ <code>n8n</code> <code>Workflows</code> <code>Tool Chaining</code></p>
+</td>
+<td width="33.3%" valign="top">
+<h4>🤖 <a href="https://github.com/chimataraghuram">OpenClaw</a> <img src="https://img.shields.io/badge/Monolithic-C026D3?style=flat-square" height="18" alt="Monolithic" align="right" /></h4>
+<b>System Integration</b> &nbsp; <img src="https://img.shields.io/badge/●_Active-10B981?style=flat-square" height="16" alt="Active" align="right" />
+<br/><br/>
+<p>🎯 <b>Core Focus:</b> Autonomous agents & local OS control</p>
+<ul>
+<li>End-to-end autonomous agent control</li>
+<li>Deep local environment & OS execution</li>
+<li>State persistence & complex reasoning</li>
+</ul>
+<p>🏷️ <code>Autonomous</code> <code>Local OS</code> <code>State Sync</code></p>
+</td>
+<td width="33.3%" valign="top">
+<h4>🔬 <a href="https://github.com/chimataraghuram">NanoClaw</a> <img src="https://img.shields.io/badge/Micro--Agents-0EA5E9?style=flat-square" height="18" alt="Micro-Agents" align="right" /></h4>
+<b>Secure Micro-Agents</b> &nbsp; <img src="https://img.shields.io/badge/●_Active-10B981?style=flat-square" height="16" alt="Active" align="right" />
+<br/><br/>
+<p>🎯 <b>Core Focus:</b> Containerized lightweight sandboxes</p>
+<ul>
+<li>Sandboxed & containerized execution</li>
+<li>Ultra-lightweight memory footprint</li>
+<li>High-security isolation & task boundaries</li>
+</ul>
+<p>🏷️ <code>Sandboxed</code> <code>Docker</code> <code>Low Footprint</code></p>
+</td>
+</tr>
 </table>
 
 <br/>
@@ -488,6 +476,8 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&height=15&color=0:7c3aed,50:c026d3,100:0ea5e9" width="100%" />
 </div>
+
+<br/>
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_recent_activity.svg?v=20261026" width="850" alt="RECENT ACTIVITY" /><br/>
