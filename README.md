@@ -94,46 +94,48 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=15&color=0:7c3aed,50:c026d3,100:0ea5e9" width="100%" />
+<br/>
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_work_experience.svg?v=20261026" width="850" alt="WORK EXPERIENCE" /><br/>
 </div>
+<br/>
 
-## 💼 Work Experience
-
-<table>
+<table width="100%">
 <tr>
 <td width="50%" valign="top">
-
-### 🤖 [AI Software Developer Intern (Stipend)](https://www.linkedin.com/in/chimataraghuram/)
-**Jaimini Group** | *Jul 2026 – Present*
-- Owned end-to-end backend development for **NQAS.ai**, an AI-powered healthcare quality assessment platform, integrating six AI modules from architecture through deployment.
-- Conducted backend and API testing, managed GitHub deployment, and tracked tasks in **Jira** while collaborating with design and cloud teams.
-<br/>📍 *Remote*
-
+<h4>🤖 <a href="https://www.linkedin.com/in/chimataraghuram/">AI Software Developer Intern</a> <img src="https://img.shields.io/badge/Stipend-8B5CF6?style=flat-square" height="18" alt="Stipend" align="right" /></h4>
+<b>Jaimini Group</b> | <i>Jul 2026 – Present</i> &nbsp; <img src="https://img.shields.io/badge/●_Active-10B981?style=flat-square" height="16" alt="Active" align="right" />
+<br/><br/>
+<ul>
+<li>Owned end-to-end backend development for <b>NQAS.ai</b>, an AI-powered healthcare quality assessment platform, integrating six AI modules from architecture through deployment.</li>
+<li>Conducted backend and API testing, managed GitHub deployment, and tracked tasks in <b>Jira</b> while collaborating with cross-functional teams.</li>
+</ul>
+<p>📍 <i>Remote</i> &nbsp;·&nbsp; 🏷️ <code>Python</code> <code>FastAPI</code> <code>Healthcare AI</code></p>
 </td>
 <td width="50%" valign="top">
-
-### 🐍 [Python Backend Intern](https://www.linkedin.com/in/chimataraghuram/)
-**Infosys Springboard 7.0** | *Jun 2026 – Sep 2026*
-- Built **OpenCV-based face and tab-switch monitoring** with integrity scoring for ExamMonitor, an AI-powered exam monitoring platform, in a 4-member Agile team using Python, Flask, and SQLite.
-- Wrote unit tests, tracked defects, and maintained Agile documentation (sprint backlog, retrospectives) under a mentor-guided sprint process.
-<br/>📍 *Remote*
-
+<h4>🐍 <a href="https://www.linkedin.com/in/chimataraghuram/">Python Backend Intern</a> <img src="https://img.shields.io/badge/Infosys-0284C7?style=flat-square" height="18" alt="Infosys" align="right" /></h4>
+<b>Infosys Springboard 7.0</b> | <i>Jun 2026 – Sep 2026</i> &nbsp; <img src="https://img.shields.io/badge/✓_Completed-64748B?style=flat-square" height="16" alt="Completed" align="right" />
+<br/><br/>
+<ul>
+<li>Built <b>OpenCV-based face and tab-switch monitoring</b> with integrity scoring for ExamMonitor in an Agile team using Python, Flask, and SQLite.</li>
+<li>Wrote unit tests, tracked defects, and maintained Agile documentation (sprint backlog, retrospectives) under mentor guidance.</li>
+</ul>
+<p>📍 <i>Remote</i> &nbsp;·&nbsp; 🏷️ <code>OpenCV</code> <code>Flask</code> <code>SQLite</code></p>
 </td>
 </tr>
 <tr>
 <td colspan="2" valign="top">
-
-### ☁️ [Cloud Computing Intern](https://www.linkedin.com/in/chimataraghuram/)
-**APSSDC** | *May 2025 – Jul 2025*
-- Deployed web applications on **AWS EC2** with Nginx, security groups, HTTPS, and CI/CD pipelines.
-- Worked hands-on with **EC2, S3, IAM, and Lambda**, exploring serverless architecture and monitoring.
-- Built a **cloud automation mini-project** demonstrating an end-to-end AWS deployment workflow.
-<br/>📍 *Remote*
-
+<h4>☁️ <a href="https://www.linkedin.com/in/chimataraghuram/">Cloud Computing Intern</a> <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white" height="18" alt="AWS" align="right" /></h4>
+<b>APSSDC</b> | <i>May 2025 – Jul 2025</i> &nbsp; <img src="https://img.shields.io/badge/✓_Completed-64748B?style=flat-square" height="16" alt="Completed" align="right" />
+<br/><br/>
+<ul>
+<li>Deployed web applications on <b>AWS EC2</b> with Nginx, security groups, HTTPS, and automated CI/CD deployment pipelines.</li>
+<li>Worked hands-on with <b>EC2, S3, IAM, and AWS Lambda</b>, exploring serverless cloud architecture, resource scaling, and real-time monitoring.</li>
+<li>Built an end-to-end <b>cloud automation mini-project</b> demonstrating complete AWS infrastructure workflows.</li>
+</ul>
+<p>📍 <i>Remote</i> &nbsp;·&nbsp; 🏷️ <code>AWS EC2</code> <code>S3</code> <code>Lambda</code> <code>Nginx</code></p>
 </td>
 </tr>
 </table>
-
 
 <br/>
 
