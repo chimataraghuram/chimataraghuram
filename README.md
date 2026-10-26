@@ -4,13 +4,13 @@
 <td style="padding: 24px 24px 22px 24px;">
 <div align="center" style="margin-bottom: 20px;">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261026e">
-<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261026e">
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261026e" width="100%" alt="Chimata Raghuram" />
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261027">
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261027">
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261027" width="100%" alt="Chimata Raghuram" />
 </picture>
 </div>
 <div>
-<img align="left" width="310" src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/raghuram_dev.png?v=20261026e" alt="Chimata Raghuram" />
+<img align="left" width="310" src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/raghuram_dev.png?v=20261027" alt="Chimata Raghuram" />
 <div>
 <p style="font-size: 1.02em; line-height: 1.6; margin: 0 0 14px 0; color: #CBD5E1;">
 A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on developing Python full-stack with AI-powered and automated applications.
@@ -23,16 +23,16 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 </p>
 <p style="margin: 0 0 14px 0; line-height: 2.2; color: #CBD5E1; font-size: 0.96em;">
 🛠️ <b>Featured Projects:</b><br/>
-<a href="https://github.com/chimataraghuram/PROJECT-FINDER"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_project_finder.svg?v=20261026" height="28" style="vertical-align: middle; margin-right: 4px;" alt="PROJECT-FINDER" /></a>
-<a href="https://github.com/chimataraghuram/TECHBOY-STORE"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_techboy_store.svg?v=20261026" height="28" style="vertical-align: middle; margin-right: 4px;" alt="TECHBOY-STORE" /></a>
-<a href="https://github.com/chimataraghuram/TECHBOY-AI"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_techboy_ai.svg?v=20261026" height="28" style="vertical-align: middle;" alt="TECHBOY-AI" /></a>
+<a href="https://github.com/chimataraghuram/PROJECT-FINDER"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_project_finder.svg?v=20261027" height="28" style="vertical-align: middle; margin-right: 4px;" alt="PROJECT-FINDER" /></a>
+<a href="https://github.com/chimataraghuram/TECHBOY-STORE"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_techboy_store.svg?v=20261027" height="28" style="vertical-align: middle; margin-right: 4px;" alt="TECHBOY-STORE" /></a>
+<a href="https://github.com/chimataraghuram/TECHBOY-AI"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_techboy_ai.svg?v=20261027" height="28" style="vertical-align: middle;" alt="TECHBOY-AI" /></a>
 </p>
 <p style="margin: 0 0 4px 0; line-height: 2.2; color: #CBD5E1; font-size: 0.96em;">
 📬 <b>Connect with me:</b><br/>
-<a href="https://chimataraghuram.vercel.app/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_portfolio.svg?v=20261026" height="28" style="vertical-align: middle; margin-right: 4px;" alt="Portfolio" /></a>
-<a href="https://www.linkedin.com/in/chimataraghuram/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_linkedin.svg?v=20261026" height="28" style="vertical-align: middle; margin-right: 4px;" alt="LinkedIn" /></a>
-<a href="https://leetcode.com/u/chimataraghuram/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_leetcode.svg?v=20261026" height="28" style="vertical-align: middle; margin-right: 4px;" alt="LeetCode" /></a>
-<a href="mailto:chimataraghuram02a@gmail.com"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_email.svg?v=20261026" height="28" style="vertical-align: middle;" alt="Email" /></a>
+<a href="https://chimataraghuram.vercel.app/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_portfolio.svg?v=20261027" height="28" style="vertical-align: middle; margin-right: 4px;" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/chimataraghuram/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_linkedin.svg?v=20261027" height="28" style="vertical-align: middle; margin-right: 4px;" alt="LinkedIn" /></a>
+<a href="https://leetcode.com/u/chimataraghuram/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_leetcode.svg?v=20261027" height="28" style="vertical-align: middle; margin-right: 4px;" alt="LeetCode" /></a>
+<a href="mailto:chimataraghuram02a@gmail.com"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_email.svg?v=20261027" height="28" style="vertical-align: middle;" alt="Email" /></a>
 </p>
 </div>
 </div>
