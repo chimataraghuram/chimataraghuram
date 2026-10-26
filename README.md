@@ -54,69 +54,27 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 <!-- GITHUB STATS DASHBOARD -->
 <div align="center">
 <br/>
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_github_stats_connect.svg?v=20261027" width="850" alt="GITHUB STATS & CONNECT" /><br/>
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_github_metrics.svg?v=20261026" width="850" alt="GITHUB METRICS" /><br/>
+<p align="center">
+<a href="https://komarev.com/ghpvc/?username=chimataraghuram"><img src="https://komarev.com/ghpvc/?username=chimataraghuram&style=for-the-badge&color=8b5cf6&label=PROFILE%20VIEWS" height="28" alt="Profile views" /></a>
+<a href="https://github.com/chimataraghuram?tab=followers"><img src="https://img.shields.io/github/followers/chimataraghuram?style=for-the-badge&logo=github&label=FOLLOWERS&color=0ea5e9&labelColor=0d1117" height="28" alt="Followers" /></a>
+<a href="https://github.com/chimataraghuram?tab=repositories"><img src="https://img.shields.io/github/stars/chimataraghuram?style=for-the-badge&logo=github&label=STARS&color=f59e0b&labelColor=0d1117" height="28" alt="Stars" /></a>
+<a href="https://github.com/chimataraghuram?tab=repositories"><img src="https://img.shields.io/badge/Deployments-1841-f43f5e?style=for-the-badge&logo=rocket&logoColor=white&labelColor=0d1117" height="28" alt="Deployments" /></a>
+<a href="https://github.com/chimataraghuram?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fchimataraghuram&query=%24.public_repos&style=for-the-badge&logo=github&label=REPOSITORIES&color=10b981&labelColor=0d1117" height="28" alt="Repositories" /></a>
+</p>
 <br/>
-
-<table width="100%">
-<tr>
-<td width="20%" align="center" valign="middle">
-<h4>👁️ <a href="https://komarev.com/ghpvc/?username=chimataraghuram">Profile Views</a></h4>
-<a href="https://komarev.com/ghpvc/?username=chimataraghuram">
-<img src="https://komarev.com/ghpvc/?username=chimataraghuram&style=flat-square&color=8B5CF6&label=" height="24" alt="Profile Views" />
-</a>
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_divider.svg?v=20261026" width="850" alt="divider" /><br/>
 <br/>
-<img src="https://img.shields.io/badge/●_Active-8B5CF6?style=flat-square" height="15" alt="Active" />
-</td>
-<td width="20%" align="center" valign="middle">
-<h4>👥 <a href="https://github.com/chimataraghuram?tab=followers">Followers</a></h4>
-<a href="https://github.com/chimataraghuram?tab=followers">
-<img src="https://img.shields.io/github/followers/chimataraghuram?style=flat-square&logo=github&label=&color=0EA5E9&labelColor=0d1117" height="24" alt="Followers" />
-</a>
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_connect_status.svg?v=20261026" width="850" alt="CONNECT & STATUS" /><br/>
+<p align="center">
+<a href="https://chimataraghuram.vercel.app/"><img src="https://img.shields.io/badge/-Portfolio-8b5cf6?style=for-the-badge&logo=vercel&logoColor=white" height="28" alt="Portfolio" /></a>
+<a href="https://leetcode.com/u/chimataraghuram/"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" height="28" alt="LeetCode" /></a>
+<a href="https://github.com/chimataraghuram"><img src="https://img.shields.io/badge/-Open_to_Work-10b981?style=for-the-badge&logo=briefcase&logoColor=white" height="28" alt="Open to Work" /></a>
+<a href="https://www.linkedin.com/in/chimataraghuram/"><img src="https://img.shields.io/badge/-Actively_Looking-0ea5e9?style=for-the-badge&logo=target&logoColor=white" height="28" alt="Actively Looking" /></a>
+<a href="mailto:chimataraghuram02a@gmail.com"><img src="https://img.shields.io/badge/-Email-f43f5e?style=for-the-badge&logo=gmail&logoColor=white" height="28" alt="Email" /></a>
+<a href="https://www.linkedin.com/in/chimataraghuram/"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="28" alt="LinkedIn" /></a>
+</p>
 <br/>
-<img src="https://img.shields.io/badge/●_Live-0EA5E9?style=flat-square" height="15" alt="Live" />
-</td>
-<td width="20%" align="center" valign="middle">
-<h4>⭐ <a href="https://github.com/chimataraghuram?tab=repositories">Stars</a></h4>
-<a href="https://github.com/chimataraghuram?tab=repositories">
-<img src="https://img.shields.io/github/stars/chimataraghuram?style=flat-square&logo=github&label=&color=F59E0B&labelColor=0d1117" height="24" alt="Stars" />
-</a>
-<br/>
-<img src="https://img.shields.io/badge/●_Earned-F59E0B?style=flat-square" height="15" alt="Earned" />
-</td>
-<td width="20%" align="center" valign="middle">
-<h4>🚀 <a href="https://github.com/chimataraghuram?tab=repositories">Deployments</a></h4>
-<a href="https://github.com/chimataraghuram?tab=repositories">
-<img src="https://img.shields.io/badge/1,841-F43F5E?style=flat-square&logo=rocket&logoColor=white&labelColor=0d1117" height="24" alt="Deployments" />
-</a>
-<br/>
-<img src="https://img.shields.io/badge/●_Verified-F43F5E?style=flat-square" height="15" alt="Verified" />
-</td>
-<td width="20%" align="center" valign="middle">
-<h4>🗂️ <a href="https://github.com/chimataraghuram?tab=repositories">Repositories</a></h4>
-<a href="https://github.com/chimataraghuram?tab=repositories">
-<img src="https://img.shields.io/badge/24_Repos-10B981?style=flat-square&logo=git&logoColor=white&labelColor=0d1117" height="24" alt="Repositories" />
-</a>
-<br/>
-<img src="https://img.shields.io/badge/●_Public-10B981?style=flat-square" height="15" alt="Public" />
-</td>
-</tr>
-<tr>
-<td colspan="3" align="center" valign="middle">
-<a href="https://github.com/chimataraghuram">
-<img src="https://img.shields.io/badge/💼_OPEN_TO_WORK-Available_for_Hire_→-10B981?style=for-the-badge&logo=briefcase&logoColor=white&labelColor=0d1117" height="34" alt="Open to Work" />
-</a>
-<br/>
-<code>Python Full-Stack</code> &nbsp; <code>AI Software Development</code> &nbsp; <code>Agentic Workflows</code>
-</td>
-<td colspan="2" align="center" valign="middle">
-<a href="https://www.linkedin.com/in/chimataraghuram/">
-<img src="https://img.shields.io/badge/🎯_ACTIVELY_LOOKING-New_Opportunities_→-0EA5E9?style=for-the-badge&logo=target&logoColor=white&labelColor=0d1117" height="34" alt="Actively Looking" />
-</a>
-<br/>
-<code>Remote & On-Site</code> &nbsp; <code>Immediate Joiner</code>
-</td>
-</tr>
-</table>
 </div>
 
 <!-- ACHIEVEMENTS -->
