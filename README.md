@@ -63,18 +63,6 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 <a href="https://github.com/chimataraghuram?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fchimataraghuram&query=%24.public_repos&style=for-the-badge&logo=github&label=REPOSITORIES&color=10b981&labelColor=0d1117" height="28" alt="Repositories" /></a>
 </p>
 <br/>
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_divider.svg?v=20261026" width="850" alt="divider" /><br/>
-<br/>
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_connect_status.svg?v=20261026" width="850" alt="CONNECT & STATUS" /><br/>
-<p align="center">
-<a href="https://chimataraghuram.vercel.app/"><img src="https://img.shields.io/badge/-Portfolio-8b5cf6?style=for-the-badge&logo=vercel&logoColor=white" height="28" alt="Portfolio" /></a>
-<a href="https://leetcode.com/u/chimataraghuram/"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" height="28" alt="LeetCode" /></a>
-<a href="https://github.com/chimataraghuram"><img src="https://img.shields.io/badge/-Open_to_Work-10b981?style=for-the-badge&logo=briefcase&logoColor=white" height="28" alt="Open to Work" /></a>
-<a href="https://www.linkedin.com/in/chimataraghuram/"><img src="https://img.shields.io/badge/-Actively_Looking-0ea5e9?style=for-the-badge&logo=target&logoColor=white" height="28" alt="Actively Looking" /></a>
-<a href="mailto:chimataraghuram02a@gmail.com"><img src="https://img.shields.io/badge/-Email-f43f5e?style=for-the-badge&logo=gmail&logoColor=white" height="28" alt="Email" /></a>
-<a href="https://www.linkedin.com/in/chimataraghuram/"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="28" alt="LinkedIn" /></a>
-</p>
-<br/>
 </div>
 
 <!-- ACHIEVEMENTS -->
