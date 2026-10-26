@@ -506,33 +506,33 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
   <tbody>
     <tr>
       <td align="center">🚀</td>
-      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b>chimataraghuram/TECHBOY-STORE</b></a></td>
-      <td>style(footer): modernize command center layout with cyber...</td>
-      <td align="center"><img src="https://img.shields.io/badge/Oct 24-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 24" /></td>
+      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
+      <td>fix: remove nested indentation to prevent GitHub markdown...</td>
+      <td align="center"><img src="https://img.shields.io/badge/Oct%2026-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 26" /></td>
+    </tr>
+    <tr>
+      <td align="center">⭐</td>
+      <td><a href="https://github.com/ianshulyadav/PixelMusic"><b>ianshulyadav/PixelMusic</b></a></td>
+      <td>Starred repository</td>
+      <td align="center"><img src="https://img.shields.io/badge/Oct%2026-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 26" /></td>
     </tr>
     <tr>
       <td align="center">🚀</td>
-      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
-      <td>Fix typing animation clipping on letter M and adjust care...</td>
-      <td align="center"><img src="https://img.shields.io/badge/Oct 25-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 25" /></td>
+      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b>chimataraghuram/TECHBOY-STORE</b></a></td>
+      <td>Merge pull request #3 from chimataraghuram/chimataraghura...</td>
+      <td align="center"><img src="https://img.shields.io/badge/Oct%2024-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 24" /></td>
     </tr>
     <tr>
       <td align="center">🎉</td>
       <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b>chimataraghuram/TECHBOY-STORE</b></a></td>
       <td>Created new branch in repository</td>
-      <td align="center"><img src="https://img.shields.io/badge/Oct 24-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 24" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/Oct%2024-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 24" /></td>
     </tr>
     <tr>
       <td align="center">⭐</td>
       <td><a href="https://github.com/chimataraghuram/PROJECT-FINDER"><b>chimataraghuram/PROJECT-FINDER</b></a></td>
       <td>Starred repository</td>
-      <td align="center"><img src="https://img.shields.io/badge/Oct 25-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 25" /></td>
-    </tr>
-    <tr>
-      <td align="center">🔄</td>
-      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b>chimataraghuram/TECHBOY-STORE</b></a></td>
-      <td>Merged PR #3 — PR #3</td>
-      <td align="center"><img src="https://img.shields.io/badge/Oct 24-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 24" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/Oct%2025-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 25" /></td>
     </tr>
   </tbody>
 </table>
