@@ -551,98 +551,77 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 </div>
 
 <div align="center">
-  <p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=0ea5e9&center=true&vCenter=true&width=600&lines=💬+Let's+Connect+%26+Collaborate;🚀+Open+to+AI+%26+Full-Stack+Opportunities;📫+Reach+Out+Anytime!" alt="Let's Connect" />
-  </p>
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=0ea5e9&center=true&vCenter=true&width=600&lines=📬+Let's+Connect+%26+Collaborate;🚀+Open+to+AI+%26+Full-Stack+Opportunities;💬+Reach+Out+Anytime!" alt="Let's Connect" />
+</p>
 
-  <p align="center">
-    <img src="https://img.shields.io/badge/Open_To-Collaborations_%26_Hiring-22c55e?style=for-the-badge&logo=target&logoColor=white" alt="Open to Collaborations" />
-    &nbsp;
-    <img src="https://img.shields.io/badge/Response_Time-%3C_24_Hours-7c3aed?style=for-the-badge&logo=clock&logoColor=white" alt="Response Time" />
-  </p>
+<p align="center">
+<img src="https://img.shields.io/badge/Open_To-Collaborations_%26_Hiring-10B981?style=for-the-badge&logo=target&logoColor=white&labelColor=0d1117" alt="Open to Collaborations" />
+&nbsp;
+<img src="https://img.shields.io/badge/Response_Time-%3C_24_Hours-8B5CF6?style=for-the-badge&logo=clock&logoColor=white&labelColor=0d1117" alt="Response Time" />
+</p>
 </div>
 
 <br/>
 
 <table width="100%">
-  <tr>
-    <td width="33.3%" align="center" valign="top">
-      <br/>
-      <a href="https://www.linkedin.com/in/chimataraghuram/" target="_blank">
-        <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-      </a>
-      <br/><br/>
-      <b>💼 Professional Network</b>
-      <p align="center">Let's connect, share insights & discuss career opportunities</p>
-      <br/>
-    </td>
-    <td width="33.3%" align="center" valign="top">
-      <br/>
-      <a href="https://chimataraghuram.vercel.app/" target="_blank">
-        <img src="https://img.shields.io/badge/Portfolio-7c3aed?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
-      </a>
-      <br/><br/>
-      <b>🌐 Interactive Showcase</b>
-      <p align="center">Explore live project demos, architecture reviews & mini-games</p>
-      <br/>
-    </td>
-    <td width="33.3%" align="center" valign="top">
-      <br/>
-      <a href="mailto:chimataraghuram02a@gmail.com">
-        <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-      </a>
-      <br/><br/>
-      <b>📧 Direct Inquiries</b>
-      <p align="center">Fast response for project collaborations, freelancing & roles</p>
-      <br/>
-    </td>
-  </tr>
-  <tr>
-    <td width="33.3%" align="center" valign="top">
-      <br/>
-      <a href="https://github.com/chimataraghuram" target="_blank">
-        <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-      </a>
-      <br/><br/>
-      <b>🐙 Open Source</b>
-      <p align="center">Browse repositories, star projects & check latest commits</p>
-      <br/>
-    </td>
-    <td width="33.3%" align="center" valign="top">
-      <br/>
-      <a href="https://leetcode.com/u/chimataraghuram/" target="_blank">
-        <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" />
-      </a>
-      <br/><br/>
-      <b>💻 Problem Solving</b>
-      <p align="center">Algorithmic solutions, data structures & competitive coding</p>
-      <br/>
-    </td>
-    <td width="33.3%" align="center" valign="top">
-      <br/>
-      <a href="https://buymeacoffee.com/chimataraghuram" target="_blank">
-        <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Coffee" />
-      </a>
-      <br/><br/>
-      <b>☕ Support & Fuel</b>
-      <p align="center">Fuel open-source AI builds, research & developer tools</p>
-      <br/>
-    </td>
-  </tr>
+<tr>
+<td width="33.3%" valign="top">
+<h4>💼 <a href="https://www.linkedin.com/in/chimataraghuram/">LinkedIn</a> <img src="https://img.shields.io/badge/Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" height="18" alt="LinkedIn" align="right" /></h4>
+<b>Professional Network</b> &nbsp; <img src="https://img.shields.io/badge/●_Active-10B981?style=flat-square" height="16" alt="Active" align="right" />
+<br/><br/>
+<p>Let's connect, share engineering insights, discuss career roles & open-source collaboration.</p>
+<p>🏷️ <code>Networking</code> <code>Career</code> <code>Discussions</code></p>
+</td>
+<td width="33.3%" valign="top">
+<h4>🌐 <a href="https://chimataraghuram.vercel.app/">Portfolio</a> <img src="https://img.shields.io/badge/Live_Site-8B5CF6?style=flat-square&logo=vercel&logoColor=white" height="18" alt="Portfolio" align="right" /></h4>
+<b>Interactive Showcase</b> &nbsp; <img src="https://img.shields.io/badge/●_Live-10B981?style=flat-square" height="16" alt="Live" align="right" />
+<br/><br/>
+<p>Explore live project deployments, system architecture blueprints & hidden interactive minigames.</p>
+<p>🏷️ <code>Showcase</code> <code>Live Demos</code> <code>React</code></p>
+</td>
+<td width="33.3%" valign="top">
+<h4>✉️ <a href="mailto:chimataraghuram02a@gmail.com">Email</a> <img src="https://img.shields.io/badge/Direct-EA4335?style=flat-square&logo=gmail&logoColor=white" height="18" alt="Email" align="right" /></h4>
+<b>Direct Inquiries</b> &nbsp; <img src="https://img.shields.io/badge/●_Available-10B981?style=flat-square" height="16" alt="Available" align="right" />
+<br/><br/>
+<p>Rapid response for project collaborations, freelancing, backend engineering & internships.</p>
+<p>🏷️ <code>Direct Line</code> <code>Hiring</code> <code>Inquiries</code></p>
+</td>
+</tr>
+<tr>
+<td width="33.3%" valign="top">
+<h4>🐙 <a href="https://github.com/chimataraghuram">GitHub</a> <img src="https://img.shields.io/badge/Explore-181717?style=flat-square&logo=github&logoColor=white" height="18" alt="GitHub" align="right" /></h4>
+<b>Open Source Repos</b> &nbsp; <img src="https://img.shields.io/badge/●_Active-10B981?style=flat-square" height="16" alt="Active" align="right" />
+<br/><br/>
+<p>Browse full-stack repositories, star open projects, inspect architectural commits & contribute.</p>
+<p>🏷️ <code>Open Source</code> <code>Codebases</code> <code>Commits</code></p>
+</td>
+<td width="33.3%" valign="top">
+<h4>⚡ <a href="https://leetcode.com/u/chimataraghuram/">LeetCode</a> <img src="https://img.shields.io/badge/Profile-FFA116?style=flat-square&logo=leetcode&logoColor=white" height="18" alt="LeetCode" align="right" /></h4>
+<b>Problem Solving</b> &nbsp; <img src="https://img.shields.io/badge/●_Active-10B981?style=flat-square" height="16" alt="Active" align="right" />
+<br/><br/>
+<p>Algorithmic problem solving, optimized data structure implementations & contest solutions.</p>
+<p>🏷️ <code>DSA</code> <code>Python</code> <code>Algorithms</code></p>
+</td>
+<td width="33.3%" valign="top">
+<h4>☕ <a href="https://buymeacoffee.com/chimataraghuram">Buy Me A Coffee</a> <img src="https://img.shields.io/badge/Fuel-FFDD00?style=flat-square&logo=buy-me-a-coffee&logoColor=black" height="18" alt="Coffee" align="right" /></h4>
+<b>Support & Fuel</b> &nbsp; <img src="https://img.shields.io/badge/●_Support-EC4899?style=flat-square" height="16" alt="Support" align="right" />
+<br/><br/>
+<p>Fuel open-source AI agent research, public developer utility tools & infrastructure development.</p>
+<p>🏷️ <code>Open Source</code> <code>Sponsor</code> <code>AI Research</code></p>
+</td>
+</tr>
 </table>
 
 <br/>
 
 <div align="center">
-  <p><i>💡 Click any button above to reach out — I'm always open to discussing new AI projects, agent workflows, and collaborations!</i></p>
+<p>💡 <i>Click any card or badge above to connect — I'm always excited to discuss agentic workflows, open-source AI builds, and new software roles!</i></p>
+<br/>
+<strong>🚀 Let's build something amazing together! 💫</strong>
 </div>
 
-
-<br />
-
-<div align="center">
-  <strong>Let's build something amazing together! 🚀</strong>
-</div>
+<br/>
 
 <!-- FOOTER -->
 <div align="center">
