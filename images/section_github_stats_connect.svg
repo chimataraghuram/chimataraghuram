@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="54" viewBox="0 0 900 54">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5FF"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+    <linearGradient id="cyanBeamGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0" />
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0.9" />
+    </linearGradient>
+    <linearGradient id="purpleBeamGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EC4899" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#EC4899" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Left Cyber Beam -->
+  <line x1="40" y1="27" x2="202" y2="27" stroke="#00E5FF" stroke-width="12" stroke-opacity="0.16" stroke-linecap="round" />
+  <line x1="40" y1="27" x2="202" y2="27" stroke="url(#cyanBeamGrad)" stroke-width="3" stroke-linecap="round" />
+  <circle cx="205" cy="27" r="7" fill="#00E5FF" fill-opacity="0.25" />
+  <circle cx="205" cy="27" r="4.2" fill="#00E5FF" />
+  <circle cx="205" cy="27" r="1.8" fill="#FFFFFF" />
+
+  <!-- Pulse Ring Icon -->
+  <g transform="translate(218, 13)">
+    <circle cx="14" cy="14" r="13" fill="#070C16" stroke="#00E5FF" stroke-width="2"/>
+    <circle cx="14" cy="14" r="6" fill="none" stroke="#00E5FF" stroke-width="2"/>
+    <circle cx="14" cy="14" r="2.2" fill="#00E5FF"/>
+  </g>
+
+  <!-- Title Text -->
+  <text x="468" y="35" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Pro Display', Helvetica, Arial, sans-serif" font-size="20.5" font-weight="900" letter-spacing="4.5" fill="url(#headerGrad)">GITHUB STATS &amp; CONNECT</text>
+
+  <!-- Right Cyber Beam -->
+  <circle cx="698" cy="27" r="7" fill="#EC4899" fill-opacity="0.25" />
+  <circle cx="698" cy="27" r="4.2" fill="#EC4899" />
+  <circle cx="698" cy="27" r="1.8" fill="#FFFFFF" />
+  <line x1="701" y1="27" x2="860" y2="27" stroke="url(#purpleBeamGrad)" stroke-width="3" stroke-linecap="round" />
+  <line x1="701" y1="27" x2="860" y2="27" stroke="#EC4899" stroke-width="12" stroke-opacity="0.16" stroke-linecap="round" />
+</svg>
