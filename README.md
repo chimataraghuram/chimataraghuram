@@ -56,7 +56,17 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 <br/>
 <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_github_stats.svg?v=20261027" width="850" alt="GITHUB STATS" /><br/>
 <br/>
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_github_stats_cards.svg?v=20261027" width="100%" alt="GitHub Stats Cards" /><br/>
+<p align="center">
+  <a href="https://komarev.com/ghpvc/?username=chimataraghuram"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/stat_views.svg?v=20261027" height="42" alt="Profile Views" /></a>
+  &nbsp;
+  <a href="https://github.com/chimataraghuram?tab=followers"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/stat_followers.svg?v=20261027" height="42" alt="Followers" /></a>
+  &nbsp;
+  <a href="https://github.com/chimataraghuram?tab=repositories"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/stat_stars.svg?v=20261027" height="42" alt="Stars" /></a>
+  &nbsp;
+  <a href="https://github.com/chimataraghuram?tab=repositories"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/stat_deployments.svg?v=20261027" height="42" alt="Deployments" /></a>
+  &nbsp;
+  <a href="https://github.com/chimataraghuram?tab=repositories"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/stat_repositories.svg?v=20261027" height="42" alt="Repositories" /></a>
+</p>
 <br/>
 </div>
 
