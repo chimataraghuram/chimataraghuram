@@ -67,22 +67,22 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 
 <!-- ACHIEVEMENTS -->
 <div align="center">
-<a href="https://github.com/chimataraghuram?tab=achievements">
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_achievements_card.svg?v=20261027" width="100%" alt="Official GitHub Achievements heading" />
-</a>
-<br/>
-<a href="https://github.com/chimataraghuram?tab=achievements">
-<img src="https://github.githubassets.com/assets/pull-shark-bronze-a37accb528d1.png" width="90" alt="Pull Shark" />
-<img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="90" alt="YOLO" />
-<img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="90" alt="Quickdraw" />
-</a>
+  <br/>
+  <a href="https://github.com/chimataraghuram?tab=achievements">
+<!--START_SECTION:achievements-->
+    <img src="https://github.githubassets.com/assets/pull-shark-bronze-a37accb528d1.png" width="100" alt="Pull Shark" />
+    <img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="100" alt="YOLO" />
+    <img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="100" alt="Quickdraw" />
+<!--END_SECTION:achievements-->
+  </a>
+  <br/>
+  <strong>Official GitHub Achievements</strong>
 </div>
+
 <br/>
 
-</div>
-<br/>
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&height=15<img src="https://capsule-render.vercel.app/api?type=rect&height=15&color=0:7c3aed,50:c026d3,100:0ea5e9" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=15&color=0:7c3aed,50:c026d3,100:0ea5e9" width="100%" />
 </div>
 
 <br/>
