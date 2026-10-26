@@ -53,9 +53,6 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 
 <!-- GITHUB STATS DASHBOARD -->
 <div align="center">
-<table width="100%">
-<tr>
-<td align="center">
 <br/>
 <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_github_metrics.svg?v=20261026" width="850" alt="GITHUB METRICS" /><br/>
 <p align="center">
@@ -65,7 +62,9 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 <a href="https://github.com/chimataraghuram?tab=repositories"><img src="https://img.shields.io/badge/Deployments-1841-f43f5e?style=for-the-badge&logo=rocket&logoColor=white&labelColor=0d1117" height="28" alt="Deployments" /></a>
 <a href="https://github.com/chimataraghuram?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fchimataraghuram&query=%24.public_repos&style=for-the-badge&logo=github&label=REPOSITORIES&color=10b981&labelColor=0d1117" height="28" alt="Repositories" /></a>
 </p>
-<hr/>
+<br/>
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_divider.svg?v=20261026" width="850" alt="divider" /><br/>
+<br/>
 <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_connect_status.svg?v=20261026" width="850" alt="CONNECT & STATUS" /><br/>
 <p align="center">
 <a href="https://chimataraghuram.vercel.app/"><img src="https://img.shields.io/badge/-Portfolio-8b5cf6?style=for-the-badge&logo=vercel&logoColor=white" height="28" alt="Portfolio" /></a>
@@ -76,9 +75,6 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 <a href="https://www.linkedin.com/in/chimataraghuram/"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="28" alt="LinkedIn" /></a>
 </p>
 <br/>
-</td>
-</tr>
-</table>
 </div>
 
 <!-- ACHIEVEMENTS -->
