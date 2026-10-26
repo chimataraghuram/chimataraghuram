@@ -67,21 +67,23 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 
 <!-- ACHIEVEMENTS -->
 <div align="center">
-<br/>
-<a href="https://github.com/chimataraghuram?tab=achievements">
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/achievements_banner.png?v=20261027" width="100%" alt="Official GitHub Achievements" />
-</a>
-<div style="display:none">
+  <br/>
+  <a href="https://github.com/chimataraghuram?tab=achievements">
 <!--START_SECTION:achievements-->
     <img src="https://github.githubassets.com/assets/pull-shark-bronze-a37accb528d1.png" width="100" alt="Pull Shark" />
     <img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="100" alt="YOLO" />
     <img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="100" alt="Quickdraw" />
 <!--END_SECTION:achievements-->
+  </a>
+  <br/>
+  <h2>🏆 GITHUB ACHIEVEMENTS</h2>
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:22d3ee,50:6366f1,100:a855f7" width="260" alt="" />
 </div>
-</div>
+
 <br/>
+
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&height=15<img src="https://capsule-render.vercel.app/api?type=rect&height=15&color=0:7c3aed,50:c026d3,100:0ea5e9" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=15&color=0:7c3aed,50:c026d3,100:0ea5e9" width="100%" />
 </div>
 
 <br/>
