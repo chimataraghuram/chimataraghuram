@@ -94,7 +94,12 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 <br/>
 
 <div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=15&color=0:7c3aed,50:c026d3,100:0ea5e9" width="100%" />
+</div>
+
 <br/>
+
+<div align="center">
 <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_work_experience.svg?v=20261026" width="850" alt="WORK EXPERIENCE" /><br/>
 </div>
 <br/>
