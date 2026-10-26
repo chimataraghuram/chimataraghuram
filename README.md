@@ -148,7 +148,9 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
   <img src="https://capsule-render.vercel.app/api?type=rect&height=15&color=0:7c3aed,50:c026d3,100:0ea5e9" width="100%" />
 </div>
 
-## 🚀 TOP PROJECTS 📌
+<div align="center">
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_top_projects.svg?v=20261026" width="850" alt="TOP PROJECTS" /><br/>
+</div>
 
 ### 🌐 [PORTFOLIO](https://github.com/chimataraghuram/PORTFOLIO) ![Live](https://img.shields.io/badge/Status-🟢%20Live-22c55e?style=flat-square)
 [![Portfolio Screenshot](https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/portfolio.png)](https://chimataraghuram.vercel.app/)
@@ -226,7 +228,9 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
   <img src="https://capsule-render.vercel.app/api?type=rect&height=15&color=0:7c3aed,50:c026d3,100:0ea5e9" width="100%" />
 </div>
 
-## 📂 Other Projects
+<div align="center">
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_other_projects.svg?v=20261026" width="850" alt="OTHER PROJECTS" /><br/>
+</div>
 
 ### 🤖 [TECHBOY-AI](https://github.com/chimataraghuram/TECHBOY-AI) ![Live](https://img.shields.io/badge/Status-🟢%20Live-22c55e?style=flat-square)
 [![Techboy AI Screenshot](https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/techboy_ai.png)](https://chimataraghuram.github.io/TECHBOY-AI/)
@@ -374,7 +378,9 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
   <img src="https://capsule-render.vercel.app/api?type=rect&height=15&color=0:7c3aed,50:c026d3,100:0ea5e9" width="100%" />
 </div>
 
-## 🛠 Tech Stack
+<div align="center">
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_tech_stack.svg?v=20261026" width="850" alt="TECH STACK" /><br/>
+</div>
 
 <div align="center">
 
@@ -406,7 +412,9 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
   <img src="https://capsule-render.vercel.app/api?type=rect&height=15&color=0:7c3aed,50:c026d3,100:0ea5e9" width="100%" />
 </div>
 
-## 🌱 Currently Learning
+<div align="center">
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_currently_learning.svg?v=20261026" width="850" alt="CURRENTLY LEARNING" /><br/>
+</div>
 
 <div align="center">
   <p align="center">
@@ -481,7 +489,9 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
   <img src="https://capsule-render.vercel.app/api?type=rect&height=15&color=0:7c3aed,50:c026d3,100:0ea5e9" width="100%" />
 </div>
 
-## 🕒 Recent Activity
+<div align="center">
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_recent_activity.svg?v=20261026" width="850" alt="RECENT ACTIVITY" /><br/>
+</div>
 
 <div align="center">
   <p align="center">
@@ -546,7 +556,9 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 
 <br/>
 
-## 📬 Let's Connect
+<div align="center">
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_lets_connect.svg?v=20261026" width="850" alt="LET'S CONNECT" /><br/>
+</div>
 
 <div align="center">
   <p align="center">
