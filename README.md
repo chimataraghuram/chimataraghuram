@@ -76,8 +76,7 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 <!--END_SECTION:achievements-->
   </a>
   <br/>
-  <h2>🏆 GITHUB ACHIEVEMENTS</h2>
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:22d3ee,50:6366f1,100:a855f7" width="260" alt="" />
+  <strong>Official GitHub Achievements</strong>
 </div>
 
 <br/>
