@@ -77,6 +77,10 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
   </a>
   <br/><br/>
 <!--START_SECTION:achievements-->
+  <a href="https://github.com/chimataraghuram?achievement=starstruck&tab=achievements">
+    <img src="https://github.githubassets.com/assets/starstruck-default-b6610abad518.png" width="100" alt="Starstruck" />
+  </a>
+  &nbsp;
   <a href="https://github.com/chimataraghuram?achievement=pull-shark&tab=achievements">
     <img src="https://github.githubassets.com/assets/pull-shark-bronze-a37accb528d1.png" width="100" alt="Pull Shark" />
   </a>
