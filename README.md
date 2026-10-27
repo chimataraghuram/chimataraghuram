@@ -44,9 +44,9 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 <div align="center">
   <br/>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake-dark.svg?v=2026-10-26">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake.svg?v=2026-10-26">
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake.svg?v=2026-10-26" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake-dark.svg?v=2026-10-27">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake.svg?v=2026-10-27">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake.svg?v=2026-10-27" width="100%" />
   </picture>
   <br/><br/>
 </div>
@@ -505,10 +505,22 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
   </thead>
   <tbody>
     <tr>
+      <td align="center">🔄</td>
+      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
+      <td>Merged PR #3 — PR #3</td>
+      <td align="center"><img src="https://img.shields.io/badge/Oct%2026-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 26" /></td>
+    </tr>
+    <tr>
+      <td align="center">🔄</td>
+      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
+      <td>Merged PR #2 — PR #2</td>
+      <td align="center"><img src="https://img.shields.io/badge/Oct%2026-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 26" /></td>
+    </tr>
+    <tr>
       <td align="center">🚀</td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
-      <td>style(connect): modernize Let's Connect into neat cyber c...</td>
-      <td align="center"><img src="https://img.shields.io/badge/Oct%2026-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 26" /></td>
+      <td>feat: build interactive stats and connections dashboard</td>
+      <td align="center"><img src="https://img.shields.io/badge/Oct%2025-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 25" /></td>
     </tr>
     <tr>
       <td align="center">🔄</td>
@@ -521,18 +533,6 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
       <td>Created new branch in repository</td>
       <td align="center"><img src="https://img.shields.io/badge/Oct%2026-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 26" /></td>
-    </tr>
-    <tr>
-      <td align="center">⭐</td>
-      <td><a href="https://github.com/ianshulyadav/PixelMusic"><b>ianshulyadav/PixelMusic</b></a></td>
-      <td>Starred repository</td>
-      <td align="center"><img src="https://img.shields.io/badge/Oct%2026-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 26" /></td>
-    </tr>
-    <tr>
-      <td align="center">🚀</td>
-      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b>chimataraghuram/TECHBOY-STORE</b></a></td>
-      <td>Merge pull request #3 from chimataraghuram/chimataraghura...</td>
-      <td align="center"><img src="https://img.shields.io/badge/Oct%2024-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 24" /></td>
     </tr>
   </tbody>
 </table>
