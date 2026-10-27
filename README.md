@@ -77,52 +77,31 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
   </a>
   <br/><br/>
 <!--START_SECTION:achievements-->
-  <table align="center" border="0" style="border-collapse: collapse;">
-    <tr align="center">
-      <td align="center" width="120">
-        <a href="https://github.com/chimataraghuram?achievement=starstruck&tab=achievements">
-          <img src="https://github.githubassets.com/assets/starstruck-default-b6610abad518.png" width="95" alt="Starstruck" />
-        </a>
-      </td>
-      <td align="center" width="120">
-        <a href="https://github.com/chimataraghuram?achievement=pull-shark&tab=achievements">
-          <img src="https://github.githubassets.com/assets/pull-shark-bronze-a37accb528d1.png" width="95" alt="Pull Shark" />
-        </a>
-      </td>
-      <td align="center" width="120">
-        <a href="https://github.com/chimataraghuram?achievement=yolo&tab=achievements">
-          <img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="95" alt="YOLO" />
-        </a>
-      </td>
-      <td align="center" width="120">
-        <a href="https://github.com/chimataraghuram?achievement=quickdraw&tab=achievements">
-          <img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="95" alt="Quickdraw" />
-        </a>
-      </td>
-    </tr>
-    <tr align="center">
-      <td align="center">
-        <a href="https://github.com/chimataraghuram?achievement=starstruck&tab=achievements">
-          <b>Starstruck</b>
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/chimataraghuram?achievement=pull-shark&tab=achievements">
-          <b>Pull Shark</b> <small>(x2)</small>
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/chimataraghuram?achievement=yolo&tab=achievements">
-          <b>YOLO</b>
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/chimataraghuram?achievement=quickdraw&tab=achievements">
-          <b>Quickdraw</b>
-        </a>
-      </td>
-    </tr>
-  </table>
+  <a href="https://github.com/chimataraghuram?achievement=starstruck&tab=achievements">
+    <img src="https://github.githubassets.com/assets/starstruck-default-b6610abad518.png" width="105" alt="Starstruck" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/chimataraghuram?achievement=pull-shark&tab=achievements">
+    <img src="https://github.githubassets.com/assets/pull-shark-bronze-a37accb528d1.png" width="105" alt="Pull Shark" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/chimataraghuram?achievement=yolo&tab=achievements">
+    <img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="105" alt="YOLO" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/chimataraghuram?achievement=quickdraw&tab=achievements">
+    <img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="105" alt="Quickdraw" />
+  </a>
+  <br/><br/>
+  <p align="center">
+    <a href="https://github.com/chimataraghuram?achievement=starstruck&tab=achievements"><b>Starstruck</b></a>
+    &nbsp;&nbsp;·&nbsp;&nbsp;
+    <a href="https://github.com/chimataraghuram?achievement=pull-shark&tab=achievements"><b>Pull Shark (x2)</b></a>
+    &nbsp;&nbsp;·&nbsp;&nbsp;
+    <a href="https://github.com/chimataraghuram?achievement=yolo&tab=achievements"><b>YOLO</b></a>
+    &nbsp;&nbsp;·&nbsp;&nbsp;
+    <a href="https://github.com/chimataraghuram?achievement=quickdraw&tab=achievements"><b>Quickdraw</b></a>
+  </p>
 <!--END_SECTION:achievements-->
 </div>
 

@@ -286,15 +286,15 @@ jobs:
               return;
             }
 
-            const imgCells = achievements.map(a => `      <td align="center" width="120">\n        <a href="https://github.com/chimataraghuram?achievement=${a.slug}&tab=achievements">\n          <img src="${a.src}" width="95" alt="${a.displayName}" />\n        </a>\n      </td>`).join('\n');
-            const labelCells = achievements.map(a => `      <td align="center">\n        <a href="https://github.com/chimataraghuram?achievement=${a.slug}&tab=achievements">\n          <b>${a.displayName}</b>${a.extraTier}\n        </a>\n      </td>`).join('\n');
+            const badgeImgs = achievements.map(a => `  <a href="https://github.com/chimataraghuram?achievement=${a.slug}&tab=achievements">\n    <img src="${a.src}" width="105" alt="${a.displayName}" />\n  </a>`).join('\n  &nbsp;&nbsp;\n');
+            const badgeNames = achievements.map(a => `<a href="https://github.com/chimataraghuram?achievement=${a.slug}&tab=achievements"><b>${a.displayName}${a.extraTier.replace(/<[^>]+>/g, '') ? ' ' + a.extraTier.replace(/<[^>]+>/g, '').trim() : ''}</b></a>`).join('\n    &nbsp;&nbsp;·&nbsp;&nbsp;\n    ');
 
-            const tableHtml = `<!--START_SECTION:achievements-->\n  <table align="center" border="0" style="border-collapse: collapse;">\n    <tr align="center">\n${imgCells}\n    </tr>\n    <tr align="center">\n${labelCells}\n    </tr>\n  </table>\n<!--END_SECTION:achievements-->`;
+            const achievementsBlock = `<!--START_SECTION:achievements-->\n${badgeImgs}\n  <br/><br/>\n  <p align="center">\n    ${badgeNames}\n  </p>\n<!--END_SECTION:achievements-->`;
 
             const readme = fs.readFileSync('README.md', 'utf8');
             const newReadme = readme.replace(
               /<!--START_SECTION:achievements-->[\s\S]*<!--END_SECTION:achievements-->/,
-              tableHtml
+              achievementsBlock
             );
 
             if (readme !== newReadme) {
