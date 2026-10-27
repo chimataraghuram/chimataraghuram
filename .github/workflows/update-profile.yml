@@ -264,7 +264,10 @@ jobs:
                     else if (lowerAlt.includes('heart on sleeve') || lowerSrc.includes('heart-on-your-sleeve')) slug = 'heart-on-your-sleeve';
                     else slug = lowerAlt.replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
-                    tempAchievements.push(`  <a href="https://github.com/chimataraghuram?achievement=${slug}&tab=achievements">\n    <img src="${src}" width="100" alt="${alt}" />\n  </a>`);
+                    let displayName = alt.replace(/^Achievement:\s*/i, '').trim();
+                    let extraTier = '';
+                    if (lowerAlt.includes('pull shark') || lowerSrc.includes('pull-shark')) extraTier = ' <small>(x2)</small>';
+                    tempAchievements.push({ src, alt, slug, displayName, extraTier });
                   }
                 }
                 if (tempAchievements.length > 0) {
@@ -283,10 +286,15 @@ jobs:
               return;
             }
 
+            const imgCells = achievements.map(a => `      <td align="center" width="120">\n        <a href="https://github.com/chimataraghuram?achievement=${a.slug}&tab=achievements">\n          <img src="${a.src}" width="95" alt="${a.displayName}" />\n        </a>\n      </td>`).join('\n');
+            const labelCells = achievements.map(a => `      <td align="center">\n        <a href="https://github.com/chimataraghuram?achievement=${a.slug}&tab=achievements">\n          <b>${a.displayName}</b>${a.extraTier}\n        </a>\n      </td>`).join('\n');
+
+            const tableHtml = `<!--START_SECTION:achievements-->\n  <table align="center" border="0" style="border-collapse: collapse;">\n    <tr align="center">\n${imgCells}\n    </tr>\n    <tr align="center">\n${labelCells}\n    </tr>\n  </table>\n<!--END_SECTION:achievements-->`;
+
             const readme = fs.readFileSync('README.md', 'utf8');
             const newReadme = readme.replace(
               /<!--START_SECTION:achievements-->[\s\S]*<!--END_SECTION:achievements-->/,
-              `<!--START_SECTION:achievements-->\n${achievements.join('\n  &nbsp;\n')}\n<!--END_SECTION:achievements-->`
+              tableHtml
             );
 
             if (readme !== newReadme) {
