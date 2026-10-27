@@ -82,7 +82,7 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/chimataraghuram?achievement=pull-shark&tab=achievements">
-    <img src="https://github.githubassets.com/assets/pull-shark-bronze-a37accb528d1.png" width="105" alt="Pull Shark (Bronze x2)" />
+    <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/pull-shark-bronze-x2.png" width="105" alt="Pull Shark (Bronze x2)" />
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/chimataraghuram?achievement=yolo&tab=achievements">

@@ -287,7 +287,11 @@ jobs:
             }
 
             const badgeUnits = achievements.map(a => {
-              return `  <a href="https://github.com/chimataraghuram?achievement=${a.slug}&tab=achievements">\n    <img src="${a.src}" width="105" alt="${a.displayName}" />\n  </a>`;
+              let imgSrc = a.src;
+              if (a.slug === 'pull-shark') {
+                imgSrc = 'https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/pull-shark-bronze-x2.png';
+              }
+              return `  <a href="https://github.com/chimataraghuram?achievement=${a.slug}&tab=achievements">\n    <img src="${imgSrc}" width="105" alt="${a.displayName}" />\n  </a>`;
             }).join('\n  &nbsp;&nbsp;&nbsp;&nbsp;\n');
 
             const achievementsBlock = `<!--START_SECTION:achievements-->\n${badgeUnits}\n<!--END_SECTION:achievements-->`;
