@@ -286,10 +286,13 @@ jobs:
               return;
             }
 
-            const badgeImgs = achievements.map(a => `  <a href="https://github.com/chimataraghuram?achievement=${a.slug}&tab=achievements">\n    <img src="${a.src}" width="105" alt="${a.displayName}" />\n  </a>`).join('\n  &nbsp;&nbsp;\n');
-            const badgeNames = achievements.map(a => `<a href="https://github.com/chimataraghuram?achievement=${a.slug}&tab=achievements"><b>${a.displayName}${a.extraTier.replace(/<[^>]+>/g, '') ? ' ' + a.extraTier.replace(/<[^>]+>/g, '').trim() : ''}</b></a>`).join('\n    &nbsp;&nbsp;·&nbsp;&nbsp;\n    ');
+            const badgeUnits = achievements.map(a => {
+              const safeSlug = a.slug.replace(/-/g, '_');
+              const labelUrl = `https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_${safeSlug}.svg`;
+              return `  <a href="https://github.com/chimataraghuram?achievement=${a.slug}&tab=achievements">\n    <img src="${a.src}" width="105" alt="${a.displayName}" />\n    <br/>\n    <img src="${labelUrl}" width="105" alt="${a.displayName}" />\n  </a>`;
+            }).join('\n  &nbsp;&nbsp;&nbsp;&nbsp;\n');
 
-            const achievementsBlock = `<!--START_SECTION:achievements-->\n${badgeImgs}\n  <br/><br/>\n  <p align="center">\n    ${badgeNames}\n  </p>\n<!--END_SECTION:achievements-->`;
+            const achievementsBlock = `<!--START_SECTION:achievements-->\n${badgeUnits}\n<!--END_SECTION:achievements-->`;
 
             const readme = fs.readFileSync('README.md', 'utf8');
             const newReadme = readme.replace(
