@@ -511,7 +511,7 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
     <tr>
       <td align="center">🚀</td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
-      <td>design: apply neon cyber beam headers across all profile ...</td>
+      <td>Revert "style(connect): modernize Let's Connect into neat...</td>
       <td align="center"><img src="https://img.shields.io/badge/Oct%2026-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 26" /></td>
     </tr>
     <tr>
