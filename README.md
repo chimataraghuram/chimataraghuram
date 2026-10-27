@@ -511,6 +511,12 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
     <tr>
       <td align="center">🔄</td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
+      <td>Merged PR #9 — PR #9</td>
+      <td align="center"><img src="https://img.shields.io/badge/Oct%2027-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 27" /></td>
+    </tr>
+    <tr>
+      <td align="center">🔄</td>
+      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
       <td>Merged PR #8 — PR #8</td>
       <td align="center"><img src="https://img.shields.io/badge/Oct%2027-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 27" /></td>
     </tr>
@@ -531,12 +537,6 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
       <td>Merged PR #6 — PR #6</td>
       <td align="center"><img src="https://img.shields.io/badge/Oct%2027-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 27" /></td>
-    </tr>
-    <tr>
-      <td align="center">🚀</td>
-      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
-      <td>Revert "style(connect): modernize Let's Connect into neat...</td>
-      <td align="center"><img src="https://img.shields.io/badge/Oct%2026-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 26" /></td>
     </tr>
   </tbody>
 </table>
