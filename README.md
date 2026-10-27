@@ -540,9 +540,21 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
   </thead>
   <tbody>
     <tr>
+      <td align="center">🔄</td>
+      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
+      <td>Merged PR #5 — PR #5</td>
+      <td align="center"><img src="https://img.shields.io/badge/Oct%2027-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 27" /></td>
+    </tr>
+    <tr>
+      <td align="center">🔄</td>
+      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
+      <td>Merged PR #4 — PR #4</td>
+      <td align="center"><img src="https://img.shields.io/badge/Oct%2027-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 27" /></td>
+    </tr>
+    <tr>
       <td align="center">🚀</td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
-      <td>style(achievements): modernize section heading with glowi...</td>
+      <td>Revert "style: merge metrics and connect into a single un...</td>
       <td align="center"><img src="https://img.shields.io/badge/Oct%2026-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 26" /></td>
     </tr>
     <tr>
@@ -555,18 +567,6 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
       <td align="center">🔄</td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
       <td>Merged PR #2 — PR #2</td>
-      <td align="center"><img src="https://img.shields.io/badge/Oct%2026-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 26" /></td>
-    </tr>
-    <tr>
-      <td align="center">🔄</td>
-      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
-      <td>Closed PR #1 — PR #1</td>
-      <td align="center"><img src="https://img.shields.io/badge/Oct%2026-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 26" /></td>
-    </tr>
-    <tr>
-      <td align="center">🎉</td>
-      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
-      <td>Created new branch in repository</td>
       <td align="center"><img src="https://img.shields.io/badge/Oct%2026-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 26" /></td>
     </tr>
   </tbody>
