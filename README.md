@@ -511,7 +511,7 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
     <tr>
       <td align="center">🚀</td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
-      <td>style(achievements): remove table borders/boxes and displ...</td>
+      <td>feat(achievements): keep x2 tier pill on Pull Shark achie...</td>
       <td align="center"><img src="https://img.shields.io/badge/Oct%2027-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 27" /></td>
     </tr>
     <tr>
