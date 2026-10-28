@@ -44,9 +44,9 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 <div align="center">
   <br/>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake-dark.svg?v=2026-10-27">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake.svg?v=2026-10-27">
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake.svg?v=2026-10-27" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake-dark.svg?v=2026-10-28">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake.svg?v=2026-10-28">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake.svg?v=2026-10-28" width="100%" />
   </picture>
   <br/><br/>
 </div>
@@ -511,8 +511,8 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
     <tr>
       <td align="center">🚀</td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
-      <td>style: show official achievement badges below banner</td>
-      <td align="center"><img src="https://img.shields.io/badge/Oct%2026-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 26" /></td>
+      <td>style(achievements): remove table borders/boxes and displ...</td>
+      <td align="center"><img src="https://img.shields.io/badge/Oct%2027-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 27" /></td>
     </tr>
     <tr>
       <td align="center">🔄</td>
