@@ -22,7 +22,7 @@
   </style>
 
   <!-- Full Pure Animated Flowing Waves across 100% width -->
-  <g class="footer-wave" transform="translate(490, 60) scale(1.148, 1.0) translate(-427, -60)">
+  <g class="footer-wave" transform="translate(490, 60) scale(1.35, 1.0) translate(-427, -60)">
     <path fill="url(#footerWaveGrad)" opacity="0.6">
       <animate
         attributeName="d"
