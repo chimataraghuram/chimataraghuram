@@ -1,7 +1,7 @@
 <!-- HERO & ABOUT ME -->
 <table width="100%">
 <tr>
-<td style="padding: 24px 24px 22px 24px;">
+<td style="padding: 32px 30px 30px 30px;">
 <div align="center" style="margin-bottom: 20px;">
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261029_hero_wave_full">
@@ -10,7 +10,7 @@
 </picture>
 </div>
 <div>
-<img align="left" width="310" src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/raghuram_dev.png?v=20261029" alt="Chimata Raghuram" />
+<img align="left" width="330" src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/raghuram_dev.png?v=20261029" alt="Chimata Raghuram" />
 <div>
 <p style="font-size: 1.02em; line-height: 1.6; margin: 0 0 14px 0; color: #CBD5E1;">
 <b>AI Software Developer Intern</b> at <b>Jaimini Group</b> | Python Full-Stack Developer | FastAPI | Django | React | AI &amp; Automation | B.Tech (AIML)
