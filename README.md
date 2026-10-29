@@ -22,7 +22,7 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 📍 <b>Location:</b> Vijayawada, Andhra Pradesh, India
 </p>
 <p style="margin: 0 0 14px 0; line-height: 2.2; color: #CBD5E1; font-size: 0.96em;">
-🛠️ <b>Featured Projects:</b><br/>
+🚀 <b>Signature Projects:</b><br/>
 <a href="https://github.com/chimataraghuram/PROJECT-FINDER"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_project_finder.svg?v=20261026" height="28" style="vertical-align: middle; margin-right: 4px;" alt="PROJECT-FINDER" /></a>
 <a href="https://github.com/chimataraghuram/TECHBOY-STORE"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_techboy_store.svg?v=20261026" height="28" style="vertical-align: middle; margin-right: 4px;" alt="TECHBOY-STORE" /></a>
 <a href="https://github.com/chimataraghuram/TECHBOY-AI"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_techboy_ai.svg?v=20261026" height="28" style="vertical-align: middle;" alt="TECHBOY-AI" /></a>
@@ -650,5 +650,9 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 
 <!-- FOOTER -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:7c3aed,50:c026d3,100:0ea5e9&section=footer" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/footer_wave_animated.svg?v=20261029">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/footer_wave_animated.svg?v=20261029">
+    <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/footer_wave_animated.svg?v=20261029" width="100%" alt="Chimata Raghuram" />
+  </picture>
 </div>
