@@ -513,34 +513,34 @@
   </thead>
   <tbody>
     <tr>
-      <td align="center">🚀</td>
+      <td align="center">🔄</td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
-      <td>feat(achievements): keep x2 tier pill on Pull Shark achie...</td>
-      <td align="center"><img src="https://img.shields.io/badge/Oct%2027-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 27" /></td>
+      <td>Merged PR #32 — PR #32</td>
+      <td align="center"><img src="https://img.shields.io/badge/Oct%2029-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 29" /></td>
     </tr>
     <tr>
       <td align="center">🔄</td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
-      <td>Merged PR #10 — PR #10</td>
-      <td align="center"><img src="https://img.shields.io/badge/Oct%2027-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 27" /></td>
+      <td>Merged PR #31 — PR #31</td>
+      <td align="center"><img src="https://img.shields.io/badge/Oct%2029-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 29" /></td>
     </tr>
     <tr>
       <td align="center">🔄</td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
-      <td>Merged PR #9 — PR #9</td>
-      <td align="center"><img src="https://img.shields.io/badge/Oct%2027-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 27" /></td>
+      <td>Merged PR #30 — PR #30</td>
+      <td align="center"><img src="https://img.shields.io/badge/Oct%2029-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 29" /></td>
     </tr>
     <tr>
       <td align="center">🔄</td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
-      <td>Merged PR #8 — PR #8</td>
-      <td align="center"><img src="https://img.shields.io/badge/Oct%2027-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 27" /></td>
+      <td>Merged PR #27 — PR #27</td>
+      <td align="center"><img src="https://img.shields.io/badge/Oct%2029-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 29" /></td>
     </tr>
     <tr>
       <td align="center">🔄</td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
-      <td>Merged PR #7 — PR #7</td>
-      <td align="center"><img src="https://img.shields.io/badge/Oct%2027-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 27" /></td>
+      <td>Merged PR #25 — PR #25</td>
+      <td align="center"><img src="https://img.shields.io/badge/Oct%2029-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 29" /></td>
     </tr>
   </tbody>
 </table>
