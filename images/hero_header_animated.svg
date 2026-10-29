@@ -90,7 +90,7 @@
 
   <!-- ==================== FLOWING ANIMATED WAVE THEME ==================== -->
   <!-- Authentic animated flowing waves matching capsule-render waving style -->
-  <g id="flowingWaveTheme" transform="translate(490, 70) scale(1.148, 1.167) translate(-427, -60)">
+  <g id="flowingWaveTheme" transform="translate(490, 96) scale(1.148, 0.88) translate(-427, -60)">
     <path fill="url(#flowWaveGrad)" opacity="0.4">
       <animate
         attributeName="d"
