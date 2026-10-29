@@ -57,27 +57,27 @@
 
   <!-- Flowing Waves (flipped for footer effect) -->
   <g class="footer-wave" transform="translate(490, 65) scale(1.148, 1.08) translate(-427, -60)">
-    <path fill="url(#footerWaveGrad)" opacity="0.4">
+    <path fill="url(#footerWaveGrad)" opacity="0.55">
       <animate
         attributeName="d"
-        dur="20s"
+        dur="7s"
         repeatCount="indefinite"
         keyTimes="0;0.333;0.667;1"
         calcMode="spline"
         keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
         begin="0s"
-        values="M0 0L 0 40Q 213.5 80 427 50T 854 75L 854 0 Z;M0 0L 0 65Q 213.5 80 427 60T 854 50L 854 0 Z;M0 0L 0 85Q 213.5 55 427 85T 854 50L 854 0 Z;M0 0L 0 40Q 213.5 80 427 50T 854 75L 854 0 Z" />
+        values="M0 0L 0 35Q 213.5 85 427 45T 854 80L 854 0 Z;M0 0L 0 70Q 213.5 85 427 65T 854 45L 854 0 Z;M0 0L 0 95Q 213.5 50 427 95T 854 45L 854 0 Z;M0 0L 0 35Q 213.5 85 427 45T 854 80L 854 0 Z" />
     </path>
-    <path fill="url(#footerWaveGrad)" opacity="0.35">
+    <path fill="url(#footerWaveGrad)" opacity="0.48">
       <animate
         attributeName="d"
-        dur="20s"
+        dur="7s"
         repeatCount="indefinite"
         keyTimes="0;0.333;0.667;1"
         calcMode="spline"
         keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
         begin="-10s"
-        values="M0 0L 0 55Q 213.5 100 427 70T 854 80L 854 0 Z;M0 0L 0 70Q 213.5 40 427 40T 854 60L 854 0 Z;M0 0L 0 65Q 213.5 45 427 70T 854 85L 854 0 Z;M0 0L 0 55Q 213.5 100 427 70T 854 80L 854 0 Z" />
+        values="M0 0L 0 50Q 213.5 110 427 65T 854 85L 854 0 Z;M0 0L 0 75Q 213.5 35 427 35T 854 55L 854 0 Z;M0 0L 0 70Q 213.5 40 427 75T 854 95L 854 0 Z;M0 0L 0 50Q 213.5 110 427 65T 854 85L 854 0 Z" />
     </path>
   </g>
 
