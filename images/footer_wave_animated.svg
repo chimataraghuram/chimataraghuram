@@ -1,27 +1,26 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 980 100"
+  viewBox="0 0 980 120"
   width="100%"
   height="auto"
   preserveAspectRatio="none"
 >
   <defs>
     <!-- Background Gradient for Upper Wave Band (Cyan -> Teal -> Dark Blue -> Violet -> Purple) -->
-    <linearGradient id="footerWaveTopGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="footerWaveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00E5FF" />
-      <stop offset="25%" stop-color="#00A2D3" />
-      <stop offset="50%" stop-color="#004D99" />
-      <stop offset="75%" stop-color="#7C1FA6" />
-      <stop offset="100%" stop-color="#A81FE0" />
+      <stop offset="30%" stop-color="#0EA5E9" />
+      <stop offset="70%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#A855F7" />
     </linearGradient>
 
     <!-- Background Gradient for Lower Wave Band (Muted Teal to Violet) -->
-    <linearGradient id="footerWaveBottomGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#007B99" stop-opacity="0.8" />
+    <linearGradient id="footerWaveGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#007B99" stop-opacity="0.85" />
       <stop offset="25%" stop-color="#005B85" stop-opacity="0.75" />
       <stop offset="50%" stop-color="#00356E" stop-opacity="0.75" />
       <stop offset="75%" stop-color="#4B1270" stop-opacity="0.75" />
-      <stop offset="100%" stop-color="#6B138A" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#6B138A" stop-opacity="0.85" />
     </linearGradient>
 
     <!-- Subtle Wave Edge Glow -->
@@ -34,73 +33,77 @@
     </filter>
   </defs>
 
-  <!-- ==================== EXACT MATCHING WAVE THEME (FULL BLEED EDGE-TO-EDGE) ==================== -->
+  <!-- ==================== ANIMATED FLOWING WAVE (AUTHENTIC WAVE MOTION) ==================== -->
   <g id="footerWaveTheme">
-    <!-- 1. Lower Wave Layer (Deeper undulating wave ribbon) -->
-    <path fill="url(#footerWaveBottomGrad)">
+    <!-- 1. Ambient Background Flowing Wave Ribbon Layer -->
+    <path fill="url(#footerWaveGrad2)" opacity="0.6">
       <animate
         attributeName="d"
         dur="7s"
         repeatCount="indefinite"
         calcMode="spline"
         keyTimes="0; 0.333; 0.667; 1"
-        keySplines="0.25 0 0.25 1; 0.25 0 0.25 1; 0.25 0 0.25 1"
+        keySplines="0.2 0 0.2 1; 0.2 0 0.2 1; 0.2 0 0.2 1"
+        begin="-10s"
         values="
-          M-30,100 L-30,23 C90,31 170,24 340,26 C490,26 650,26 770,22 C850,30 910,30 1010,21 L1010,100 Z;
-          M-30,100 L-30,32 C110,22 200,18 360,30 C490,32 630,32 780,28 C870,22 930,36 1010,28 L1010,100 Z;
-          M-30,100 L-30,16 C70,38 140,30 320,22 C490,21 670,21 760,16 C830,36 890,24 1010,14 L1010,100 Z;
-          M-30,100 L-30,23 C90,31 170,24 340,26 C490,26 650,26 770,22 C850,30 910,30 1010,21 L1010,100 Z"
+          M-30,120 L-30,70.0 Q230.0,10.0 490.0,55.0 T1010.0,35.0 L1010.0,120 Z;
+          M-30,120 L-30,45.0 Q230.0,85.0 490.0,85.0 T1010.0,65.0 L1010.0,120 Z;
+          M-30,120 L-30,50.0 Q230.0,80.0 490.0,45.0 T1010.0,25.0 L1010.0,120 Z;
+          M-30,120 L-30,70.0 Q230.0,10.0 490.0,55.0 T1010.0,35.0 L1010.0,120 Z"
       />
     </path>
 
-    <!-- 2. Upper Wave Layer (Main flowing gradient wave) -->
-    <path fill="url(#footerWaveTopGrad)" opacity="0.92">
+    <!-- 2. Primary Vibrant Flowing Wave Ribbon Layer -->
+    <path fill="url(#footerWaveGrad1)" opacity="0.85">
       <animate
         attributeName="d"
         dur="7s"
         repeatCount="indefinite"
         calcMode="spline"
         keyTimes="0; 0.333; 0.667; 1"
-        keySplines="0.25 0 0.25 1; 0.25 0 0.25 1; 0.25 0 0.25 1"
+        keySplines="0.2 0 0.2 1; 0.2 0 0.2 1; 0.2 0 0.2 1"
+        begin="0s"
         values="
-          M-30,100 L-30,52 C60,42 120,31 180,25 C340,26 640,27 800,28 C880,35 930,49 1010,65 L1010,100 Z;
-          M-30,100 L-30,62 C80,50 140,38 200,32 C370,32 620,34 820,35 C900,30 940,42 1010,58 L1010,100 Z;
-          M-30,100 L-30,44 C40,36 100,24 160,18 C320,21 660,22 780,22 C860,40 910,56 1010,72 L1010,100 Z;
-          M-30,100 L-30,52 C60,42 120,31 180,25 C340,26 640,27 800,28 C880,35 930,49 1010,65 L1010,100 Z"
+          M-30,120 L-30,85.0 Q230.0,35.0 490.0,75.0 T1010.0,40.0 L1010.0,120 Z;
+          M-30,120 L-30,50.0 Q230.0,35.0 490.0,55.0 T1010.0,75.0 L1010.0,120 Z;
+          M-30,120 L-30,25.0 Q230.0,70.0 490.0,25.0 T1010.0,75.0 L1010.0,120 Z;
+          M-30,120 L-30,85.0 Q230.0,35.0 490.0,75.0 T1010.0,40.0 L1010.0,120 Z"
       />
     </path>
 
-    <!-- 3. Neon Luminous Boundary Stroke (Interior crest line) -->
-    <path fill="none" stroke="url(#footerWaveTopGrad)" stroke-width="1.8" opacity="0.95" filter="url(#footerWaveEdgeGlow)">
+    <!-- 3. Neon Luminous Wave Crest Stroke Line 1 -->
+    <path fill="none" stroke="url(#footerWaveGrad1)" stroke-width="1.8" opacity="0.95" filter="url(#footerWaveEdgeGlow)">
       <animate
         attributeName="d"
         dur="7s"
         repeatCount="indefinite"
         calcMode="spline"
         keyTimes="0; 0.333; 0.667; 1"
-        keySplines="0.25 0 0.25 1; 0.25 0 0.25 1; 0.25 0 0.25 1"
+        keySplines="0.2 0 0.2 1; 0.2 0 0.2 1; 0.2 0 0.2 1"
+        begin="0s"
         values="
-          M-30,52 C60,42 120,31 180,25 C340,26 640,27 800,28 C880,35 930,49 1010,65;
-          M-30,62 C80,50 140,38 200,32 C370,32 620,34 820,35 C900,30 940,42 1010,58;
-          M-30,44 C40,36 100,24 160,18 C320,21 660,22 780,22 C860,40 910,56 1010,72;
-          M-30,52 C60,42 120,31 180,25 C340,26 640,27 800,28 C880,35 930,49 1010,65"
+          M-30,85.0 Q230.0,35.0 490.0,75.0 T1010.0,40.0;
+          M-30,50.0 Q230.0,35.0 490.0,55.0 T1010.0,75.0;
+          M-30,25.0 Q230.0,70.0 490.0,25.0 T1010.0,75.0;
+          M-30,85.0 Q230.0,35.0 490.0,75.0 T1010.0,40.0"
       />
     </path>
 
-    <!-- 4. Glowing Crest Stroke (Base undulating wave edge) -->
-    <path fill="none" stroke="#00E5FF" stroke-width="1.2" opacity="0.8" filter="url(#footerWaveEdgeGlow)">
+    <!-- 4. Glowing Base Wave Crest Stroke Line 2 -->
+    <path fill="none" stroke="#00E5FF" stroke-width="1.2" opacity="0.75" filter="url(#footerWaveEdgeGlow)">
       <animate
         attributeName="d"
         dur="7s"
         repeatCount="indefinite"
         calcMode="spline"
         keyTimes="0; 0.333; 0.667; 1"
-        keySplines="0.25 0 0.25 1; 0.25 0 0.25 1; 0.25 0 0.25 1"
+        keySplines="0.2 0 0.2 1; 0.2 0 0.2 1; 0.2 0 0.2 1"
+        begin="-10s"
         values="
-          M-30,23 C90,31 170,24 340,26 C490,26 650,26 770,22 C850,30 910,30 1010,21;
-          M-30,32 C110,22 200,18 360,30 C490,32 630,32 780,28 C870,22 930,36 1010,28;
-          M-30,16 C70,38 140,30 320,22 C490,21 670,21 760,16 C830,36 890,24 1010,14;
-          M-30,23 C90,31 170,24 340,26 C490,26 650,26 770,22 C850,30 910,30 1010,21"
+          M-30,70.0 Q230.0,10.0 490.0,55.0 T1010.0,35.0;
+          M-30,45.0 Q230.0,85.0 490.0,85.0 T1010.0,65.0;
+          M-30,50.0 Q230.0,80.0 490.0,45.0 T1010.0,25.0;
+          M-30,70.0 Q230.0,10.0 490.0,55.0 T1010.0,35.0"
       />
     </path>
   </g>
