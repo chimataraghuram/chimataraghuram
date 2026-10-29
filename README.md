@@ -13,7 +13,7 @@
 <img align="left" width="310" src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/raghuram_dev.png?v=20261029" alt="Chimata Raghuram" />
 <div>
 <p style="font-size: 1.02em; line-height: 1.6; margin: 0 0 14px 0; color: #CBD5E1;">
-A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on developing Python full-stack with AI-powered and automated applications.
+<b>AI Software Developer Intern</b> at <b>Jaimini Group</b> | Python Full-Stack Developer | FastAPI | Django | React | AI &amp; Automation | B.Tech (AIML)
 </p>
 <p style="margin: 0 0 10px 0; line-height: 1.7; color: #CBD5E1; font-size: 0.96em;">
 🚀 <b>Specialization:</b> Python Full-Stack &amp; AI-Driven Web Applications
