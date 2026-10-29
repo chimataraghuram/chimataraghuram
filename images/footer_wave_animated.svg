@@ -1,49 +1,107 @@
 <svg
-  width="100%"
-  height="120"
   xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink"
-  viewBox="0 0 980 120"
+  viewBox="0 0 980 100"
+  width="100%"
+  height="auto"
+  preserveAspectRatio="none"
 >
   <defs>
-    <!-- Waving Background Gradient (Purple to Cyan matching profile theme) -->
-    <linearGradient id="footerWaveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#7C3AED" />
-      <stop offset="50%" stop-color="#C026D3" />
-      <stop offset="100%" stop-color="#0EA5E9" />
+    <!-- Background Gradient for Upper Wave Band (Cyan -> Teal -> Dark Blue -> Violet -> Purple) -->
+    <linearGradient id="footerWaveTopGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF" />
+      <stop offset="25%" stop-color="#00A2D3" />
+      <stop offset="50%" stop-color="#004D99" />
+      <stop offset="75%" stop-color="#7C1FA6" />
+      <stop offset="100%" stop-color="#A81FE0" />
     </linearGradient>
+
+    <!-- Background Gradient for Lower Wave Band (Muted Teal to Violet) -->
+    <linearGradient id="footerWaveBottomGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#007B99" stop-opacity="0.8" />
+      <stop offset="25%" stop-color="#005B85" stop-opacity="0.75" />
+      <stop offset="50%" stop-color="#00356E" stop-opacity="0.75" />
+      <stop offset="75%" stop-color="#4B1270" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#6B138A" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Subtle Wave Edge Glow -->
+    <filter id="footerWaveEdgeGlow" x="-5%" y="-20%" width="110%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
   </defs>
 
-  <style>
-    .footer-wave {
-      transform: rotate(180deg);
-      transform-origin: 50% 50%;
-    }
-  </style>
-
-  <!-- Full Pure Animated Flowing Waves across 100% width -->
-  <g class="footer-wave" transform="translate(490, 60) scale(1.35, 1.0) translate(-427, -60)">
-    <path fill="url(#footerWaveGrad)" opacity="0.6">
+  <!-- ==================== EXACT MATCHING WAVE THEME (FULL BLEED EDGE-TO-EDGE) ==================== -->
+  <g id="footerWaveTheme">
+    <!-- 1. Lower Wave Layer (Deeper undulating wave ribbon) -->
+    <path fill="url(#footerWaveBottomGrad)">
       <animate
         attributeName="d"
         dur="7s"
         repeatCount="indefinite"
-        keyTimes="0;0.333;0.667;1"
         calcMode="spline"
-        keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
-        begin="0s"
-        values="M0 0L 0 35Q 213.5 85 427 45T 854 80L 854 0 Z;M0 0L 0 70Q 213.5 85 427 65T 854 45L 854 0 Z;M0 0L 0 95Q 213.5 50 427 95T 854 45L 854 0 Z;M0 0L 0 35Q 213.5 85 427 45T 854 80L 854 0 Z" />
+        keyTimes="0; 0.333; 0.667; 1"
+        keySplines="0.25 0 0.25 1; 0.25 0 0.25 1; 0.25 0 0.25 1"
+        values="
+          M-30,100 L-30,23 C90,31 170,24 340,26 C490,26 650,26 770,22 C850,30 910,30 1010,21 L1010,100 Z;
+          M-30,100 L-30,32 C110,22 200,18 360,30 C490,32 630,32 780,28 C870,22 930,36 1010,28 L1010,100 Z;
+          M-30,100 L-30,16 C70,38 140,30 320,22 C490,21 670,21 760,16 C830,36 890,24 1010,14 L1010,100 Z;
+          M-30,100 L-30,23 C90,31 170,24 340,26 C490,26 650,26 770,22 C850,30 910,30 1010,21 L1010,100 Z"
+      />
     </path>
-    <path fill="url(#footerWaveGrad)" opacity="0.5">
+
+    <!-- 2. Upper Wave Layer (Main flowing gradient wave) -->
+    <path fill="url(#footerWaveTopGrad)" opacity="0.92">
       <animate
         attributeName="d"
         dur="7s"
         repeatCount="indefinite"
-        keyTimes="0;0.333;0.667;1"
         calcMode="spline"
-        keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
-        begin="-10s"
-        values="M0 0L 0 50Q 213.5 110 427 65T 854 85L 854 0 Z;M0 0L 0 75Q 213.5 35 427 35T 854 55L 854 0 Z;M0 0L 0 70Q 213.5 40 427 75T 854 95L 854 0 Z;M0 0L 0 50Q 213.5 110 427 65T 854 85L 854 0 Z" />
+        keyTimes="0; 0.333; 0.667; 1"
+        keySplines="0.25 0 0.25 1; 0.25 0 0.25 1; 0.25 0 0.25 1"
+        values="
+          M-30,100 L-30,52 C60,42 120,31 180,25 C340,26 640,27 800,28 C880,35 930,49 1010,65 L1010,100 Z;
+          M-30,100 L-30,62 C80,50 140,38 200,32 C370,32 620,34 820,35 C900,30 940,42 1010,58 L1010,100 Z;
+          M-30,100 L-30,44 C40,36 100,24 160,18 C320,21 660,22 780,22 C860,40 910,56 1010,72 L1010,100 Z;
+          M-30,100 L-30,52 C60,42 120,31 180,25 C340,26 640,27 800,28 C880,35 930,49 1010,65 L1010,100 Z"
+      />
+    </path>
+
+    <!-- 3. Neon Luminous Boundary Stroke (Interior crest line) -->
+    <path fill="none" stroke="url(#footerWaveTopGrad)" stroke-width="1.8" opacity="0.95" filter="url(#footerWaveEdgeGlow)">
+      <animate
+        attributeName="d"
+        dur="7s"
+        repeatCount="indefinite"
+        calcMode="spline"
+        keyTimes="0; 0.333; 0.667; 1"
+        keySplines="0.25 0 0.25 1; 0.25 0 0.25 1; 0.25 0 0.25 1"
+        values="
+          M-30,52 C60,42 120,31 180,25 C340,26 640,27 800,28 C880,35 930,49 1010,65;
+          M-30,62 C80,50 140,38 200,32 C370,32 620,34 820,35 C900,30 940,42 1010,58;
+          M-30,44 C40,36 100,24 160,18 C320,21 660,22 780,22 C860,40 910,56 1010,72;
+          M-30,52 C60,42 120,31 180,25 C340,26 640,27 800,28 C880,35 930,49 1010,65"
+      />
+    </path>
+
+    <!-- 4. Glowing Crest Stroke (Base undulating wave edge) -->
+    <path fill="none" stroke="#00E5FF" stroke-width="1.2" opacity="0.8" filter="url(#footerWaveEdgeGlow)">
+      <animate
+        attributeName="d"
+        dur="7s"
+        repeatCount="indefinite"
+        calcMode="spline"
+        keyTimes="0; 0.333; 0.667; 1"
+        keySplines="0.25 0 0.25 1; 0.25 0 0.25 1; 0.25 0 0.25 1"
+        values="
+          M-30,23 C90,31 170,24 340,26 C490,26 650,26 770,22 C850,30 910,30 1010,21;
+          M-30,32 C110,22 200,18 360,30 C490,32 630,32 780,28 C870,22 930,36 1010,28;
+          M-30,16 C70,38 140,30 320,22 C490,21 670,21 760,16 C830,36 890,24 1010,14;
+          M-30,23 C90,31 170,24 340,26 C490,26 650,26 770,22 C850,30 910,30 1010,21"
+      />
     </path>
   </g>
 </svg>
