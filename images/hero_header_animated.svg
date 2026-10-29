@@ -1,5 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 135" width="100%" height="auto">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 145" width="100%" height="auto">
   <defs>
+    <!-- Background Aurora Wave Gradients -->
+    <linearGradient id="purpleAuroraGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C026D3" stop-opacity="0.8" />
+      <stop offset="35%" stop-color="#8B5CF6" stop-opacity="0.85" />
+      <stop offset="70%" stop-color="#6366F1" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="cyanAuroraGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0" />
+      <stop offset="30%" stop-color="#3B82F6" stop-opacity="0.5" />
+      <stop offset="65%" stop-color="#0284C7" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0.9" />
+    </linearGradient>
+
     <!-- Vibrant Gradient Text -->
     <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00E5FF" />
@@ -29,7 +44,7 @@
     </linearGradient>
 
     <!-- Cyan Diffuse Glow Filter -->
-    <filter id="cyanGlow" filterUnits="userSpaceOnUse" x="0" y="70" width="400" height="60">
+    <filter id="cyanGlow" filterUnits="userSpaceOnUse" x="0" y="80" width="400" height="60">
       <feGaussianBlur stdDeviation="5" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
@@ -38,8 +53,17 @@
     </filter>
 
     <!-- Purple Diffuse Glow Filter -->
-    <filter id="purpleGlow" filterUnits="userSpaceOnUse" x="650" y="70" width="330" height="60">
+    <filter id="purpleGlow" filterUnits="userSpaceOnUse" x="650" y="80" width="330" height="60">
       <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Aurora Wave Blur Filter -->
+    <filter id="waveBlur" x="-10%" y="-20%" width="120%" height="150%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
@@ -80,7 +104,20 @@
     }
   </style>
 
-  <!-- Top Animated Headline (Centered in 980px width) -->
+  <!-- ==================== BACKGROUND AURORA WAVES ==================== -->
+  <g opacity="0.85">
+    <!-- Purple Aurora Wave (Left to Center) -->
+    <path d="M-20,70 Q120,40 260,82 T520,75 L520,135 L-20,135 Z" fill="url(#purpleAuroraGrad)" opacity="0.35" filter="url(#waveBlur)" />
+    <path d="M-20,68 C100,38 180,80 320,84 C420,87 480,72 540,78" fill="none" stroke="url(#purpleAuroraGrad)" stroke-width="6" opacity="0.75" />
+    <path d="M-20,72 C120,45 220,88 340,86 C440,84 500,75 550,80" fill="none" stroke="#C026D3" stroke-width="2" opacity="0.9" />
+
+    <!-- Cyan / Blue Aurora Wave (Center to Right) -->
+    <path d="M460,75 Q680,105 820,65 T1000,72 L1000,135 L460,135 Z" fill="url(#cyanAuroraGrad)" opacity="0.35" filter="url(#waveBlur)" />
+    <path d="M440,78 C540,74 640,102 780,82 C880,68 940,70 1000,72" fill="none" stroke="url(#cyanAuroraGrad)" stroke-width="6" opacity="0.75" />
+    <path d="M430,80 C550,76 660,106 800,80 C900,62 950,68 1000,70" fill="none" stroke="#00E5FF" stroke-width="2" opacity="0.9" />
+  </g>
+
+  <!-- ==================== TOP ANIMATED HEADLINE ==================== -->
   <g transform="translate(138, 0)">
     <!-- Clipped Animated Headline -->
     <g clip-path="url(#typeClip)">
@@ -93,12 +130,12 @@
     <!-- Neon Typing Cursor -->
     <rect class="caret" x="0" y="20" width="4" height="38" rx="2" fill="#00E5FF" />
 
-    <!-- Waving Hand Emoji (Comfortably spaced after text & caret) -->
+    <!-- Waving Hand Emoji -->
     <text class="hand" x="656" y="52" font-family="'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif" font-size="34">👋</text>
   </g>
 
-  <!-- Horizontal Cyber Subtitle Beam (Passing through central pill) -->
-  <g transform="translate(0, 92)">
+  <!-- ==================== HORIZONTAL CYBER SUBTITLE BEAM ==================== -->
+  <g transform="translate(0, 96)">
     <!-- Left Cyber Dots (Neon Cyan) -->
     <circle cx="44" cy="15" r="2.2" fill="#00E5FF" opacity="0.6" />
     <circle cx="59" cy="15" r="3.2" fill="#00E5FF" opacity="0.85" />
