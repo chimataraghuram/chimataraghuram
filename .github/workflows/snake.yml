@@ -2,7 +2,7 @@ name: generate-snake
 
 on:
   schedule:
-    - cron: "0 */6 * * *" # Refresh every 6 hours
+    - cron: "0 */2 * * *" # Automatically generate fresh snake grid every 2 hours
   workflow_dispatch:
   push:
     branches:
