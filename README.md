@@ -173,7 +173,7 @@
 
 
 
-[![Live Demo](https://img.shields.io/badge/🔗%20Live%20Demo-chimataraghuram.vercel.app-22c55e?style=for-the-badge&logoColor=white)](https://chimataraghuram.vercel.app/) [![GitHub Repo](https://img.shields.io/badge/🐙%20GitHub%20Repo-PORTFOLIO-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/PORTFOLIO)
+[![Live Demo](https://img.shields.io/badge/LIVE_DEMO-CHIMATARAGHURAM.VERCEL.APP-22c55e?style=for-the-badge&logo=link&logoColor=white)](https://chimataraghuram.vercel.app/) [![GitHub Repo](https://img.shields.io/badge/GITHUB_REPO-PORTFOLIO-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/PORTFOLIO)
 
 
 
@@ -192,7 +192,7 @@
 
 
 
-[![Live Demo](https://img.shields.io/badge/🔗%20Live%20Demo-PROJECT--FINDER-22c55e?style=for-the-badge&logoColor=white)](https://chimataraghuram.github.io/PROJECT-FINDER/) [![GitHub Repo](https://img.shields.io/badge/🐙%20GitHub%20Repo-PROJECT--FINDER-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/PROJECT-FINDER)
+[![Live Demo](https://img.shields.io/badge/LIVE_DEMO-PROJECT--FINDER-22c55e?style=for-the-badge&logo=link&logoColor=white)](https://chimataraghuram.github.io/PROJECT-FINDER/) [![GitHub Repo](https://img.shields.io/badge/GITHUB_REPO-PROJECT--FINDER-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/PROJECT-FINDER)
 
 
 
@@ -211,7 +211,7 @@
 
 
 
-[![Live Demo](https://img.shields.io/badge/🔗%20Live%20Demo-techboy--store.vercel.app-22c55e?style=for-the-badge&logoColor=white)](https://techboy-store.vercel.app/) [![GitHub Repo](https://img.shields.io/badge/🐙%20GitHub%20Repo-TECHBOY--STORE-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/TECHBOY-STORE)
+[![Live Demo](https://img.shields.io/badge/LIVE_DEMO-TECHBOY--STORE.VERCEL.APP-22c55e?style=for-the-badge&logo=link&logoColor=white)](https://techboy-store.vercel.app/) [![GitHub Repo](https://img.shields.io/badge/GITHUB_REPO-TECHBOY--STORE-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/TECHBOY-STORE)
 
 <hr>
 
@@ -227,7 +227,7 @@
 - Hands-on implementation of **cloud computing** and real-world deployment practices.
 
 
-[![Deployment Video](https://img.shields.io/badge/🎥%20Deployment%20Video-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/chimataraghuram_aws-ec2-ubuntu-ugcPost-7342919873024401408-oiGl/) [![GitHub Repo](https://img.shields.io/badge/🐙%20GitHub%20Repo-AWS--EC2--Deployment-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/AWS-EC2-Website-Deployment-Using-Ubuntu-Apache2)
+[![Deployment Video](https://img.shields.io/badge/DEPLOYMENT_VIDEO-LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/chimataraghuram_aws-ec2-ubuntu-ugcPost-7342919873024401408-oiGl/) [![GitHub Repo](https://img.shields.io/badge/GITHUB_REPO-AWS--EC2--DEPLOYMENT-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/AWS-EC2-Website-Deployment-Using-Ubuntu-Apache2)
 
 
 <br/>
@@ -253,7 +253,7 @@
 
 
 
-[![Live Demo](https://img.shields.io/badge/🔗%20Live%20Demo-TECHBOY--AI-22c55e?style=for-the-badge&logoColor=white)](https://chimataraghuram.github.io/TECHBOY-AI/) [![GitHub Repo](https://img.shields.io/badge/🐙%20GitHub%20Repo-TECHBOY--AI-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/TECHBOY-AI)
+[![Live Demo](https://img.shields.io/badge/LIVE_DEMO-TECHBOY--AI-22c55e?style=for-the-badge&logo=link&logoColor=white)](https://chimataraghuram.github.io/TECHBOY-AI/) [![GitHub Repo](https://img.shields.io/badge/GITHUB_REPO-TECHBOY--AI-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/TECHBOY-AI)
 
 <hr>
 
@@ -275,7 +275,7 @@
 - **OpenAI DALL-E Integration**: High-fidelity image synthesis using OpenAI's image generation endpoint.
 - **End-to-End Stability**: Built-in error handling and rate-limit mitigation via n8n workflows.
 
-[![GitHub Repo](https://img.shields.io/badge/🐙%20GitHub%20Repo-AI--Image--Bot-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/ai-image-generation-bot-n8n)
+[![GitHub Repo](https://img.shields.io/badge/GITHUB_REPO-AI--IMAGE--BOT-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/ai-image-generation-bot-n8n)
 
 <hr>
 
@@ -291,7 +291,7 @@
 - Documented end-to-end setup for reproducible cloud desktop environments.
 
 
-[![GitHub Repo](https://img.shields.io/badge/🐙%20GitHub%20Repo-Virtual--Windows--Desktop-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server)
+[![GitHub Repo](https://img.shields.io/badge/GITHUB_REPO-VIRTUAL--WINDOWS--DESKTOP-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server)
 
 <hr>
 
@@ -307,7 +307,7 @@
 - **Google Maps integration** to surface hidden local gems beyond tourist spots.
 
 
-[![GitHub Repo](https://img.shields.io/badge/🐙%20GitHub%20Repo-TravelGuideAI-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/Explore-With-Ai-Custom-Itineraries-For-Your-Next-Journey)
+[![GitHub Repo](https://img.shields.io/badge/GITHUB_REPO-TRAVELGUIDEAI-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/Explore-With-Ai-Custom-Itineraries-For-Your-Next-Journey)
 
 
 <hr>
@@ -325,7 +325,7 @@
 
 
 
-[![Live Demo](https://img.shields.io/badge/🔗%20Live%20Demo-House%20Prediction-22c55e?style=for-the-badge&logoColor=white)](https://chimataraghuram.github.io/House-Prediction/) [![GitHub Repo](https://img.shields.io/badge/🐙%20GitHub%20Repo-House--Prediction-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/House-Prediction)
+[![Live Demo](https://img.shields.io/badge/LIVE_DEMO-HOUSE--PREDICTION-22c55e?style=for-the-badge&logo=link&logoColor=white)](https://chimataraghuram.github.io/House-Prediction/) [![GitHub Repo](https://img.shields.io/badge/GITHUB_REPO-HOUSE--PREDICTION-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/House-Prediction)
 
 <hr>
 
@@ -342,7 +342,7 @@
 
 
 
-[![Live Demo](https://img.shields.io/badge/🔗%20Live%20Demo-Enchanted%20Wings-22c55e?style=for-the-badge&logoColor=white)](https://chimataraghuram.github.io/Enchanted-Wings-Marvels-of-butterfly-species/) [![GitHub Repo](https://img.shields.io/badge/🐙%20GitHub%20Repo-Enchanted--Wings-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/Enchanted-Wings-Marvels-of-butterfly-species)
+[![Live Demo](https://img.shields.io/badge/LIVE_DEMO-ENCHANTED--WINGS-22c55e?style=for-the-badge&logo=link&logoColor=white)](https://chimataraghuram.github.io/Enchanted-Wings-Marvels-of-butterfly-species/) [![GitHub Repo](https://img.shields.io/badge/GITHUB_REPO-ENCHANTED--WINGS-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/Enchanted-Wings-Marvels-of-butterfly-species)
 
 <hr>
 
@@ -357,7 +357,7 @@
 - Train the model on custom datasets directly from the **Streamlit UI**.
 - End-to-end pipeline from packet capture to AI-generated threat explanation.
 
-[![GitHub Repo](https://img.shields.io/badge/🐙%20GitHub%20Repo-Network--IDS-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/AI-Based-Network-Intrusion-Detection-System)
+[![GitHub Repo](https://img.shields.io/badge/GITHUB_REPO-NETWORK--IDS-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/AI-Based-Network-Intrusion-Detection-System)
 
 
 <hr>
@@ -373,7 +373,7 @@
 - Lightweight Python backend — easy to integrate with any mail client or pipeline.
 - Combats email-based cyber threats with **high-accuracy ML model** performance.
 
-[![GitHub Repo](https://img.shields.io/badge/🐙%20GitHub%20Repo-Phishing--Detector-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/AI_Powered_Phishing_Email_Detector)
+[![GitHub Repo](https://img.shields.io/badge/GITHUB_REPO-PHISHING--DETECTOR-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/AI_Powered_Phishing_Email_Detector)
 
 
 </div>
