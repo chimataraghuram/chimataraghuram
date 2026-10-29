@@ -4,9 +4,9 @@
 <td style="padding: 24px 24px 22px 24px;">
 <div align="center" style="margin-bottom: 20px;">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261029_wave_motion">
-<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261029_wave_motion">
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261029_wave_motion" width="100%" alt="Chimata Raghuram" />
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261029_full_wave">
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261029_full_wave">
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261029_full_wave" width="100%" alt="Chimata Raghuram" />
 </picture>
 </div>
 <div>
@@ -651,8 +651,8 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 <!-- FOOTER -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/footer_wave_animated.svg?v=20261029_pure_wave">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/footer_wave_animated.svg?v=20261029_pure_wave">
-    <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/footer_wave_animated.svg?v=20261029_pure_wave" width="100%" alt="Chimata Raghuram" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/footer_wave_animated.svg?v=20261029_full_bleed">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/footer_wave_animated.svg?v=20261029_full_bleed">
+    <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/footer_wave_animated.svg?v=20261029_full_bleed" width="100%" alt="Chimata Raghuram" />
   </picture>
 </div>
