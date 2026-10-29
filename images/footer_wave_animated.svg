@@ -1,0 +1,91 @@
+<svg
+  width="100%"
+  height="130"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 980 130"
+>
+  <defs>
+    <!-- Vibrant Glowing Gradient for Name Text -->
+    <linearGradient id="footerNameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF" />
+      <stop offset="45%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#C084FC" />
+    </linearGradient>
+
+    <!-- Waving Background Gradient (Purple to Cyan matching profile theme) -->
+    <linearGradient id="footerWaveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED" />
+      <stop offset="50%" stop-color="#C026D3" />
+      <stop offset="100%" stop-color="#0EA5E9" />
+    </linearGradient>
+
+    <!-- Glowing Cyan/Purple filter for highlighted text -->
+    <filter id="nameGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .footer-wave {
+      transform: rotate(180deg);
+      transform-origin: 50% 50%;
+    }
+    .footer-title {
+      font-size: 26px;
+      font-weight: 800;
+      letter-spacing: 2.5px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Display', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      animation: fadeIn 1.2s ease-in-out forwards;
+    }
+    .footer-sub {
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 1.5px;
+      fill: #CBD5E1;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+
+  <!-- Flowing Waves (flipped for footer effect) -->
+  <g class="footer-wave" transform="translate(490, 65) scale(1.148, 1.08) translate(-427, -60)">
+    <path fill="url(#footerWaveGrad)" opacity="0.4">
+      <animate
+        attributeName="d"
+        dur="20s"
+        repeatCount="indefinite"
+        keyTimes="0;0.333;0.667;1"
+        calcMode="spline"
+        keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
+        begin="0s"
+        values="M0 0L 0 40Q 213.5 80 427 50T 854 75L 854 0 Z;M0 0L 0 65Q 213.5 80 427 60T 854 50L 854 0 Z;M0 0L 0 85Q 213.5 55 427 85T 854 50L 854 0 Z;M0 0L 0 40Q 213.5 80 427 50T 854 75L 854 0 Z" />
+    </path>
+    <path fill="url(#footerWaveGrad)" opacity="0.35">
+      <animate
+        attributeName="d"
+        dur="20s"
+        repeatCount="indefinite"
+        keyTimes="0;0.333;0.667;1"
+        calcMode="spline"
+        keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
+        begin="-10s"
+        values="M0 0L 0 55Q 213.5 100 427 70T 854 80L 854 0 Z;M0 0L 0 70Q 213.5 40 427 40T 854 60L 854 0 Z;M0 0L 0 65Q 213.5 45 427 70T 854 85L 854 0 Z;M0 0L 0 55Q 213.5 100 427 70T 854 80L 854 0 Z" />
+    </path>
+  </g>
+
+  <!-- Glowing Highlighted Name in Center of Waving Footer -->
+  <g text-anchor="middle" dominant-baseline="middle">
+    <!-- Subtle dark pill backdrop for ultra high contrast and readability -->
+    <rect x="330" y="52" width="320" height="42" rx="21" fill="#070C16" fill-opacity="0.65" stroke="url(#footerNameGrad)" stroke-width="1.2" stroke-opacity="0.5" />
+    
+    <text x="490" y="74" class="footer-title" fill="url(#footerNameGrad)">CHIMATA RAGHURAM</text>
+  </g>
+</svg>
