@@ -651,8 +651,8 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 <!-- FOOTER -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/footer_wave_animated.svg?v=20261029_motion">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/footer_wave_animated.svg?v=20261029_motion">
-    <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/footer_wave_animated.svg?v=20261029_motion" width="100%" alt="Chimata Raghuram" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/footer_wave_animated.svg?v=20261029_pure_wave">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/footer_wave_animated.svg?v=20261029_pure_wave">
+    <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/footer_wave_animated.svg?v=20261029_pure_wave" width="100%" alt="Chimata Raghuram" />
   </picture>
 </div>
