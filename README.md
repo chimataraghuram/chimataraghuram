@@ -34,6 +34,10 @@ A B.Tech student with a diploma background in <b>AI &amp; ML</b>, focused on dev
 <a href="https://leetcode.com/u/chimataraghuram/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_leetcode.svg?v=20261026" height="28" style="vertical-align: middle; margin-right: 4px;" alt="LeetCode" /></a>
 <a href="mailto:chimataraghuram02a@gmail.com"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_email.svg?v=20261026" height="28" style="vertical-align: middle;" alt="Email" /></a>
 </p>
+<p style="margin: 8px 0 0 0; line-height: 2.2;">
+<a href="https://www.linkedin.com/in/chimataraghuram/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_open_to_work.png?v=20261029" height="30" style="vertical-align: middle; margin-right: 6px;" alt="Open to Work" /></a>
+<a href="https://www.linkedin.com/in/chimataraghuram/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_actively_looking.png?v=20261029" height="30" style="vertical-align: middle;" alt="Actively Looking" /></a>
+</p>
 </div>
 </div>
 </td>
