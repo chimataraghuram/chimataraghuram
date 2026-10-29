@@ -1,5 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 135" width="100%" height="auto">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 140" width="100%" height="auto">
   <defs>
+    <!-- Seamless Flowing Wave Gradient (Cyan -> Indigo -> Purple) -->
+    <linearGradient id="flowWaveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF" />
+      <stop offset="30%" stop-color="#0EA5E9" />
+      <stop offset="65%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#A855F7" />
+    </linearGradient>
+
     <!-- Vibrant Gradient Text (matching mockup) -->
     <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00E5FF" />
@@ -14,38 +22,22 @@
       <stop offset="100%" stop-color="#A855F7" />
     </linearGradient>
 
-    <!-- Cyan Beam Gradient (Left dot to Cyan node) -->
+    <!-- Cyan Beam Gradient -->
     <linearGradient id="cyanBeamGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.25" />
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.2" />
       <stop offset="30%" stop-color="#00E5FF" stop-opacity="0.75" />
       <stop offset="100%" stop-color="#00E5FF" stop-opacity="1" />
     </linearGradient>
 
-    <!-- Purple Beam Gradient (Purple node to Right dot) -->
+    <!-- Purple Beam Gradient -->
     <linearGradient id="purpleBeamGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#A855F7" stop-opacity="1" />
       <stop offset="70%" stop-color="#A855F7" stop-opacity="0.75" />
-      <stop offset="100%" stop-color="#A855F7" stop-opacity="0.25" />
-    </linearGradient>
-
-    <!-- Left Aurora Wave Gradient (Purple / Magenta / Violet) -->
-    <linearGradient id="purpleAuroraWave" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#EC4899" stop-opacity="0.8" />
-      <stop offset="30%" stop-color="#C026D3" stop-opacity="0.75" />
-      <stop offset="65%" stop-color="#8B5CF6" stop-opacity="0.6" />
-      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0" />
-    </linearGradient>
-
-    <!-- Right Aurora Wave Gradient (Electric Cyan / Sky Blue) -->
-    <linearGradient id="cyanAuroraWave" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0" />
-      <stop offset="35%" stop-color="#3B82F6" stop-opacity="0.5" />
-      <stop offset="70%" stop-color="#00E5FF" stop-opacity="0.85" />
-      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0.2" />
     </linearGradient>
 
     <!-- Cyan Diffuse Glow Filter -->
-    <filter id="cyanGlow" filterUnits="userSpaceOnUse" x="0" y="70" width="400" height="60">
+    <filter id="cyanGlow" filterUnits="userSpaceOnUse" x="0" y="70" width="400" height="70">
       <feGaussianBlur stdDeviation="5" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
@@ -54,7 +46,7 @@
     </filter>
 
     <!-- Purple Diffuse Glow Filter -->
-    <filter id="purpleGlow" filterUnits="userSpaceOnUse" x="650" y="70" width="330" height="60">
+    <filter id="purpleGlow" filterUnits="userSpaceOnUse" x="650" y="70" width="330" height="70">
       <feGaussianBlur stdDeviation="5" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
@@ -62,16 +54,7 @@
       </feMerge>
     </filter>
 
-    <!-- Soft Ambient Ribbon Glow Filter -->
-    <filter id="ambientWaveGlow" x="-10%" y="-30%" width="120%" height="160%">
-      <feGaussianBlur stdDeviation="8" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-
-    <!-- Typing clip path: width 0 to 650px (ample room for all letters) -->
+    <!-- Typing clip path -->
     <clipPath id="typeClip">
       <rect x="0" y="10" width="0" height="56">
         <animate attributeName="width" values="0; 0; 650; 650; 0" keyTimes="0; 0.05; 0.50; 0.90; 1" dur="6.5s" repeatCount="indefinite" />
@@ -105,22 +88,31 @@
     }
   </style>
 
-  <!-- ==================== BACKGROUND AURORA WAVE RIBBONS ==================== -->
-  <!-- Seamlessly layered behind headline & subtitle beam matching the mockup -->
-  <g opacity="0.75" filter="url(#ambientWaveGlow)">
-    <!-- Lower Ambient Purple Fill Ribbon (Left side) -->
-    <path d="M-20,65 C120,40 220,115 420,110 C500,108 520,120 540,135 L-20,135 Z" fill="url(#purpleAuroraWave)" opacity="0.3" />
-
-    <!-- Sleek Neon Magenta/Violet Wave Line (Flows beneath headline and dips gracefully) -->
-    <path d="M-20,62 C110,38 210,108 380,106 C460,105 510,95 560,100" fill="none" stroke="url(#purpleAuroraWave)" stroke-width="3" stroke-linecap="round" opacity="0.85" />
-    <path d="M-20,66 C120,42 220,112 390,110 C470,108 520,98 570,102" fill="none" stroke="#C026D3" stroke-width="1.2" stroke-linecap="round" opacity="0.9" />
-
-    <!-- Lower Ambient Cyan Fill Ribbon (Right side) -->
-    <path d="M460,135 C520,115 620,105 760,65 C880,35 940,65 1000,75 L1000,135 Z" fill="url(#cyanAuroraWave)" opacity="0.3" />
-
-    <!-- Sleek Neon Cyan Wave Line (Flows gracefully up and sweeps to right margin) -->
-    <path d="M440,100 C520,95 640,106 780,68 C880,38 940,68 1000,74" fill="none" stroke="url(#cyanAuroraWave)" stroke-width="3" stroke-linecap="round" opacity="0.85" />
-    <path d="M450,102 C530,98 650,110 790,70 C890,40 950,70 1000,76" fill="none" stroke="#00E5FF" stroke-width="1.2" stroke-linecap="round" opacity="0.9" />
+  <!-- ==================== FLOWING ANIMATED WAVE THEME ==================== -->
+  <!-- Authentic animated flowing waves matching capsule-render waving style -->
+  <g id="flowingWaveTheme" transform="translate(490, 70) scale(1.148, 1.167) translate(-427, -60)">
+    <path fill="url(#flowWaveGrad)" opacity="0.4">
+      <animate
+        attributeName="d"
+        dur="20s"
+        repeatCount="indefinite"
+        keyTimes="0;0.333;0.667;1"
+        calcMode="spline"
+        keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
+        begin="0s"
+        values="M0 0L 0 40Q 213.5 80 427 50T 854 75L 854 0 Z;M0 0L 0 65Q 213.5 80 427 60T 854 50L 854 0 Z;M0 0L 0 85Q 213.5 55 427 85T 854 50L 854 0 Z;M0 0L 0 40Q 213.5 80 427 50T 854 75L 854 0 Z" />
+    </path>
+    <path fill="url(#flowWaveGrad)" opacity="0.35">
+      <animate
+        attributeName="d"
+        dur="20s"
+        repeatCount="indefinite"
+        keyTimes="0;0.333;0.667;1"
+        calcMode="spline"
+        keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
+        begin="-10s"
+        values="M0 0L 0 55Q 213.5 100 427 70T 854 80L 854 0 Z;M0 0L 0 70Q 213.5 40 427 40T 854 60L 854 0 Z;M0 0L 0 65Q 213.5 45 427 70T 854 85L 854 0 Z;M0 0L 0 55Q 213.5 100 427 70T 854 80L 854 0 Z" />
+    </path>
   </g>
 
   <!-- ==================== TOP ANIMATED HEADLINE ==================== -->
@@ -141,7 +133,7 @@
   </g>
 
   <!-- ==================== HORIZONTAL CYBER SUBTITLE BEAM ==================== -->
-  <g transform="translate(0, 92)">
+  <g transform="translate(0, 96)">
     <!-- Left Cyber Dots (Neon Cyan) -->
     <circle cx="44" cy="15" r="2.2" fill="#00E5FF" opacity="0.6" />
     <circle cx="59" cy="15" r="3.2" fill="#00E5FF" opacity="0.85" />
@@ -149,7 +141,7 @@
     <circle cx="76" cy="15" r="8" fill="#00E5FF" opacity="0.3" filter="url(#cyanGlow)" />
     <circle cx="76" cy="15" r="4.6" fill="#00E5FF" />
 
-    <!-- Left Cyan Glowing Beam (Layered for intense neon glow) -->
+    <!-- Left Cyan Glowing Beam -->
     <line x1="80" y1="15" x2="238" y2="15" stroke="#00E5FF" stroke-width="12" stroke-opacity="0.12" stroke-linecap="round" />
     <line x1="80" y1="15" x2="238" y2="15" stroke="#00E5FF" stroke-width="5" stroke-opacity="0.35" stroke-linecap="round" />
     <line x1="80" y1="15" x2="238" y2="15" stroke="url(#cyanBeamGrad)" stroke-width="2.2" stroke-linecap="round" />
@@ -157,7 +149,7 @@
     <!-- Cyan Connecting Segment into Pill -->
     <line x1="238" y1="15" x2="252" y2="15" stroke="#00E5FF" stroke-width="2" />
 
-    <!-- Left Node Circle (Neon Cyan Outer Ring + Solid White Core) -->
+    <!-- Left Node Circle -->
     <circle cx="238" cy="15" r="12" fill="#00E5FF" opacity="0.25" filter="url(#cyanGlow)" />
     <circle cx="238" cy="15" r="6.5" fill="#070C16" stroke="#00E5FF" stroke-width="2.5" />
     <circle cx="238" cy="15" r="3.2" fill="#FFFFFF" />
@@ -171,12 +163,12 @@
     <!-- Right Connecting Segment from Pill -->
     <line x1="728" y1="15" x2="742" y2="15" stroke="#A855F7" stroke-width="2" />
 
-    <!-- Right Node Circle (Neon Purple Outer Ring + Solid White Core) -->
+    <!-- Right Node Circle -->
     <circle cx="742" cy="15" r="12" fill="#A855F7" opacity="0.25" filter="url(#purpleGlow)" />
     <circle cx="742" cy="15" r="6.5" fill="#070C16" stroke="#A855F7" stroke-width="2.5" />
     <circle cx="742" cy="15" r="3.2" fill="#FFFFFF" />
 
-    <!-- Right Purple Glowing Beam (Layered for intense neon glow) -->
+    <!-- Right Purple Glowing Beam -->
     <line x1="742" y1="15" x2="900" y2="15" stroke="#A855F7" stroke-width="12" stroke-opacity="0.12" stroke-linecap="round" />
     <line x1="742" y1="15" x2="900" y2="15" stroke="#A855F7" stroke-width="5" stroke-opacity="0.35" stroke-linecap="round" />
     <line x1="742" y1="15" x2="900" y2="15" stroke="url(#purpleBeamGrad)" stroke-width="2.2" stroke-linecap="round" />
