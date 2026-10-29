@@ -572,69 +572,75 @@
 
 <br/>
 
-<table width="100%">
+<table width="100%" style="border-collapse: separate; border-spacing: 12px; table-layout: fixed;">
   <tr>
-    <td width="33.3%" align="center" valign="top">
-      <br/>
-      <a href="https://www.linkedin.com/in/chimataraghuram/" target="_blank">
-        <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <!-- 1. LINKEDIN -->
+    <td width="33.3%" align="center" valign="top" style="background: #0D1117; border: 1px solid #30363D; border-radius: 10px; padding: 22px 16px 20px 16px;">
+      <a href="https://www.linkedin.com/in/chimataraghuram/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="28" alt="LinkedIn" />
       </a>
       <br/><br/>
-      <b>💼 Professional Network</b>
-      <p align="center">Let's connect, share insights & discuss career opportunities</p>
-      <br/>
+      <b style="color: #F0F6FC; font-size: 14px;">💼 Professional Network</b>
+      <p align="center" style="color: #8B949E; font-size: 12.5px; line-height: 1.5; margin: 8px 0 0 0;">
+        Let's connect, share insights &amp; discuss career opportunities
+      </p>
     </td>
-    <td width="33.3%" align="center" valign="top">
-      <br/>
-      <a href="https://chimataraghuram.vercel.app/" target="_blank">
-        <img src="https://img.shields.io/badge/Portfolio-7c3aed?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
+    <!-- 2. PORTFOLIO -->
+    <td width="33.3%" align="center" valign="top" style="background: #0D1117; border: 1px solid #30363D; border-radius: 10px; padding: 22px 16px 20px 16px;">
+      <a href="https://chimataraghuram.vercel.app/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/PORTFOLIO-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" height="28" alt="Portfolio" />
       </a>
       <br/><br/>
-      <b>🌐 Interactive Showcase</b>
-      <p align="center">Explore live project demos, architecture reviews & mini-games</p>
-      <br/>
+      <b style="color: #F0F6FC; font-size: 14px;">🌐 Interactive Showcase</b>
+      <p align="center" style="color: #8B949E; font-size: 12.5px; line-height: 1.5; margin: 8px 0 0 0;">
+        Explore live project demos, architecture reviews &amp; mini-games
+      </p>
     </td>
-    <td width="33.3%" align="center" valign="top">
-      <br/>
-      <a href="mailto:chimataraghuram02a@gmail.com">
-        <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <!-- 3. EMAIL -->
+    <td width="33.3%" align="center" valign="top" style="background: #0D1117; border: 1px solid #30363D; border-radius: 10px; padding: 22px 16px 20px 16px;">
+      <a href="mailto:chimataraghuram02a@gmail.com" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="28" alt="Email" />
       </a>
       <br/><br/>
-      <b>📧 Direct Inquiries</b>
-      <p align="center">Fast response for project collaborations, freelancing & roles</p>
-      <br/>
+      <b style="color: #F0F6FC; font-size: 14px;">📧 Direct Inquiries</b>
+      <p align="center" style="color: #8B949E; font-size: 12.5px; line-height: 1.5; margin: 8px 0 0 0;">
+        Fast response for project collaborations, freelancing &amp; roles
+      </p>
     </td>
   </tr>
   <tr>
-    <td width="33.3%" align="center" valign="top">
-      <br/>
-      <a href="https://github.com/chimataraghuram" target="_blank">
-        <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <!-- 4. GITHUB -->
+    <td width="33.3%" align="center" valign="top" style="background: #0D1117; border: 1px solid #30363D; border-radius: 10px; padding: 22px 16px 20px 16px;">
+      <a href="https://github.com/chimataraghuram" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" height="28" alt="GitHub" />
       </a>
       <br/><br/>
-      <b>🐙 Open Source</b>
-      <p align="center">Browse repositories, star projects & check latest commits</p>
-      <br/>
+      <b style="color: #F0F6FC; font-size: 14px;">🐙 Open Source</b>
+      <p align="center" style="color: #8B949E; font-size: 12.5px; line-height: 1.5; margin: 8px 0 0 0;">
+        Browse repositories, star projects &amp; check latest commits
+      </p>
     </td>
-    <td width="33.3%" align="center" valign="top">
-      <br/>
-      <a href="https://leetcode.com/u/chimataraghuram/" target="_blank">
-        <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" />
+    <!-- 5. LEETCODE -->
+    <td width="33.3%" align="center" valign="top" style="background: #0D1117; border: 1px solid #30363D; border-radius: 10px; padding: 22px 16px 20px 16px;">
+      <a href="https://leetcode.com/u/chimataraghuram/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/LEETCODE-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" height="28" alt="LeetCode" />
       </a>
       <br/><br/>
-      <b>💻 Problem Solving</b>
-      <p align="center">Algorithmic solutions, data structures & competitive coding</p>
-      <br/>
+      <b style="color: #F0F6FC; font-size: 14px;">💻 Problem Solving</b>
+      <p align="center" style="color: #8B949E; font-size: 12.5px; line-height: 1.5; margin: 8px 0 0 0;">
+        Algorithmic solutions, data structures &amp; competitive coding
+      </p>
     </td>
-    <td width="33.3%" align="center" valign="top">
-      <br/>
-      <a href="https://buymeacoffee.com/chimataraghuram" target="_blank">
-        <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Coffee" />
+    <!-- 6. BUY ME A COFFEE -->
+    <td width="33.3%" align="center" valign="top" style="background: #0D1117; border: 1px solid #30363D; border-radius: 10px; padding: 22px 16px 20px 16px;">
+      <a href="https://buymeacoffee.com/chimataraghuram" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/BUY_ME_A_COFFEE-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" height="28" alt="Buy Me A Coffee" />
       </a>
       <br/><br/>
-      <b>☕ Support & Fuel</b>
-      <p align="center">Fuel open-source AI builds, research & developer tools</p>
-      <br/>
+      <b style="color: #F0F6FC; font-size: 14px;">☕ Support &amp; Fuel</b>
+      <p align="center" style="color: #8B949E; font-size: 12.5px; line-height: 1.5; margin: 8px 0 0 0;">
+        Fuel open-source AI builds, research &amp; developer tools
+      </p>
     </td>
   </tr>
 </table>
