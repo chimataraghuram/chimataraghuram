@@ -4,9 +4,9 @@
 <td style="padding: 24px 24px 22px 24px;">
 <div align="center" style="margin-bottom: 20px;">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261029_full_wave">
-<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261029_full_wave">
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261029_full_wave" width="100%" alt="Chimata Raghuram" />
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261029_hero_wave_full">
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261029_hero_wave_full">
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261029_hero_wave_full" width="100%" alt="Chimata Raghuram" />
 </picture>
 </div>
 <div>
