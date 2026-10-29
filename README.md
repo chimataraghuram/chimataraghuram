@@ -564,9 +564,13 @@
   </p>
 
   <p align="center">
-    <img src="https://img.shields.io/badge/Open_To-Collaborations_%26_Hiring-22c55e?style=for-the-badge&logo=target&logoColor=white" alt="Open to Collaborations" />
+    <a href="https://www.linkedin.com/in/chimataraghuram/" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/Open_To-Collaborations_%26_Hiring-22c55e?style=for-the-badge&logo=target&logoColor=white" alt="Open to Collaborations & Hiring" />
+    </a>
     &nbsp;
-    <img src="https://img.shields.io/badge/Response_Time-%3C_24_Hours-7c3aed?style=for-the-badge&logo=clock&logoColor=white" alt="Response Time" />
+    <a href="https://www.linkedin.com/in/chimataraghuram/" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/Response_Time-%3C_24_Hours-7c3aed?style=for-the-badge&logo=clock&logoColor=white" alt="Response Time" />
+    </a>
   </p>
 </div>
 
