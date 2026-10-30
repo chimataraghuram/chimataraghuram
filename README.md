@@ -312,8 +312,8 @@
 
 <hr>
 
-### ✈️ [TravelGuideAI](https://github.com/chimataraghuram/Explore-With-Ai-Custom-Itineraries-For-Your-Next-Journey) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square)
-[![Travel Guide AI Screenshot](https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/travel_guide.png)](https://github.com/chimataraghuram/Explore-With-Ai-Custom-Itineraries-For-Your-Next-Journey)
+### ✈️ [TravelGuideAI](https://github.com/chimataraghuram/TravelGuideAI) ![Live](https://img.shields.io/badge/Status-🟢%20Live-22c55e?style=flat-square)
+[![Travel Guide AI Screenshot](https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/travel_guide.png)](https://chimataraghuram.github.io/TravelGuideAI/)
 **AI-Powered Neural Travel Planner**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Google Gemini 1.5](https://img.shields.io/badge/Google_Gemini_1.5-4285F4?style=flat-square&logo=google&logoColor=white)
 - AI-driven travel intelligence — acts as a **"Neural Travel Architect"** for every trip.
@@ -324,7 +324,7 @@
 - **Google Maps integration** to surface hidden local gems beyond tourist spots.
 
 
-[![GitHub Repo](https://img.shields.io/badge/GITHUB_REPO-TRAVELGUIDEAI-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/Explore-With-Ai-Custom-Itineraries-For-Your-Next-Journey)
+[![Live Demo](https://img.shields.io/badge/LIVE_DEMO-TRAVELGUIDEAI-22c55e?style=for-the-badge&logo=link&logoColor=white)](https://chimataraghuram.github.io/TravelGuideAI/) [![GitHub Repo](https://img.shields.io/badge/GITHUB_REPO-TRAVELGUIDEAI-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/TravelGuideAI)
 
 
 <hr>
