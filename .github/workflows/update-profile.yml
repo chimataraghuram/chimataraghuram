@@ -69,8 +69,12 @@ jobs:
               let desc = '';
               let key = '';
               
+              let badgeUrl = '';
+              let badgeAlt = '';
+              
               if (ev.type === 'PushEvent') {
-                icon = '🚀';
+                badgeUrl = 'https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white';
+                badgeAlt = 'Pushed';
                 key = `push-${repo}`;
                 if (seen.has(key)) continue;
                 seen.add(key);
@@ -89,50 +93,63 @@ jobs:
                     });
                     commitMsg = commitData.data.commit.message.split('\n')[0];
                   } catch (e) {
-                    commitMsg = `Pushed updates to \`${branch}\``;
+                    commitMsg = `Updates to \`${branch}\``;
                   }
                 } else {
-                  commitMsg = `Pushed updates to \`${branch}\``;
+                  commitMsg = `Updates to \`${branch}\``;
                 }
                 
-                if (commitMsg.length > 60) commitMsg = commitMsg.slice(0, 57) + '...';
-                desc = commitMsg;
+                if (commitMsg.length > 55) commitMsg = commitMsg.slice(0, 52) + '...';
+                desc = `<code>${commitMsg}</code>`;
               } else if (ev.type === 'IssuesEvent') {
-                icon = '❗';
                 let action = ev.payload.action;
+                badgeUrl = 'https://img.shields.io/badge/Issue-F85149?style=flat-square&logo=githubissues&logoColor=white';
+                badgeAlt = 'Issue';
                 let issueNum = ev.payload.issue.number;
                 let title = ev.payload.issue.title || `Issue #${issueNum}`;
-                if (title.length > 50) title = title.slice(0, 47) + '...';
-                desc = `${action.charAt(0).toUpperCase() + action.slice(1)} issue #${issueNum} — ${title}`;
+                if (title.length > 45) title = title.slice(0, 42) + '...';
+                desc = `<b>${action.charAt(0).toUpperCase() + action.slice(1)} #${issueNum}</b> — ${title}`;
                 key = `issue-${repo}-${issueNum}`;
                 if (seen.has(key)) continue;
                 seen.add(key);
               } else if (ev.type === 'PullRequestEvent') {
-                icon = '🔄';
                 let action = ev.payload.action;
+                let isMerged = ev.payload.pull_request && ev.payload.pull_request.merged;
+                if (action === 'closed' && isMerged) {
+                  badgeUrl = 'https://img.shields.io/badge/PR_Merged-8957E5?style=flat-square&logo=git-pull-request&logoColor=white';
+                  badgeAlt = 'PR Merged';
+                  action = 'Merged';
+                } else {
+                  badgeUrl = 'https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white';
+                  badgeAlt = 'Pull Request';
+                  action = action.charAt(0).toUpperCase() + action.slice(1);
+                }
                 let prNum = ev.payload.number || ev.payload.pull_request.number;
                 let title = ev.payload.pull_request.title || `PR #${prNum}`;
-                if (title.length > 50) title = title.slice(0, 47) + '...';
-                desc = `${action.charAt(0).toUpperCase() + action.slice(1)} PR #${prNum} — ${title}`;
+                if (title.length > 45) title = title.slice(0, 42) + '...';
+                desc = `<b>${action} PR #${prNum}</b> ❯ ${title}`;
                 key = `pr-${repo}-${prNum}`;
                 if (seen.has(key)) continue;
                 seen.add(key);
               } else if (ev.type === 'CreateEvent') {
-                icon = '🎉';
                 let refType = ev.payload.ref_type || 'repository';
-                desc = `Created new ${refType} in repository`;
+                badgeUrl = 'https://img.shields.io/badge/Created-0EA5E9?style=flat-square&logo=sparkles&logoColor=white';
+                badgeAlt = 'Created';
+                desc = `<b>Created new ${refType}</b>`;
                 key = `create-${repo}-${refType}`;
                 if (seen.has(key)) continue;
                 seen.add(key);
               } else if (ev.type === 'WatchEvent') {
-                icon = '⭐';
-                desc = `Starred repository`;
+                badgeUrl = 'https://img.shields.io/badge/Starred-E3B341?style=flat-square&logo=star&logoColor=white';
+                badgeAlt = 'Starred';
+                desc = `<b>Starred repository</b>`;
                 key = `watch-${repo}`;
                 if (seen.has(key)) continue;
                 seen.add(key);
               } else if (ev.type === 'ForkEvent') {
-                icon = '🍴';
-                desc = `Forked repository`;
+                badgeUrl = 'https://img.shields.io/badge/Forked-58A6FF?style=flat-square&logo=git-fork&logoColor=white';
+                badgeAlt = 'Forked';
+                desc = `<b>Forked repository</b>`;
                 key = `fork-${repo}`;
                 if (seen.has(key)) continue;
                 seen.add(key);
@@ -140,14 +157,15 @@ jobs:
                 continue;
               }
               
-              activityRows.push(`    <tr>\n      <td align="center">${icon}</td>\n      <td><a href="${url}"><b>${repo}</b></a></td>\n      <td>${desc}</td>\n      <td align="center"><img src="https://img.shields.io/badge/${encodeURIComponent(dateStr)}-1E293B?style=flat-square&color=0EA5E9" height="18" alt="${dateStr}" /></td>\n    </tr>`);
+              const dateBadge = `https://img.shields.io/badge/${encodeURIComponent(dateStr.replace(' ', '_'))}-161b22?style=flat-square&logo=github&logoColor=38bdf8`;
+              activityRows.push(`    <tr>\n      <td align="center"><img src="${badgeUrl}" height="20" alt="${badgeAlt}" /></td>\n      <td><a href="${url}"><b><code>${repo}</code></b></a></td>\n      <td>${desc}</td>\n      <td align="center"><img src="${dateBadge}" height="20" alt="${dateStr}" /></td>\n    </tr>`);
             }
             
             let tableContent = '';
             if (activityRows.length === 0) {
               tableContent = '<p align="center"><i>No recent activity found.</i></p>';
             } else {
-              tableContent = `<table width="100%">\n  <thead>\n    <tr>\n      <th width="8%" align="center">Action</th>\n      <th width="32%" align="left">Repository</th>\n      <th width="45%" align="left">Activity</th>\n      <th width="15%" align="center">Date</th>\n    </tr>\n  </thead>\n  <tbody>\n${activityRows.join('\n')}\n    <tr>\n      <td colspan="4" height="1" style="padding:0; margin:0; border:none; line-height:1px; background:transparent;"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/transparent_spacer.png" width="900" height="1" style="display:block; border:none; opacity:0; height:1px;" alt="" /></td>\n    </tr>\n  </tbody>\n</table>`;
+              tableContent = `<table width="100%">\n  <thead>\n    <tr>\n      <th width="15%" align="center">Event</th>\n      <th width="32%" align="left">Repository</th>\n      <th width="39%" align="left">Contribution</th>\n      <th width="14%" align="center">Date</th>\n    </tr>\n  </thead>\n  <tbody>\n${activityRows.join('\n')}\n    <tr>\n      <td colspan="4" height="1" style="padding:0; margin:0; border:none; line-height:1px; background:transparent;"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/transparent_spacer.png" width="900" height="1" style="display:block; border:none; opacity:0; height:1px;" alt="" /></td>\n    </tr>\n  </tbody>\n</table>`;
             }
             
             let readme = fs.readFileSync('README.md', 'utf8');
