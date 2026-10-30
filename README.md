@@ -257,9 +257,11 @@
 
 <hr>
 
-### 🎓 [ExamMonitor AI — Smart Examination Monitoring Platform](https://github.com/chimataraghuram/Development-of-Smart-Examination-Monitoring-platform-with-Integrity-Analysis-Reporting-System) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square)
-<a href="https://github.com/chimataraghuram/Development-of-Smart-Examination-Monitoring-platform-with-Integrity-Analysis-Reporting-System"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:6366f1,100:a855f7&height=220&section=header&text=ExamMonitor%20AI&fontSize=42&fontColor=ffffff&desc=Smart%20Online%20Examination%20Monitoring%20%26%20Integrity%20Analysis%20Platform&descSize=16&descAlignY=68" width="100%" alt="ExamMonitor AI Banner" /></a>
+### 🎓 [ExamMonitor AI — Smart Examination Monitoring Platform](https://github.com/chimataraghuram/Development-of-Smart-Examination-Monitoring-platform-with-Integrity-Analysis-Reporting-System) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square) ![Infosys Springboard](https://img.shields.io/badge/Infosys_Springboard-Internship_7.0-007CC3?style=flat-square)
+<a href="https://lnkd.in/p/g2NGCB-R"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/exam_monitor_demo.png" alt="ExamMonitor AI Demo Walkthrough" width="900" height="400"/></a>
 **AI-Powered Online Examination Monitoring & Integrity Analysis Reporting System 🛡️**
+*Built as a team project for the **Infosys Springboard Virtual Internship 7.0** under the mentorship of Subramaniam Sir.*
+<br/>
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
 - **Computer Vision Invigilation**: Real-time candidate monitoring with active face detection, multi-face presence alerts, and absence tracking.
 - **Browser Focus & Tab Integrity**: Tracks browser focus loss, tab-switching events, and unauthorized window navigation.
@@ -268,7 +270,7 @@
 - **Centralized Admin Dashboard**: Live multi-candidate session monitoring, violation heatmaps, action center alerts, and audit histories.
 - **Automated Reporting Suite**: Exports comprehensive integrity summaries, incident timelines, and downloadable verification reports.
 
-[![GitHub Repo](https://img.shields.io/badge/GITHUB_REPO-EXAMMONITOR--AI-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/Development-of-Smart-Examination-Monitoring-platform-with-Integrity-Analysis-Reporting-System)
+[![Demo Video](https://img.shields.io/badge/DEMO_VIDEO-LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://lnkd.in/p/g2NGCB-R) [![GitHub Repo](https://img.shields.io/badge/GITHUB_REPO-EXAMMONITOR--AI-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/Development-of-Smart-Examination-Monitoring-platform-with-Integrity-Analysis-Reporting-System)
 
 <hr>
 
