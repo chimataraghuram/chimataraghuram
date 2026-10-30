@@ -513,33 +513,33 @@
   </thead>
   <tbody>
     <tr>
-      <td align="center"><img src="https://img.shields.io/badge/PR_Merged-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="PR Merged" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b><code>chimataraghuram/chimataraghuram</code></b></a></td>
-      <td><b>Merged PR #36</b> ❯ <code>expand activity table to 100%</code></td>
+      <td><b>Merged PR #37</b> ❯ PR #37</td>
       <td align="center"><img src="https://img.shields.io/badge/Oct_30-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Oct 30" /></td>
     </tr>
     <tr>
-      <td align="center"><img src="https://img.shields.io/badge/PR_Merged-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="PR Merged" /></td>
-      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
-      <td><b>Merged PR #5</b> ❯ <code>PR #5</code></td>
-      <td align="center"><img src="https://img.shields.io/badge/Oct_29-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Oct 29" /></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://img.shields.io/badge/PR_Merged-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="PR Merged" /></td>
-      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
-      <td><b>Merged PR #4</b> ❯ <code>PR #4</code></td>
-      <td align="center"><img src="https://img.shields.io/badge/Oct_29-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Oct 29" /></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://img.shields.io/badge/PR_Merged-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="PR Merged" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b><code>chimataraghuram/chimataraghuram</code></b></a></td>
-      <td><b>Merged PR #35</b> ❯ <code>PR #35</code></td>
+      <td><b>Merged PR #36</b> ❯ PR #36</td>
+      <td align="center"><img src="https://img.shields.io/badge/Oct_30-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Oct 30" /></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
+      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
+      <td><b>Merged PR #5</b> ❯ PR #5</td>
       <td align="center"><img src="https://img.shields.io/badge/Oct_29-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Oct 29" /></td>
     </tr>
     <tr>
-      <td align="center"><img src="https://img.shields.io/badge/PR_Merged-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="PR Merged" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
+      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
+      <td><b>Merged PR #4</b> ❯ PR #4</td>
+      <td align="center"><img src="https://img.shields.io/badge/Oct_29-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Oct 29" /></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b><code>chimataraghuram/chimataraghuram</code></b></a></td>
-      <td><b>Merged PR #34</b> ❯ <code>PR #34</code></td>
+      <td><b>Merged PR #35</b> ❯ PR #35</td>
       <td align="center"><img src="https://img.shields.io/badge/Oct_29-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Oct 29" /></td>
     </tr>
     <tr>
