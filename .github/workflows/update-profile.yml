@@ -37,7 +37,9 @@ jobs:
       - name: Run Deployments Count Script
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 .github/scripts/update_deployments.py
+        run: |
+          python3 .github/scripts/update_deployments.py
+          python3 .github/scripts/update_stat_svgs.py
 
       - name: Fetch and Update Activity
         uses: actions/github-script@v7
@@ -338,4 +340,4 @@ jobs:
         with:
           commit_message: "docs: auto-update profile stats"
           branch: main
-          file_pattern: "README.md"
+          file_pattern: "README.md images/stat_*.svg"
