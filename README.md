@@ -283,7 +283,7 @@
 <div align="left">
 
 ### 🤖 [AI Image Generation Bot](https://github.com/chimataraghuram/ai-image-generation-bot-n8n) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square)
-[![AI Image Generation Bot Screenshot](https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/AI%20Image%20Generation%20Bot%20using%20N8N.png)](https://github.com/chimataraghuram/ai-image-generation-bot-n8n)
+[![AI Image Generation Bot Screenshot](https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/AI%20Image%20Generation%20Bot%20using%20N8N.png)](https://lnkd.in/p/d8m5UHW6)
 **AI Image Generation Bot (n8n + Gemini + OpenAI)**
 ![n8n](https://img.shields.io/badge/n8n-FF6D5A?style=flat-square&logo=n8n&logoColor=white) ![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=flat-square&logo=google&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white) ![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white)
 - **Telegram Interface**: Seamless input and output interface for users.
@@ -292,7 +292,7 @@
 - **OpenAI DALL-E Integration**: High-fidelity image synthesis using OpenAI's image generation endpoint.
 - **End-to-End Stability**: Built-in error handling and rate-limit mitigation via n8n workflows.
 
-[![GitHub Repo](https://img.shields.io/badge/GITHUB_REPO-AI--IMAGE--BOT-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/ai-image-generation-bot-n8n)
+[![Live Demo](https://img.shields.io/badge/LIVE_DEMO-LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://lnkd.in/p/d8m5UHW6) [![GitHub Repo](https://img.shields.io/badge/GITHUB_REPO-AI--IMAGE--BOT-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chimataraghuram/ai-image-generation-bot-n8n)
 
 <hr>
 
