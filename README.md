@@ -514,6 +514,12 @@
   <tbody>
     <tr>
       <td align="center">🔄</td>
+      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
+      <td>Merged PR #36 — PR #36</td>
+      <td align="center"><img src="https://img.shields.io/badge/Oct%2030-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 30" /></td>
+    </tr>
+    <tr>
+      <td align="center">🔄</td>
       <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b>chimataraghuram/TECHBOY-STORE</b></a></td>
       <td>Merged PR #5 — PR #5</td>
       <td align="center"><img src="https://img.shields.io/badge/Oct%2029-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 29" /></td>
@@ -534,12 +540,6 @@
       <td align="center">🔄</td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
       <td>Merged PR #34 — PR #34</td>
-      <td align="center"><img src="https://img.shields.io/badge/Oct%2029-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 29" /></td>
-    </tr>
-    <tr>
-      <td align="center">🔄</td>
-      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b>chimataraghuram/chimataraghuram</b></a></td>
-      <td>Merged PR #29 — PR #29</td>
       <td align="center"><img src="https://img.shields.io/badge/Oct%2029-1E293B?style=flat-square&color=0EA5E9" height="18" alt="Oct 29" /></td>
     </tr>
     <tr>
