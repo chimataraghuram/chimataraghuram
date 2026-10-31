@@ -29,5 +29,5 @@
   <path d="M34 40 Q34 35 41 35 Q46 35 46 40 Z" fill="#FFFFFF" fill-opacity="0.85"/>
   <line x1="60" y1="14" x2="60" y2="46" stroke="#222F3E" stroke-width="1.2"/>
   <text x="70" y="27" class="stat-label">FOLLOWERS</text>
-  <text x="70" y="49" class="stat-value" fill="#38BDF8">16</text>
+  <text x="70" y="49" class="stat-value" fill="#38BDF8">15</text>
 </svg>
