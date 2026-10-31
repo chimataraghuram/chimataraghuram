@@ -32,5 +32,5 @@
   </g>
   <line x1="60" y1="14" x2="60" y2="46" stroke="#222F3E" stroke-width="1.2"/>
   <text x="70" y="27" class="stat-label">DEPLOYMENTS</text>
-  <text x="70" y="49" class="stat-value" fill="#FB7185">1,889</text>
+  <text x="70" y="49" class="stat-value" fill="#FB7185">1,890</text>
 </svg>

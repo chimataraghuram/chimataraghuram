@@ -531,14 +531,14 @@
   <tbody>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
-      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
-      <td><code>Merge pull request #5 from chimataraghuram/chimatara...</code></td>
+      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b><code>chimataraghuram/chimataraghuram</code></b></a></td>
+      <td><code>feat(connect): redesign social links section into mo...</code></td>
       <td align="center"><img src="https://img.shields.io/badge/Oct_29-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Oct 29" /></td>
     </tr>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
-      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b><code>chimataraghuram/chimataraghuram</code></b></a></td>
-      <td><code>docs(connect): link Open to Collaborations and Respo...</code></td>
+      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
+      <td><code>Merge pull request #5 from chimataraghuram/chimatara...</code></td>
       <td align="center"><img src="https://img.shields.io/badge/Oct_29-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Oct 29" /></td>
     </tr>
     <tr>

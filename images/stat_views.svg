@@ -27,5 +27,5 @@
   <circle cx="30" cy="30" r="5" fill="#FFFFFF"/>
   <line x1="60" y1="14" x2="60" y2="46" stroke="#222F3E" stroke-width="1.2"/>
   <text x="70" y="27" class="stat-label">PROFILE VIEWS</text>
-  <text x="70" y="49" class="stat-value" fill="#A78BFA">2,093</text>
+  <text x="70" y="49" class="stat-value" fill="#A78BFA">2,094</text>
 </svg>
