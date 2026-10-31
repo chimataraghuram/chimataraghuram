@@ -26,5 +26,5 @@
   <polygon points="30,17 34,25.5 43,26.5 36.5,32.5 38.5,41.5 30,36.5 21.5,41.5 23.5,32.5 17,26.5 26,25.5" fill="#FFFFFF"/>
   <line x1="60" y1="14" x2="60" y2="46" stroke="#222F3E" stroke-width="1.2"/>
   <text x="70" y="27" class="stat-label">STARS</text>
-  <text x="70" y="49" class="stat-value" fill="#FBBF24">76</text>
+  <text x="70" y="49" class="stat-value" fill="#FBBF24">77</text>
 </svg>
