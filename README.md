@@ -534,6 +534,12 @@
   </thead>
   <tbody>
     <tr>
+      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
+      <td><a href="https://github.com/chimataraghuram/PROJECT-FINDER"><b><code>chimataraghuram/PROJECT-FINDER</code></b></a></td>
+      <td><b>Merged PR #3</b> ❯ PR #3</td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_1-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 1" /></td>
+    </tr>
+    <tr>
       <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
       <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
       <td><code>fix(product-card): enforce strict absolute alignment...</code></td>
