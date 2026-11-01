@@ -257,6 +257,7 @@ jobs:
 
               // Try multiple regex patterns for robustness across GitHub HTML changes
               const patterns = [
+                /src="(https:\/\/github\.githubassets\.com\/[^"]+)"[^>]*alt="Achievement:\s*([^"]+)"/g,
                 /class="achievement-badge[^"]*"[^>]*src="([^"]*githubassets[^"]*)"[^>]*alt="([^"]*)"/g,
                 /src="(https:\/\/github\.githubassets\.com\/[^"]+)"[^>]*class="achievement-badge[^"]*"[^>]*alt="([^"]*)"/g,
                 /src="(https:\/\/github\.githubassets\.com\/(?:assets|images)\/modules\/profile\/achievements\/[^"]+\.png[^"]*)"[^>]*alt="([^"]*)"/g

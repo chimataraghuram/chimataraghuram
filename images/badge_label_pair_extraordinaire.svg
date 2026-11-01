@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="105" height="24" viewBox="0 0 105 24">
+  <defs>
+    <linearGradient id="pillGrad_PAIR_EXTRAORDINAIRE" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161F33"/>
+      <stop offset="100%" stop-color="#0A0E18"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Rounded Cyber Pill -->
+  <rect x="0.75" y="0.75" width="103.5" height="22.5" rx="11.25" fill="url(#pillGrad_PAIR_EXTRAORDINAIRE)" stroke="#8B5CF6" stroke-width="1.2" stroke-opacity="0.55"/>
+  <rect x="2" y="2" width="101" height="20" rx="10" fill="#0C121F" fill-opacity="0.85"/>
+
+  <!-- Centered Bold Title -->
+  <text x="52.5" y="15.2" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Pro Display', Helvetica, Arial, sans-serif" font-size="7" font-weight="900" letter-spacing="0.4" fill="#F8FAFC">PAIR EXTRAORDINAIRE</text>
+</svg>
