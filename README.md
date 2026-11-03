@@ -535,14 +535,20 @@
   <tbody>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
-      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
-      <td><code>Merge branch 'chimataraghuram-dev'</code></td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_1-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 1" /></td>
+      <td><a href="https://github.com/chimataraghuram/PROJECT-FINDER"><b><code>chimataraghuram/PROJECT-FINDER</code></b></a></td>
+      <td><code>style(search): simplify search bar layout, remove re...</code></td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_2-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 2" /></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
+      <td><a href="https://github.com/chimataraghuram/PROJECT-FINDER"><b><code>chimataraghuram/PROJECT-FINDER</code></b></a></td>
+      <td><b>Merged PR #19</b> ❯ PR #19</td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_3-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 3" /></td>
     </tr>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
-      <td><a href="https://github.com/chimataraghuram/PROJECT-FINDER"><b><code>chimataraghuram/PROJECT-FINDER</code></b></a></td>
-      <td><code>Merge pull request #7 from chimataraghuram/chimatara...</code></td>
+      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
+      <td><code>docs(readme): document Google Gemini voice model and...</code></td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_1-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 1" /></td>
     </tr>
     <tr>
@@ -555,12 +561,6 @@
       <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
       <td><a href="https://github.com/chimataraghuram/PROJECT-FINDER"><b><code>chimataraghuram/PROJECT-FINDER</code></b></a></td>
       <td><b>Merged PR #18</b> ❯ PR #18</td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_2-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 2" /></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
-      <td><a href="https://github.com/chimataraghuram/PROJECT-FINDER"><b><code>chimataraghuram/PROJECT-FINDER</code></b></a></td>
-      <td><b>Merged PR #17</b> ❯ PR #17</td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_2-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 2" /></td>
     </tr>
     <tr>
