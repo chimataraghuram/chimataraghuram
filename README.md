@@ -535,20 +535,20 @@
   <tbody>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
+      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
+      <td><code>Merge branch 'chimataraghuram-dev'</code></td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_1-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 1" /></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
       <td><a href="https://github.com/chimataraghuram/PROJECT-FINDER"><b><code>chimataraghuram/PROJECT-FINDER</code></b></a></td>
-      <td><code>Merge pull request #3 from chimataraghuram/chimatara...</code></td>
+      <td><code>Merge pull request #7 from chimataraghuram/chimatara...</code></td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_1-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 1" /></td>
     </tr>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b><code>chimataraghuram/chimataraghuram</code></b></a></td>
       <td><code>feat(achievements): showcase newly unlocked Pair Ext...</code></td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_1-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 1" /></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
-      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
-      <td><code>feat(voice): integrate Google Gemini 2.5 Flash for v...</code></td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_1-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 1" /></td>
     </tr>
     <tr>
