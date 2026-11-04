@@ -536,7 +536,7 @@
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
       <td><a href="https://github.com/chimataraghuram/PROJECT-FINDER"><b><code>chimataraghuram/PROJECT-FINDER</code></b></a></td>
-      <td><code>Merge pull request #16 from chimataraghuram/chimatar...</code></td>
+      <td><code>Merge pull request #18 from chimataraghuram/chimatar...</code></td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_2-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 2" /></td>
     </tr>
     <tr>
