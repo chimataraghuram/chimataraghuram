@@ -534,16 +534,16 @@
   </thead>
   <tbody>
     <tr>
+      <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
+      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
+      <td><code>feat(voice): train Gemini voice model with catalog R...</code></td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_7-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 7" /></td>
+    </tr>
+    <tr>
       <td align="center"><img src="https://img.shields.io/badge/Starred-E3B341?style=flat-square&logo=star&logoColor=white" height="20" alt="Starred" /></td>
       <td><a href="https://github.com/nejib1/Free-LLM"><b><code>nejib1/Free-LLM</code></b></a></td>
       <td><b>Starred repository</b></td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_7-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 7" /></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
-      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
-      <td><code>feat(catalog): provide 5 distinct side views for eve...</code></td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_5-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 5" /></td>
     </tr>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
