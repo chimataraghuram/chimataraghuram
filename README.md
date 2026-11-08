@@ -48,9 +48,9 @@
 <div align="center">
   <br/>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake-dark.svg?v=2026-11-07_live">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake.svg?v=2026-11-07_live">
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake.svg?v=2026-11-07_live" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake-dark.svg?v=2026-11-08_live">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake.svg?v=2026-11-08_live">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake.svg?v=2026-11-08_live" width="100%" />
   </picture>
   <br/><br/>
 </div>
@@ -536,8 +536,8 @@
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
       <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
-      <td><code>perf(scroll): enhance full-site smooth animations an...</code></td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_6-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 6" /></td>
+      <td><code>fix(hero): prevent 3D phone visual from overlapping ...</code></td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_7-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 7" /></td>
     </tr>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/Starred-E3B341?style=flat-square&logo=star&logoColor=white" height="20" alt="Starred" /></td>
