@@ -536,7 +536,7 @@
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
       <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
-      <td><code>fix(hero): prevent 3D phone visual from overlapping ...</code></td>
+      <td><code>fix(hero): resolve mobile phone cluster overlap and ...</code></td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_7-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 7" /></td>
     </tr>
     <tr>
@@ -556,12 +556,6 @@
       <td><a href="https://github.com/chimataraghuram/PROJECT-FINDER"><b><code>chimataraghuram/PROJECT-FINDER</code></b></a></td>
       <td><b>Merged PR #19</b> ❯ PR #19</td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_3-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 3" /></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
-      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b><code>chimataraghuram/chimataraghuram</code></b></a></td>
-      <td><code>feat(achievements): showcase newly unlocked Pair Ext...</code></td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_1-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 1" /></td>
     </tr>
     <tr>
       <td colspan="4" height="1" style="padding:0; margin:0; border:none; line-height:1px; background:transparent;"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/transparent_spacer.png" width="900" height="1" style="display:block; border:none; opacity:0; height:1px;" alt="" /></td>
