@@ -534,6 +534,18 @@
   </thead>
   <tbody>
     <tr>
+      <td align="center"><img src="https://img.shields.io/badge/Created-0EA5E9?style=flat-square&logo=sparkles&logoColor=white" height="20" alt="Created" /></td>
+      <td><a href="https://github.com/chimataraghuram/PORTFOLIO"><b><code>chimataraghuram/PORTFOLIO</code></b></a></td>
+      <td><b>Created new branch</b></td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_13-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 13" /></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
+      <td><a href="https://github.com/chimataraghuram/PORTFOLIO"><b><code>chimataraghuram/PORTFOLIO</code></b></a></td>
+      <td><code>feat(universe): add dynamic connecting orbit trail a...</code></td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_13-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 13" /></td>
+    </tr>
+    <tr>
       <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
       <td><a href="https://github.com/chimataraghuram/PORTFOLIO"><b><code>chimataraghuram/PORTFOLIO</code></b></a></td>
       <td><b>Merged PR #10</b> ❯ PR #10</td>
@@ -549,18 +561,6 @@
       <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
       <td><a href="https://github.com/chimataraghuram/PORTFOLIO"><b><code>chimataraghuram/PORTFOLIO</code></b></a></td>
       <td><b>Merged PR #9</b> ❯ PR #9</td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_13-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 13" /></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
-      <td><a href="https://github.com/chimataraghuram/PORTFOLIO"><b><code>chimataraghuram/PORTFOLIO</code></b></a></td>
-      <td><b>Merged PR #8</b> ❯ PR #8</td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_13-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 13" /></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
-      <td><a href="https://github.com/chimataraghuram/PORTFOLIO"><b><code>chimataraghuram/PORTFOLIO</code></b></a></td>
-      <td><b>Merged PR #7</b> ❯ PR #7</td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_13-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 13" /></td>
     </tr>
     <tr>
