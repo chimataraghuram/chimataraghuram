@@ -536,8 +536,14 @@
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
       <td><a href="https://github.com/chimataraghuram/PORTFOLIO"><b><code>chimataraghuram/PORTFOLIO</code></b></a></td>
-      <td><code>style(internships): remove external link icon from c...</code></td>
+      <td><code>fix(ui): use crisp high-res avatar crop for mobile n...</code></td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_12-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 12" /></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
+      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
+      <td><b>Merged PR #6</b> ❯ PR #6</td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_14-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 14" /></td>
     </tr>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/Created-0EA5E9?style=flat-square&logo=sparkles&logoColor=white" height="20" alt="Created" /></td>
@@ -555,12 +561,6 @@
       <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
       <td><a href="https://github.com/chimataraghuram/PORTFOLIO"><b><code>chimataraghuram/PORTFOLIO</code></b></a></td>
       <td><b>Merged PR #11</b> ❯ PR #11</td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_13-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 13" /></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
-      <td><a href="https://github.com/chimataraghuram/PORTFOLIO"><b><code>chimataraghuram/PORTFOLIO</code></b></a></td>
-      <td><b>Merged PR #9</b> ❯ PR #9</td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_13-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 13" /></td>
     </tr>
     <tr>
