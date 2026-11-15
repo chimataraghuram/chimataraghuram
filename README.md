@@ -536,14 +536,8 @@
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
       <td><a href="https://github.com/chimataraghuram/PORTFOLIO"><b><code>chimataraghuram/PORTFOLIO</code></b></a></td>
-      <td><code>feat(internships): update professional experiences w...</code></td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_12-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 12" /></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
-      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
-      <td><b>Merged PR #6</b> ❯ PR #6</td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_14-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 14" /></td>
+      <td><code>Merge pull request #8 from chimataraghuram/feature/s...</code></td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_13-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 13" /></td>
     </tr>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/Created-0EA5E9?style=flat-square&logo=sparkles&logoColor=white" height="20" alt="Created" /></td>
@@ -552,10 +546,16 @@
       <td align="center"><img src="https://img.shields.io/badge/Nov_13-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 13" /></td>
     </tr>
     <tr>
+      <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
+      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
+      <td><code>Merge pull request #6 from chimataraghuram/chimatara...</code></td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_14-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 14" /></td>
+    </tr>
+    <tr>
       <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
-      <td><a href="https://github.com/chimataraghuram/PORTFOLIO"><b><code>chimataraghuram/PORTFOLIO</code></b></a></td>
-      <td><b>Merged PR #10</b> ❯ PR #10</td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_13-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 13" /></td>
+      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
+      <td><b>Merged PR #6</b> ❯ PR #6</td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_14-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 14" /></td>
     </tr>
     <tr>
       <td colspan="4" height="1" style="padding:0; margin:0; border:none; line-height:1px; background:transparent;"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/transparent_spacer.png" width="900" height="1" style="display:block; border:none; opacity:0; height:1px;" alt="" /></td>
