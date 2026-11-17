@@ -534,6 +534,12 @@
   </thead>
   <tbody>
     <tr>
+      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
+      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
+      <td><b>Merged PR #8</b> ❯ PR #8</td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_17-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 17" /></td>
+    </tr>
+    <tr>
       <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
       <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
       <td><code>docs(readme): replace showcase placeholders with rea...</code></td>
@@ -556,12 +562,6 @@
       <td><a href="https://github.com/chimataraghuram/PORTFOLIO"><b><code>chimataraghuram/PORTFOLIO</code></b></a></td>
       <td><b>Created new branch</b></td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_13-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 13" /></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
-      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
-      <td><b>Merged PR #6</b> ❯ PR #6</td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_14-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 14" /></td>
     </tr>
     <tr>
       <td colspan="4" height="1" style="padding:0; margin:0; border:none; line-height:1px; background:transparent;"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/transparent_spacer.png" width="900" height="1" style="display:block; border:none; opacity:0; height:1px;" alt="" /></td>
