@@ -48,9 +48,9 @@
 <div align="center">
   <br/>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake-dark.svg?v=2026-11-16_live">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake.svg?v=2026-11-16_live">
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake.svg?v=2026-11-16_live" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake-dark.svg?v=2026-11-17_live">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake.svg?v=2026-11-17_live">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/output/github-contribution-grid-snake.svg?v=2026-11-17_live" width="100%" />
   </picture>
   <br/><br/>
 </div>
@@ -534,16 +534,16 @@
   </thead>
   <tbody>
     <tr>
+      <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
+      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
+      <td><code>docs(readme): replace showcase placeholders with rea...</code></td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_16-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 16" /></td>
+    </tr>
+    <tr>
       <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
       <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
       <td><b>Merged PR #7</b> ❯ PR #7</td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_16-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 16" /></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
-      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
-      <td><code>fix(ui): comprehensive responsiveness, layout, and a...</code></td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_14-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 14" /></td>
     </tr>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
