@@ -659,10 +659,10 @@
         Algorithmic solutions, data structures &amp; competitive coding
       </p>
     </td>
-    <!-- 6. BUY ME A COFFEE -->
+    <!-- 6. GITHUB SPONSORS -->
     <td width="33.3%" align="center" valign="top" style="background: #0D1117; border: 1px solid #30363D; border-radius: 10px; padding: 22px 16px 20px 16px;">
-      <a href="https://buymeacoffee.com/chimataraghuram" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
-        <img src="https://img.shields.io/badge/BUY_ME_A_COFFEE-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" height="28" alt="Buy Me A Coffee" />
+      <a href="https://github.com/sponsors/chimataraghuram" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/SPONSOR-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white" height="28" alt="GitHub Sponsor" />
       </a>
       <br/><br/>
       <b style="color: #F0F6FC; font-size: 14px;">☕ Support &amp; Fuel</b>

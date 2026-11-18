@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>GitHub Stats | Chimatara Ghuram</title>
+<title>GitHub Stats | Chimata Raghuram</title>
 <style>
 :root{color-scheme:dark;--bg:#0b1017;--panel:#151c25;--border:#303a48;--cyan:#22d3ee;--purple:#a855f7;--blue:#0ea5e9;--amber:#f59e0b;--rose:#fb4d68;--green:#10d3a0}
 *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 50% -20%,#182232 0%,var(--bg) 65%);color:#eef3fb;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;padding:42px 22px}
@@ -17,10 +17,10 @@ main{max-width:1500px;margin:auto}.heading{display:flex;align-items:center;gap:2
 <body><main>
 <h1 class="heading"><span>GITHUB STATS</span></h1>
 <section class="stats" aria-label="GitHub statistics">
-<a class="stat purple" href="https://github.com/chimataraghuram" aria-label="Open GitHub profile"><span class="icon">◉</span><span><span class="label">PROFILE VIEWS</span><br><span class="value" id="views">VISIT PROFILE ↗</span></span></a>
+<a class="stat purple" href="https://github.com/chimataraghuram" aria-label="Open GitHub profile"><span class="icon">◉</span><span><span class="label">PROFILE VIEWS</span><br><span class="value" id="views">2,094</span></span></a>
 <a class="stat blue" href="https://github.com/chimataraghuram?tab=followers"><span class="icon">♟</span><span><span class="label">FOLLOWERS</span><br><span class="value" id="followers">View followers ↗</span></span></a>
 <a class="stat amber" href="https://github.com/chimataraghuram?tab=repositories"><span class="icon">★</span><span><span class="label">STARS</span><br><span class="value" id="stars">View stars ↗</span></span></a>
-<a class="stat rose" href="https://github.com/chimataraghuram?tab=repositories"><span class="icon">➤</span><span><span class="label">DEPLOYMENTS</span><br><span class="value">VIEW PROJECTS ↗</span></span></a>
+<a class="stat rose" href="https://github.com/chimataraghuram?tab=repositories"><span class="icon">➤</span><span><span class="label">DEPLOYMENTS</span><br><span class="value" id="deployments">1,841</span></span></a>
 <a class="stat green" href="https://github.com/chimataraghuram?tab=repositories"><span class="icon">▣</span><span><span class="label">REPOSITORIES</span><br><span class="value" id="repos">Explore repos ↗</span></span></a>
 </section>
 <div class="rule"><span class="github-mark">●</span></div>
@@ -37,5 +37,7 @@ main{max-width:1500px;margin:auto}.heading{display:flex;align-items:center;gap:2
 <script>
 fetch('https://api.github.com/users/chimataraghuram').then(r=>r.ok?r.json():null).then(d=>{if(!d)return;document.getElementById('followers').textContent=d.followers.toLocaleString();document.getElementById('repos').textContent=d.public_repos.toLocaleString();}).catch(()=>{});
 fetch('https://api.github.com/users/chimataraghuram/repos?per_page=100&sort=updated').then(r=>r.ok?r.json():null).then(rs=>{if(Array.isArray(rs)){let n=rs.reduce((s,r)=>s+r.stargazers_count,0);document.getElementById('stars').textContent=n.toLocaleString();}}).catch(()=>{});
+fetch('../images/stat_views.svg').then(r=>r.ok?r.text():null).then(t=>{if(t){let m=t.match(/class="stat-value"[^>]*>([\d,]+)<\/text>/);if(m)document.getElementById('views').textContent=m[1];}}).catch(()=>{});
+fetch('../images/stat_deployments.svg').then(r=>r.ok?r.text():null).then(t=>{if(t){let m=t.match(/class="stat-value"[^>]*>([\d,]+)<\/text>/);if(m)document.getElementById('deployments').textContent=m[1];}}).catch(()=>{});
 </script>
 </body></html>
