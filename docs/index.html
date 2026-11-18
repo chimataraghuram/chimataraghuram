@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>GitHub Stats | Chimata Raghuram</title>
+<meta name="description" content="GitHub Live Statistics and Portfolio of Chimata Raghuram — AI Software Developer, Cloud & Full-Stack Automation Engineer.">
+<link rel="canonical" href="https://chimataraghuram.github.io/">
 <style>
 :root{color-scheme:dark;--bg:#0b1017;--panel:#151c25;--border:#303a48;--cyan:#22d3ee;--purple:#a855f7;--blue:#0ea5e9;--amber:#f59e0b;--rose:#fb4d68;--green:#10d3a0}
 *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 50% -20%,#182232 0%,var(--bg) 65%);color:#eef3fb;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;padding:42px 22px}
@@ -18,26 +20,26 @@ main{max-width:1500px;margin:auto}.heading{display:flex;align-items:center;gap:2
 <h1 class="heading"><span>GITHUB STATS</span></h1>
 <section class="stats" aria-label="GitHub statistics">
 <a class="stat purple" href="https://github.com/chimataraghuram" aria-label="Open GitHub profile"><span class="icon">◉</span><span><span class="label">PROFILE VIEWS</span><br><span class="value" id="views">2,094</span></span></a>
-<a class="stat blue" href="https://github.com/chimataraghuram?tab=followers"><span class="icon">♟</span><span><span class="label">FOLLOWERS</span><br><span class="value" id="followers">View followers ↗</span></span></a>
-<a class="stat amber" href="https://github.com/chimataraghuram?tab=repositories"><span class="icon">★</span><span><span class="label">STARS</span><br><span class="value" id="stars">View stars ↗</span></span></a>
-<a class="stat rose" href="https://github.com/chimataraghuram?tab=repositories"><span class="icon">➤</span><span><span class="label">DEPLOYMENTS</span><br><span class="value" id="deployments">1,841</span></span></a>
-<a class="stat green" href="https://github.com/chimataraghuram?tab=repositories"><span class="icon">▣</span><span><span class="label">REPOSITORIES</span><br><span class="value" id="repos">Explore repos ↗</span></span></a>
+<a class="stat blue" href="https://github.com/chimataraghuram?tab=followers" aria-label="View GitHub followers"><span class="icon">♟</span><span><span class="label">FOLLOWERS</span><br><span class="value" id="followers">View followers ↗</span></span></a>
+<a class="stat amber" href="https://github.com/chimataraghuram?tab=repositories" aria-label="View starred repositories"><span class="icon">★</span><span><span class="label">STARS</span><br><span class="value" id="stars">View stars ↗</span></span></a>
+<a class="stat rose" href="https://github.com/chimataraghuram?tab=repositories" aria-label="View deployed projects"><span class="icon">➤</span><span><span class="label">DEPLOYMENTS</span><br><span class="value" id="deployments">1,841</span></span></a>
+<a class="stat green" href="https://github.com/chimataraghuram?tab=repositories" aria-label="Explore GitHub repositories"><span class="icon">▣</span><span><span class="label">REPOSITORIES</span><br><span class="value" id="repos">Explore repos ↗</span></span></a>
 </section>
 <div class="rule"><span class="github-mark">●</span></div>
 <h2 class="heading"><span>CONNECT &amp; MORE</span></h2>
 <nav class="connect" aria-label="Contact and profile links">
-<a class="amber" href="https://leetcode.com/u/chimataraghuram/"><span class="icon">&lt;/&gt;</span><span class="text">LEETCODE</span><span class="arrow">→</span></a>
-<a class="green" href="https://github.com/chimataraghuram"><span class="icon">▣</span><span class="text">OPEN TO WORK</span><span class="arrow">→</span></a>
-<a class="blue" href="https://www.linkedin.com/in/chimataraghuram/"><span class="icon">◎</span><span class="text">ACTIVELY LOOKING</span><span class="arrow">→</span></a>
-<a class="rose" href="mailto:chimataraghuram02a@gmail.com"><span class="icon">✉</span><span class="text">CHIMATARAGHURAM02A@GMAIL.COM</span><span class="arrow">→</span></a>
-<a class="purple" href="https://www.linkedin.com/in/chimataraghuram/"><span class="icon">in</span><span class="text">LINKEDIN</span><span class="arrow">→</span></a>
+<a class="amber" href="https://leetcode.com/u/chimataraghuram/" aria-label="Visit LeetCode profile"><span class="icon">&lt;/&gt;</span><span class="text">LEETCODE</span><span class="arrow">→</span></a>
+<a class="green" href="https://github.com/chimataraghuram" aria-label="Open to work on GitHub"><span class="icon">▣</span><span class="text">OPEN TO WORK</span><span class="arrow">→</span></a>
+<a class="blue" href="https://www.linkedin.com/in/chimataraghuram/" aria-label="Actively looking on LinkedIn"><span class="icon">◎</span><span class="text">ACTIVELY LOOKING</span><span class="arrow">→</span></a>
+<a class="rose" href="mailto:chimataraghuram02a@gmail.com" aria-label="Send email to Chimata Raghuram"><span class="icon">✉</span><span class="text">CHIMATARAGHURAM02A@GMAIL.COM</span><span class="arrow">→</span></a>
+<a class="purple" href="https://www.linkedin.com/in/chimataraghuram/" aria-label="Visit LinkedIn profile"><span class="icon">in</span><span class="text">LINKEDIN</span><span class="arrow">→</span></a>
 </nav>
 <p class="note">AI · FULL-STACK DEVELOPMENT · CLOUD &amp; AUTOMATION</p>
 </main>
 <script>
 fetch('https://api.github.com/users/chimataraghuram').then(r=>r.ok?r.json():null).then(d=>{if(!d)return;document.getElementById('followers').textContent=d.followers.toLocaleString();document.getElementById('repos').textContent=d.public_repos.toLocaleString();}).catch(()=>{});
 fetch('https://api.github.com/users/chimataraghuram/repos?per_page=100&sort=updated').then(r=>r.ok?r.json():null).then(rs=>{if(Array.isArray(rs)){let n=rs.reduce((s,r)=>s+r.stargazers_count,0);document.getElementById('stars').textContent=n.toLocaleString();}}).catch(()=>{});
-fetch('../images/stat_views.svg').then(r=>r.ok?r.text():null).then(t=>{if(t){let m=t.match(/class="stat-value"[^>]*>([\d,]+)<\/text>/);if(m)document.getElementById('views').textContent=m[1];}}).catch(()=>{});
-fetch('../images/stat_deployments.svg').then(r=>r.ok?r.text():null).then(t=>{if(t){let m=t.match(/class="stat-value"[^>]*>([\d,]+)<\/text>/);if(m)document.getElementById('deployments').textContent=m[1];}}).catch(()=>{});
+fetch('https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/stat_views.svg').catch(()=>fetch('../images/stat_views.svg')).then(r=>r&&r.ok?r.text():null).then(t=>{if(t){let m=t.match(/class="stat-value"[^>]*>([\d,]+)<\/text>/);if(m)document.getElementById('views').textContent=m[1];}}).catch(()=>{});
+fetch('https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/stat_deployments.svg').catch(()=>fetch('../images/stat_deployments.svg')).then(r=>r&&r.ok?r.text():null).then(t=>{if(t){let m=t.match(/class="stat-value"[^>]*>([\d,]+)<\/text>/);if(m)document.getElementById('deployments').textContent=m[1];}}).catch(()=>{});
 </script>
 </body></html>
