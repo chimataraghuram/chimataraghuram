@@ -59,7 +59,7 @@ def main():
 
     # Ensure fallback value if API rate-limited
     if total_deployments == 0:
-        total_deployments = 2109
+        total_deployments = 2124
 
     print(f"Stats: Followers={followers}, Stars={total_stars}, Deployments={total_deployments}, Repos={public_repos}")
 
