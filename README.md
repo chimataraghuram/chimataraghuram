@@ -536,6 +536,24 @@
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b><code>chimataraghuram/chimataraghuram</code></b></a></td>
+      <td><b>Merged PR #42</b> ❯ PR #42</td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_18-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 18" /></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
+      <td><a href="https://github.com/chimataraghuram/PROJECT-FINDER"><b><code>chimataraghuram/PROJECT-FINDER</code></b></a></td>
+      <td><b>Merged PR #36</b> ❯ PR #36</td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_18-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 18" /></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
+      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
+      <td><b>Merged PR #17</b> ❯ PR #17</td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_18-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 18" /></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
+      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b><code>chimataraghuram/chimataraghuram</code></b></a></td>
       <td><b>Merged PR #41</b> ❯ PR #41</td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_18-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 18" /></td>
     </tr>
@@ -543,24 +561,6 @@
       <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
       <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
       <td><b>Merged PR #16</b> ❯ PR #16</td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_18-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 18" /></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
-      <td><a href="https://github.com/chimataraghuram/PROJECT-FINDER"><b><code>chimataraghuram/PROJECT-FINDER</code></b></a></td>
-      <td><b>Merged PR #35</b> ❯ PR #35</td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_18-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 18" /></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
-      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
-      <td><b>Merged PR #15</b> ❯ PR #15</td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_18-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 18" /></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
-      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
-      <td><b>Merged PR #14</b> ❯ PR #14</td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_18-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 18" /></td>
     </tr>
     <tr>
