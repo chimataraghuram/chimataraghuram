@@ -10,11 +10,11 @@ def fetch_live_stats(username="chimataraghuram"):
     if token:
         gh_headers["Authorization"] = f"Bearer {token}"
 
-    views = "2,090"
-    followers = 14
+    views = "2,094"
+    followers = 16
     stars = 50
-    deployments = 1841
-    repos = 24
+    deployments = "2,109"
+    repos = 23
 
     # 1. Profile Views from Komarev
     try:
