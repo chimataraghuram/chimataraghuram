@@ -93,13 +93,13 @@
   <br/>
   <a href="https://github.com/chimataraghuram?achievement=pull-shark&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_pull_shark.svg?v=20261119" width="105" alt="Pull Shark x3" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/chimataraghuram?achievement=pair-extraordinaire&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_pair_extraordinaire.svg" width="105" alt="Pair Extraordinaire" /></a>
+  <a href="https://github.com/chimataraghuram?achievement=pair-extraordinaire&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_pair_extraordinaire.svg?v=20261119" width="105" alt="Pair Extraordinaire" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/chimataraghuram?achievement=starstruck&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_starstruck.svg" width="105" alt="Starstruck" /></a>
+  <a href="https://github.com/chimataraghuram?achievement=starstruck&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_starstruck.svg?v=20261119" width="105" alt="Starstruck" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/chimataraghuram?achievement=yolo&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_yolo.svg" width="105" alt="YOLO" /></a>
+  <a href="https://github.com/chimataraghuram?achievement=yolo&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_yolo.svg?v=20261119" width="105" alt="YOLO" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/chimataraghuram?achievement=quickdraw&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_quickdraw.svg" width="105" alt="Quickdraw" /></a>
+  <a href="https://github.com/chimataraghuram?achievement=quickdraw&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_quickdraw.svg?v=20261119" width="105" alt="Quickdraw" /></a>
 <!--END_SECTION:achievements-->
 </div>
 
@@ -534,6 +534,12 @@
   </thead>
   <tbody>
     <tr>
+      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
+      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b><code>chimataraghuram/chimataraghuram</code></b></a></td>
+      <td><b>Merged PR #45</b> ❯ PR #45</td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_19-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 19" /></td>
+    </tr>
+    <tr>
       <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b><code>chimataraghuram/chimataraghuram</code></b></a></td>
       <td><code>Merge pull request #44 from chimataraghuram/chimatar...</code></td>
@@ -555,12 +561,6 @@
       <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
       <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
       <td><b>Merged PR #18</b> ❯ PR #18</td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_19-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 19" /></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
-      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b><code>chimataraghuram/chimataraghuram</code></b></a></td>
-      <td><b>Merged PR #44</b> ❯ PR #44</td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_19-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 19" /></td>
     </tr>
     <tr>
