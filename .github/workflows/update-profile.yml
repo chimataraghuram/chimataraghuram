@@ -167,7 +167,7 @@ jobs:
             if (activityRows.length === 0) {
               tableContent = '<p align="center"><i>No recent activity found.</i></p>';
             } else {
-              tableContent = `<table width="100%">\n  <thead>\n    <tr>\n      <th width="15%" align="center">Event</th>\n      <th width="32%" align="left">Repository</th>\n      <th width="39%" align="left">Contribution</th>\n      <th width="14%" align="center">Date</th>\n    </tr>\n  </thead>\n  <tbody>\n${activityRows.join('\n')}\n    <tr>\n      <td colspan="4" height="1" style="padding:0; margin:0; border:none; line-height:1px; background:transparent;"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/transparent_spacer.png" width="900" height="1" style="display:block; border:none; opacity:0; height:1px;" alt="" /></td>\n    </tr>\n  </tbody>\n</table>`;
+              tableContent = `<table width="100%">\n  <thead>\n    <tr>\n      <th width="15%" align="center">Event</th>\n      <th width="32%" align="left">Repository</th>\n      <th width="39%" align="left">Contribution</th>\n      <th width="14%" align="center">Date</th>\n    </tr>\n  </thead>\n  <tbody>\n${activityRows.join('\n')}\n    <tr>\n      <td colspan="4" height="1" style="padding:0; margin:0; border:none; line-height:1px; background:transparent;"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/transparent_spacer.png" width="100%" height="1" style="display:block; border:none; opacity:0; height:1px;" alt="" /></td>\n    </tr>\n  </tbody>\n</table>`;
             }
             
             let readme = fs.readFileSync('README.md', 'utf8');
@@ -307,25 +307,22 @@ jobs:
               return;
             }
 
-            const badgeRow = achievements.map(a => {
+            const cellWidth = Math.floor(100 / (achievements.length || 5));
+            const cells = achievements.map(a => {
               let imgSrc = a.src;
               let altText = a.displayName;
               if (a.slug === 'pull-shark') {
                 imgSrc = 'https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/pull-shark-silver-x3.png?v=20261119';
                 altText = 'Pull Shark (Silver x3)';
               }
-              return `  <a href="https://github.com/chimataraghuram?achievement=${a.slug}&tab=achievements"><img src="${imgSrc}" width="105" alt="${altText}" /></a>`;
-            }).join('\n  &nbsp;&nbsp;&nbsp;&nbsp;\n');
-
-            const labelRow = achievements.map(a => {
               const safeSlug = a.slug.replace(/-/g, '_');
               const labelUrl = `https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_${safeSlug}.svg?v=20261119`;
-              let altText = a.displayName;
-              if (a.slug === 'pull-shark') altText = 'Pull Shark x3';
-              return `  <a href="https://github.com/chimataraghuram?achievement=${a.slug}&tab=achievements"><img src="${labelUrl}" width="105" alt="${altText}" /></a>`;
-            }).join('\n  &nbsp;&nbsp;&nbsp;&nbsp;\n');
+              let altLabel = a.displayName;
+              if (a.slug === 'pull-shark') altLabel = 'Pull Shark x3';
+              return `    <td align="center" width="${cellWidth}%" style="padding: 6px 4px; vertical-align: top;">\n      <a href="https://github.com/chimataraghuram?achievement=${a.slug}&tab=achievements">\n        <img src="${imgSrc}" width="95" alt="${altText}" />\n        <br/>\n        <img src="${labelUrl}" width="95" alt="${altLabel}" />\n      </a>\n    </td>`;
+            }).join('\n');
 
-            const achievementsBlock = `<!--START_SECTION:achievements-->\n${badgeRow}\n  <br/>\n${labelRow}\n<!--END_SECTION:achievements-->`;
+            const achievementsBlock = `<!--START_SECTION:achievements-->\n<table align="center" border="0" style="border: none; border-collapse: collapse; margin: auto;">\n  <tr align="center">\n${cells}\n  </tr>\n</table>\n<!--END_SECTION:achievements-->`;
 
             const readme = fs.readFileSync('README.md', 'utf8');
             const newReadme = readme.replace(
