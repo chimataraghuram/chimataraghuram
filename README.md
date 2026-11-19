@@ -81,21 +81,21 @@
   </a>
   <br/><br/>
 <!--START_SECTION:achievements-->
+  <a href="https://github.com/chimataraghuram?achievement=pull-shark&tab=achievements"><img src="https://github.githubassets.com/assets/pull-shark-silver-0643f87ac9fd.png" width="105" alt="Pull Shark (Silver x3)" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/chimataraghuram?achievement=pair-extraordinaire&tab=achievements"><img src="https://github.githubassets.com/assets/pair-extraordinaire-default-579438a20e01.png" width="105" alt="Pair Extraordinaire" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/chimataraghuram?achievement=starstruck&tab=achievements"><img src="https://github.githubassets.com/assets/starstruck-default-b6610abad518.png" width="105" alt="Starstruck" /></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/chimataraghuram?achievement=pull-shark&tab=achievements"><img src="https://github.githubassets.com/assets/pull-shark-silver-0643f87ac9fd.png" width="105" alt="Pull Shark (Silver x3)" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/chimataraghuram?achievement=yolo&tab=achievements"><img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="105" alt="YOLO" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/chimataraghuram?achievement=quickdraw&tab=achievements"><img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="105" alt="Quickdraw" /></a>
   <br/>
+  <a href="https://github.com/chimataraghuram?achievement=pull-shark&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_pull_shark.svg" width="105" alt="Pull Shark x3" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/chimataraghuram?achievement=pair-extraordinaire&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_pair_extraordinaire.svg" width="105" alt="Pair Extraordinaire" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/chimataraghuram?achievement=starstruck&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_starstruck.svg" width="105" alt="Starstruck" /></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/chimataraghuram?achievement=pull-shark&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_pull_shark.svg" width="105" alt="Pull Shark x3" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/chimataraghuram?achievement=yolo&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_yolo.svg" width="105" alt="YOLO" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
@@ -534,33 +534,33 @@
   </thead>
   <tbody>
     <tr>
-      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
-      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b><code>chimataraghuram/chimataraghuram</code></b></a></td>
-      <td><b>Merged PR #41</b> ❯ PR #41</td>
+      <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
+      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
+      <td><code>feat(battle): add in-place detailed specs matrix and...</code></td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_18-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 18" /></td>
     </tr>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
-      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
-      <td><b>Merged PR #16</b> ❯ PR #16</td>
+      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b><code>chimataraghuram/chimataraghuram</code></b></a></td>
+      <td><b>Merged PR #42</b> ❯ PR #42</td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_18-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 18" /></td>
     </tr>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
       <td><a href="https://github.com/chimataraghuram/PROJECT-FINDER"><b><code>chimataraghuram/PROJECT-FINDER</code></b></a></td>
-      <td><b>Merged PR #35</b> ❯ PR #35</td>
+      <td><b>Merged PR #36</b> ❯ PR #36</td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_18-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 18" /></td>
     </tr>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
       <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
-      <td><b>Merged PR #15</b> ❯ PR #15</td>
+      <td><b>Merged PR #17</b> ❯ PR #17</td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_18-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 18" /></td>
     </tr>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
-      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
-      <td><b>Merged PR #14</b> ❯ PR #14</td>
+      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b><code>chimataraghuram/chimataraghuram</code></b></a></td>
+      <td><b>Merged PR #41</b> ❯ PR #41</td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_18-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 18" /></td>
     </tr>
     <tr>
