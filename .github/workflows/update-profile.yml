@@ -287,7 +287,7 @@ jobs:
 
                     let displayName = alt.replace(/^Achievement:\s*/i, '').trim();
                     let extraTier = '';
-                    if (lowerAlt.includes('pull shark') || lowerSrc.includes('pull-shark')) extraTier = ' <small>(x2)</small>';
+                    if (lowerAlt.includes('pull shark') || lowerSrc.includes('pull-shark')) extraTier = ' <small>(x3)</small>';
                     tempAchievements.push({ src, alt, slug, displayName, extraTier });
                   }
                 }
@@ -309,16 +309,20 @@ jobs:
 
             const badgeRow = achievements.map(a => {
               let imgSrc = a.src;
+              let altText = a.displayName;
               if (a.slug === 'pull-shark') {
-                imgSrc = 'https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/pull-shark-bronze-x2.png';
+                imgSrc = 'https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/pull-shark-silver-x3.png?v=20261119';
+                altText = 'Pull Shark (Silver x3)';
               }
-              return `  <a href="https://github.com/chimataraghuram?achievement=${a.slug}&tab=achievements"><img src="${imgSrc}" width="105" alt="${a.displayName}" /></a>`;
+              return `  <a href="https://github.com/chimataraghuram?achievement=${a.slug}&tab=achievements"><img src="${imgSrc}" width="105" alt="${altText}" /></a>`;
             }).join('\n  &nbsp;&nbsp;&nbsp;&nbsp;\n');
 
             const labelRow = achievements.map(a => {
               const safeSlug = a.slug.replace(/-/g, '_');
-              const labelUrl = `https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_${safeSlug}.svg`;
-              return `  <a href="https://github.com/chimataraghuram?achievement=${a.slug}&tab=achievements"><img src="${labelUrl}" width="105" alt="${a.displayName}" /></a>`;
+              const labelUrl = `https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_${safeSlug}.svg?v=20261119`;
+              let altText = a.displayName;
+              if (a.slug === 'pull-shark') altText = 'Pull Shark x3';
+              return `  <a href="https://github.com/chimataraghuram?achievement=${a.slug}&tab=achievements"><img src="${labelUrl}" width="105" alt="${altText}" /></a>`;
             }).join('\n  &nbsp;&nbsp;&nbsp;&nbsp;\n');
 
             const achievementsBlock = `<!--START_SECTION:achievements-->\n${badgeRow}\n  <br/>\n${labelRow}\n<!--END_SECTION:achievements-->`;
