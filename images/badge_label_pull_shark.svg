@@ -1,15 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="105" height="24" viewBox="0 0 105 24">
   <defs>
     <linearGradient id="pillGrad_PULL_SHARK" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#161F33"/>
-      <stop offset="100%" stop-color="#0A0E18"/>
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="silverStroke" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#E2E8F0"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
     </linearGradient>
   </defs>
 
   <!-- Outer Rounded Cyber Pill -->
-  <rect x="0.75" y="0.75" width="103.5" height="22.5" rx="11.25" fill="url(#pillGrad_PULL_SHARK)" stroke="#00F5FF" stroke-width="1.2" stroke-opacity="0.55"/>
-  <rect x="2" y="2" width="101" height="20" rx="10" fill="#0C121F" fill-opacity="0.85"/>
+  <rect x="0.75" y="0.75" width="103.5" height="22.5" rx="11.25" fill="url(#pillGrad_PULL_SHARK)" stroke="url(#silverStroke)" stroke-width="1.3" stroke-opacity="0.85"/>
+  <rect x="2" y="2" width="101" height="20" rx="10" fill="#0B132B" fill-opacity="0.9"/>
 
   <!-- Centered Bold Title -->
-  <text x="52.5" y="15.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Pro Display', Helvetica, Arial, sans-serif" font-size="9.5" font-weight="900" letter-spacing="1" fill="#F8FAFC">PULL SHARK</text>
+  <text x="52.5" y="15.2" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Pro Display', Helvetica, Arial, sans-serif" font-size="8.5" font-weight="900" letter-spacing="0.8" fill="#F8FAFC">PULL SHARK x3</text>
 </svg>
