@@ -85,7 +85,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/chimataraghuram?achievement=starstruck&tab=achievements"><img src="https://github.githubassets.com/assets/starstruck-default-b6610abad518.png" width="105" alt="Starstruck" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/chimataraghuram?achievement=pull-shark&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/pull-shark-bronze-x2.png" width="105" alt="Pull Shark" /></a>
+  <a href="https://github.com/chimataraghuram?achievement=pull-shark&tab=achievements"><img src="https://github.githubassets.com/assets/pull-shark-silver-0643f87ac9fd.png" width="105" alt="Pull Shark (Silver x3)" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/chimataraghuram?achievement=yolo&tab=achievements"><img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="105" alt="YOLO" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
@@ -95,7 +95,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/chimataraghuram?achievement=starstruck&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_starstruck.svg" width="105" alt="Starstruck" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/chimataraghuram?achievement=pull-shark&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_pull_shark.svg" width="105" alt="Pull Shark" /></a>
+  <a href="https://github.com/chimataraghuram?achievement=pull-shark&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_pull_shark.svg" width="105" alt="Pull Shark x3" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/chimataraghuram?achievement=yolo&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_yolo.svg" width="105" alt="YOLO" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
