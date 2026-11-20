@@ -1,7 +1,7 @@
 <!-- HERO & ABOUT ME -->
 <table width="100%">
 <tr>
-<td style="padding: 24px 18px;">
+<td style="padding: 32px 30px 30px 30px;">
 <div align="center" style="margin-bottom: 20px;">
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261029_hero_wave_full">
@@ -10,41 +10,35 @@
 </picture>
 </div>
 <div>
-<table width="100%" border="0" style="border: none; border-collapse: collapse;">
-<tr>
-<td width="35%" align="center" valign="middle" style="border: none; padding: 0 16px 0 0;">
-  <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/raghuram_dev.png?v=20261029" width="100%" style="max-width: 310px;" alt="Chimata Raghuram" />
-</td>
-<td width="65%" valign="top" style="border: none; padding: 0;">
-  <p style="font-size: 1.02em; line-height: 1.6; margin: 0 0 14px 0; color: #CBD5E1;">
-  <b>AI Software Developer Intern</b> at <b>Jaimini Group</b> | Python Full-Stack Developer | FastAPI | Django | React | AI &amp; Automation | B.Tech (AIML)
-  </p>
-  <p style="margin: 0 0 10px 0; line-height: 1.7; color: #CBD5E1; font-size: 0.96em;">
-  🚀 <b>Specialization:</b> Python Full-Stack &amp; AI-Driven Web Applications
-  </p>
-  <p style="margin: 0 0 14px 0; line-height: 1.7; color: #CBD5E1; font-size: 0.96em;">
-  📍 <b>Location:</b> Vijayawada, Andhra Pradesh, India
-  </p>
-  <p style="margin: 0 0 14px 0; line-height: 2.2; color: #CBD5E1; font-size: 0.96em;">
-  🚀 <b>Signature Projects:</b><br/>
-  <a href="https://github.com/chimataraghuram/PROJECT-FINDER"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_project_finder.svg?v=20261026" height="28" style="vertical-align: middle; margin-right: 4px;" alt="PROJECT-FINDER" /></a>
-  <a href="https://github.com/chimataraghuram/TECHBOY-STORE"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_techboy_store.svg?v=20261026" height="28" style="vertical-align: middle; margin-right: 4px;" alt="TECHBOY-STORE" /></a>
-  <a href="https://github.com/chimataraghuram/TECHBOY-AI"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_techboy_ai.svg?v=20261026" height="28" style="vertical-align: middle;" alt="TECHBOY-AI" /></a>
-  </p>
-  <p style="margin: 0 0 4px 0; line-height: 2.2; color: #CBD5E1; font-size: 0.96em;">
-  📬 <b>Connect with me:</b><br/>
-  <a href="https://chimataraghuram.vercel.app/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_portfolio.svg?v=20261026" height="28" style="vertical-align: middle; margin-right: 4px;" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/chimataraghuram/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_linkedin.svg?v=20261026" height="28" style="vertical-align: middle; margin-right: 4px;" alt="LinkedIn" /></a>
-  <a href="https://leetcode.com/u/chimataraghuram/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_leetcode.svg?v=20261026" height="28" style="vertical-align: middle; margin-right: 4px;" alt="LeetCode" /></a>
-  <a href="mailto:chimataraghuram02a@gmail.com"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_email.svg?v=20261026" height="28" style="vertical-align: middle;" alt="Email" /></a>
-  </p>
-  <p style="margin: 8px 0 0 0; line-height: 2.2;">
-  <a href="https://www.linkedin.com/in/chimataraghuram/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_open_to_work.png?v=20261029" height="30" style="vertical-align: middle; margin-right: 6px;" alt="Open to Work" /></a>
-  <a href="https://www.linkedin.com/in/chimataraghuram/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_actively_looking.png?v=20261029" height="30" style="vertical-align: middle;" alt="Actively Looking" /></a>
-  </p>
-</td>
-</tr>
-</table>
+<img align="left" width="330" src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/raghuram_dev.png?v=20261029" alt="Chimata Raghuram" />
+<div>
+<p style="font-size: 1.02em; line-height: 1.6; margin: 0 0 14px 0; color: #CBD5E1;">
+<b>AI Software Developer Intern</b> at <b>Jaimini Group</b> | Python Full-Stack Developer | FastAPI | Django | React | AI &amp; Automation | B.Tech (AIML)
+</p>
+<p style="margin: 0 0 10px 0; line-height: 1.7; color: #CBD5E1; font-size: 0.96em;">
+🚀 <b>Specialization:</b> Python Full-Stack &amp; AI-Driven Web Applications
+</p>
+<p style="margin: 0 0 14px 0; line-height: 1.7; color: #CBD5E1; font-size: 0.96em;">
+📍 <b>Location:</b> Vijayawada, Andhra Pradesh, India
+</p>
+<p style="margin: 0 0 14px 0; line-height: 2.2; color: #CBD5E1; font-size: 0.96em;">
+🚀 <b>Signature Projects:</b><br/>
+<a href="https://github.com/chimataraghuram/PROJECT-FINDER"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_project_finder.svg?v=20261026" height="28" style="vertical-align: middle; margin-right: 4px;" alt="PROJECT-FINDER" /></a>
+<a href="https://github.com/chimataraghuram/TECHBOY-STORE"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_techboy_store.svg?v=20261026" height="28" style="vertical-align: middle; margin-right: 4px;" alt="TECHBOY-STORE" /></a>
+<a href="https://github.com/chimataraghuram/TECHBOY-AI"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_techboy_ai.svg?v=20261026" height="28" style="vertical-align: middle;" alt="TECHBOY-AI" /></a>
+</p>
+<p style="margin: 0 0 4px 0; line-height: 2.2; color: #CBD5E1; font-size: 0.96em;">
+📬 <b>Connect with me:</b><br/>
+<a href="https://chimataraghuram.vercel.app/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_portfolio.svg?v=20261026" height="28" style="vertical-align: middle; margin-right: 4px;" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/chimataraghuram/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_linkedin.svg?v=20261026" height="28" style="vertical-align: middle; margin-right: 4px;" alt="LinkedIn" /></a>
+<a href="https://leetcode.com/u/chimataraghuram/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_leetcode.svg?v=20261026" height="28" style="vertical-align: middle; margin-right: 4px;" alt="LeetCode" /></a>
+<a href="mailto:chimataraghuram02a@gmail.com"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_email.svg?v=20261026" height="28" style="vertical-align: middle;" alt="Email" /></a>
+</p>
+<p style="margin: 8px 0 0 0; line-height: 2.2;">
+<a href="https://www.linkedin.com/in/chimataraghuram/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_open_to_work.png?v=20261029" height="30" style="vertical-align: middle; margin-right: 6px;" alt="Open to Work" /></a>
+<a href="https://www.linkedin.com/in/chimataraghuram/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_actively_looking.png?v=20261029" height="30" style="vertical-align: middle;" alt="Actively Looking" /></a>
+</p>
+</div>
 </div>
 </td>
 </tr>
@@ -64,7 +58,7 @@
 <!-- GITHUB STATS DASHBOARD -->
 <div align="center">
 <br/>
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_github_stats.svg?v=20261027" width="100%" alt="GITHUB STATS" /><br/>
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_github_stats.svg?v=20261027" width="850" alt="GITHUB STATS" /><br/>
 <br/>
 <p align="center">
   <a href="https://komarev.com/ghpvc/?username=chimataraghuram"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/stat_views.svg?v=20261027" height="42" alt="Profile Views" /></a>
@@ -83,49 +77,29 @@
 <!-- ACHIEVEMENTS -->
 <div align="center">
   <a href="https://github.com/chimataraghuram?tab=achievements">
-    <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_github_achievements.svg?v=20261027" width="100%" alt="GITHUB ACHIEVEMENTS" />
+    <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_github_achievements.svg?v=20261027" width="850" alt="GITHUB ACHIEVEMENTS" />
   </a>
   <br/><br/>
 <!--START_SECTION:achievements-->
-<table align="center" border="0" style="border: none; border-collapse: collapse; margin: auto;">
-  <tr align="center">
-    <td align="center" width="20%" style="padding: 6px 4px; vertical-align: top;">
-      <a href="https://github.com/chimataraghuram?achievement=pull-shark&tab=achievements">
-        <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/pull-shark-silver-x3.png?v=20261119" width="95" alt="Pull Shark (Silver x3)" />
-        <br/>
-        <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_pull_shark.svg?v=20261119" width="95" alt="Pull Shark x3" />
-      </a>
-    </td>
-    <td align="center" width="20%" style="padding: 6px 4px; vertical-align: top;">
-      <a href="https://github.com/chimataraghuram?achievement=pair-extraordinaire&tab=achievements">
-        <img src="https://github.githubassets.com/assets/pair-extraordinaire-default-579438a20e01.png" width="95" alt="Pair Extraordinaire" />
-        <br/>
-        <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_pair_extraordinaire.svg?v=20261119" width="95" alt="Pair Extraordinaire" />
-      </a>
-    </td>
-    <td align="center" width="20%" style="padding: 6px 4px; vertical-align: top;">
-      <a href="https://github.com/chimataraghuram?achievement=starstruck&tab=achievements">
-        <img src="https://github.githubassets.com/assets/starstruck-default-b6610abad518.png" width="95" alt="Starstruck" />
-        <br/>
-        <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_starstruck.svg?v=20261119" width="95" alt="Starstruck" />
-      </a>
-    </td>
-    <td align="center" width="20%" style="padding: 6px 4px; vertical-align: top;">
-      <a href="https://github.com/chimataraghuram?achievement=yolo&tab=achievements">
-        <img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="95" alt="YOLO" />
-        <br/>
-        <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_yolo.svg?v=20261119" width="95" alt="YOLO" />
-      </a>
-    </td>
-    <td align="center" width="20%" style="padding: 6px 4px; vertical-align: top;">
-      <a href="https://github.com/chimataraghuram?achievement=quickdraw&tab=achievements">
-        <img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="95" alt="Quickdraw" />
-        <br/>
-        <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_quickdraw.svg?v=20261119" width="95" alt="Quickdraw" />
-      </a>
-    </td>
-  </tr>
-</table>
+  <a href="https://github.com/chimataraghuram?achievement=pull-shark&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/pull-shark-silver-x3.png?v=20261119" width="105" alt="Pull Shark (Silver x3)" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/chimataraghuram?achievement=pair-extraordinaire&tab=achievements"><img src="https://github.githubassets.com/assets/pair-extraordinaire-default-579438a20e01.png" width="105" alt="Pair Extraordinaire" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/chimataraghuram?achievement=starstruck&tab=achievements"><img src="https://github.githubassets.com/assets/starstruck-default-b6610abad518.png" width="105" alt="Starstruck" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/chimataraghuram?achievement=yolo&tab=achievements"><img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="105" alt="YOLO" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/chimataraghuram?achievement=quickdraw&tab=achievements"><img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="105" alt="Quickdraw" /></a>
+  <br/>
+  <a href="https://github.com/chimataraghuram?achievement=pull-shark&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_pull_shark.svg?v=20261119" width="105" alt="Pull Shark x3" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/chimataraghuram?achievement=pair-extraordinaire&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_pair_extraordinaire.svg?v=20261119" width="105" alt="Pair Extraordinaire" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/chimataraghuram?achievement=starstruck&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_starstruck.svg?v=20261119" width="105" alt="Starstruck" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/chimataraghuram?achievement=yolo&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_yolo.svg?v=20261119" width="105" alt="YOLO" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/chimataraghuram?achievement=quickdraw&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_quickdraw.svg?v=20261119" width="105" alt="Quickdraw" /></a>
 <!--END_SECTION:achievements-->
 </div>
 
@@ -138,7 +112,7 @@
 <br/>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_work_experience.svg?v=20261026" width="100%" alt="WORK EXPERIENCE" /><br/>
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_work_experience.svg?v=20261026" width="850" alt="WORK EXPERIENCE" /><br/>
 </div>
 <br/>
 
@@ -187,7 +161,7 @@
 </div>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_top_projects.svg?v=20261026" width="100%" alt="TOP PROJECTS" /><br/>
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_top_projects.svg?v=20261026" width="850" alt="TOP PROJECTS" /><br/>
 </div>
 
 ### 🌐 [PORTFOLIO](https://github.com/chimataraghuram/PORTFOLIO) ![Live](https://img.shields.io/badge/Status-🟢%20Live-22c55e?style=flat-square)
@@ -246,7 +220,7 @@
 <hr>
 
 ### ☁️ [AWS EC2 Website Deployment](https://github.com/chimataraghuram/AWS-EC2-Website-Deployment-Using-Ubuntu-Apache2) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square)
-<a href="https://github.com/chimataraghuram/AWS-EC2-Website-Deployment-Using-Ubuntu-Apache2"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/aws_ec2_deployment.png" alt="AWS EC2 Deployment Screenshot" width="100%"/></a>
+<a href="https://github.com/chimataraghuram/AWS-EC2-Website-Deployment-Using-Ubuntu-Apache2"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/aws_ec2_deployment.png" alt="AWS EC2 Deployment Screenshot" width="900" height="400"/></a>
 **Static Website Deployment on AWS EC2**
 ![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonaws&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white) ![Apache2](https://img.shields.io/badge/Apache2-D22128?style=flat-square&logo=apache&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 - Deployed a **static portfolio website** on an AWS EC2 Ubuntu Server.
@@ -267,7 +241,7 @@
 </div>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_other_projects.svg?v=20261026" width="100%" alt="OTHER PROJECTS" /><br/>
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_other_projects.svg?v=20261026" width="850" alt="OTHER PROJECTS" /><br/>
 </div>
 
 ### 🤖 [TECHBOY-AI](https://github.com/chimataraghuram/TECHBOY-AI) ![Live](https://img.shields.io/badge/Status-🟢%20Live-22c55e?style=flat-square)
@@ -288,7 +262,7 @@
 <hr>
 
 ### 🎓 [ExamMonitor AI — Smart Examination Monitoring Platform](https://github.com/chimataraghuram/Development-of-Smart-Examination-Monitoring-platform-with-Integrity-Analysis-Reporting-System) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square) ![Infosys Springboard](https://img.shields.io/badge/Infosys_Springboard-Internship_7.0-007CC3?style=flat-square)
-<a href="https://lnkd.in/p/g2NGCB-R"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/exam_monitor_demo.png" alt="ExamMonitor AI Demo Walkthrough" width="100%"/></a>
+<a href="https://lnkd.in/p/g2NGCB-R"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/exam_monitor_demo.png" alt="ExamMonitor AI Demo Walkthrough" width="900" height="400"/></a>
 **AI-Powered Online Examination Monitoring & Integrity Analysis Reporting System 🛡️**
 *Built as a team project for the **Infosys Springboard Virtual Internship 7.0** under the mentorship of Subramaniam Sir.*
 <br/>
@@ -327,7 +301,7 @@
 <hr>
 
 ### ☁️ [Virtual Windows Desktop](https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square)
-<a href="https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/virtual_desktop.jpg" alt="Virtual Desktop Screenshot" width="100%"/></a>
+<a href="https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/virtual_desktop.jpg" alt="Virtual Desktop Screenshot" width="900" height="400"/></a>
 **AWS Cloud Infrastructure & Remote Desktop**
 ![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonaws&logoColor=white) ![Windows Server](https://img.shields.io/badge/Windows_Server-0078D4?style=flat-square&logo=windows&logoColor=white) ![RDP](https://img.shields.io/badge/RDP-00A4EF?style=flat-square&logoColor=white) ![Security Groups](https://img.shields.io/badge/Security_Groups-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 - Deployed a fully functional **Windows Server** on AWS EC2 as a virtual desktop environment.
@@ -434,7 +408,7 @@
 </div>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_tech_stack.svg?v=20261026" width="100%" alt="TECH STACK" /><br/>
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_tech_stack.svg?v=20261026" width="850" alt="TECH STACK" /><br/>
 </div>
 
 <div align="center">
@@ -468,12 +442,12 @@
 </div>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_currently_learning.svg?v=20261026" width="100%" alt="CURRENTLY LEARNING" /><br/>
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_currently_learning.svg?v=20261026" width="850" alt="CURRENTLY LEARNING" /><br/>
 </div>
 
 <div align="center">
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=c026d3&center=true&vCenter=true&width=650&lines=🎯+Main+Focus:+Agentic+Automation+%26+AI+Agents;⚡+Next-Gen+Autonomous+Workflows;🔬+Lightweight+%26+Monolithic+Architectures" width="100%" alt="Main Focus: Agentic Automation & AI Agents" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=c026d3&center=true&vCenter=true&width=650&lines=🎯+Main+Focus:+Agentic+Automation+%26+AI+Agents;⚡+Next-Gen+Autonomous+Workflows;🔬+Lightweight+%26+Monolithic+Architectures" alt="Main Focus: Agentic Automation & AI Agents" />
 </p>
 
 <p align="center">
@@ -535,7 +509,7 @@
 <br/>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_recent_activity.svg?v=20261026" width="100%" alt="RECENT ACTIVITY" /><br/>
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_recent_activity.svg?v=20261026" width="850" alt="RECENT ACTIVITY" /><br/>
 </div>
 
 <div align="center">
@@ -590,7 +564,7 @@
       <td align="center"><img src="https://img.shields.io/badge/Nov_19-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 19" /></td>
     </tr>
     <tr>
-      <td colspan="4" height="1" style="padding:0; margin:0; border:none; line-height:1px; background:transparent;"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/transparent_spacer.png" width="100%" height="1" style="display:block; border:none; opacity:0; height:1px;" alt="" /></td>
+      <td colspan="4" height="1" style="padding:0; margin:0; border:none; line-height:1px; background:transparent;"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/transparent_spacer.png" width="900" height="1" style="display:block; border:none; opacity:0; height:1px;" alt="" /></td>
     </tr>
   </tbody>
 </table>
@@ -605,12 +579,12 @@
 <br/>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_lets_connect.svg?v=20261026" width="100%" alt="LET'S CONNECT" /><br/>
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_lets_connect.svg?v=20261026" width="850" alt="LET'S CONNECT" /><br/>
 </div>
 
 <div align="center">
   <p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=0ea5e9&center=true&vCenter=true&width=600&lines=💬+Let's+Connect+%26+Collaborate;🚀+Open+to+AI+%26+Full-Stack+Opportunities;📫+Reach+Out+Anytime!" width="100%" alt="Let's Connect" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=0ea5e9&center=true&vCenter=true&width=600&lines=💬+Let's+Connect+%26+Collaborate;🚀+Open+to+AI+%26+Full-Stack+Opportunities;📫+Reach+Out+Anytime!" alt="Let's Connect" />
   </p>
 
   <p align="center">
@@ -629,7 +603,7 @@
 <table width="100%" style="border-collapse: separate; border-spacing: 12px; table-layout: fixed;">
   <tr>
     <!-- 1. LINKEDIN -->
-    <td width="50%" align="center" valign="top" style="background: #0D1117; border: 1px solid #30363D; border-radius: 10px; padding: 22px 16px 20px 16px;">
+    <td width="33.3%" align="center" valign="top" style="background: #0D1117; border: 1px solid #30363D; border-radius: 10px; padding: 22px 16px 20px 16px;">
       <a href="https://www.linkedin.com/in/chimataraghuram/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
         <img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="28" alt="LinkedIn" />
       </a>
@@ -640,7 +614,7 @@
       </p>
     </td>
     <!-- 2. PORTFOLIO -->
-    <td width="50%" align="center" valign="top" style="background: #0D1117; border: 1px solid #30363D; border-radius: 10px; padding: 22px 16px 20px 16px;">
+    <td width="33.3%" align="center" valign="top" style="background: #0D1117; border: 1px solid #30363D; border-radius: 10px; padding: 22px 16px 20px 16px;">
       <a href="https://chimataraghuram.vercel.app/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
         <img src="https://img.shields.io/badge/PORTFOLIO-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" height="28" alt="Portfolio" />
       </a>
@@ -650,10 +624,8 @@
         Explore live project demos, architecture reviews &amp; mini-games
       </p>
     </td>
-  </tr>
-  <tr>
     <!-- 3. EMAIL -->
-    <td width="50%" align="center" valign="top" style="background: #0D1117; border: 1px solid #30363D; border-radius: 10px; padding: 22px 16px 20px 16px;">
+    <td width="33.3%" align="center" valign="top" style="background: #0D1117; border: 1px solid #30363D; border-radius: 10px; padding: 22px 16px 20px 16px;">
       <a href="mailto:chimataraghuram02a@gmail.com" style="text-decoration: none;">
         <img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="28" alt="Email" />
       </a>
@@ -663,8 +635,10 @@
         Fast response for project collaborations, freelancing &amp; roles
       </p>
     </td>
+  </tr>
+  <tr>
     <!-- 4. GITHUB -->
-    <td width="50%" align="center" valign="top" style="background: #0D1117; border: 1px solid #30363D; border-radius: 10px; padding: 22px 16px 20px 16px;">
+    <td width="33.3%" align="center" valign="top" style="background: #0D1117; border: 1px solid #30363D; border-radius: 10px; padding: 22px 16px 20px 16px;">
       <a href="https://github.com/chimataraghuram" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
         <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" height="28" alt="GitHub" />
       </a>
@@ -674,10 +648,8 @@
         Browse repositories, star projects &amp; check latest commits
       </p>
     </td>
-  </tr>
-  <tr>
     <!-- 5. LEETCODE -->
-    <td width="50%" align="center" valign="top" style="background: #0D1117; border: 1px solid #30363D; border-radius: 10px; padding: 22px 16px 20px 16px;">
+    <td width="33.3%" align="center" valign="top" style="background: #0D1117; border: 1px solid #30363D; border-radius: 10px; padding: 22px 16px 20px 16px;">
       <a href="https://leetcode.com/u/chimataraghuram/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
         <img src="https://img.shields.io/badge/LEETCODE-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" height="28" alt="LeetCode" />
       </a>
@@ -688,7 +660,7 @@
       </p>
     </td>
     <!-- 6. GITHUB SPONSORS -->
-    <td width="50%" align="center" valign="top" style="background: #0D1117; border: 1px solid #30363D; border-radius: 10px; padding: 22px 16px 20px 16px;">
+    <td width="33.3%" align="center" valign="top" style="background: #0D1117; border: 1px solid #30363D; border-radius: 10px; padding: 22px 16px 20px 16px;">
       <a href="https://github.com/sponsors/chimataraghuram" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
         <img src="https://img.shields.io/badge/SPONSOR-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white" height="28" alt="GitHub Sponsor" />
       </a>
