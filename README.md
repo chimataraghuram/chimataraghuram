@@ -539,33 +539,33 @@
   </thead>
   <tbody>
     <tr>
-      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b><code>chimataraghuram/chimataraghuram</code></b></a></td>
-      <td><b>Merged PR #49</b> ❯ PR #49</td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_20-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 20" /></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
-      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
-      <td><b>Merged PR #21</b> ❯ PR #21</td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_20-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 20" /></td>
+      <td><code>fix(stats): correct live metrics for followers (16),...</code></td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_18-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 18" /></td>
     </tr>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b><code>chimataraghuram/chimataraghuram</code></b></a></td>
-      <td><b>Merged PR #48</b> ❯ PR #48</td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_20-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 20" /></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://img.shields.io/badge/Starred-E3B341?style=flat-square&logo=star&logoColor=white" height="20" alt="Starred" /></td>
-      <td><a href="https://github.com/debpalash/VoiceStudio"><b><code>debpalash/VoiceStudio</code></b></a></td>
-      <td><b>Starred repository</b></td>
+      <td><b>Merged PR #53</b> ❯ PR #53</td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_20-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 20" /></td>
     </tr>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b><code>chimataraghuram/chimataraghuram</code></b></a></td>
-      <td><b>Merged PR #47</b> ❯ PR #47</td>
+      <td><b>Merged PR #52</b> ❯ PR #52</td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_20-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 20" /></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
+      <td><a href="https://github.com/chimataraghuram/PROJECT-FINDER"><b><code>chimataraghuram/PROJECT-FINDER</code></b></a></td>
+      <td><code>fix(kaggle): replace generic urls with real-world ve...</code></td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_18-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 18" /></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
+      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b><code>chimataraghuram/chimataraghuram</code></b></a></td>
+      <td><b>Merged PR #51</b> ❯ PR #51</td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_20-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 20" /></td>
     </tr>
     <tr>
