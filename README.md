@@ -1,7 +1,7 @@
 <!-- HERO & ABOUT ME -->
 <table width="100%">
 <tr>
-<td style="padding: 24px 20px 20px 20px;">
+<td style="padding: 32px 30px 30px 30px;">
 <div align="center" style="margin-bottom: 20px;">
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261029_hero_wave_full">
@@ -10,7 +10,7 @@
 </picture>
 </div>
 <div>
-<img align="left" width="260" src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/raghuram_dev.png?v=20261029" alt="Chimata Raghuram" style="margin-right: 14px; margin-bottom: 10px;" />
+<img align="left" width="330" src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/raghuram_dev.png?v=20261029" alt="Chimata Raghuram" />
 <div>
 <p style="font-size: 1.02em; line-height: 1.6; margin: 0 0 14px 0; color: #CBD5E1;">
 <b>AI Software Developer Intern</b> at <b>Jaimini Group</b> | Python Full-Stack Developer | FastAPI | Django | React | AI &amp; Automation | B.Tech (AIML)
@@ -21,10 +21,7 @@
 <p style="margin: 0 0 14px 0; line-height: 1.7; color: #CBD5E1; font-size: 0.96em;">
 📍 <b>Location:</b> Vijayawada, Andhra Pradesh, India
 </p>
-</div>
-</div>
-<br clear="both"/>
-<p style="margin: 12px 0 4px 0; line-height: 2.2; color: #CBD5E1; font-size: 0.96em;">
+<p style="margin: 0 0 14px 0; line-height: 2.2; color: #CBD5E1; font-size: 0.96em;">
 🚀 <b>Signature Projects:</b><br/>
 <a href="https://github.com/chimataraghuram/PROJECT-FINDER"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_project_finder.svg?v=20261026" height="28" style="vertical-align: middle; margin-right: 4px;" alt="PROJECT-FINDER" /></a>
 <a href="https://github.com/chimataraghuram/TECHBOY-STORE"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_techboy_store.svg?v=20261026" height="28" style="vertical-align: middle; margin-right: 4px;" alt="TECHBOY-STORE" /></a>
@@ -41,6 +38,8 @@
 <a href="https://www.linkedin.com/in/chimataraghuram/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_open_to_work.png?v=20261029" height="30" style="vertical-align: middle; margin-right: 6px;" alt="Open to Work" /></a>
 <a href="https://www.linkedin.com/in/chimataraghuram/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_actively_looking.png?v=20261029" height="30" style="vertical-align: middle;" alt="Actively Looking" /></a>
 </p>
+</div>
+</div>
 </td>
 </tr>
 </table>
@@ -59,18 +58,18 @@
 <!-- GITHUB STATS DASHBOARD -->
 <div align="center">
 <br/>
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_github_stats.svg?v=20261027" width="100%" alt="GITHUB STATS" /><br/>
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_github_stats.svg?v=20261027" width="850" alt="GITHUB STATS" /><br/>
 <br/>
 <p align="center">
-  <a href="https://komarev.com/ghpvc/?username=chimataraghuram"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/stat_views.svg?v=20261027" height="38" alt="Profile Views" /></a>
+  <a href="https://komarev.com/ghpvc/?username=chimataraghuram"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/stat_views.svg?v=20261027" height="42" alt="Profile Views" /></a>
   &nbsp;
-  <a href="https://github.com/chimataraghuram?tab=followers"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/stat_followers.svg?v=20261027" height="38" alt="Followers" /></a>
+  <a href="https://github.com/chimataraghuram?tab=followers"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/stat_followers.svg?v=20261027" height="42" alt="Followers" /></a>
   &nbsp;
-  <a href="https://github.com/chimataraghuram?tab=repositories"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/stat_stars.svg?v=20261027" height="38" alt="Stars" /></a>
+  <a href="https://github.com/chimataraghuram?tab=repositories"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/stat_stars.svg?v=20261027" height="42" alt="Stars" /></a>
   &nbsp;
-  <a href="https://github.com/chimataraghuram?tab=repositories"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/stat_deployments.svg?v=20261027" height="38" alt="Deployments" /></a>
+  <a href="https://github.com/chimataraghuram?tab=repositories"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/stat_deployments.svg?v=20261027" height="42" alt="Deployments" /></a>
   &nbsp;
-  <a href="https://github.com/chimataraghuram?tab=repositories"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/stat_repositories.svg?v=20261027" height="38" alt="Repositories" /></a>
+  <a href="https://github.com/chimataraghuram?tab=repositories"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/stat_repositories.svg?v=20261027" height="42" alt="Repositories" /></a>
 </p>
 <br/>
 </div>
@@ -78,7 +77,7 @@
 <!-- ACHIEVEMENTS -->
 <div align="center">
   <a href="https://github.com/chimataraghuram?tab=achievements">
-    <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_github_achievements.svg?v=20261027" width="100%" alt="GITHUB ACHIEVEMENTS" />
+    <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_github_achievements.svg?v=20261027" width="850" alt="GITHUB ACHIEVEMENTS" />
   </a>
   <br/><br/>
 <!--START_SECTION:achievements-->
@@ -103,7 +102,7 @@
 <br/>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_work_experience.svg?v=20261026" width="100%" alt="WORK EXPERIENCE" /><br/>
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_work_experience.svg?v=20261026" width="850" alt="WORK EXPERIENCE" /><br/>
 </div>
 <br/>
 
@@ -152,7 +151,7 @@
 </div>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_top_projects.svg?v=20261026" width="100%" alt="TOP PROJECTS" /><br/>
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_top_projects.svg?v=20261026" width="850" alt="TOP PROJECTS" /><br/>
 </div>
 
 ### 🌐 [PORTFOLIO](https://github.com/chimataraghuram/PORTFOLIO) ![Live](https://img.shields.io/badge/Status-🟢%20Live-22c55e?style=flat-square)
@@ -211,7 +210,7 @@
 <hr>
 
 ### ☁️ [AWS EC2 Website Deployment](https://github.com/chimataraghuram/AWS-EC2-Website-Deployment-Using-Ubuntu-Apache2) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square)
-<a href="https://github.com/chimataraghuram/AWS-EC2-Website-Deployment-Using-Ubuntu-Apache2"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/aws_ec2_deployment.png" alt="AWS EC2 Deployment Screenshot" width="100%"/></a>
+<a href="https://github.com/chimataraghuram/AWS-EC2-Website-Deployment-Using-Ubuntu-Apache2"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/aws_ec2_deployment.png" alt="AWS EC2 Deployment Screenshot" width="900" height="400"/></a>
 **Static Website Deployment on AWS EC2**
 ![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonaws&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white) ![Apache2](https://img.shields.io/badge/Apache2-D22128?style=flat-square&logo=apache&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 - Deployed a **static portfolio website** on an AWS EC2 Ubuntu Server.
@@ -232,7 +231,7 @@
 </div>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_other_projects.svg?v=20261026" width="100%" alt="OTHER PROJECTS" /><br/>
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_other_projects.svg?v=20261026" width="850" alt="OTHER PROJECTS" /><br/>
 </div>
 
 ### 🤖 [TECHBOY-AI](https://github.com/chimataraghuram/TECHBOY-AI) ![Live](https://img.shields.io/badge/Status-🟢%20Live-22c55e?style=flat-square)
@@ -253,7 +252,7 @@
 <hr>
 
 ### 🎓 [ExamMonitor AI — Smart Examination Monitoring Platform](https://github.com/chimataraghuram/Development-of-Smart-Examination-Monitoring-platform-with-Integrity-Analysis-Reporting-System) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square) ![Infosys Springboard](https://img.shields.io/badge/Infosys_Springboard-Internship_7.0-007CC3?style=flat-square)
-<a href="https://lnkd.in/p/g2NGCB-R"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/exam_monitor_demo.png" alt="ExamMonitor AI Demo Walkthrough" width="100%"/></a>
+<a href="https://lnkd.in/p/g2NGCB-R"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/exam_monitor_demo.png" alt="ExamMonitor AI Demo Walkthrough" width="900" height="400"/></a>
 **AI-Powered Online Examination Monitoring & Integrity Analysis Reporting System 🛡️**
 *Built as a team project for the **Infosys Springboard Virtual Internship 7.0** under the mentorship of Subramaniam Sir.*
 <br/>
@@ -292,7 +291,7 @@
 <hr>
 
 ### ☁️ [Virtual Windows Desktop](https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square)
-<a href="https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/virtual_desktop.jpg" alt="Virtual Desktop Screenshot" width="100%"/></a>
+<a href="https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/virtual_desktop.jpg" alt="Virtual Desktop Screenshot" width="900" height="400"/></a>
 **AWS Cloud Infrastructure & Remote Desktop**
 ![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonaws&logoColor=white) ![Windows Server](https://img.shields.io/badge/Windows_Server-0078D4?style=flat-square&logo=windows&logoColor=white) ![RDP](https://img.shields.io/badge/RDP-00A4EF?style=flat-square&logoColor=white) ![Security Groups](https://img.shields.io/badge/Security_Groups-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 - Deployed a fully functional **Windows Server** on AWS EC2 as a virtual desktop environment.
@@ -399,7 +398,7 @@
 </div>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_tech_stack.svg?v=20261026" width="100%" alt="TECH STACK" /><br/>
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_tech_stack.svg?v=20261026" width="850" alt="TECH STACK" /><br/>
 </div>
 
 <div align="center">
@@ -433,7 +432,7 @@
 </div>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_currently_learning.svg?v=20261026" width="100%" alt="CURRENTLY LEARNING" /><br/>
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_currently_learning.svg?v=20261026" width="850" alt="CURRENTLY LEARNING" /><br/>
 </div>
 
 <div align="center">
@@ -500,7 +499,7 @@
 <br/>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_recent_activity.svg?v=20261026" width="100%" alt="RECENT ACTIVITY" /><br/>
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_recent_activity.svg?v=20261026" width="850" alt="RECENT ACTIVITY" /><br/>
 </div>
 
 <div align="center">
@@ -570,7 +569,7 @@
 <br/>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_lets_connect.svg?v=20261026" width="100%" alt="LET'S CONNECT" /><br/>
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_lets_connect.svg?v=20261026" width="850" alt="LET'S CONNECT" /><br/>
 </div>
 
 <div align="center">
