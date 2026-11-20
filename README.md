@@ -1,7 +1,7 @@
 <!-- HERO & ABOUT ME -->
 <table width="100%">
 <tr>
-<td style="padding: 32px 30px 30px 30px;">
+<td style="padding: 24px 20px 20px 20px;">
 <div align="center" style="margin-bottom: 20px;">
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/hero_header_animated.svg?v=20261029_hero_wave_full">
@@ -10,7 +10,7 @@
 </picture>
 </div>
 <div>
-<img align="left" width="330" src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/raghuram_dev.png?v=20261029" alt="Chimata Raghuram" />
+<img align="left" width="260" src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/raghuram_dev.png?v=20261029" alt="Chimata Raghuram" style="margin-right: 14px; margin-bottom: 10px;" />
 <div>
 <p style="font-size: 1.02em; line-height: 1.6; margin: 0 0 14px 0; color: #CBD5E1;">
 <b>AI Software Developer Intern</b> at <b>Jaimini Group</b> | Python Full-Stack Developer | FastAPI | Django | React | AI &amp; Automation | B.Tech (AIML)
@@ -21,7 +21,10 @@
 <p style="margin: 0 0 14px 0; line-height: 1.7; color: #CBD5E1; font-size: 0.96em;">
 📍 <b>Location:</b> Vijayawada, Andhra Pradesh, India
 </p>
-<p style="margin: 0 0 14px 0; line-height: 2.2; color: #CBD5E1; font-size: 0.96em;">
+</div>
+</div>
+<br clear="both"/>
+<p style="margin: 12px 0 4px 0; line-height: 2.2; color: #CBD5E1; font-size: 0.96em;">
 🚀 <b>Signature Projects:</b><br/>
 <a href="https://github.com/chimataraghuram/PROJECT-FINDER"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_project_finder.svg?v=20261026" height="28" style="vertical-align: middle; margin-right: 4px;" alt="PROJECT-FINDER" /></a>
 <a href="https://github.com/chimataraghuram/TECHBOY-STORE"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/btn_techboy_store.svg?v=20261026" height="28" style="vertical-align: middle; margin-right: 4px;" alt="TECHBOY-STORE" /></a>
@@ -38,8 +41,6 @@
 <a href="https://www.linkedin.com/in/chimataraghuram/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_open_to_work.png?v=20261029" height="30" style="vertical-align: middle; margin-right: 6px;" alt="Open to Work" /></a>
 <a href="https://www.linkedin.com/in/chimataraghuram/"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_actively_looking.png?v=20261029" height="30" style="vertical-align: middle;" alt="Actively Looking" /></a>
 </p>
-</div>
-</div>
 </td>
 </tr>
 </table>
