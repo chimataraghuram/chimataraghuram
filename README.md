@@ -59,18 +59,18 @@
 <!-- GITHUB STATS DASHBOARD -->
 <div align="center">
 <br/>
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_github_stats.svg?v=20261027" width="850" alt="GITHUB STATS" /><br/>
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_github_stats.svg?v=20261027" width="100%" alt="GITHUB STATS" /><br/>
 <br/>
 <p align="center">
-  <a href="https://komarev.com/ghpvc/?username=chimataraghuram"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/stat_views.svg?v=20261027" height="42" alt="Profile Views" /></a>
+  <a href="https://komarev.com/ghpvc/?username=chimataraghuram"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/stat_views.svg?v=20261027" height="38" alt="Profile Views" /></a>
   &nbsp;
-  <a href="https://github.com/chimataraghuram?tab=followers"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/stat_followers.svg?v=20261027" height="42" alt="Followers" /></a>
+  <a href="https://github.com/chimataraghuram?tab=followers"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/stat_followers.svg?v=20261027" height="38" alt="Followers" /></a>
   &nbsp;
-  <a href="https://github.com/chimataraghuram?tab=repositories"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/stat_stars.svg?v=20261027" height="42" alt="Stars" /></a>
+  <a href="https://github.com/chimataraghuram?tab=repositories"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/stat_stars.svg?v=20261027" height="38" alt="Stars" /></a>
   &nbsp;
-  <a href="https://github.com/chimataraghuram?tab=repositories"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/stat_deployments.svg?v=20261027" height="42" alt="Deployments" /></a>
+  <a href="https://github.com/chimataraghuram?tab=repositories"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/stat_deployments.svg?v=20261027" height="38" alt="Deployments" /></a>
   &nbsp;
-  <a href="https://github.com/chimataraghuram?tab=repositories"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/stat_repositories.svg?v=20261027" height="42" alt="Repositories" /></a>
+  <a href="https://github.com/chimataraghuram?tab=repositories"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/stat_repositories.svg?v=20261027" height="38" alt="Repositories" /></a>
 </p>
 <br/>
 </div>
@@ -78,29 +78,19 @@
 <!-- ACHIEVEMENTS -->
 <div align="center">
   <a href="https://github.com/chimataraghuram?tab=achievements">
-    <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_github_achievements.svg?v=20261027" width="850" alt="GITHUB ACHIEVEMENTS" />
+    <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_github_achievements.svg?v=20261027" width="100%" alt="GITHUB ACHIEVEMENTS" />
   </a>
   <br/><br/>
 <!--START_SECTION:achievements-->
-  <a href="https://github.com/chimataraghuram?achievement=pull-shark&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/pull-shark-silver-x3.png?v=20261119" width="105" alt="Pull Shark (Silver x3)" /></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/chimataraghuram?achievement=pair-extraordinaire&tab=achievements"><img src="https://github.githubassets.com/assets/pair-extraordinaire-default-579438a20e01.png" width="105" alt="Pair Extraordinaire" /></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/chimataraghuram?achievement=starstruck&tab=achievements"><img src="https://github.githubassets.com/assets/starstruck-default-b6610abad518.png" width="105" alt="Starstruck" /></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/chimataraghuram?achievement=yolo&tab=achievements"><img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="105" alt="YOLO" /></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/chimataraghuram?achievement=quickdraw&tab=achievements"><img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="105" alt="Quickdraw" /></a>
-  <br/>
-  <a href="https://github.com/chimataraghuram?achievement=pull-shark&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_pull_shark.svg?v=20261119" width="105" alt="Pull Shark x3" /></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/chimataraghuram?achievement=pair-extraordinaire&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_pair_extraordinaire.svg?v=20261119" width="105" alt="Pair Extraordinaire" /></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/chimataraghuram?achievement=starstruck&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_starstruck.svg?v=20261119" width="105" alt="Starstruck" /></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/chimataraghuram?achievement=yolo&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_yolo.svg?v=20261119" width="105" alt="YOLO" /></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/chimataraghuram?achievement=quickdraw&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_quickdraw.svg?v=20261119" width="105" alt="Quickdraw" /></a>
+  <a href="https://github.com/chimataraghuram?achievement=pull-shark&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/card_achievement_pull_shark.svg?v=20261120" width="105" alt="Pull Shark (Silver x3)" /></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/chimataraghuram?achievement=pair-extraordinaire&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/card_achievement_pair_extraordinaire.svg?v=20261120" width="105" alt="Pair Extraordinaire" /></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/chimataraghuram?achievement=starstruck&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/card_achievement_starstruck.svg?v=20261120" width="105" alt="Starstruck" /></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/chimataraghuram?achievement=yolo&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/card_achievement_yolo.svg?v=20261120" width="105" alt="YOLO" /></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/chimataraghuram?achievement=quickdraw&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/card_achievement_quickdraw.svg?v=20261120" width="105" alt="Quickdraw" /></a>
 <!--END_SECTION:achievements-->
 </div>
 
@@ -113,7 +103,7 @@
 <br/>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_work_experience.svg?v=20261026" width="850" alt="WORK EXPERIENCE" /><br/>
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_work_experience.svg?v=20261026" width="100%" alt="WORK EXPERIENCE" /><br/>
 </div>
 <br/>
 
@@ -162,7 +152,7 @@
 </div>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_top_projects.svg?v=20261026" width="850" alt="TOP PROJECTS" /><br/>
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_top_projects.svg?v=20261026" width="100%" alt="TOP PROJECTS" /><br/>
 </div>
 
 ### 🌐 [PORTFOLIO](https://github.com/chimataraghuram/PORTFOLIO) ![Live](https://img.shields.io/badge/Status-🟢%20Live-22c55e?style=flat-square)
@@ -221,7 +211,7 @@
 <hr>
 
 ### ☁️ [AWS EC2 Website Deployment](https://github.com/chimataraghuram/AWS-EC2-Website-Deployment-Using-Ubuntu-Apache2) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square)
-<a href="https://github.com/chimataraghuram/AWS-EC2-Website-Deployment-Using-Ubuntu-Apache2"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/aws_ec2_deployment.png" alt="AWS EC2 Deployment Screenshot" width="900" height="400"/></a>
+<a href="https://github.com/chimataraghuram/AWS-EC2-Website-Deployment-Using-Ubuntu-Apache2"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/aws_ec2_deployment.png" alt="AWS EC2 Deployment Screenshot" width="100%"/></a>
 **Static Website Deployment on AWS EC2**
 ![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonaws&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white) ![Apache2](https://img.shields.io/badge/Apache2-D22128?style=flat-square&logo=apache&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 - Deployed a **static portfolio website** on an AWS EC2 Ubuntu Server.
@@ -242,7 +232,7 @@
 </div>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_other_projects.svg?v=20261026" width="850" alt="OTHER PROJECTS" /><br/>
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_other_projects.svg?v=20261026" width="100%" alt="OTHER PROJECTS" /><br/>
 </div>
 
 ### 🤖 [TECHBOY-AI](https://github.com/chimataraghuram/TECHBOY-AI) ![Live](https://img.shields.io/badge/Status-🟢%20Live-22c55e?style=flat-square)
@@ -263,7 +253,7 @@
 <hr>
 
 ### 🎓 [ExamMonitor AI — Smart Examination Monitoring Platform](https://github.com/chimataraghuram/Development-of-Smart-Examination-Monitoring-platform-with-Integrity-Analysis-Reporting-System) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square) ![Infosys Springboard](https://img.shields.io/badge/Infosys_Springboard-Internship_7.0-007CC3?style=flat-square)
-<a href="https://lnkd.in/p/g2NGCB-R"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/exam_monitor_demo.png" alt="ExamMonitor AI Demo Walkthrough" width="900" height="400"/></a>
+<a href="https://lnkd.in/p/g2NGCB-R"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/exam_monitor_demo.png" alt="ExamMonitor AI Demo Walkthrough" width="100%"/></a>
 **AI-Powered Online Examination Monitoring & Integrity Analysis Reporting System 🛡️**
 *Built as a team project for the **Infosys Springboard Virtual Internship 7.0** under the mentorship of Subramaniam Sir.*
 <br/>
@@ -302,7 +292,7 @@
 <hr>
 
 ### ☁️ [Virtual Windows Desktop](https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server) ![Active](https://img.shields.io/badge/Status-🔵%20Active-0ea5e9?style=flat-square)
-<a href="https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/virtual_desktop.jpg" alt="Virtual Desktop Screenshot" width="900" height="400"/></a>
+<a href="https://github.com/chimataraghuram/Virtual-Windows-Desktop-on-AWS-Using-Windows-Server"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/virtual_desktop.jpg" alt="Virtual Desktop Screenshot" width="100%"/></a>
 **AWS Cloud Infrastructure & Remote Desktop**
 ![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonaws&logoColor=white) ![Windows Server](https://img.shields.io/badge/Windows_Server-0078D4?style=flat-square&logo=windows&logoColor=white) ![RDP](https://img.shields.io/badge/RDP-00A4EF?style=flat-square&logoColor=white) ![Security Groups](https://img.shields.io/badge/Security_Groups-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 - Deployed a fully functional **Windows Server** on AWS EC2 as a virtual desktop environment.
@@ -409,7 +399,7 @@
 </div>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_tech_stack.svg?v=20261026" width="850" alt="TECH STACK" /><br/>
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_tech_stack.svg?v=20261026" width="100%" alt="TECH STACK" /><br/>
 </div>
 
 <div align="center">
@@ -443,7 +433,7 @@
 </div>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_currently_learning.svg?v=20261026" width="850" alt="CURRENTLY LEARNING" /><br/>
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_currently_learning.svg?v=20261026" width="100%" alt="CURRENTLY LEARNING" /><br/>
 </div>
 
 <div align="center">
@@ -510,7 +500,7 @@
 <br/>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_recent_activity.svg?v=20261026" width="850" alt="RECENT ACTIVITY" /><br/>
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_recent_activity.svg?v=20261026" width="100%" alt="RECENT ACTIVITY" /><br/>
 </div>
 
 <div align="center">
@@ -565,7 +555,7 @@
       <td align="center"><img src="https://img.shields.io/badge/Nov_19-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 19" /></td>
     </tr>
     <tr>
-      <td colspan="4" height="1" style="padding:0; margin:0; border:none; line-height:1px; background:transparent;"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/transparent_spacer.png" width="900" height="1" style="display:block; border:none; opacity:0; height:1px;" alt="" /></td>
+      <td colspan="4" height="1" style="padding:0; margin:0; border:none; line-height:1px; background:transparent;"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/transparent_spacer.png" width="100%" height="1" style="display:block; border:none; opacity:0; height:1px;" alt="" /></td>
     </tr>
   </tbody>
 </table>
@@ -580,7 +570,7 @@
 <br/>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_lets_connect.svg?v=20261026" width="850" alt="LET'S CONNECT" /><br/>
+<img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_lets_connect.svg?v=20261026" width="100%" alt="LET'S CONNECT" /><br/>
 </div>
 
 <div align="center">

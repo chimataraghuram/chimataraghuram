@@ -307,25 +307,15 @@ jobs:
               return;
             }
 
-            const badgeRow = achievements.map(a => {
-              let imgSrc = a.src;
-              let altText = a.displayName;
-              if (a.slug === 'pull-shark') {
-                imgSrc = 'https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/pull-shark-silver-x3.png?v=20261119';
-                altText = 'Pull Shark (Silver x3)';
-              }
-              return `  <a href="https://github.com/chimataraghuram?achievement=${a.slug}&tab=achievements"><img src="${imgSrc}" width="105" alt="${altText}" /></a>`;
-            }).join('\n  &nbsp;&nbsp;&nbsp;&nbsp;\n');
-
-            const labelRow = achievements.map(a => {
+            const cardsBlock = achievements.map(a => {
               const safeSlug = a.slug.replace(/-/g, '_');
-              const labelUrl = `https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/badge_label_${safeSlug}.svg?v=20261119`;
+              const cardUrl = `https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/card_achievement_${safeSlug}.svg?v=20261120`;
               let altText = a.displayName;
-              if (a.slug === 'pull-shark') altText = 'Pull Shark x3';
-              return `  <a href="https://github.com/chimataraghuram?achievement=${a.slug}&tab=achievements"><img src="${labelUrl}" width="105" alt="${altText}" /></a>`;
-            }).join('\n  &nbsp;&nbsp;&nbsp;&nbsp;\n');
+              if (a.slug === 'pull-shark') altText = 'Pull Shark (Silver x3)';
+              return `  <a href="https://github.com/chimataraghuram?achievement=${a.slug}&tab=achievements"><img src="${cardUrl}" width="105" alt="${altText}" /></a>`;
+            }).join('\n  &nbsp;&nbsp;\n');
 
-            const achievementsBlock = `<!--START_SECTION:achievements-->\n${badgeRow}\n  <br/>\n${labelRow}\n<!--END_SECTION:achievements-->`;
+            const achievementsBlock = `<!--START_SECTION:achievements-->\n${cardsBlock}\n<!--END_SECTION:achievements-->`;
 
             const readme = fs.readFileSync('README.md', 'utf8');
             const newReadme = readme.replace(
