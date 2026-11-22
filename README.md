@@ -539,6 +539,18 @@
   </thead>
   <tbody>
     <tr>
+      <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
+      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b><code>chimataraghuram/chimataraghuram</code></b></a></td>
+      <td><code>Merge pull request #47 from chimataraghuram/chimatar...</code></td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_20-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 20" /></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
+      <td><a href="https://github.com/chimataraghuram/PORTFOLIO"><b><code>chimataraghuram/PORTFOLIO</code></b></a></td>
+      <td><code>feat(achievements): keep original arcade card and ad...</code></td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_21-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 21" /></td>
+    </tr>
+    <tr>
       <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
       <td><a href="https://github.com/chimataraghuram/PORTFOLIO"><b><code>chimataraghuram/PORTFOLIO</code></b></a></td>
       <td><b>Merged PR #14</b> ❯ PR #14</td>
@@ -554,18 +566,6 @@
       <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
       <td><a href="https://github.com/chimataraghuram/PORTFOLIO"><b><code>chimataraghuram/PORTFOLIO</code></b></a></td>
       <td><b>Merged PR #13</b> ❯ PR #13</td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_21-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 21" /></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
-      <td><a href="https://github.com/chimataraghuram/PORTFOLIO"><b><code>chimataraghuram/PORTFOLIO</code></b></a></td>
-      <td><code>Merge pull request #12 from chimataraghuram/feature/...</code></td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_21-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 21" /></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
-      <td><a href="https://github.com/chimataraghuram/PORTFOLIO"><b><code>chimataraghuram/PORTFOLIO</code></b></a></td>
-      <td><b>Merged PR #12</b> ❯ PR #12</td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_21-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 21" /></td>
     </tr>
     <tr>
