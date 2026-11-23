@@ -16,7 +16,7 @@ import urllib.error
 # ─── Configuration ────────────────────────────────────────────────────────────
 USERNAME = os.environ.get("GITHUB_USERNAME", "chimataraghuram")
 TOKEN    = os.environ.get("GITHUB_TOKEN", "")
-OUT_FILE = "pokemon_contribution_battle.svg"
+OUT_FILE = os.environ.get("OUTPUT_FILE", "pokemon_contribution_battle.svg")
 
 # ─── Exact 50-Pokémon roster ──────────────────────────────────────────────────
 POKEMON_ROSTER = [
@@ -532,6 +532,9 @@ def main():
     if new_hash == old_hash:
         print("SVG unchanged — skipping write.")
     else:
+        out_dir = os.path.dirname(OUT_FILE)
+        if out_dir:
+            os.makedirs(out_dir, exist_ok=True)
         with open(OUT_FILE, "w", encoding="utf-8") as f:
             f.write(svg)
         size_kb = len(svg.encode()) / 1024
