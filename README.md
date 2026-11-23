@@ -540,15 +540,21 @@
   <tbody>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
-      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b><code>chimataraghuram/chimataraghuram</code></b></a></td>
-      <td><code>merge: align dev branch with main merge 209e1e4</code></td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_20-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 20" /></td>
+      <td><a href="https://github.com/chimataraghuram/PORTFOLIO"><b><code>chimataraghuram/PORTFOLIO</code></b></a></td>
+      <td><code>Merge pull request #13 from chimataraghuram/feature/...</code></td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_21-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 21" /></td>
     </tr>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/Created-0EA5E9?style=flat-square&logo=sparkles&logoColor=white" height="20" alt="Created" /></td>
       <td><a href="https://github.com/chimataraghuram/PORTFOLIO"><b><code>chimataraghuram/PORTFOLIO</code></b></a></td>
       <td><b>Created new branch</b></td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_21-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 21" /></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
+      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b><code>chimataraghuram/chimataraghuram</code></b></a></td>
+      <td><code>merge: align dev branch with main merge 209e1e4</code></td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_20-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 20" /></td>
     </tr>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
@@ -560,12 +566,6 @@
       <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
       <td><a href="https://github.com/chimataraghuram/PROJECT-FINDER"><b><code>chimataraghuram/PROJECT-FINDER</code></b></a></td>
       <td><code>feat(404): make 404 page interactive with self-activ...</code></td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_22-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 22" /></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
-      <td><a href="https://github.com/chimataraghuram/PROJECT-FINDER"><b><code>chimataraghuram/PROJECT-FINDER</code></b></a></td>
-      <td><b>Merged PR #37</b> ❯ PR #37</td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_22-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 22" /></td>
     </tr>
     <tr>
