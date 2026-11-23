@@ -1,0 +1,50 @@
+name: Pokémon Contribution Battle
+
+on:
+  schedule:
+    - cron: '0 1 * * *'   # Daily at 01:00 UTC (after GitHub updates contribution data)
+  workflow_dispatch:        # Allow manual runs
+  push:
+    branches:
+      - main
+    paths:
+      - "generate_pokemon_contribution.py"
+      - ".github/workflows/pokemon_contribution.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch existing output artifacts
+        run: |
+          mkdir -p dist
+          git fetch origin output:output || true
+          git --work-tree=dist checkout output -- . || true
+
+      - name: Generate Pokémon Contribution Battle SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: chimataraghuram
+          OUTPUT_FILE: dist/pokemon_contribution_battle.svg
+        run: |
+          python generate_pokemon_contribution.py
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
