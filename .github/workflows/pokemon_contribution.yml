@@ -1,0 +1,47 @@
+name: Pokémon Contribution Battle
+
+on:
+  schedule:
+    - cron: '0 1 * * *'   # Daily at 01:00 UTC (after GitHub updates contribution data)
+  workflow_dispatch:        # Allow manual runs
+
+permissions:
+  contents: write           # Required to push the generated SVG
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: output       # Push SVG to the output branch
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Copy generator script from main
+        run: |
+          git fetch origin main
+          git checkout origin/main -- generate_pokemon_contribution.py
+
+      - name: Generate Pokémon Contribution Battle SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: chimataraghuram
+        run: python generate_pokemon_contribution.py
+
+      - name: Commit and push if SVG changed
+        run: |
+          git config user.name  "chimataraghuram"
+          git config user.email "chimataraghuram@users.noreply.github.com"
+          git add pokemon_contribution_battle.svg
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update Pokémon contribution battle graph [skip ci]"
+            git push origin output
+          fi
