@@ -414,6 +414,173 @@ def render_comic_bubble_total(text, x, y, bg_color="#FFE135", text_color="#00000
       <text x="0" y="4" fill="{text_color}" font-size="9px" font-weight="900" font-family="'Impact', 'Arial Black', monospace" text-anchor="middle" letter-spacing="0.5">{text}</text>
     </g>'''
 
+def render_trainer_cameo(total_dur):
+    kp = lambda t_sec: f"{round(t_sec / total_dur, 5):.5f}"
+    return f'''  <!-- Feature 4: Pixel Trainer Avatar Cameo @chimataraghuram -->
+  <g id="trainer_cameo">
+    <!-- Glowing Holo-Platform beneath feet -->
+    <ellipse cx="16" cy="204" rx="12" ry="3.5" fill="#00F5FF" opacity="0.35">
+      <animate attributeName="opacity" values="0.25;0.6;0.25" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="rx" values="11;14;11" dur="1.8s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="16" cy="204" rx="6" ry="1.8" fill="#FFFFFF" opacity="0.55"/>
+
+    <!-- Subtle breathing and battle stance motion -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" dur="2.4s" repeatCount="indefinite" values="0,0; 0,-1; 0,0"/>
+
+      <!-- Legs & High-Top Sneakers -->
+      <rect x="12" y="193" width="3.5" height="9" fill="#1e293b"/>
+      <rect x="10" y="201" width="5.5" height="3" fill="#ef4444" rx="1"/>
+      <rect x="11" y="203" width="4.5" height="1" fill="#ffffff"/>
+      <rect x="17" y="193" width="3.5" height="9" fill="#1e293b"/>
+      <rect x="16" y="201" width="5.5" height="3" fill="#ef4444" rx="1"/>
+      <rect x="17" y="203" width="4.5" height="1" fill="#ffffff"/>
+
+      <!-- Torso / Jacket (Red & Dark Charcoal Trainer Jacket) -->
+      <rect x="10" y="180" width="12" height="14" rx="2" fill="#dc2626"/>
+      <rect x="13" y="180" width="6" height="14" fill="#18181b"/>
+      <line x1="16" y1="180" x2="16" y2="194" stroke="#ffffff" stroke-width="0.8"/>
+      <!-- Belt -->
+      <rect x="10" y="192" width="12" height="2" fill="#09090b"/>
+      <rect x="15" y="192" width="2" height="2" fill="#facc15"/>
+
+      <!-- Head & Hair (@chimataraghuram pixel art representation) -->
+      <rect x="14" y="177" width="4" height="3" fill="#f5cba7"/>
+      <rect x="12" y="169" width="8" height="9" rx="1.5" fill="#f5cba7"/>
+      <!-- Trimmed Goatee/Beard -->
+      <path d="M13,175 L14,178 L18,178 L19,175 L17,176 L15,176 Z" fill="#18181b"/>
+      <!-- Glasses / Visor -->
+      <rect x="13" y="172" width="2" height="1.5" fill="#09090b"/>
+      <rect x="17" y="172" width="2" height="1.5" fill="#09090b"/>
+      <line x1="12.5" y1="171.5" x2="19.5" y2="171.5" stroke="#38bdf8" stroke-width="0.8" opacity="0.9"/>
+      <!-- Hair -->
+      <path d="M11,169 C11,165 13,163 16,163 C19,163 21,165 21,169 L21,171 L20,170 L12,170 L11,171 Z" fill="#18181b"/>
+      <path d="M13,163 L15,161 L17,163 Z" fill="#27272a"/>
+
+      <!-- Left Arm (Resting on hip in ready command stance) -->
+      <rect x="8" y="181" width="3" height="9" rx="1" fill="#dc2626"/>
+      <rect x="8" y="189" width="3" height="3" fill="#f5cba7"/>
+
+      <!-- Right Arm (Animated Throwing Arm & Battle Commander Stance) -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" dur="{total_dur:.1f}s" repeatCount="indefinite"
+          values="0, 18, 182; -40, 18, 182; 38, 18, 182; 15, 18, 182; 15, 18, 182; 0, 18, 182"
+          keyTimes="0; {kp(0.35)}; {kp(0.68)}; {kp(0.95)}; {kp(4.50)}; 1"/>
+        <rect x="18" y="181" width="3.5" height="9" rx="1" fill="#dc2626"/>
+        <rect x="18" y="189" width="3.5" height="3" fill="#f5cba7"/>
+        <!-- Pokéball held in hand during wind-up (visible 0.0s to 0.40s) -->
+        <circle cx="20" cy="192" r="2.8" fill="#ef4444" opacity="1">
+          <animate attributeName="opacity" dur="{total_dur:.1f}s" repeatCount="indefinite"
+            values="1; 1; 0; 0; 0; 1" keyTimes="0; {kp(0.38)}; {kp(0.42)}; 0.9997; 0.9999; 1"/>
+        </circle>
+      </g>
+    </g>
+
+    <!-- Comic Callout Bubble: 'PIKACHU, GO! ⚡' (0.15s - 1.40s) -->
+    <g opacity="0">
+      <animate attributeName="opacity" dur="{total_dur:.1f}s" repeatCount="indefinite"
+        values="0; 0; 1; 1; 0; 0" keyTimes="0; {kp(0.15)}; {kp(0.25)}; {kp(1.25)}; {kp(1.40)}; 1"/>
+      <rect x="4" y="146" width="66" height="15" rx="3" fill="#FFE135" stroke="#000000" stroke-width="1.2"/>
+      <polygon points="16,161 20,161 14,166" fill="#FFE135"/>
+      <text x="37" y="157" font-size="7.5px" font-weight="900" font-family="monospace" fill="#000000" text-anchor="middle">PIKACHU, GO! ⚡</text>
+    </g>
+
+    <!-- Trainer Nameplate Badge -->
+    <rect x="2" y="211" width="28" height="10" rx="2" fill="#0d1117" stroke="#00F5FF" stroke-width="0.8" opacity="0.9"/>
+    <text x="16" y="218" text-anchor="middle" font-size="5.5px" font-weight="bold" font-family="monospace" fill="#00F5FF" letter-spacing="0.4px">CHIMATA</text>
+  </g>'''
+
+def render_impact_flash(total_dur):
+    flash_events = [
+        (3.30, 0.45, 0.15),   # Pikachu Super Thunderbolt
+        (6.55, 0.30, 0.10),   # Charizard
+        (49.75, 0.35, 0.10),  # Mewtwo
+        (59.35, 0.35, 0.10),  # Rayquaza
+        (121.72, 0.45, 0.16)  # Darkrai Finale
+    ]
+    events = [(0.0, 0.0)]
+    for f_start, peak, f_dur in flash_events:
+        prev_t = events[-1][0]
+        if f_start > prev_t + 0.04:
+            events.append((round(f_start - 0.01, 3), 0.0))
+        events.append((round(f_start + f_dur * 0.25, 3), peak))
+        events.append((round(f_start + f_dur, 3), 0.0))
+    if events[-1][0] < total_dur - 0.05:
+        events.append((total_dur, 0.0))
+    else:
+        events[-1] = (total_dur, 0.0)
+    vals = "; ".join([f"{op:.2f}" for _, op in events])
+    kts = "; ".join([f"{min(1.0, max(0.0, t/total_dur)):.5f}" for t, _ in events])
+    return f'''  <!-- Feature 5: Combat Impact Flash Overlay -->
+  <rect id="impact_flash" width="100%" height="100%" fill="#FFFFFF" opacity="0" pointer-events="none">
+    <animate attributeName="opacity" dur="{total_dur:.1f}s" repeatCount="indefinite"
+             values="{vals}" keyTimes="{kts}" />
+  </rect>
+'''
+
+def render_screen_shake_open(total_dur):
+    shake_windows = [
+        (3.25, [
+            (0.00, 0, 0),
+            (0.05, 2, -2),
+            (0.11, -3, 3),
+            (0.17, 3, -2),
+            (0.23, -2, 2),
+            (0.29, 2, -1),
+            (0.35, -1, 1),
+            (0.42, 1, 0),
+            (0.50, 0, 0)
+        ]),
+        (6.50, [
+            (0.00, 0, 0),
+            (0.06, 2, -1),
+            (0.12, -2, 2),
+            (0.18, 1, -1),
+            (0.25, 0, 0)
+        ]),
+        (49.70, [
+            (0.00, 0, 0),
+            (0.06, -2, 2),
+            (0.12, 2, -2),
+            (0.18, -1, 1),
+            (0.25, 0, 0)
+        ]),
+        (59.30, [
+            (0.00, 0, 0),
+            (0.06, 2, -2),
+            (0.12, -3, 2),
+            (0.18, 2, -1),
+            (0.25, 0, 0)
+        ]),
+        (121.65, [
+            (0.00, 0, 0),
+            (0.06, -2, 2),
+            (0.12, 3, -2),
+            (0.18, -2, 1),
+            (0.25, 0, 0)
+        ])
+    ]
+    events = [(0.0, 0, 0)]
+    for w_start, offsets in shake_windows:
+        prev_t = events[-1][0]
+        if w_start > prev_t + 0.05:
+            events.append((round(w_start - 0.01, 3), 0, 0))
+        for dt, sx, sy in offsets:
+            events.append((round(w_start + dt, 3), sx, sy))
+        events.append((round(w_start + offsets[-1][0] + 0.02, 3), 0, 0))
+    if events[-1][0] < total_dur - 0.1:
+        events.append((total_dur, 0, 0))
+    else:
+        events[-1] = (total_dur, 0, 0)
+    vals = "; ".join([f"{sx},{sy}" for _, sx, sy in events])
+    kts = "; ".join([f"{min(1.0, max(0.0, t/total_dur)):.5f}" for t, _, _ in events])
+    return f'''  <!-- Feature 5: Critical Hit Arena Screen Shake Wrapper -->
+  <g id="arena_shake">
+    <animateTransform attributeName="transform" type="translate" dur="{total_dur:.1f}s" repeatCount="indefinite"
+                      values="{vals}" keyTimes="{kts}" />
+'''
+
 def build_svg(grid):
     rng = random.Random(20261124)
 
@@ -554,6 +721,9 @@ def build_svg(grid):
         lines.append(f'    <circle cx="{sx}" cy="{sy}" r="{sr}" fill="#ffffff" opacity="{op}"/>')
     lines.append('  </g>\n')
 
+    # Feature 5: Combat Impact Flash Overlay
+    lines.append(render_impact_flash(TOTAL_DUR))
+
     # Arena Header Title & Status
     lines.append('  <!-- Arena Header & Title -->')
     lines.append('  <g id="arena_header">')
@@ -568,6 +738,12 @@ def build_svg(grid):
     for i, m in enumerate(month_names):
         mx = GRID_LEFT + int(i * (WEEKS * (CELL_SIZE + CELL_GAP) / 12.3))
         lines.append(f'  <text x="{mx}" y="34" class="month-label">{m}</text>')
+
+    # Feature 4: Trainer Cameo (Chimata Raghuram)
+    lines.append(render_trainer_cameo(TOTAL_DUR))
+
+    # Feature 5: Critical Hit Arena Screen Shake Wrapper
+    lines.append(render_screen_shake_open(TOTAL_DUR))
 
     # Contribution Grid with 100% Circular Reset Loop
     lines.append('\n  <!-- GitHub Contribution Grid (100% Circular Reset Loop) -->')
@@ -644,14 +820,14 @@ def build_svg(grid):
 
             kp = lambda t_sec: f"{round(t_sec / TOTAL_DUR, 5):.5f}"
 
-            # Feature 4: Slow Parabolic Pokéball Throw-In Entrance (0.0s - 1.45s)
-            lines.append(f'    <!-- Feature 4: Slow Parabolic Pokéball Throw-In Entrance (Smooth & Clear) -->')
-            lines.append(f'    <g opacity="1">')
+            # Feature 4: Slow Parabolic Pokéball Throw-In Entrance (Launched by Trainer)
+            lines.append(f'    <!-- Feature 4: Slow Parabolic Pokéball Throw-In Entrance (Launched by Trainer) -->')
+            lines.append(f'    <g opacity="0">')
             lines.append(f'      <animate attributeName="opacity" dur="{TOTAL_DUR:.1f}s" repeatCount="indefinite" '
-                         f'values="1; 1; 0; 0" keyTimes="0; {kp(1.35)}; {kp(1.48)}; 1"/>')
+                         f'values="0; 0; 1; 1; 0; 0" keyTimes="0; {kp(0.38)}; {kp(0.42)}; {kp(1.35)}; {kp(1.48)}; 1"/>')
             lines.append(f'      <animateTransform attributeName="transform" type="translate" dur="{TOTAL_DUR:.1f}s" repeatCount="indefinite" '
-                         f'values="{tx1 - 95},{BOTTOM_Y + 24}; {tx1 - 48},{BOTTOM_Y - 46}; {tx1 - 10},{BOTTOM_Y}; {tx1},{BOTTOM_Y - 14}; {tx1 + 6},{BOTTOM_Y}; {tx1 + 6},{BOTTOM_Y}" '
-                         f'keyTimes="0; {kp(0.65)}; {kp(1.05)}; {kp(1.22)}; {kp(1.38)}; 1"/>')
+                         f'values="20,180; 20,180; {(20 + tx1)//2},{BOTTOM_Y - 50}; {tx1 - 8},{BOTTOM_Y}; {tx1},{BOTTOM_Y - 14}; {tx1 + 6},{BOTTOM_Y}; {tx1 + 6},{BOTTOM_Y}" '
+                         f'keyTimes="0; {kp(0.38)}; {kp(0.70)}; {kp(1.05)}; {kp(1.22)}; {kp(1.38)}; 1"/>')
             lines.append(f'      <g>')
             lines.append(f'        <animateTransform attributeName="transform" type="rotate" dur="0.65s" repeatCount="indefinite" values="0; 360"/>')
             lines.append(f'        <path d="M-8,0 A8,8 0 0,1 8,0 Z" fill="#EE1515"/>')
@@ -867,6 +1043,7 @@ def build_svg(grid):
 
         lines.append(f'  </g>')
 
+    lines.append('  </g> <!-- end arena_shake -->')
     lines.append('</svg>')
     return "\n".join(lines), len(active_cells), len(cell_destruction_times)
 

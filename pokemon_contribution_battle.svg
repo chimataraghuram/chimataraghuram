@@ -195,6 +195,12 @@
     <circle cx="704" cy="131" r="1.5" fill="#ffffff" opacity="0.26"/>
   </g>
 
+  <!-- Feature 5: Combat Impact Flash Overlay -->
+  <rect id="impact_flash" width="100%" height="100%" fill="#FFFFFF" opacity="0" pointer-events="none">
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite"
+             values="0.00; 0.00; 0.45; 0.00; 0.00; 0.30; 0.00; 0.00; 0.35; 0.00; 0.00; 0.35; 0.00; 0.00; 0.45; 0.00; 0.00" keyTimes="0.00000; 0.02688; 0.02726; 0.02819; 0.05343; 0.05372; 0.05433; 0.40637; 0.40666; 0.40727; 0.48480; 0.48509; 0.48570; 0.99436; 0.99477; 0.99575; 1.00000" />
+  </rect>
+
   <!-- Arena Header & Title -->
   <g id="arena_header">
     <text x="40" y="20" class="arena-title">⚔️ POKÉMON CONTRIBUTION BATTLE</text>
@@ -216,6 +222,85 @@
   <text x="643" y="34" class="month-label">Sep</text>
   <text x="703" y="34" class="month-label">Oct</text>
   <text x="763" y="34" class="month-label">Nov</text>
+  <!-- Feature 4: Pixel Trainer Avatar Cameo @chimataraghuram -->
+  <g id="trainer_cameo">
+    <!-- Glowing Holo-Platform beneath feet -->
+    <ellipse cx="16" cy="204" rx="12" ry="3.5" fill="#00F5FF" opacity="0.35">
+      <animate attributeName="opacity" values="0.25;0.6;0.25" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="rx" values="11;14;11" dur="1.8s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="16" cy="204" rx="6" ry="1.8" fill="#FFFFFF" opacity="0.55"/>
+
+    <!-- Subtle breathing and battle stance motion -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" dur="2.4s" repeatCount="indefinite" values="0,0; 0,-1; 0,0"/>
+
+      <!-- Legs & High-Top Sneakers -->
+      <rect x="12" y="193" width="3.5" height="9" fill="#1e293b"/>
+      <rect x="10" y="201" width="5.5" height="3" fill="#ef4444" rx="1"/>
+      <rect x="11" y="203" width="4.5" height="1" fill="#ffffff"/>
+      <rect x="17" y="193" width="3.5" height="9" fill="#1e293b"/>
+      <rect x="16" y="201" width="5.5" height="3" fill="#ef4444" rx="1"/>
+      <rect x="17" y="203" width="4.5" height="1" fill="#ffffff"/>
+
+      <!-- Torso / Jacket (Red & Dark Charcoal Trainer Jacket) -->
+      <rect x="10" y="180" width="12" height="14" rx="2" fill="#dc2626"/>
+      <rect x="13" y="180" width="6" height="14" fill="#18181b"/>
+      <line x1="16" y1="180" x2="16" y2="194" stroke="#ffffff" stroke-width="0.8"/>
+      <!-- Belt -->
+      <rect x="10" y="192" width="12" height="2" fill="#09090b"/>
+      <rect x="15" y="192" width="2" height="2" fill="#facc15"/>
+
+      <!-- Head & Hair (@chimataraghuram pixel art representation) -->
+      <rect x="14" y="177" width="4" height="3" fill="#f5cba7"/>
+      <rect x="12" y="169" width="8" height="9" rx="1.5" fill="#f5cba7"/>
+      <!-- Trimmed Goatee/Beard -->
+      <path d="M13,175 L14,178 L18,178 L19,175 L17,176 L15,176 Z" fill="#18181b"/>
+      <!-- Glasses / Visor -->
+      <rect x="13" y="172" width="2" height="1.5" fill="#09090b"/>
+      <rect x="17" y="172" width="2" height="1.5" fill="#09090b"/>
+      <line x1="12.5" y1="171.5" x2="19.5" y2="171.5" stroke="#38bdf8" stroke-width="0.8" opacity="0.9"/>
+      <!-- Hair -->
+      <path d="M11,169 C11,165 13,163 16,163 C19,163 21,165 21,169 L21,171 L20,170 L12,170 L11,171 Z" fill="#18181b"/>
+      <path d="M13,163 L15,161 L17,163 Z" fill="#27272a"/>
+
+      <!-- Left Arm (Resting on hip in ready command stance) -->
+      <rect x="8" y="181" width="3" height="9" rx="1" fill="#dc2626"/>
+      <rect x="8" y="189" width="3" height="3" fill="#f5cba7"/>
+
+      <!-- Right Arm (Animated Throwing Arm & Battle Commander Stance) -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" dur="122.4s" repeatCount="indefinite"
+          values="0, 18, 182; -40, 18, 182; 38, 18, 182; 15, 18, 182; 15, 18, 182; 0, 18, 182"
+          keyTimes="0; 0.00286; 0.00556; 0.00776; 0.03676; 1"/>
+        <rect x="18" y="181" width="3.5" height="9" rx="1" fill="#dc2626"/>
+        <rect x="18" y="189" width="3.5" height="3" fill="#f5cba7"/>
+        <!-- Pokéball held in hand during wind-up (visible 0.0s to 0.40s) -->
+        <circle cx="20" cy="192" r="2.8" fill="#ef4444" opacity="1">
+          <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite"
+            values="1; 1; 0; 0; 0; 1" keyTimes="0; 0.00310; 0.00343; 0.9997; 0.9999; 1"/>
+        </circle>
+      </g>
+    </g>
+
+    <!-- Comic Callout Bubble: 'PIKACHU, GO! ⚡' (0.15s - 1.40s) -->
+    <g opacity="0">
+      <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite"
+        values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.00123; 0.00204; 0.01021; 0.01144; 1"/>
+      <rect x="4" y="146" width="66" height="15" rx="3" fill="#FFE135" stroke="#000000" stroke-width="1.2"/>
+      <polygon points="16,161 20,161 14,166" fill="#FFE135"/>
+      <text x="37" y="157" font-size="7.5px" font-weight="900" font-family="monospace" fill="#000000" text-anchor="middle">PIKACHU, GO! ⚡</text>
+    </g>
+
+    <!-- Trainer Nameplate Badge -->
+    <rect x="2" y="211" width="28" height="10" rx="2" fill="#0d1117" stroke="#00F5FF" stroke-width="0.8" opacity="0.9"/>
+    <text x="16" y="218" text-anchor="middle" font-size="5.5px" font-weight="bold" font-family="monospace" fill="#00F5FF" letter-spacing="0.4px">CHIMATA</text>
+  </g>
+  <!-- Feature 5: Critical Hit Arena Screen Shake Wrapper -->
+  <g id="arena_shake">
+    <animateTransform attributeName="transform" type="translate" dur="122.4s" repeatCount="indefinite"
+                      values="0,0; 0,0; 0,0; 2,-2; -3,3; 3,-2; -2,2; 2,-1; -1,1; 1,0; 0,0; 0,0; 0,0; 0,0; 2,-1; -2,2; 1,-1; 0,0; 0,0; 0,0; 0,0; -2,2; 2,-2; -1,1; 0,0; 0,0; 0,0; 0,0; 2,-2; -3,2; 2,-1; 0,0; 0,0; 0,0; 0,0; -2,2; 3,-2; -2,1; 0,0; 0,0; 0,0" keyTimes="0.00000; 0.02647; 0.02655; 0.02696; 0.02745; 0.02794; 0.02843; 0.02892; 0.02941; 0.02998; 0.03064; 0.03080; 0.05302; 0.05310; 0.05359; 0.05408; 0.05458; 0.05515; 0.05531; 0.40596; 0.40605; 0.40654; 0.40703; 0.40752; 0.40809; 0.40825; 0.48440; 0.48448; 0.48497; 0.48546; 0.48595; 0.48652; 0.48668; 0.99379; 0.99387; 0.99436; 0.99485; 0.99534; 0.99592; 0.99608; 1.00000" />
+
 
   <!-- GitHub Contribution Grid (100% Circular Reset Loop) -->
   <g id="contribution_grid">
@@ -958,10 +1043,10 @@
   <!-- [01/50] PIKACHU TURN CONTAINER (0.0s - 4.8s) -->
   <g id="turn_0_pikachu" opacity="1">
     <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 0; 0; 0; 1" keyTimes="0; 0.03889; 0.03922; 0.9997; 0.9999; 1" />
-    <!-- Feature 4: Slow Parabolic Pokéball Throw-In Entrance (Smooth & Clear) -->
-    <g opacity="1">
-      <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 0; 0" keyTimes="0; 0.01103; 0.01209; 1"/>
-      <animateTransform attributeName="transform" type="translate" dur="122.4s" repeatCount="indefinite" values="538,206; 585,136; 623,182; 633,168; 639,182; 639,182" keyTimes="0; 0.00531; 0.00858; 0.00997; 0.01127; 1"/>
+    <!-- Feature 4: Slow Parabolic Pokéball Throw-In Entrance (Launched by Trainer) -->
+    <g opacity="0">
+      <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.00310; 0.00343; 0.01103; 0.01209; 1"/>
+      <animateTransform attributeName="transform" type="translate" dur="122.4s" repeatCount="indefinite" values="20,180; 20,180; 326,132; 625,182; 633,168; 639,182; 639,182" keyTimes="0; 0.00310; 0.00572; 0.00858; 0.00997; 0.01127; 1"/>
       <g>
         <animateTransform attributeName="transform" type="rotate" dur="0.65s" repeatCount="indefinite" values="0; 360"/>
         <path d="M-8,0 A8,8 0 0,1 8,0 Z" fill="#EE1515"/>
@@ -5654,4 +5739,5 @@
       <text x="710" y="230" class="hud-score">SCORE: 42,000 PTS</text>
     </g>
   </g>
+  </g> <!-- end arena_shake -->
 </svg>
