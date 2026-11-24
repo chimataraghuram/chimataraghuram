@@ -26,7 +26,7 @@ import urllib.error
 # ─── Configuration ────────────────────────────────────────────────────────────
 USERNAME = os.environ.get("GITHUB_USERNAME", "chimataraghuram")
 TOKEN    = os.environ.get("GITHUB_TOKEN", "")
-OUT_FILE = os.environ.get("OUTPUT_FILE", "pokemon_contribution_battle.svg")
+OUT_FILE = os.environ.get("OUTPUT_FILE", "images/pokemon_contribution_battle.svg")
 SPRITE_DIR = os.environ.get("SPRITE_DIR", "sprites")
 
 # ─── Exact 50-Pokémon Roster ──────────────────────────────────────────────────
