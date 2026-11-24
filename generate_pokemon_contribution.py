@@ -1,18 +1,17 @@
 #!/usr/bin/env python3
 """
-Pokémon Contribution Battle SVG Generator — Full Elemental FX Edition
+Pokémon Contribution Battle SVG Generator — True Arcade Alignment Edition
 Renders an arcade space-shooter style animated SVG where 50 real Pokémon
-appear at the BOTTOM of the canvas and shoot dramatic signature elemental attacks
-UPWARDS into the contribution grid.
+appear at the BOTTOM of the canvas, deliberately move directly underneath target blocks,
+lock on, and fire dramatic signature elemental attacks STRAIGHT UPWARD into the contribution grid.
 
-Features:
-- Full signature attack visuals (crackling lightning, Fire Blast crosses, twin hydro pumps,
-  spinning razor leaf flurries, shadow void spheres, psychic rings, etc.)
-- Pokémon character recoil & firing muzzle flares
-- Multi-fragment block shattering impact physics
-- 50 unique Pokémon (Pikachu #1, remaining 49 randomized, no Raichu, Bulbasaur & Onix included)
-- Real GitHub contribution data
-- High-definition official pixel-art sprites
+Key Improvements:
+- True Vertical Alignment: Pokémon stops directly underneath the column it attacks (x_poke == x_target).
+- Deliberate Combat Phases: Dash to position -> Charge aura -> Fire straight upward -> Impact explosion -> Dash to next target.
+- Full Signature Attack Visuals: Distinct lightning arcs, spinning Fire Blast crosses, twin hydro pumps, spinning razor leaves, shadow void spheres, etc.
+- Character recoil and muzzle flashes synchronized with firing moments.
+- Multi-fragment block shattering on impact.
+- 50 unique Pokémon (Pikachu #1, remaining 49 randomized, no Raichu, Bulbasaur & Onix included).
 """
 
 import os
@@ -93,8 +92,8 @@ CELL_SIZE   = 11
 CELL_GAP    = 3
 WEEKS       = 53
 DAYS        = 7
-BOTTOM_Y    = 168  # Pokémon position: DOWN AT THE BOTTOM (shooter position)
-SPRITE_SIZE = 42   # Clear, recognizable authentic sprite size
+BOTTOM_Y    = 162  # Lifted slightly higher for punchier presence
+SPRITE_SIZE = 46   # Prominent, sharp authentic pixel art size
 
 LEVEL_COLORS = {
     0: "#161b22",
@@ -211,178 +210,188 @@ def cell_x(w):
 def cell_y(d):
     return GRID_TOP + d * (CELL_SIZE + CELL_GAP)
 
-# ─── Full Elemental Signature Attack Generator ────────────────────────────────
-def render_signature_attack(atype, color, px, py, tx, ty, t_shot, dur=0.48):
+# ─── Full Elemental Signature Attack Generator (Strict Vertical Beam) ─────────
+def render_signature_attack(atype, color, x, py, ty, t_shot, dur=0.52):
+    """
+    Renders rich signature attack visual FX strictly aligned along the vertical column 'x':
+    Shoots straight UPWARD from py to ty!
+    """
     out = []
-    t_hit = t_shot + dur * 0.9
 
     if atype == "thunder":
-        mid1_y = int(py - (py - ty) * 0.33)
-        mid2_y = int(py - (py - ty) * 0.66)
-        dx = (tx - px)
-        p1 = f"{px},{py-18} {px + dx*0.2 - 10},{mid1_y} {px + dx*0.5 + 12},{mid2_y} {tx-4},{ty+12} {tx},{ty}"
-        p2 = f"{px},{py-18} {px + dx*0.3 + 8},{mid1_y} {px + dx*0.6 - 10},{mid2_y} {tx+5},{ty+10} {tx},{ty}"
+        # Straight vertical lightning strike with sharp jagged zigzags
+        mid1_y = int(py - (py - ty) * 0.35)
+        mid2_y = int(py - (py - ty) * 0.70)
+        p1 = f"{x},{py-18} {x-7},{mid1_y} {x+8},{mid2_y} {x-3},{ty+10} {x},{ty}"
+        p2 = f"{x},{py-18} {x+6},{mid1_y} {x-6},{mid2_y} {x+4},{ty+10} {x},{ty}"
 
         out.append(f'''
-    <!-- Thunderbolt crackling lightning arc -->
+    <!-- Thunderbolt vertical crackling lightning bolt -->
     <g opacity="0">
-      <animate attributeName="opacity" values="0;1;0.4;1;0" keyTimes="0;0.1;0.35;0.75;1" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
-      <polyline points="{p1}" fill="none" stroke="{color}" stroke-width="3.5" stroke-linecap="round" filter="drop-shadow(0 0 5px {color})"/>
-      <polyline points="{p1}" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round"/>
+      <animate attributeName="opacity" values="0;1;0.3;1;0" keyTimes="0;0.1;0.35;0.75;1" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
+      <polyline points="{p1}" fill="none" stroke="{color}" stroke-width="4" stroke-linecap="round" filter="drop-shadow(0 0 6px {color})"/>
+      <polyline points="{p1}" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
       <polyline points="{p2}" fill="none" stroke="{color}" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
-      <circle cx="{px + dx*0.2 - 10}" cy="{mid1_y}" r="3" fill="#FFFFFF"/>
-      <circle cx="{px + dx*0.5 + 12}" cy="{mid2_y}" r="4" fill="{color}"/>
+      <!-- Electric spark discharges -->
+      <circle cx="{x-7}" cy="{mid1_y}" r="3.5" fill="#FFFFFF"/>
+      <circle cx="{x+8}" cy="{mid2_y}" r="4" fill="{color}"/>
     </g>''')
 
     elif atype == "fire_blast":
         out.append(f'''
-    <!-- Fire Blast spinning flaming star cross -->
+    <!-- Fire Blast vertical spinning flaming star cross -->
     <g opacity="0">
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.88;1" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
       <animateTransform attributeName="transform" type="translate"
-        values="{px},{py-16}; {tx},{ty}" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
+        values="{x},{py-16}; {x},{ty}" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
       <g>
         <animateTransform attributeName="transform" type="rotate" values="0; 360" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
-        <path d="M0,0 Q-7,-12 0,-22 Q7,-12 0,0" fill="#FF2200"/>
-        <path d="M0,0 Q-12,-7 -22,0 Q-12,7 0,0" fill="#FF5500"/>
-        <path d="M0,0 Q12,-7 22,0 Q12,7 0,0" fill="#FF5500"/>
-        <path d="M0,0 Q-10,10 -16,18 Q-4,14 0,0" fill="#FFAA00"/>
-        <path d="M0,0 Q10,10 16,18 Q4,14 0,0" fill="#FFAA00"/>
-        <circle cx="0" cy="0" r="6" fill="#FFFF77" filter="drop-shadow(0 0 6px #FF4400)"/>
+        <!-- 5-pointed flame cross -->
+        <path d="M0,0 Q-8,-14 0,-24 Q8,-14 0,0" fill="#FF2200"/>
+        <path d="M0,0 Q-14,-8 -24,0 Q-14,8 0,0" fill="#FF5500"/>
+        <path d="M0,0 Q14,-8 24,0 Q14,8 0,0" fill="#FF5500"/>
+        <path d="M0,0 Q-12,12 -18,20 Q-5,15 0,0" fill="#FFAA00"/>
+        <path d="M0,0 Q12,12 18,20 Q5,15 0,0" fill="#FFAA00"/>
+        <circle cx="0" cy="0" r="7" fill="#FFFF77" filter="drop-shadow(0 0 7px #FF4400)"/>
       </g>
     </g>''')
 
     elif atype == "hydro_pump":
         out.append(f'''
-    <!-- Hydro Pump twin pressurized water torrents -->
+    <!-- Hydro Pump twin pressurized water torrents straight UP -->
     <g opacity="0">
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
-      <path d="M{px-8},{py-16} C{px-12},{(py+ty)/2} {tx-10},{(py+ty)/2} {tx-5},{ty}" fill="none" stroke="{color}" stroke-width="4.5" stroke-linecap="round" filter="drop-shadow(0 0 4px #00E5FF)"/>
-      <path d="M{px-8},{py-16} C{px-12},{(py+ty)/2} {tx-10},{(py+ty)/2} {tx-5},{ty}" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
-      <path d="M{px+8},{py-16} C{px+12},{(py+ty)/2} {tx+10},{(py+ty)/2} {tx+5},{ty}" fill="none" stroke="{color}" stroke-width="4.5" stroke-linecap="round" filter="drop-shadow(0 0 4px #00E5FF)"/>
-      <path d="M{px+8},{py-16} C{px+12},{(py+ty)/2} {tx+10},{(py+ty)/2} {tx+5},{ty}" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
-      <ellipse cx="{tx}" cy="{ty+8}" rx="12" ry="4" fill="none" stroke="#FFFFFF" stroke-width="1.5">
+      <!-- Twin water cannon jets -->
+      <line x1="{x-6}" y1="{py-16}" x2="{x-3}" y2="{ty}" stroke="{color}" stroke-width="5" stroke-linecap="round" filter="drop-shadow(0 0 5px #00E5FF)"/>
+      <line x1="{x-6}" y1="{py-16}" x2="{x-3}" y2="{ty}" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+      <line x1="{x+6}" y1="{py-16}" x2="{x+3}" y2="{ty}" stroke="{color}" stroke-width="5" stroke-linecap="round" filter="drop-shadow(0 0 5px #00E5FF)"/>
+      <line x1="{x+6}" y1="{py-16}" x2="{x+3}" y2="{ty}" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+      <!-- Hydro pressure ring -->
+      <ellipse cx="{x}" cy="{ty+6}" rx="14" ry="5" fill="none" stroke="#FFFFFF" stroke-width="2">
         <animate attributeName="rx" values="4;16" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
       </ellipse>
     </g>''')
 
     elif atype == "razor_leaf":
         out.append(f'''
-    <!-- Razor Leaf spinning emerald cutters -->
+    <!-- Razor Leaf spinning emerald cutters upward -->
     <g opacity="0">
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
+      <!-- Center Leaf -->
       <g>
-        <animateTransform attributeName="transform" type="translate" values="{px},{py-16}; {tx},{ty}" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
-        <path d="M0,-16 C8,-4 8,8 0,14 C-8,8 -8,-4 0,-16 Z" fill="{color}" filter="drop-shadow(0 0 4px {color})"/>
-        <line x1="0" y1="-14" x2="0" y2="12" stroke="#FFFFFF" stroke-width="1.5"/>
+        <animateTransform attributeName="transform" type="translate" values="{x},{py-16}; {x},{ty}" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
+        <path d="M0,-18 C9,-5 9,9 0,16 C-9,9 -9,-5 0,-18 Z" fill="{color}" filter="drop-shadow(0 0 5px {color})"/>
+        <line x1="0" y1="-16" x2="0" y2="14" stroke="#FFFFFF" stroke-width="1.8"/>
       </g>
+      <!-- Flanking Left Leaf -->
       <g>
-        <animateTransform attributeName="transform" type="translate" values="{px-8},{py-14}; {tx-9},{ty+4}" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
-        <path d="M0,-12 C6,-3 6,6 0,10 C-6,6 -6,-3 0,-12 Z" fill="#00CC44"/>
+        <animateTransform attributeName="transform" type="translate" values="{x-8},{py-14}; {x-8},{ty+4}" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
+        <path d="M0,-14 C7,-4 7,7 0,12 C-7,7 -7,-4 0,-14 Z" fill="#00CC44"/>
       </g>
+      <!-- Flanking Right Leaf -->
       <g>
-        <animateTransform attributeName="transform" type="translate" values="{px+8},{py-14}; {tx+9},{ty+4}" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
-        <path d="M0,-12 C6,-3 6,6 0,10 C-6,6 -6,-3 0,-12 Z" fill="#00CC44"/>
+        <animateTransform attributeName="transform" type="translate" values="{x+8},{py-14}; {x+8},{ty+4}" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
+        <path d="M0,-14 C7,-4 7,7 0,12 C-7,7 -7,-4 0,-14 Z" fill="#00CC44"/>
       </g>
     </g>''')
 
     elif atype == "shadow_ball":
         out.append(f'''
-    <!-- Shadow Ball dark void sphere -->
+    <!-- Shadow Ball dark void sphere upward -->
     <g opacity="0">
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="{px},{py-16}; {tx},{ty}" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="{x},{py-16}; {x},{ty}" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
       <g>
         <animateTransform attributeName="transform" type="rotate" values="0; 720" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
-        <circle cx="0" cy="0" r="14" fill="{color}" opacity="0.35" filter="drop-shadow(0 0 8px {color})"/>
-        <circle cx="0" cy="0" r="10" fill="{color}"/>
-        <circle cx="0" cy="0" r="5" fill="#000000"/>
-        <circle cx="-11" cy="-4" r="3" fill="#BB66FF"/>
-        <circle cx="11" cy="4" r="3" fill="#BB66FF"/>
+        <circle cx="0" cy="0" r="16" fill="{color}" opacity="0.4" filter="drop-shadow(0 0 10px {color})"/>
+        <circle cx="0" cy="0" r="11" fill="{color}"/>
+        <circle cx="0" cy="0" r="6" fill="#000000"/>
+        <circle cx="-12" cy="-4" r="3.5" fill="#BB66FF"/>
+        <circle cx="12" cy="4" r="3.5" fill="#BB66FF"/>
       </g>
     </g>''')
 
     elif atype == "psychic":
         out.append(f'''
-    <!-- Psychic telekinetic ring barrage -->
+    <!-- Psychic telekinetic ring barrage upward -->
     <g opacity="0">
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.88;1" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="{px},{py-16}; {tx},{ty}" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
-      <ellipse cx="0" cy="0" rx="18" ry="7" fill="none" stroke="{color}" stroke-width="3" filter="drop-shadow(0 0 6px {color})"/>
-      <ellipse cx="0" cy="4" rx="12" ry="5" fill="none" stroke="#FFFFFF" stroke-width="2"/>
-      <circle cx="0" cy="0" r="6" fill="#FFFFFF"/>
+      <animateTransform attributeName="transform" type="translate" values="{x},{py-16}; {x},{ty}" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
+      <ellipse cx="0" cy="0" rx="20" ry="8" fill="none" stroke="{color}" stroke-width="3.5" filter="drop-shadow(0 0 7px {color})"/>
+      <ellipse cx="0" cy="4" rx="14" ry="5.5" fill="none" stroke="#FFFFFF" stroke-width="2.2"/>
+      <circle cx="0" cy="0" r="7" fill="#FFFFFF"/>
     </g>''')
 
     elif atype == "rock_throw":
         out.append(f'''
-    <!-- Rock Throw jagged boulder barrage -->
+    <!-- Rock Throw jagged boulder barrage upward -->
     <g opacity="0">
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
       <g>
-        <animateTransform attributeName="transform" type="translate" values="{px},{py-16}; {tx},{ty}" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
-        <polygon points="0,-16 11,-4 8,14 -9,11 -13,-3" fill="{color}" stroke="#3E3428" stroke-width="1.5"/>
-        <polygon points="0,-16 8,14 -13,-3" fill="#DFD2B5" opacity="0.4"/>
+        <animateTransform attributeName="transform" type="translate" values="{x},{py-16}; {x},{ty}" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
+        <polygon points="0,-18 12,-4 9,15 -10,12 -14,-3" fill="{color}" stroke="#3E3428" stroke-width="2"/>
+        <polygon points="0,-18 9,15 -14,-3" fill="#DFD2B5" opacity="0.45"/>
       </g>
       <g>
-        <animateTransform attributeName="transform" type="translate" values="{px+10},{py-12}; {tx+8},{ty+6}" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
-        <polygon points="0,-8 6,-2 4,7 -5,5" fill="{color}" stroke="#3E3428" stroke-width="1"/>
+        <animateTransform attributeName="transform" type="translate" values="{x+10},{py-12}; {x+10},{ty+6}" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
+        <polygon points="0,-9 7,-2 4,8 -6,6" fill="{color}" stroke="#3E3428" stroke-width="1.2"/>
       </g>
     </g>''')
 
     elif atype == "hyper_beam":
         out.append(f'''
-    <!-- Hyper Beam blinding plasma laser -->
+    <!-- Hyper Beam blinding plasma laser straight UP -->
     <g opacity="0">
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
-      <line x1="{px}" y1="{py-16}" x2="{tx}" y2="{ty}" stroke="#FFDD44" stroke-width="10" stroke-linecap="round" filter="drop-shadow(0 0 8px #FFEE44)"/>
-      <line x1="{px}" y1="{py-16}" x2="{tx}" y2="{ty}" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
-      <circle cx="{(px+tx)/2}" cy="{(py+ty)/2}" r="12" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+      <line x1="{x}" y1="{py-16}" x2="{x}" y2="{ty}" stroke="#FFDD44" stroke-width="12" stroke-linecap="round" filter="drop-shadow(0 0 10px #FFEE44)"/>
+      <line x1="{x}" y1="{py-16}" x2="{x}" y2="{ty}" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="{x}" cy="{(py+ty)/2}" r="14" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
     </g>''')
 
     elif atype == "shuriken":
         out.append(f'''
-    <!-- Water Shuriken spinning ninja star -->
+    <!-- Water Shuriken spinning ninja star upward -->
     <g opacity="0">
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="{px},{py-16}; {tx},{ty}" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="{x},{py-16}; {x},{ty}" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
       <g>
         <animateTransform attributeName="transform" type="rotate" values="0; 720" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
-        <polygon points="0,-18 4,-4 18,0 4,4 0,18 -4,4 -18,0 -4,-4" fill="{color}" filter="drop-shadow(0 0 5px #00FFFF)"/>
-        <circle cx="0" cy="0" r="4" fill="#FFFFFF"/>
+        <polygon points="0,-20 5,-4 20,0 5,4 0,20 -5,4 -20,0 -5,-4" fill="{color}" filter="drop-shadow(0 0 6px #00FFFF)"/>
+        <circle cx="0" cy="0" r="4.5" fill="#FFFFFF"/>
       </g>
     </g>''')
 
     elif atype == "dragon":
         out.append(f'''
-    <!-- Dragon Rush / Draco Meteor draconic energy comet -->
+    <!-- Dragon Rush / Draco Meteor draconic energy comet upward -->
     <g opacity="0">
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="{px},{py-16}; {tx},{ty}" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
-      <path d="M0,-20 C10,-6 14,14 0,22 C-14,14 -10,-6 0,-20 Z" fill="{color}" filter="drop-shadow(0 0 6px {color})"/>
-      <polygon points="0,-8 16,-2 4,10" fill="#FF8800"/>
-      <polygon points="0,-8 -16,-2 -4,10" fill="#FF8800"/>
-      <circle cx="0" cy="-6" r="5" fill="#FFFFFF"/>
+      <animateTransform attributeName="transform" type="translate" values="{x},{py-16}; {x},{ty}" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
+      <path d="M0,-22 C11,-7 15,15 0,24 C-15,15 -11,-7 0,-22 Z" fill="{color}" filter="drop-shadow(0 0 7px {color})"/>
+      <polygon points="0,-9 18,-2 5,11" fill="#FF8800"/>
+      <polygon points="0,-9 -18,-2 -5,11" fill="#FF8800"/>
+      <circle cx="0" cy="-7" r="5.5" fill="#FFFFFF"/>
     </g>''')
 
     elif atype == "ice":
         out.append(f'''
-    <!-- Blizzard crystalline frost shard -->
+    <!-- Blizzard crystalline frost shard upward -->
     <g opacity="0">
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="{px},{py-16}; {tx},{ty}" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
-      <polygon points="0,-22 7,-3 0,18 -7,-3" fill="{color}" stroke="#FFFFFF" stroke-width="1.5" filter="drop-shadow(0 0 5px #88EEFF)"/>
-      <line x1="0" y1="-20" x2="0" y2="16" stroke="#FFFFFF" stroke-width="1.5"/>
-      <line x1="-6" y1="-3" x2="6" y2="-3" stroke="#FFFFFF" stroke-width="1.5"/>
+      <animateTransform attributeName="transform" type="translate" values="{x},{py-16}; {x},{ty}" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
+      <polygon points="0,-24 8,-4 0,20 -8,-4" fill="{color}" stroke="#FFFFFF" stroke-width="1.8" filter="drop-shadow(0 0 6px #88EEFF)"/>
+      <line x1="0" y1="-22" x2="0" y2="18" stroke="#FFFFFF" stroke-width="1.8"/>
+      <line x1="-7" y1="-4" x2="7" y2="-4" stroke="#FFFFFF" stroke-width="1.8"/>
     </g>''')
 
     else:
         out.append(f'''
-    <!-- High Impact Energy Blast -->
+    <!-- High Impact Energy Blast straight UP -->
     <g opacity="0">
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="{px},{py-16}; {tx},{ty}" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
-      <polygon points="0,-20 8,5 3,16 -3,16 -8,5" fill="{color}" filter="drop-shadow(0 0 5px {color})"/>
-      <circle cx="0" cy="0" r="5" fill="#FFFFFF"/>
+      <animateTransform attributeName="transform" type="translate" values="{x},{py-16}; {x},{ty}" dur="{dur:.2f}s" begin="master_clock.begin + {t_shot:.2f}s" fill="freeze"/>
+      <polygon points="0,-22 9,6 3,18 -3,18 -9,6" fill="{color}" filter="drop-shadow(0 0 6px {color})"/>
+      <circle cx="0" cy="0" r="5.5" fill="#FFFFFF"/>
     </g>''')
 
     return "\n".join(out)
@@ -476,7 +485,7 @@ def build_svg(grid):
     lines.append('  </g>\n')
 
     # Separator Line
-    lines.append(f'  <line x1="{GRID_LEFT}" y1="138" x2="{GRID_LEFT + WEEKS*(CELL_SIZE+CELL_GAP)}" y2="138" stroke="#21262d" stroke-dasharray="3,3" opacity="0.4"/>')
+    lines.append(f'  <line x1="{GRID_LEFT}" y1="135" x2="{GRID_LEFT + WEEKS*(CELL_SIZE+CELL_GAP)}" y2="135" stroke="#21262d" stroke-dasharray="3,3" opacity="0.4"/>')
 
     # Pokémon Bottom Shooters
     lines.append('  <!-- Pokémon Bottom Shooters & Upward Attacks -->')
@@ -493,58 +502,62 @@ def build_svg(grid):
         tx1, ty1 = cell_x(tw1) + CELL_SIZE//2, cell_y(td1) + CELL_SIZE//2
         tx2, ty2 = cell_x(tw2) + CELL_SIZE//2, cell_y(td2) + CELL_SIZE//2
 
-        start_px = tx1
-        end_px   = tx2
-
         gid = f"poke_{idx}_{name.lower()}"
         sp_id = sprite_uris.get(name)
 
+        # Precise timing phases:
+        # Phase 1: Pokémon stays directly under tx1, fires Shot 1 straight up
+        # Phase 2: Dashing quickly to tx2
+        # Phase 3: Pokémon stays directly under tx2, fires Shot 2 straight up
         t_shot1 = t_start + 0.35
         t_hit1  = t_shot1 + 0.44
 
-        t_shot2 = t_start + 1.25
+        t_shot2 = t_start + 1.45
         t_hit2  = t_shot2 + 0.44
 
         # ── Pokémon entity (DOWN AT THE BOTTOM) ───────────────────────────────
-        lines.append(f'\n  <!-- [{idx+1}/50] {name} (DOWN AT BOTTOM, SHOOTING UPWARDS) -->')
+        lines.append(f'\n  <!-- [{idx+1}/50] {name} (DOWN AT BOTTOM, STRICTLY ALIGNED UNDER ATTACK COLUMNS) -->')
         lines.append(f'  <g id="{gid}" opacity="0">')
         lines.append(f'    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.92;1" dur="{TURN_DUR:.2f}s" begin="master_clock.begin + {t_start:.2f}s" fill="freeze" />')
 
-        # Horizontal movement along the bottom under the targets
+        # Stepped Movement: Stationary directly under tx1 during Shot 1 -> Quick Dash -> Stationary directly under tx2 during Shot 2
         lines.append(f'    <animateTransform attributeName="transform" type="translate" '
-                     f'values="{start_px - SPRITE_SIZE//2},{BOTTOM_Y - SPRITE_SIZE//2}; '
-                     f'{end_px - SPRITE_SIZE//2},{BOTTOM_Y - SPRITE_SIZE//2}" '
+                     f'values="{tx1 - SPRITE_SIZE//2},{BOTTOM_Y - SPRITE_SIZE//2}; '
+                     f'{tx1 - SPRITE_SIZE//2},{BOTTOM_Y - SPRITE_SIZE//2}; '
+                     f'{tx2 - SPRITE_SIZE//2},{BOTTOM_Y - SPRITE_SIZE//2}; '
+                     f'{tx2 - SPRITE_SIZE//2},{BOTTOM_Y - SPRITE_SIZE//2}" '
+                     f'keyTimes="0; 0.46; 0.54; 1" '
                      f'dur="{TURN_DUR:.2f}s" begin="master_clock.begin + {t_start:.2f}s" fill="freeze" />')
 
         # Real Pokémon Sprite with combat breathing and shot recoil
         lines.append(f'    <g>')
         lines.append(f'      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3; 0,0" dur="0.8s" repeatCount="indefinite" additive="sum"/>')
-        lines.append(f'      <animateTransform attributeName="transform" type="translate" values="0,0; 0,6; 0,-2; 0,0" dur="0.25s" begin="master_clock.begin + {t_shot1:.2f}s" additive="sum"/>')
-        lines.append(f'      <animateTransform attributeName="transform" type="translate" values="0,0; 0,6; 0,-2; 0,0" dur="0.25s" begin="master_clock.begin + {t_shot2:.2f}s" additive="sum"/>')
+        lines.append(f'      <animateTransform attributeName="transform" type="translate" values="0,0; 0,7; 0,-2; 0,0" dur="0.25s" begin="master_clock.begin + {t_shot1:.2f}s" additive="sum"/>')
+        lines.append(f'      <animateTransform attributeName="transform" type="translate" values="0,0; 0,7; 0,-2; 0,0" dur="0.25s" begin="master_clock.begin + {t_shot2:.2f}s" additive="sum"/>')
 
         if sp_id:
             lines.append(f'      <use href="#{sp_id}" x="0" y="0" />')
         else:
-            lines.append(f'      <circle cx="{SPRITE_SIZE//2}" cy="{SPRITE_SIZE//2}" r="18" fill="{color}"/>')
+            lines.append(f'      <circle cx="{SPRITE_SIZE//2}" cy="{SPRITE_SIZE//2}" r="20" fill="{color}"/>')
 
         # Thruster / Aura glow underneath Pokémon
-        lines.append(f'      <ellipse cx="{SPRITE_SIZE//2}" cy="{SPRITE_SIZE}" rx="11" ry="4" fill="{acolor}" opacity="0.7">'
+        lines.append(f'      <ellipse cx="{SPRITE_SIZE//2}" cy="{SPRITE_SIZE}" rx="13" ry="4.5" fill="{acolor}" opacity="0.75">'
                      f'<animate attributeName="opacity" values="0.4;0.95;0.4" dur="0.25s" repeatCount="indefinite"/>'
                      f'</ellipse>')
         lines.append('    </g>')
         lines.append('  </g>')
 
         # ── Muzzle Flares on Pokémon when firing ──────────────────────────────
-        lines.append(f'  <!-- Muzzle Flash 1 -->')
-        lines.append(f'  <circle cx="{start_px}" cy="{BOTTOM_Y - 22}" r="1" fill="#FFFFFF" opacity="0">')
+        lines.append(f'  <!-- Muzzle Flash 1 (At tx1) -->')
+        lines.append(f'  <circle cx="{tx1}" cy="{BOTTOM_Y - 20}" r="1" fill="#FFFFFF" opacity="0">')
         lines.append(f'    <animate attributeName="opacity" values="0;1;0" dur="0.2s" begin="master_clock.begin + {t_shot1:.2f}s" fill="freeze"/>')
-        lines.append(f'    <animate attributeName="r" values="3;16;0" dur="0.2s" begin="master_clock.begin + {t_shot1:.2f}s" fill="freeze"/>')
+        lines.append(f'    <animate attributeName="r" values="4;18;0" dur="0.2s" begin="master_clock.begin + {t_shot1:.2f}s" fill="freeze"/>')
         lines.append('  </circle>')
 
-        lines.append(f'  <!-- Muzzle Flash 2 -->')
-        lines.append(f'  <circle cx="{end_px}" cy="{BOTTOM_Y - 22}" r="1" fill="#FFFFFF" opacity="0">')
+        lines.append(f'  <!-- Muzzle Flash 2 (At tx2) -->')
+        lines.append(f'  <circle cx="{tx2}" cy="{BOTTOM_Y - 20}" r="1" fill="#FFFFFF" opacity="0">')
         lines.append(f'    <animate attributeName="opacity" values="0;1;0" dur="0.2s" begin="master_clock.begin + {t_shot2:.2f}s" fill="freeze"/>')
-        lines.append(f'    <animate attributeName="r" values="3;16;0" dur="0.2s" begin="master_clock.begin + {t_shot2:.2f}s" fill="freeze"/>')
+        lines.append(f'    <animate attributeName="r" values="4;18;0" dur="0.2s" begin="master_clock.begin + {t_shot2:.2f}s" fill="freeze"/>')
         lines.append('  </circle>')
 
         # ── HUD info along the bottom bar ────────────────────────────────────
@@ -552,18 +565,18 @@ def build_svg(grid):
         lines.append(f'    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.92;1" dur="{TURN_DUR:.2f}s" begin="master_clock.begin + {t_start:.2f}s" fill="freeze" />')
         lines.append(f'    <text x="{GRID_LEFT}" y="214" class="hud-title">#{idx+1:02d} {name.upper()}</text>')
         lines.append(f'    <text x="{GRID_LEFT + 120}" y="214" class="hud-move" fill="{acolor}">❯ {attack.upper()}</text>')
-        lines.append(f'    <text x="{GRID_LEFT + 320}" y="214" class="hud-sub">TARGET: SECTOR [{tw1+1},{td1+1}] ❯ FIRING UPWARD</text>')
+        lines.append(f'    <text x="{GRID_LEFT + 320}" y="214" class="hud-sub">TARGET: SECTOR [{tw1+1},{td1+1}] ❯ VERTICAL ALIGNMENT LOCKED</text>')
         lines.append('  </g>')
 
-        # ── Shot 1: Reticle, Signature Attack, Multi-Fragment Destruction ────
-        lines.append(f'  <!-- Target Reticle 1 -->')
-        lines.append(f'  <circle cx="{tx1}" cy="{ty1}" r="9" fill="none" stroke="{acolor}" stroke-width="1.4" class="pixel-reticle" opacity="0">')
+        # ── Shot 1: Reticle, Straight Vertical Attack, Multi-Fragment Destruction ────
+        lines.append(f'  <!-- Target Reticle 1 (Directly above Pokémon at tx1) -->')
+        lines.append(f'  <circle cx="{tx1}" cy="{ty1}" r="9" fill="none" stroke="{acolor}" stroke-width="1.5" class="pixel-reticle" opacity="0">')
         lines.append(f'    <animate attributeName="opacity" values="0;0.95;0.95;0" dur="0.65s" begin="master_clock.begin + {t_shot1:.2f}s" fill="freeze"/>')
         lines.append(f'    <animate attributeName="r" values="16;9;6" dur="0.65s" begin="master_clock.begin + {t_shot1:.2f}s" fill="freeze"/>')
         lines.append('  </circle>')
 
-        # Render rich signature attack visual 1
-        lines.append(render_signature_attack(atype, acolor, start_px, BOTTOM_Y, tx1, ty1, t_shot1, dur=0.46))
+        # Straight vertical upward attack from tx1
+        lines.append(render_signature_attack(atype, acolor, tx1, BOTTOM_Y, ty1, t_shot1, dur=0.46))
 
         # Cell 1 Impact & Shattering Destruction
         cid1 = cell_id(tw1, td1)
@@ -577,29 +590,29 @@ def build_svg(grid):
         lines.append(f'  <!-- Shattered Debris Burst 1 -->')
         lines.append(f'  <g opacity="0">')
         lines.append(f'    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.7;1" dur="0.45s" begin="master_clock.begin + {t_hit1:.2f}s" fill="freeze"/>')
-        lines.append(f'    <rect x="{tx1-3}" y="{ty1-3}" width="3.5" height="3.5" rx="1" fill="{acolor}">')
+        lines.append(f'    <rect x="{tx1-3}" y="{ty1-3}" width="4" height="4" rx="1" fill="{acolor}">')
         lines.append(f'      <animateTransform attributeName="transform" type="translate" values="0,0; -12,-8" dur="0.45s" begin="master_clock.begin + {t_hit1:.2f}s" fill="freeze"/>')
         lines.append(f'    </rect>')
-        lines.append(f'    <rect x="{tx1+1}" y="{ty1-3}" width="3.5" height="3.5" rx="1" fill="#FFFFFF">')
+        lines.append(f'    <rect x="{tx1+1}" y="{ty1-3}" width="4" height="4" rx="1" fill="#FFFFFF">')
         lines.append(f'      <animateTransform attributeName="transform" type="translate" values="0,0; 12,-10" dur="0.45s" begin="master_clock.begin + {t_hit1:.2f}s" fill="freeze"/>')
         lines.append(f'    </rect>')
-        lines.append(f'    <rect x="{tx1-3}" y="{ty1+1}" width="3.5" height="3.5" rx="1" fill="{orig_col1}">')
+        lines.append(f'    <rect x="{tx1-3}" y="{ty1+1}" width="4" height="4" rx="1" fill="{orig_col1}">')
         lines.append(f'      <animateTransform attributeName="transform" type="translate" values="0,0; -10,12" dur="0.45s" begin="master_clock.begin + {t_hit1:.2f}s" fill="freeze"/>')
         lines.append(f'    </rect>')
-        lines.append(f'    <rect x="{tx1+1}" y="{ty1+1}" width="3.5" height="3.5" rx="1" fill="{acolor}">')
+        lines.append(f'    <rect x="{tx1+1}" y="{ty1+1}" width="4" height="4" rx="1" fill="{acolor}">')
         lines.append(f'      <animateTransform attributeName="transform" type="translate" values="0,0; 10,14" dur="0.45s" begin="master_clock.begin + {t_hit1:.2f}s" fill="freeze"/>')
         lines.append(f'    </rect>')
         lines.append(f'  </g>')
 
-        # ── Shot 2: Reticle, Signature Attack, Multi-Fragment Destruction ────
-        lines.append(f'  <!-- Target Reticle 2 -->')
-        lines.append(f'  <circle cx="{tx2}" cy="{ty2}" r="9" fill="none" stroke="{acolor}" stroke-width="1.4" class="pixel-reticle" opacity="0">')
+        # ── Shot 2: Reticle, Straight Vertical Attack, Multi-Fragment Destruction ────
+        lines.append(f'  <!-- Target Reticle 2 (Directly above Pokémon at tx2) -->')
+        lines.append(f'  <circle cx="{tx2}" cy="{ty2}" r="9" fill="none" stroke="{acolor}" stroke-width="1.5" class="pixel-reticle" opacity="0">')
         lines.append(f'    <animate attributeName="opacity" values="0;0.95;0.95;0" dur="0.65s" begin="master_clock.begin + {t_shot2:.2f}s" fill="freeze"/>')
         lines.append(f'    <animate attributeName="r" values="16;9;6" dur="0.65s" begin="master_clock.begin + {t_shot2:.2f}s" fill="freeze"/>')
         lines.append('  </circle>')
 
-        # Render rich signature attack visual 2
-        lines.append(render_signature_attack(atype, acolor, end_px, BOTTOM_Y, tx2, ty2, t_shot2, dur=0.46))
+        # Straight vertical upward attack from tx2
+        lines.append(render_signature_attack(atype, acolor, tx2, BOTTOM_Y, ty2, t_shot2, dur=0.46))
 
         # Cell 2 Impact & Shattering Destruction
         cid2 = cell_id(tw2, td2)
@@ -613,16 +626,16 @@ def build_svg(grid):
         lines.append(f'  <!-- Shattered Debris Burst 2 -->')
         lines.append(f'  <g opacity="0">')
         lines.append(f'    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.7;1" dur="0.45s" begin="master_clock.begin + {t_hit2:.2f}s" fill="freeze"/>')
-        lines.append(f'    <rect x="{tx2-3}" y="{ty2-3}" width="3.5" height="3.5" rx="1" fill="{acolor}">')
+        lines.append(f'    <rect x="{tx2-3}" y="{ty2-3}" width="4" height="4" rx="1" fill="{acolor}">')
         lines.append(f'      <animateTransform attributeName="transform" type="translate" values="0,0; -12,-8" dur="0.45s" begin="master_clock.begin + {t_hit2:.2f}s" fill="freeze"/>')
         lines.append(f'    </rect>')
-        lines.append(f'    <rect x="{tx2+1}" y="{ty2-3}" width="3.5" height="3.5" rx="1" fill="#FFFFFF">')
+        lines.append(f'    <rect x="{tx2+1}" y="{ty2-3}" width="4" height="4" rx="1" fill="#FFFFFF">')
         lines.append(f'      <animateTransform attributeName="transform" type="translate" values="0,0; 12,-10" dur="0.45s" begin="master_clock.begin + {t_hit2:.2f}s" fill="freeze"/>')
         lines.append(f'    </rect>')
-        lines.append(f'    <rect x="{tx2-3}" y="{ty2+1}" width="3.5" height="3.5" rx="1" fill="{orig_col2}">')
+        lines.append(f'    <rect x="{tx2-3}" y="{ty2+1}" width="4" height="4" rx="1" fill="{orig_col2}">')
         lines.append(f'      <animateTransform attributeName="transform" type="translate" values="0,0; -10,12" dur="0.45s" begin="master_clock.begin + {t_hit2:.2f}s" fill="freeze"/>')
         lines.append(f'    </rect>')
-        lines.append(f'    <rect x="{tx2+1}" y="{ty2+1}" width="3.5" height="3.5" rx="1" fill="{acolor}">')
+        lines.append(f'    <rect x="{tx2+1}" y="{ty2+1}" width="4" height="4" rx="1" fill="{acolor}">')
         lines.append(f'      <animateTransform attributeName="transform" type="translate" values="0,0; 10,14" dur="0.45s" begin="master_clock.begin + {t_hit2:.2f}s" fill="freeze"/>')
         lines.append(f'    </rect>')
         lines.append(f'  </g>')
@@ -636,7 +649,7 @@ def main():
     print(f"Fetching contribution data for @{USERNAME}...")
     grid = fetch_contributions()
 
-    print("Building Signature Attack Pokémon animated SVG...")
+    print("Building Aligned Signature Attack Pokémon animated SVG...")
     svg = build_svg(grid)
 
     out_dir = os.path.dirname(OUT_FILE)
