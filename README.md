@@ -63,9 +63,9 @@
 <div align="center">
   <br/>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/pokemon_contribution_battle.svg?v=2026-11-24_v6">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/pokemon_contribution_battle.svg?v=2026-11-24_v6">
-    <img alt="Pokémon Contribution Battle" src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/pokemon_contribution_battle.svg?v=2026-11-24_v6" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/pokemon_contribution_battle.svg?v=2026-11-24_v7">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/pokemon_contribution_battle.svg?v=2026-11-24_v7">
+    <img alt="Pokémon Contribution Battle" src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/pokemon_contribution_battle.svg?v=2026-11-24_v7" width="100%" />
   </picture>
   <br/><br/>
 </div>
