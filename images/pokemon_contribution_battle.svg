@@ -98,8 +98,12 @@
 
   <!-- Starfield background (Space Shooter atmosphere) -->
   <g id="starfield">
-    <circle cx="130" cy="83" r="0.9" fill="#ffffff" opacity="0.64"/>
-    <circle cx="752" cy="135" r="1.5" fill="#ffffff" opacity="0.62"/>
+    <circle cx="694" cy="75" r="1.5" fill="#ffffff" opacity="0.4"/>
+    <circle cx="752" cy="31" r="0.9" fill="#ffffff" opacity="0.78"/>
+    <circle cx="152" cy="184" r="0.9" fill="#ffffff" opacity="0.34"/>
+    <circle cx="680" cy="4" r="0.7" fill="#ffffff" opacity="0.39"/>
+    <circle cx="364" cy="35" r="1.2" fill="#ffffff" opacity="0.37"/>
+    <circle cx="68" cy="191" r="1.5" fill="#ffffff" opacity="0.62"/>
     <circle cx="589" cy="100" r="1.5" fill="#ffffff" opacity="0.3"/>
     <circle cx="835" cy="51" r="1.2" fill="#ffffff" opacity="0.68"/>
     <circle cx="722" cy="139" r="0.7" fill="#ffffff" opacity="0.68"/>
@@ -189,10 +193,6 @@
     <circle cx="464" cy="63" r="1.2" fill="#ffffff" opacity="0.81"/>
     <circle cx="495" cy="153" r="1.5" fill="#ffffff" opacity="0.39"/>
     <circle cx="765" cy="62" r="1.2" fill="#ffffff" opacity="0.4"/>
-    <circle cx="213" cy="40" r="1.2" fill="#ffffff" opacity="0.66"/>
-    <circle cx="495" cy="173" r="1.5" fill="#ffffff" opacity="0.65"/>
-    <circle cx="54" cy="69" r="1.2" fill="#ffffff" opacity="0.66"/>
-    <circle cx="30" cy="47" r="1.2" fill="#ffffff" opacity="0.71"/>
   </g>
 
   <!-- Month Headers -->
@@ -418,7 +418,7 @@
     <rect id="c_13_4" x="222" y="84" width="11" height="11" rx="2" fill="#161b22"/>
     <rect id="c_13_5" x="222" y="98" width="11" height="11" rx="2" fill="#161b22"/>
     <rect id="c_13_6" x="222" y="112" width="11" height="11" rx="2" fill="#161b22"/>
-    <rect id="c_14_0" x="236" y="28" width="11" height="11" rx="2" fill="#0e4429"/>
+    <rect id="c_14_0" x="236" y="28" width="11" height="11" rx="2" fill="#161b22"/>
     <rect id="c_14_1" x="236" y="42" width="11" height="11" rx="2" fill="#161b22"/>
     <rect id="c_14_2" x="236" y="56" width="11" height="11" rx="2" fill="#006d32">
       <animate attributeName="fill" dur="120.4s" repeatCount="indefinite" values="#006d32; #006d32; #FFFFFF; #FF5500; #060913; #060913; #006d32" keyTimes="0; 0.43696; 0.43762; 0.43862; 0.44028; 0.999; 1" />
@@ -432,8 +432,8 @@
     <rect id="c_14_5" x="236" y="98" width="11" height="11" rx="2" fill="#161b22"/>
     <rect id="c_14_6" x="236" y="112" width="11" height="11" rx="2" fill="#161b22"/>
     <rect id="c_15_0" x="250" y="28" width="11" height="11" rx="2" fill="#161b22"/>
-    <rect id="c_15_1" x="250" y="42" width="11" height="11" rx="2" fill="#0e4429"/>
-    <rect id="c_15_2" x="250" y="56" width="11" height="11" rx="2" fill="#0e4429"/>
+    <rect id="c_15_1" x="250" y="42" width="11" height="11" rx="2" fill="#161b22"/>
+    <rect id="c_15_2" x="250" y="56" width="11" height="11" rx="2" fill="#161b22"/>
     <rect id="c_15_3" x="250" y="70" width="11" height="11" rx="2" fill="#161b22"/>
     <rect id="c_15_4" x="250" y="84" width="11" height="11" rx="2" fill="#161b22"/>
     <rect id="c_15_5" x="250" y="98" width="11" height="11" rx="2" fill="#006d32">
@@ -505,9 +505,9 @@
     <rect id="c_20_3" x="320" y="70" width="11" height="11" rx="2" fill="#161b22"/>
     <rect id="c_20_4" x="320" y="84" width="11" height="11" rx="2" fill="#161b22"/>
     <rect id="c_20_5" x="320" y="98" width="11" height="11" rx="2" fill="#161b22"/>
-    <rect id="c_20_6" x="320" y="112" width="11" height="11" rx="2" fill="#26a641"/>
+    <rect id="c_20_6" x="320" y="112" width="11" height="11" rx="2" fill="#161b22"/>
     <rect id="c_21_0" x="334" y="28" width="11" height="11" rx="2" fill="#161b22"/>
-    <rect id="c_21_1" x="334" y="42" width="11" height="11" rx="2" fill="#0e4429"/>
+    <rect id="c_21_1" x="334" y="42" width="11" height="11" rx="2" fill="#161b22"/>
     <rect id="c_21_2" x="334" y="56" width="11" height="11" rx="2" fill="#161b22"/>
     <rect id="c_21_3" x="334" y="70" width="11" height="11" rx="2" fill="#161b22"/>
     <rect id="c_21_4" x="334" y="84" width="11" height="11" rx="2" fill="#161b22"/>
@@ -540,7 +540,7 @@
       <animate attributeName="opacity" dur="120.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.08953; 0.0902; 0.09286; 0.999; 1" />
     </rect>
     <rect id="c_23_4" x="362" y="84" width="11" height="11" rx="2" fill="#161b22"/>
-    <rect id="c_23_5" x="362" y="98" width="11" height="11" rx="2" fill="#006d32"/>
+    <rect id="c_23_5" x="362" y="98" width="11" height="11" rx="2" fill="#161b22"/>
     <rect id="c_23_6" x="362" y="112" width="11" height="11" rx="2" fill="#161b22"/>
     <rect id="c_24_0" x="376" y="28" width="11" height="11" rx="2" fill="#39d353">
       <animate attributeName="fill" dur="120.4s" repeatCount="indefinite" values="#39d353; #39d353; #FFFFFF; #44CC44; #060913; #060913; #39d353" keyTimes="0; 0.249; 0.24967; 0.25066; 0.25233; 0.999; 1" />
@@ -669,8 +669,8 @@
     <rect id="c_33_1" x="502" y="42" width="11" height="11" rx="2" fill="#161b22"/>
     <rect id="c_33_2" x="502" y="56" width="11" height="11" rx="2" fill="#161b22"/>
     <rect id="c_33_3" x="502" y="70" width="11" height="11" rx="2" fill="#161b22"/>
-    <rect id="c_33_4" x="502" y="84" width="11" height="11" rx="2" fill="#39d353"/>
-    <rect id="c_33_5" x="502" y="98" width="11" height="11" rx="2" fill="#006d32"/>
+    <rect id="c_33_4" x="502" y="84" width="11" height="11" rx="2" fill="#161b22"/>
+    <rect id="c_33_5" x="502" y="98" width="11" height="11" rx="2" fill="#161b22"/>
     <rect id="c_33_6" x="502" y="112" width="11" height="11" rx="2" fill="#161b22"/>
     <rect id="c_34_0" x="516" y="28" width="11" height="11" rx="2" fill="#26a641">
       <animate attributeName="fill" dur="120.4s" repeatCount="indefinite" values="#26a641; #26a641; #FFFFFF; #00FFFF; #060913; #060913; #26a641" keyTimes="0; 0.8755; 0.87616; 0.87716; 0.87882; 0.999; 1" />
@@ -678,7 +678,7 @@
     </rect>
     <rect id="c_34_1" x="516" y="42" width="11" height="11" rx="2" fill="#161b22"/>
     <rect id="c_34_2" x="516" y="56" width="11" height="11" rx="2" fill="#161b22"/>
-    <rect id="c_34_3" x="516" y="70" width="11" height="11" rx="2" fill="#0e4429"/>
+    <rect id="c_34_3" x="516" y="70" width="11" height="11" rx="2" fill="#161b22"/>
     <rect id="c_34_4" x="516" y="84" width="11" height="11" rx="2" fill="#161b22"/>
     <rect id="c_34_5" x="516" y="98" width="11" height="11" rx="2" fill="#161b22"/>
     <rect id="c_34_6" x="516" y="112" width="11" height="11" rx="2" fill="#161b22"/>
