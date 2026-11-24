@@ -589,9 +589,14 @@ def build_svg(grid):
 
         # Master Turn Container: active only during this Pokémon's 2.4s window of the 120s round
         lines.append(f'\n  <!-- [{idx+1:02d}/50] {name.upper()} TURN CONTAINER ({t_start:.1f}s - {t_end:.1f}s) -->')
-        lines.append(f'  <g id="turn_{idx}_{name.lower()}" opacity="0">')
-        lines.append(f'    <animate attributeName="opacity" dur="{TOTAL_DUR:.1f}s" repeatCount="indefinite" '
-                     f'values="0; 0; 1; 1; 0; 0" keyTimes="0; {k_start}; {k_start_in}; {k_end_out}; {k_end}; 1" />')
+        if idx == 0:
+            lines.append(f'  <g id="turn_{idx}_{name.lower()}" opacity="1">')
+            lines.append(f'    <animate attributeName="opacity" dur="{TOTAL_DUR:.1f}s" repeatCount="indefinite" '
+                         f'values="1; 1; 0; 0; 0; 1" keyTimes="0; {k_end_out}; {k_end}; 0.9997; 0.9999; 1" />')
+        else:
+            lines.append(f'  <g id="turn_{idx}_{name.lower()}" opacity="0">')
+            lines.append(f'    <animate attributeName="opacity" dur="{TOTAL_DUR:.1f}s" repeatCount="indefinite" '
+                         f'values="0; 0; 1; 1; 0; 0" keyTimes="0; {k_start}; {k_start_in}; {k_end_out}; {k_end}; 1" />')
 
         # ═════════════════════════════════════════════════════════════════════
         # PIKACHU SPECIAL ARCHITECTURE (#1)
@@ -604,9 +609,9 @@ def build_svg(grid):
 
             # Feature 4: Parabolic Pokéball Throw-In Entrance (0.0s - 0.48s)
             lines.append(f'    <!-- Feature 4: Parabolic Pokéball Throw-In Entrance -->')
-            lines.append(f'    <g opacity="0">')
+            lines.append(f'    <g opacity="1">')
             lines.append(f'      <animate attributeName="opacity" dur="{TURN_DUR:.2f}s" repeatCount="indefinite" '
-                         f'values="0; 1; 1; 0; 0" keyTimes="0; 0.02; 0.18; 0.21; 1"/>')
+                         f'values="1; 1; 0; 0" keyTimes="0; 0.18; 0.21; 1"/>')
             lines.append(f'      <animateTransform attributeName="transform" type="translate" dur="{TURN_DUR:.2f}s" repeatCount="indefinite" '
                          f'values="{tx1 - 70},{BOTTOM_Y + 18}; {tx1 - 35},{BOTTOM_Y - 32}; {tx1 - 8},{BOTTOM_Y}; {tx1},{BOTTOM_Y - 9}; {tx1},{BOTTOM_Y}; {tx1},{BOTTOM_Y}" '
                          f'keyTimes="0; 0.08; 0.14; 0.17; 0.19; 1"/>')
@@ -720,8 +725,8 @@ def build_svg(grid):
             lines.append(f'    </circle>')
 
             # Pikachu HUD
-            lines.append(f'    <g opacity="0">')
-            lines.append(f'      <animate attributeName="opacity" dur="{TURN_DUR:.2f}s" repeatCount="indefinite" values="0; 1; 1; 0; 0" keyTimes="0; 0.05; 0.92; 0.96; 1"/>')
+            lines.append(f'    <g opacity="1">')
+            lines.append(f'      <animate attributeName="opacity" dur="{TURN_DUR:.2f}s" repeatCount="indefinite" values="1; 1; 0; 0" keyTimes="0; 0.92; 0.96; 1"/>')
             lines.append(f'      <text x="{GRID_LEFT}" y="214" class="hud-title">#01 PIKACHU</text>')
             lines.append(f'      <text x="{GRID_LEFT + 120}" y="214" class="hud-move" fill="#FFE135">❯ SUPER THUNDERBOLT</text>')
             lines.append(f'      <text x="{GRID_LEFT + 310}" y="214" class="hud-sub">PIERCING BEAM: 7-HIT CASCADE ❯ COLUMN OBLITERATED</text>')

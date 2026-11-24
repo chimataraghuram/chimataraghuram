@@ -946,11 +946,11 @@
   <!-- Pokémon Bottom Shooters & Upward Attacks (Standalone Modular Timelines) -->
 
   <!-- [01/50] PIKACHU TURN CONTAINER (0.0s - 2.4s) -->
-  <g id="turn_0_pikachu" opacity="0">
-    <animate attributeName="opacity" dur="120.0s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.0001; 0.00033; 0.01967; 0.02; 1" />
+  <g id="turn_0_pikachu" opacity="1">
+    <animate attributeName="opacity" dur="120.0s" repeatCount="indefinite" values="1; 1; 0; 0; 0; 1" keyTimes="0; 0.01967; 0.02; 0.9997; 0.9999; 1" />
     <!-- Feature 4: Parabolic Pokéball Throw-In Entrance -->
-    <g opacity="0">
-      <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 1; 1; 0; 0" keyTimes="0; 0.02; 0.18; 0.21; 1"/>
+    <g opacity="1">
+      <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="1; 1; 0; 0" keyTimes="0; 0.18; 0.21; 1"/>
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="563,186; 598,136; 625,168; 633,159; 633,168; 633,168" keyTimes="0; 0.08; 0.14; 0.17; 0.19; 1"/>
       <g>
         <animateTransform attributeName="transform" type="rotate" dur="0.44s" repeatCount="indefinite" values="0; 720"/>
@@ -1058,8 +1058,8 @@
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="0; 0; 22; 0; 0" keyTimes="0; 0.85; 0.88; 0.96; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.85; 0.88; 0.96; 1"/>
     </circle>
-    <g opacity="0">
-      <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 1; 1; 0; 0" keyTimes="0; 0.05; 0.92; 0.96; 1"/>
+    <g opacity="1">
+      <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="1; 1; 0; 0" keyTimes="0; 0.92; 0.96; 1"/>
       <text x="40" y="214" class="hud-title">#01 PIKACHU</text>
       <text x="160" y="214" class="hud-move" fill="#FFE135">❯ SUPER THUNDERBOLT</text>
       <text x="350" y="214" class="hud-sub">PIERCING BEAM: 7-HIT CASCADE ❯ COLUMN OBLITERATED</text>
