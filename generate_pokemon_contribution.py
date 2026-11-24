@@ -83,14 +83,14 @@ OTHER_49_POKEMON = [
 
 # ─── Dimensions ───────────────────────────────────────────────────────────────
 SVG_W       = 870
-SVG_H       = 230
+SVG_H       = 248
 GRID_LEFT   = 40
-GRID_TOP    = 28
+GRID_TOP    = 44
 CELL_SIZE   = 11
 CELL_GAP    = 3
 WEEKS       = 53
 DAYS        = 7
-BOTTOM_Y    = 168
+BOTTOM_Y    = 182
 SPRITE_SIZE = 50
 
 LEVEL_COLORS = {
@@ -101,9 +101,10 @@ LEVEL_COLORS = {
     4: "#39d353",
 }
 
-TURN_DUR    = 2.4   # Exactly 2.4 seconds per Pokemon
+PIKA_DUR    = 4.8   # Extended slow entrance and showcase for Pikachu
+TURN_DUR    = 2.4   # Exactly 2.4 seconds per other Pokemon
 ROSTER_LEN  = 50    # Exactly 50 Pokemon
-TOTAL_DUR   = ROSTER_LEN * TURN_DUR  # 120.0 seconds total circular loop
+TOTAL_DUR   = PIKA_DUR + (ROSTER_LEN - 1) * TURN_DUR  # 122.4 seconds total circular loop
 
 def ensure_sprite(name, pid):
     os.makedirs(SPRITE_DIR, exist_ok=True)
@@ -394,6 +395,25 @@ def render_comic_bubble_2_4(text, x, y, bg_color="#FFE135", text_color="#000000"
       <text x="0" y="4" fill="{text_color}" font-size="9px" font-weight="900" font-family="'Impact', 'Arial Black', monospace" text-anchor="middle" letter-spacing="0.5">{text}</text>
     </g>'''
 
+def render_comic_bubble_total(text, x, y, bg_color="#FFE135", text_color="#000000", t_start=2.45, dur=0.55):
+    pts = "-24,-13 -9,-17 0,-14 13,-18 24,-11 28,0 22,12 11,17 -2,13 -13,18 -24,9 -28,-2"
+    k1 = round(t_start / TOTAL_DUR, 5)
+    k2 = round((t_start + 0.06) / TOTAL_DUR, 5)
+    k3 = round((t_start + dur - 0.08) / TOTAL_DUR, 5)
+    k4 = round((t_start + dur) / TOTAL_DUR, 5)
+    k5 = min(0.9998, round((t_start + dur + 0.06) / TOTAL_DUR, 5))
+    return f'''
+    <!-- Comic Sound Badge: {text} -->
+    <g opacity="0">
+      <animate attributeName="opacity" dur="{TOTAL_DUR:.1f}s" repeatCount="indefinite"
+               values="0; 0; 1; 1; 0; 0" keyTimes="0; {k1}; {k2}; {k3}; {k4}; 1" />
+      <animateTransform attributeName="transform" type="translate" dur="{TOTAL_DUR:.1f}s" repeatCount="indefinite"
+               values="{x},{y+6}; {x},{y+6}; {x},{y-14}; {x},{y-14}; {x},{y+6}; {x},{y+6}"
+               keyTimes="0; {k1}; {k4}; {k5}; 0.9999; 1" />
+      <polygon points="{pts}" fill="{bg_color}" stroke="#000000" stroke-width="2"/>
+      <text x="0" y="4" fill="{text_color}" font-size="9px" font-weight="900" font-family="'Impact', 'Arial Black', monospace" text-anchor="middle" letter-spacing="0.5">{text}</text>
+    </g>'''
+
 def build_svg(grid):
     rng = random.Random(20261124)
 
@@ -442,16 +462,16 @@ def build_svg(grid):
     # Map each cell to the exact moment it is destroyed and the attack color
     cell_destruction_times = {}
 
-    # Pikachu column: all 7 rows destroyed
+    # Pikachu column: all 7 rows destroyed during Super Thunderbolt cascade
     for d_row in range(7):
-        t_row_hit = 1.35 + (6 - d_row) * 0.05
+        t_row_hit = 3.40 + (6 - d_row) * 0.05
         cell_destruction_times[(pika_col, d_row)] = (t_row_hit, "#FFE135")
     # Pikachu shot 1:
-    cell_destruction_times[pika_shot1] = (0.95, "#FFE135")
+    cell_destruction_times[pika_shot1] = (2.50, "#FFE135")
 
     # Other Pokémon:
     for idx in range(1, ROSTER_LEN):
-        t_start = idx * TURN_DUR
+        t_start = PIKA_DUR + (idx - 1) * TURN_DUR
         p_cells = poke_targets[idx]
         acolor = roster[idx][4]
 
@@ -487,6 +507,9 @@ def build_svg(grid):
     </radialGradient>
 
     <style>
+      .arena-title  {{ font-size: 11px; font-weight: 900; fill: #FFE135; font-family: monospace; letter-spacing: 1.5px; }}
+      .arena-mode   {{ font-size: 9px; font-weight: bold; fill: #00F5FF; font-family: monospace; letter-spacing: 1px; }}
+      .arena-status {{ font-size: 9px; font-weight: bold; fill: #39d353; font-family: monospace; letter-spacing: 1px; }}
       .month-label  {{ font-size: 9px; fill: #7d8590; font-family: monospace; }}
       .hud-title    {{ font-size: 11px; font-weight: bold; fill: #58a6ff; font-family: monospace; }}
       .hud-move     {{ font-size: 11px; font-weight: bold; font-family: monospace; }}
@@ -531,12 +554,20 @@ def build_svg(grid):
         lines.append(f'    <circle cx="{sx}" cy="{sy}" r="{sr}" fill="#ffffff" opacity="{op}"/>')
     lines.append('  </g>\n')
 
+    # Arena Header Title & Status
+    lines.append('  <!-- Arena Header & Title -->')
+    lines.append('  <g id="arena_header">')
+    lines.append(f'    <text x="{GRID_LEFT}" y="20" class="arena-title">⚔️ POKÉMON CONTRIBUTION BATTLE</text>')
+    lines.append(f'    <text x="{GRID_LEFT + 250}" y="20" class="arena-mode">ARCADE COMBAT // 50 POKÉMON ROSTER</text>')
+    lines.append(f'    <text x="{SVG_W - GRID_LEFT}" y="20" text-anchor="end" class="arena-status">● LIVE COMBAT // 100% CLEAR</text>')
+    lines.append('  </g>\n')
+
     # Month Labels
     month_names = ["Nov","Dec","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov"]
     lines.append('  <!-- Month Headers -->')
     for i, m in enumerate(month_names):
         mx = GRID_LEFT + int(i * (WEEKS * (CELL_SIZE + CELL_GAP) / 12.3))
-        lines.append(f'  <text x="{mx}" y="18" class="month-label">{m}</text>')
+        lines.append(f'  <text x="{mx}" y="34" class="month-label">{m}</text>')
 
     # Contribution Grid with 100% Circular Reset Loop
     lines.append('\n  <!-- GitHub Contribution Grid (100% Circular Reset Loop) -->')
@@ -570,14 +601,18 @@ def build_svg(grid):
     lines.append('  </g>\n')
 
     # Separator Line
-    lines.append(f'  <line x1="{GRID_LEFT}" y1="135" x2="{GRID_LEFT + WEEKS*(CELL_SIZE+CELL_GAP)}" y2="135" stroke="#21262d" stroke-dasharray="3,3" opacity="0.4"/>')
+    lines.append(f'  <line x1="{GRID_LEFT}" y1="149" x2="{GRID_LEFT + WEEKS*(CELL_SIZE+CELL_GAP)}" y2="149" stroke="#21262d" stroke-dasharray="3,3" opacity="0.4"/>')
 
     # Pokémon Bottom Shooters
     lines.append('  <!-- Pokémon Bottom Shooters & Upward Attacks (Standalone Modular Timelines) -->')
 
     for idx, (name, pid, color, attack, acolor, atype) in enumerate(roster):
-        t_start = idx * TURN_DUR
-        t_end   = (idx + 1) * TURN_DUR
+        if idx == 0:
+            t_start = 0.0
+            t_end   = PIKA_DUR
+        else:
+            t_start = PIKA_DUR + (idx - 1) * TURN_DUR
+            t_end   = t_start + TURN_DUR
 
         k_start    = max(0.0001, round(t_start / TOTAL_DUR, 5))
         k_start_in = min(0.9995, round((t_start + 0.04) / TOTAL_DUR, 5))
@@ -587,7 +622,7 @@ def build_svg(grid):
         gid = f"poke_{idx}_{name.lower()}"
         sp_id = sprite_uris.get(name)
 
-        # Master Turn Container: active only during this Pokémon's 2.4s window of the 120s round
+        # Master Turn Container: active only during this Pokémon's window of the round
         lines.append(f'\n  <!-- [{idx+1:02d}/50] {name.upper()} TURN CONTAINER ({t_start:.1f}s - {t_end:.1f}s) -->')
         if idx == 0:
             lines.append(f'  <g id="turn_{idx}_{name.lower()}" opacity="1">')
@@ -599,7 +634,7 @@ def build_svg(grid):
                          f'values="0; 0; 1; 1; 0; 0" keyTimes="0; {k_start}; {k_start_in}; {k_end_out}; {k_end}; 1" />')
 
         # ═════════════════════════════════════════════════════════════════════
-        # PIKACHU SPECIAL ARCHITECTURE (#1)
+        # PIKACHU SPECIAL ARCHITECTURE (#1) — Extended Slow Entrance & Showcase
         # ═════════════════════════════════════════════════════════════════════
         if idx == 0:
             tw1, td1 = pika_shot1
@@ -607,54 +642,56 @@ def build_svg(grid):
             tw2 = pika_col
             tx2 = cell_x(tw2) + CELL_SIZE//2
 
-            # Feature 4: Parabolic Pokéball Throw-In Entrance (0.0s - 0.48s)
-            lines.append(f'    <!-- Feature 4: Parabolic Pokéball Throw-In Entrance -->')
+            kp = lambda t_sec: f"{round(t_sec / TOTAL_DUR, 5):.5f}"
+
+            # Feature 4: Slow Parabolic Pokéball Throw-In Entrance (0.0s - 1.45s)
+            lines.append(f'    <!-- Feature 4: Slow Parabolic Pokéball Throw-In Entrance (Smooth & Clear) -->')
             lines.append(f'    <g opacity="1">')
-            lines.append(f'      <animate attributeName="opacity" dur="{TURN_DUR:.2f}s" repeatCount="indefinite" '
-                         f'values="1; 1; 0; 0" keyTimes="0; 0.18; 0.21; 1"/>')
-            lines.append(f'      <animateTransform attributeName="transform" type="translate" dur="{TURN_DUR:.2f}s" repeatCount="indefinite" '
-                         f'values="{tx1 - 70},{BOTTOM_Y + 18}; {tx1 - 35},{BOTTOM_Y - 32}; {tx1 - 8},{BOTTOM_Y}; {tx1},{BOTTOM_Y - 9}; {tx1},{BOTTOM_Y}; {tx1},{BOTTOM_Y}" '
-                         f'keyTimes="0; 0.08; 0.14; 0.17; 0.19; 1"/>')
+            lines.append(f'      <animate attributeName="opacity" dur="{TOTAL_DUR:.1f}s" repeatCount="indefinite" '
+                         f'values="1; 1; 0; 0" keyTimes="0; {kp(1.35)}; {kp(1.48)}; 1"/>')
+            lines.append(f'      <animateTransform attributeName="transform" type="translate" dur="{TOTAL_DUR:.1f}s" repeatCount="indefinite" '
+                         f'values="{tx1 - 95},{BOTTOM_Y + 24}; {tx1 - 48},{BOTTOM_Y - 46}; {tx1 - 10},{BOTTOM_Y}; {tx1},{BOTTOM_Y - 14}; {tx1 + 6},{BOTTOM_Y}; {tx1 + 6},{BOTTOM_Y}" '
+                         f'keyTimes="0; {kp(0.65)}; {kp(1.05)}; {kp(1.22)}; {kp(1.38)}; 1"/>')
             lines.append(f'      <g>')
-            lines.append(f'        <animateTransform attributeName="transform" type="rotate" dur="0.44s" repeatCount="indefinite" values="0; 720"/>')
-            lines.append(f'        <path d="M-7,0 A7,7 0 0,1 7,0 Z" fill="#EE1515"/>')
-            lines.append(f'        <path d="M-7,0 A7,7 0 0,0 7,0 Z" fill="#FFFFFF"/>')
-            lines.append(f'        <line x1="-7" y1="0" x2="7" y2="0" stroke="#111111" stroke-width="1.8"/>')
-            lines.append(f'        <circle cx="0" cy="0" r="2.4" fill="#111111"/>')
-            lines.append(f'        <circle cx="0" cy="0" r="1.3" fill="#FFFFFF"/>')
+            lines.append(f'        <animateTransform attributeName="transform" type="rotate" dur="0.65s" repeatCount="indefinite" values="0; 360"/>')
+            lines.append(f'        <path d="M-8,0 A8,8 0 0,1 8,0 Z" fill="#EE1515"/>')
+            lines.append(f'        <path d="M-8,0 A8,8 0 0,0 8,0 Z" fill="#FFFFFF"/>')
+            lines.append(f'        <line x1="-8" y1="0" x2="8" y2="0" stroke="#111111" stroke-width="2"/>')
+            lines.append(f'        <circle cx="0" cy="0" r="2.8" fill="#111111"/>')
+            lines.append(f'        <circle cx="0" cy="0" r="1.5" fill="#FFFFFF"/>')
             lines.append(f'      </g>')
             lines.append(f'    </g>')
 
-            # Pokéball Opening Light Cone Beam (0.44s - 0.54s)
-            lines.append(f'    <polygon points="{tx1},{BOTTOM_Y} {tx1-30},{BOTTOM_Y-45} {tx1+30},{BOTTOM_Y-45}" fill="#FFF455" opacity="0">')
-            lines.append(f'      <animate attributeName="opacity" dur="{TURN_DUR:.2f}s" repeatCount="indefinite" '
-                         f'values="0; 0; 0.95; 0; 0" keyTimes="0; 0.18; 0.20; 0.23; 1"/>')
+            # Pokéball Opening Light Cone Beam (1.30s - 1.85s)
+            lines.append(f'    <polygon points="{tx1+6},{BOTTOM_Y} {tx1-34},{BOTTOM_Y-50} {tx1+46},{BOTTOM_Y-50}" fill="#FFF455" opacity="0">')
+            lines.append(f'      <animate attributeName="opacity" dur="{TOTAL_DUR:.1f}s" repeatCount="indefinite" '
+                         f'values="0; 0; 0.95; 0; 0" keyTimes="0; {kp(1.32)}; {kp(1.42)}; {kp(1.82)}; 1"/>')
             lines.append(f'    </polygon>')
-            lines.append(f'    <circle cx="{tx1}" cy="{BOTTOM_Y}" r="0" fill="#FFFFFF" opacity="0">')
-            lines.append(f'      <animate attributeName="r" dur="{TURN_DUR:.2f}s" repeatCount="indefinite" '
-                         f'values="0; 0; 32; 0; 0" keyTimes="0; 0.18; 0.20; 0.23; 1"/>')
-            lines.append(f'      <animate attributeName="opacity" dur="{TURN_DUR:.2f}s" repeatCount="indefinite" '
-                         f'values="0; 0; 1; 0; 0" keyTimes="0; 0.18; 0.20; 0.23; 1"/>')
+            lines.append(f'    <circle cx="{tx1+6}" cy="{BOTTOM_Y}" r="0" fill="#FFFFFF" opacity="0">')
+            lines.append(f'      <animate attributeName="r" dur="{TOTAL_DUR:.1f}s" repeatCount="indefinite" '
+                         f'values="0; 0; 36; 0; 0" keyTimes="0; {kp(1.32)}; {kp(1.42)}; {kp(1.82)}; 1"/>')
+            lines.append(f'      <animate attributeName="opacity" dur="{TOTAL_DUR:.1f}s" repeatCount="indefinite" '
+                         f'values="0; 0; 1; 0; 0" keyTimes="0; {kp(1.32)}; {kp(1.42)}; {kp(1.82)}; 1"/>')
             lines.append(f'    </circle>')
 
-            # Pikachu Character Body (visible from 0.48s to 2.25s)
-            dx = tx2 - tx1
+            # Pikachu Character Body (visible from 1.65s to 4.45s)
+            dx = tx2 - (tx1 + 6)
             tilt = 14 if dx >= 0 else -14
             lines.append(f'    <!-- Pikachu Character Body -->')
             lines.append(f'    <g id="{gid}" opacity="0">')
-            lines.append(f'      <animate attributeName="opacity" dur="{TURN_DUR:.2f}s" repeatCount="indefinite" '
-                         f'values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.19; 0.22; 0.90; 0.94; 1"/>')
-            lines.append(f'      <animateTransform attributeName="transform" type="translate" dur="{TURN_DUR:.2f}s" repeatCount="indefinite" '
-                         f'values="{tx1 - SPRITE_SIZE//2},{BOTTOM_Y - SPRITE_SIZE//2}; '
-                         f'{tx1 - SPRITE_SIZE//2},{BOTTOM_Y - SPRITE_SIZE//2}; '
+            lines.append(f'      <animate attributeName="opacity" dur="{TOTAL_DUR:.1f}s" repeatCount="indefinite" '
+                         f'values="0; 0; 1; 1; 0; 0" keyTimes="0; {kp(1.65)}; {kp(1.85)}; {kp(4.25)}; {kp(4.45)}; 1"/>')
+            lines.append(f'      <animateTransform attributeName="transform" type="translate" dur="{TOTAL_DUR:.1f}s" repeatCount="indefinite" '
+                         f'values="{tx1 + 6 - SPRITE_SIZE//2},{BOTTOM_Y - SPRITE_SIZE//2}; '
+                         f'{tx1 + 6 - SPRITE_SIZE//2},{BOTTOM_Y - SPRITE_SIZE//2}; '
                          f'{tx2 - SPRITE_SIZE//2},{BOTTOM_Y - SPRITE_SIZE//2}; '
                          f'{tx2 - SPRITE_SIZE//2},{BOTTOM_Y - SPRITE_SIZE//2}" '
-                         f'keyTimes="0; 0.38; 0.48; 1"/>')
+                         f'keyTimes="0; {kp(2.85)}; {kp(3.20)}; 1"/>')
             lines.append(f'      <g>')
             lines.append(f'        <animateTransform attributeName="transform" type="scale" dur="0.7s" repeatCount="indefinite" '
                          f'values="1,1; 1.04,0.95; 0.96,1.04; 1,1" additive="sum"/>')
-            lines.append(f'        <animateTransform attributeName="transform" type="rotate" dur="{TURN_DUR:.2f}s" repeatCount="indefinite" '
-                         f'values="0; 0; {tilt}; {tilt}; 0; 0" keyTimes="0; 0.36; 0.39; 0.48; 0.50; 1" additive="sum"/>')
+            lines.append(f'        <animateTransform attributeName="transform" type="rotate" dur="{TOTAL_DUR:.1f}s" repeatCount="indefinite" '
+                         f'values="0; 0; {tilt}; {tilt}; 0; 0" keyTimes="0; {kp(2.80)}; {kp(2.88)}; {kp(3.20)}; {kp(3.28)}; 1" additive="sum"/>')
             lines.append(f'        <ellipse cx="{SPRITE_SIZE//2}" cy="{SPRITE_SIZE-2}" rx="18" ry="6" fill="#FFE135" opacity="0.8">')
             lines.append(f'          <animate attributeName="opacity" values="0.4;1;0.4" dur="0.25s" repeatCount="indefinite"/>')
             lines.append(f'          <animate attributeName="rx" values="14;24;14" dur="0.25s" repeatCount="indefinite"/>')
@@ -663,38 +700,30 @@ def build_svg(grid):
             lines.append(f'      </g>')
             lines.append(f'    </g>')
 
-            # Feature 2: Rapid-Fire 3-Shot Electric Arcade Volley (0.60s - 0.95s)
+            # Feature 2: Rapid-Fire 3-Shot Electric Arcade Volley (2.05s - 2.70s)
             lines.append(f'    <!-- Feature 2: Rapid-Fire 3-Shot Electric Arcade Volley -->')
-            for v_idx, t_bolt in enumerate([0.62, 0.72, 0.82]):
-                kb1 = round(t_bolt / TURN_DUR, 4)
-                kb2 = round((t_bolt + 0.03) / TURN_DUR, 4)
-                kb3 = round((t_bolt + 0.15) / TURN_DUR, 4)
-                kb4 = round((t_bolt + 0.18) / TURN_DUR, 4)
+            for v_idx, t_bolt in enumerate([2.10, 2.30, 2.50]):
                 lines.append(f'    <g opacity="0">')
-                lines.append(f'      <animate attributeName="opacity" dur="{TURN_DUR:.2f}s" repeatCount="indefinite" '
-                             f'values="0; 0; 1; 1; 0; 0" keyTimes="0; {kb1}; {kb2}; {kb3}; {kb4}; 1"/>')
-                lines.append(f'      <polyline points="{tx1},{BOTTOM_Y-15} {tx1+((v_idx-1)*7)},{BOTTOM_Y-35} {tx1-((v_idx-1)*6)},{(BOTTOM_Y+ty1)//2} {tx1},{ty1}" '
+                lines.append(f'      <animate attributeName="opacity" dur="{TOTAL_DUR:.1f}s" repeatCount="indefinite" '
+                             f'values="0; 0; 1; 1; 0; 0" keyTimes="0; {kp(t_bolt)}; {kp(t_bolt + 0.04)}; {kp(t_bolt + 0.18)}; {kp(t_bolt + 0.22)}; 1"/>')
+                lines.append(f'      <polyline points="{tx1+6},{BOTTOM_Y-15} {tx1+6+((v_idx-1)*7)},{BOTTOM_Y-35} {tx1+6-((v_idx-1)*6)},{(BOTTOM_Y+ty1)//2} {tx1},{ty1}" '
                              f'fill="none" stroke="#FFE135" stroke-width="{3.5 - v_idx*0.4}" stroke-linecap="round"/>')
                 lines.append(f'    </g>')
 
-            # Shot 1 Reticle & Critical Hit Debris (0.90s - 1.25s)
+            # Shot 1 Reticle & Critical Hit Debris (2.20s - 2.85s)
             lines.append(f'    <circle cx="{tx1}" cy="{ty1}" r="9" fill="none" stroke="#FFE135" stroke-width="2" class="pixel-reticle" opacity="0">')
-            lines.append(f'      <animate attributeName="opacity" dur="{TURN_DUR:.2f}s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; 0.35; 0.38; 0.48; 1"/>')
+            lines.append(f'      <animate attributeName="opacity" dur="{TOTAL_DUR:.1f}s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; {kp(2.10)}; {kp(2.20)}; {kp(2.80)}; 1"/>')
             lines.append(f'    </circle>')
             lines.append(f'    <text x="{tx1}" y="{ty1-8}" fill="#FFFF00" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL!')
-            lines.append(f'      <animate attributeName="opacity" dur="{TURN_DUR:.2f}s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.38; 0.40; 0.50; 1"/>')
+            lines.append(f'      <animate attributeName="opacity" dur="{TOTAL_DUR:.1f}s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; {kp(2.45)}; {kp(2.50)}; {kp(2.90)}; 1"/>')
             lines.append(f'    </text>')
-            lines.append(render_comic_bubble_2_4("ZAP!", tx1 + 18, ty1 - 10, bg_color="#FFE135", text_color="#000000", t_start=0.92, dur=0.45))
+            lines.append(render_comic_bubble_total("ZAP!", tx1 + 24, ty1 - 10, bg_color="#FFE135", text_color="#000000", t_start=2.45, dur=0.55))
 
-            # Feature 1: Column-Piercing Super Thunderbolt (1.25s - 1.85s)
+            # Feature 1: Column-Piercing Super Thunderbolt (3.25s - 4.15s)
             lines.append(f'    <!-- Feature 1: Column-Piercing Super Thunderbolt -->')
-            k_tb1 = round(1.25 / TURN_DUR, 4)
-            k_tb2 = round(1.30 / TURN_DUR, 4)
-            k_tb3 = round(1.72 / TURN_DUR, 4)
-            k_tb4 = round(1.80 / TURN_DUR, 4)
             lines.append(f'    <g opacity="0">')
-            lines.append(f'      <animate attributeName="opacity" dur="{TURN_DUR:.2f}s" repeatCount="indefinite" '
-                         f'values="0; 0; 1; 1; 0; 0" keyTimes="0; {k_tb1}; {k_tb2}; {k_tb3}; {k_tb4}; 1"/>')
+            lines.append(f'      <animate attributeName="opacity" dur="{TOTAL_DUR:.1f}s" repeatCount="indefinite" '
+                         f'values="0; 0; 1; 1; 0; 0" keyTimes="0; {kp(3.25)}; {kp(3.32)}; {kp(4.00)}; {kp(4.12)}; 1"/>')
             lines.append(f'      <line x1="{tx2}" y1="{BOTTOM_Y}" x2="{tx2}" y2="{GRID_TOP - 10}" stroke="#FFE135" stroke-width="14" stroke-linecap="round" opacity="0.4"/>')
             lines.append(f'      <line x1="{tx2}" y1="{BOTTOM_Y}" x2="{tx2}" y2="{GRID_TOP - 10}" stroke="#FFF888" stroke-width="8" stroke-linecap="round" opacity="0.85"/>')
             lines.append(f'      <line x1="{tx2}" y1="{BOTTOM_Y}" x2="{tx2}" y2="{GRID_TOP - 10}" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>')
@@ -704,33 +733,30 @@ def build_svg(grid):
             for d_row in range(7):
                 cx_row = cell_x(pika_col) + CELL_SIZE//2
                 cy_row = cell_y(d_row) + CELL_SIZE//2
-                t_row_burst = 1.35 + (6 - d_row) * 0.05
-                kr1 = round(t_row_burst / TURN_DUR, 4)
-                kr2 = round((t_row_burst + 0.03) / TURN_DUR, 4)
-                kr3 = round((t_row_burst + 0.25) / TURN_DUR, 4)
+                t_row_burst = 3.40 + (6 - d_row) * 0.05
                 lines.append(f'    <circle cx="{cx_row}" cy="{cy_row}" r="14" fill="#FFFFFF" opacity="0">')
-                lines.append(f'      <animate attributeName="opacity" dur="{TURN_DUR:.2f}s" repeatCount="indefinite" '
-                             f'values="0; 0; 1; 0; 0" keyTimes="0; {kr1}; {kr2}; {kr3}; 1"/>')
+                lines.append(f'      <animate attributeName="opacity" dur="{TOTAL_DUR:.1f}s" repeatCount="indefinite" '
+                             f'values="0; 0; 1; 0; 0" keyTimes="0; {kp(t_row_burst)}; {kp(t_row_burst + 0.04)}; {kp(t_row_burst + 0.28)}; 1"/>')
                 lines.append(f'    </circle>')
 
-            lines.append(render_comic_bubble_2_4("BZZZZT!", tx2, GRID_TOP - 6, bg_color="#FFE135", text_color="#000000", t_start=1.35, dur=0.55))
+            lines.append(render_comic_bubble_total("BZZZZT!", tx2, GRID_TOP - 6, bg_color="#FFE135", text_color="#000000", t_start=3.40, dur=0.65))
 
-            # Pokéball Recall Beam Exit (2.05s - 2.35s)
+            # Pokéball Recall Beam Exit (4.30s - 4.75s)
             lines.append(f'    <polygon points="{tx2},{BOTTOM_Y-45} {tx2-18},{BOTTOM_Y+10} {tx2+18},{BOTTOM_Y+10}" fill="#FF3333" opacity="0">')
-            lines.append(f'      <animate attributeName="opacity" dur="{TURN_DUR:.2f}s" repeatCount="indefinite" values="0; 0; 0.75; 0; 0" keyTimes="0; 0.85; 0.88; 0.96; 1"/>')
+            lines.append(f'      <animate attributeName="opacity" dur="{TOTAL_DUR:.1f}s" repeatCount="indefinite" values="0; 0; 0.75; 0; 0" keyTimes="0; {kp(4.30)}; {kp(4.38)}; {kp(4.75)}; 1"/>')
             lines.append(f'    </polygon>')
             lines.append(f'    <circle cx="{tx2}" cy="{BOTTOM_Y}" r="0" fill="#FFFFFF" opacity="0">')
-            lines.append(f'      <animate attributeName="r" dur="{TURN_DUR:.2f}s" repeatCount="indefinite" values="0; 0; 22; 0; 0" keyTimes="0; 0.85; 0.88; 0.96; 1"/>')
-            lines.append(f'      <animate attributeName="opacity" dur="{TURN_DUR:.2f}s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.85; 0.88; 0.96; 1"/>')
+            lines.append(f'      <animate attributeName="r" dur="{TOTAL_DUR:.1f}s" repeatCount="indefinite" values="0; 0; 22; 0; 0" keyTimes="0; {kp(4.30)}; {kp(4.38)}; {kp(4.75)}; 1"/>')
+            lines.append(f'      <animate attributeName="opacity" dur="{TOTAL_DUR:.1f}s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; {kp(4.30)}; {kp(4.38)}; {kp(4.75)}; 1"/>')
             lines.append(f'    </circle>')
 
-            # Pikachu HUD
+            # Pikachu HUD (0.0s - 4.70s)
             lines.append(f'    <g opacity="1">')
-            lines.append(f'      <animate attributeName="opacity" dur="{TURN_DUR:.2f}s" repeatCount="indefinite" values="1; 1; 0; 0" keyTimes="0; 0.92; 0.96; 1"/>')
-            lines.append(f'      <text x="{GRID_LEFT}" y="214" class="hud-title">#01 PIKACHU</text>')
-            lines.append(f'      <text x="{GRID_LEFT + 120}" y="214" class="hud-move" fill="#FFE135">❯ SUPER THUNDERBOLT</text>')
-            lines.append(f'      <text x="{GRID_LEFT + 310}" y="214" class="hud-sub">PIERCING BEAM: 7-HIT CASCADE ❯ COLUMN OBLITERATED</text>')
-            lines.append(f'      <text x="{GRID_LEFT + 670}" y="214" class="hud-score">SCORE: 5,250 PTS</text>')
+            lines.append(f'      <animate attributeName="opacity" dur="{TOTAL_DUR:.1f}s" repeatCount="indefinite" values="1; 1; 0; 0" keyTimes="0; {kp(4.65)}; {kp(4.75)}; 1"/>')
+            lines.append(f'      <text x="{GRID_LEFT}" y="230" class="hud-title">#01 PIKACHU</text>')
+            lines.append(f'      <text x="{GRID_LEFT + 120}" y="230" class="hud-move" fill="#FFE135">❯ SUPER THUNDERBOLT</text>')
+            lines.append(f'      <text x="{GRID_LEFT + 310}" y="230" class="hud-sub">PIERCING BEAM: 7-HIT CASCADE ❯ COLUMN OBLITERATED</text>')
+            lines.append(f'      <text x="{GRID_LEFT + 670}" y="230" class="hud-score">SCORE: 5,250 PTS</text>')
             lines.append(f'    </g>')
             lines.append(f'  </g>')
             continue
@@ -833,10 +859,10 @@ def build_svg(grid):
         score = 5250 + idx * 750
         lines.append(f'    <g opacity="0">')
         lines.append(f'      <animate attributeName="opacity" dur="{TURN_DUR:.2f}s" repeatCount="indefinite" values="0; 1; 1; 0; 0" keyTimes="0; 0.05; 0.92; 0.96; 1"/>')
-        lines.append(f'      <text x="{GRID_LEFT}" y="214" class="hud-title">#{idx+1:02d} {name.upper()}</text>')
-        lines.append(f'      <text x="{GRID_LEFT + 120}" y="214" class="hud-move" fill="{acolor}">❯ {attack.upper()}</text>')
-        lines.append(f'      <text x="{GRID_LEFT + 310}" y="214" class="hud-sub">TARGET: SECTOR [{tw1+1},{td1+1}] ❯ VERTICAL ALIGNMENT LOCKED</text>')
-        lines.append(f'      <text x="{GRID_LEFT + 670}" y="214" class="hud-score">SCORE: {score:,} PTS</text>')
+        lines.append(f'      <text x="{GRID_LEFT}" y="230" class="hud-title">#{idx+1:02d} {name.upper()}</text>')
+        lines.append(f'      <text x="{GRID_LEFT + 120}" y="230" class="hud-move" fill="{acolor}">❯ {attack.upper()}</text>')
+        lines.append(f'      <text x="{GRID_LEFT + 310}" y="230" class="hud-sub">TARGET: SECTOR [{tw1+1},{td1+1}] ❯ VERTICAL ALIGNMENT LOCKED</text>')
+        lines.append(f'      <text x="{GRID_LEFT + 670}" y="230" class="hud-score">SCORE: {score:,} PTS</text>')
         lines.append(f'    </g>')
 
         lines.append(f'  </g>')

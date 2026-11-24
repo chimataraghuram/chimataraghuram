@@ -62,10 +62,12 @@
 <!-- POKEMON CONTRIBUTION BATTLE -->
 <div align="center">
   <br/>
+  <img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/section_pokemon_battle.svg?v=20261124" width="850" alt="POKÉMON CONTRIBUTION BATTLE" /><br/>
+  <br/>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/pokemon_contribution_battle.svg?v=2026-11-24_v8">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/pokemon_contribution_battle.svg?v=2026-11-24_v8">
-    <img alt="Pokémon Contribution Battle" src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/pokemon_contribution_battle.svg?v=2026-11-24_v8" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/pokemon_contribution_battle.svg?v=2026-11-24_v9">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/pokemon_contribution_battle.svg?v=2026-11-24_v9">
+    <img alt="Pokémon Contribution Battle" src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/pokemon_contribution_battle.svg?v=2026-11-24_v9" width="100%" />
   </picture>
   <br/><br/>
 </div>

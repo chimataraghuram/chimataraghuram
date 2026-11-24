@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="870" height="230"
-  viewBox="0 0 870 230"
+  width="870" height="248"
+  viewBox="0 0 870 248"
   style="background: #030712; border-radius: 8px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', monospace;">
 
   <defs>
@@ -23,6 +23,9 @@
     </radialGradient>
 
     <style>
+      .arena-title  { font-size: 11px; font-weight: 900; fill: #FFE135; font-family: monospace; letter-spacing: 1.5px; }
+      .arena-mode   { font-size: 9px; font-weight: bold; fill: #00F5FF; font-family: monospace; letter-spacing: 1px; }
+      .arena-status { font-size: 9px; font-weight: bold; fill: #39d353; font-family: monospace; letter-spacing: 1px; }
       .month-label  { font-size: 9px; fill: #7d8590; font-family: monospace; }
       .hud-title    { font-size: 11px; font-weight: bold; fill: #58a6ff; font-family: monospace; }
       .hud-move     { font-size: 11px; font-weight: bold; font-family: monospace; }
@@ -100,14 +103,14 @@
     <circle cx="605" cy="206" r="1.2" fill="#ffffff" opacity="0.39"/>
     <circle cx="12" cy="14" r="1.5" fill="#ffffff" opacity="0.83"/>
     <circle cx="467" cy="142" r="1.2" fill="#ffffff" opacity="0.35"/>
-    <circle cx="29" cy="217" r="0.9" fill="#ffffff" opacity="0.74"/>
+    <circle cx="29" cy="234" r="0.9" fill="#ffffff" opacity="0.74"/>
     <circle cx="669" cy="82" r="1.5" fill="#ffffff" opacity="0.58"/>
     <circle cx="384" cy="71" r="0.7" fill="#ffffff" opacity="0.61"/>
     <circle cx="730" cy="136" r="0.7" fill="#ffffff" opacity="0.52"/>
     <circle cx="135" cy="198" r="1.2" fill="#ffffff" opacity="0.35"/>
     <circle cx="737" cy="124" r="0.7" fill="#ffffff" opacity="0.72"/>
     <circle cx="690" cy="53" r="1.5" fill="#ffffff" opacity="0.56"/>
-    <circle cx="361" cy="215" r="0.7" fill="#ffffff" opacity="0.66"/>
+    <circle cx="361" cy="236" r="0.7" fill="#ffffff" opacity="0.66"/>
     <circle cx="92" cy="159" r="1.2" fill="#ffffff" opacity="0.65"/>
     <circle cx="331" cy="29" r="1.2" fill="#ffffff" opacity="0.46"/>
     <circle cx="435" cy="81" r="0.9" fill="#ffffff" opacity="0.3"/>
@@ -136,10 +139,11 @@
     <circle cx="487" cy="111" r="1.5" fill="#ffffff" opacity="0.36"/>
     <circle cx="224" cy="101" r="1.5" fill="#ffffff" opacity="0.59"/>
     <circle cx="26" cy="88" r="1.2" fill="#ffffff" opacity="0.28"/>
-    <circle cx="34" cy="71" r="0.9" fill="#ffffff" opacity="0.64"/>
-    <circle cx="96" cy="209" r="1.5" fill="#ffffff" opacity="0.78"/>
-    <circle cx="216" cy="58" r="1.2" fill="#ffffff" opacity="0.33"/>
-    <circle cx="696" cy="101" r="0.9" fill="#ffffff" opacity="0.39"/>
+    <circle cx="34" cy="231" r="1.2" fill="#ffffff" opacity="0.8"/>
+    <circle cx="662" cy="148" r="0.7" fill="#ffffff" opacity="0.83"/>
+    <circle cx="789" cy="130" r="0.9" fill="#ffffff" opacity="0.37"/>
+    <circle cx="801" cy="78" r="0.9" fill="#ffffff" opacity="0.56"/>
+    <circle cx="395" cy="199" r="0.9" fill="#ffffff" opacity="0.39"/>
     <circle cx="570" cy="107" r="1.5" fill="#ffffff" opacity="0.31"/>
     <circle cx="167" cy="127" r="1.5" fill="#ffffff" opacity="0.31"/>
     <circle cx="362" cy="20" r="1.2" fill="#ffffff" opacity="0.56"/>
@@ -158,7 +162,7 @@
     <circle cx="546" cy="4" r="0.9" fill="#ffffff" opacity="0.32"/>
     <circle cx="615" cy="177" r="1.5" fill="#ffffff" opacity="0.74"/>
     <circle cx="765" cy="106" r="1.2" fill="#ffffff" opacity="0.48"/>
-    <circle cx="696" cy="224" r="1.5" fill="#ffffff" opacity="0.54"/>
+    <circle cx="696" cy="234" r="1.5" fill="#ffffff" opacity="0.54"/>
     <circle cx="305" cy="81" r="1.2" fill="#ffffff" opacity="0.38"/>
     <circle cx="626" cy="195" r="1.5" fill="#ffffff" opacity="0.55"/>
     <circle cx="854" cy="67" r="0.7" fill="#ffffff" opacity="0.46"/>
@@ -166,8 +170,9 @@
     <circle cx="525" cy="29" r="1.2" fill="#ffffff" opacity="0.82"/>
     <circle cx="726" cy="21" r="0.9" fill="#ffffff" opacity="0.83"/>
     <circle cx="720" cy="79" r="1.5" fill="#ffffff" opacity="0.63"/>
-    <circle cx="339" cy="122" r="1.2" fill="#ffffff" opacity="0.3"/>
-    <circle cx="207" cy="212" r="0.7" fill="#ffffff" opacity="0.72"/>
+    <circle cx="339" cy="237" r="1.5" fill="#ffffff" opacity="0.61"/>
+    <circle cx="292" cy="26" r="0.9" fill="#ffffff" opacity="0.74"/>
+    <circle cx="762" cy="205" r="0.7" fill="#ffffff" opacity="0.72"/>
     <circle cx="816" cy="32" r="1.2" fill="#ffffff" opacity="0.78"/>
     <circle cx="371" cy="188" r="0.7" fill="#ffffff" opacity="0.43"/>
     <circle cx="674" cy="151" r="0.7" fill="#ffffff" opacity="0.3"/>
@@ -193,19 +198,19 @@
   </g>
 
   <!-- Month Headers -->
-  <text x="40" y="18" class="month-label">Nov</text>
-  <text x="100" y="18" class="month-label">Dec</text>
-  <text x="160" y="18" class="month-label">Jan</text>
-  <text x="220" y="18" class="month-label">Feb</text>
-  <text x="281" y="18" class="month-label">Mar</text>
-  <text x="341" y="18" class="month-label">Apr</text>
-  <text x="401" y="18" class="month-label">May</text>
-  <text x="462" y="18" class="month-label">Jun</text>
-  <text x="522" y="18" class="month-label">Jul</text>
-  <text x="582" y="18" class="month-label">Aug</text>
-  <text x="643" y="18" class="month-label">Sep</text>
-  <text x="703" y="18" class="month-label">Oct</text>
-  <text x="763" y="18" class="month-label">Nov</text>
+  <text x="40" y="34" class="month-label">Nov</text>
+  <text x="100" y="34" class="month-label">Dec</text>
+  <text x="160" y="34" class="month-label">Jan</text>
+  <text x="220" y="34" class="month-label">Feb</text>
+  <text x="281" y="34" class="month-label">Mar</text>
+  <text x="341" y="34" class="month-label">Apr</text>
+  <text x="401" y="34" class="month-label">May</text>
+  <text x="462" y="34" class="month-label">Jun</text>
+  <text x="522" y="34" class="month-label">Jul</text>
+  <text x="582" y="34" class="month-label">Aug</text>
+  <text x="643" y="34" class="month-label">Sep</text>
+  <text x="703" y="34" class="month-label">Oct</text>
+  <text x="763" y="34" class="month-label">Nov</text>
 
   <!-- GitHub Contribution Grid (100% Circular Reset Loop) -->
   <g id="contribution_grid">
@@ -1182,23 +1187,23 @@
     <rect id="c_52_6" x="768" y="112" width="11" height="11" rx="2" fill="#161b22"/>
   </g>
 
-  <line x1="40" y1="135" x2="782" y2="135" stroke="#21262d" stroke-dasharray="3,3" opacity="0.4"/>
+  <line x1="40" y1="149" x2="782" y2="149" stroke="#21262d" stroke-dasharray="3,3" opacity="0.4"/>
   <!-- Pokémon Bottom Shooters & Upward Attacks (Standalone Modular Timelines) -->
 
-  <!-- [01/50] PIKACHU TURN CONTAINER (0.0s - 2.4s) -->
+  <!-- [01/50] PIKACHU TURN CONTAINER (0.0s - 4.8s) -->
   <g id="turn_0_pikachu" opacity="1">
-    <animate attributeName="opacity" dur="120.0s" repeatCount="indefinite" values="1; 1; 0; 0; 0; 1" keyTimes="0; 0.01967; 0.02; 0.9997; 0.9999; 1" />
-    <!-- Feature 4: Parabolic Pokéball Throw-In Entrance -->
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 0; 0; 0; 1" keyTimes="0; 0.03889; 0.03922; 0.9997; 0.9999; 1" />
+    <!-- Feature 4: Slow Parabolic Pokéball Throw-In Entrance (Smooth & Clear) -->
     <g opacity="1">
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="1; 1; 0; 0" keyTimes="0; 0.18; 0.21; 1"/>
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="479,186; 514,136; 541,168; 549,159; 549,168; 549,168" keyTimes="0; 0.08; 0.14; 0.17; 0.19; 1"/>
       <g>
-        <animateTransform attributeName="transform" type="rotate" dur="0.44s" repeatCount="indefinite" values="0; 720"/>
-        <path d="M-7,0 A7,7 0 0,1 7,0 Z" fill="#EE1515"/>
-        <path d="M-7,0 A7,7 0 0,0 7,0 Z" fill="#FFFFFF"/>
-        <line x1="-7" y1="0" x2="7" y2="0" stroke="#111111" stroke-width="1.8"/>
-        <circle cx="0" cy="0" r="2.4" fill="#111111"/>
-        <circle cx="0" cy="0" r="1.3" fill="#FFFFFF"/>
+        <animateTransform attributeName="transform" type="rotate" dur="0.65s" repeatCount="indefinite" values="0; 360"/>
+        <path d="M-8,0 A8,8 0 0,1 8,0 Z" fill="#EE1515"/>
+        <path d="M-8,0 A8,8 0 0,0 8,0 Z" fill="#FFFFFF"/>
+        <line x1="-8" y1="0" x2="8" y2="0" stroke="#111111" stroke-width="2"/>
+        <circle cx="0" cy="0" r="2.8" fill="#111111"/>
+        <circle cx="0" cy="0" r="1.5" fill="#FFFFFF"/>
       </g>
     </g>
     <polygon points="549,168 519,123 579,123" fill="#FFF455" opacity="0">
@@ -1214,7 +1219,7 @@
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="524,143; 524,143; 118,143; 118,143" keyTimes="0; 0.38; 0.48; 1"/>
       <g>
         <animateTransform attributeName="transform" type="scale" dur="0.7s" repeatCount="indefinite" values="1,1; 1.04,0.95; 0.96,1.04; 1,1" additive="sum"/>
-        <animateTransform attributeName="transform" type="rotate" dur="2.40s" repeatCount="indefinite" values="0; 0; -14; -14; 0; 0" keyTimes="0; 0.36; 0.39; 0.48; 0.50; 1" additive="sum"/>
+        <animateTransform attributeName="transform" type="rotate" dur="122.4s" repeatCount="indefinite" values="0; 0; -14; -14; 0; 0" keyTimes="0; 0.02288; 0.02353; 0.02614; 0.02680; 1" additive="sum"/>
         <ellipse cx="25" cy="48" rx="18" ry="6" fill="#FFE135" opacity="0.8">
           <animate attributeName="opacity" values="0.4;1;0.4" dur="0.25s" repeatCount="indefinite"/>
           <animate attributeName="rx" values="14;24;14" dur="0.25s" repeatCount="indefinite"/>
@@ -1299,17 +1304,17 @@
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.85; 0.88; 0.96; 1"/>
     </circle>
     <g opacity="1">
-      <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="1; 1; 0; 0" keyTimes="0; 0.92; 0.96; 1"/>
-      <text x="40" y="214" class="hud-title">#01 PIKACHU</text>
-      <text x="160" y="214" class="hud-move" fill="#FFE135">❯ SUPER THUNDERBOLT</text>
-      <text x="350" y="214" class="hud-sub">PIERCING BEAM: 7-HIT CASCADE ❯ COLUMN OBLITERATED</text>
-      <text x="710" y="214" class="hud-score">SCORE: 5,250 PTS</text>
+      <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 0; 0" keyTimes="0; 0.03799; 0.03881; 1"/>
+      <text x="40" y="230" class="hud-title">#01 PIKACHU</text>
+      <text x="160" y="230" class="hud-move" fill="#FFE135">❯ SUPER THUNDERBOLT</text>
+      <text x="350" y="230" class="hud-sub">PIERCING BEAM: 7-HIT CASCADE ❯ COLUMN OBLITERATED</text>
+      <text x="710" y="230" class="hud-score">SCORE: 5,250 PTS</text>
     </g>
   </g>
 
-  <!-- [02/50] ZEKROM TURN CONTAINER (2.4s - 4.8s) -->
+  <!-- [02/50] ZEKROM TURN CONTAINER (4.8s - 7.2s) -->
   <g id="turn_1_zekrom" opacity="0">
-    <animate attributeName="opacity" dur="120.0s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.02; 0.02033; 0.03967; 0.04; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.03922; 0.03954; 0.0585; 0.05882; 1" />
     <!-- Entrance Flash -->
     <circle cx="409" cy="168" r="0" fill="#FFFFFF" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="0; 32; 0; 0" keyTimes="0; 0.08; 0.14; 1"/>
@@ -1411,9 +1416,9 @@
     </g>
   </g>
 
-  <!-- [03/50] GYARADOS TURN CONTAINER (4.8s - 7.2s) -->
+  <!-- [03/50] GYARADOS TURN CONTAINER (7.2s - 9.6s) -->
   <g id="turn_2_gyarados" opacity="0">
-    <animate attributeName="opacity" dur="120.0s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.04; 0.04033; 0.05967; 0.06; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.05882; 0.05915; 0.0781; 0.07843; 1" />
     <!-- Entrance Flash -->
     <circle cx="521" cy="168" r="0" fill="#FFFFFF" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="0; 32; 0; 0" keyTimes="0; 0.08; 0.14; 1"/>
@@ -2021,10 +2026,10 @@
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
-    <polygon points="605,123 587,178 623,178" fill="#FF3333" opacity="0">
+    <polygon points="605,137 587,192 623,192" fill="#FF3333" opacity="0">
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.75; 0; 0" keyTimes="0; 0.85; 0.88; 0.96; 1"/>
     </polygon>
-    <circle cx="605" cy="168" r="0" fill="#FFFFFF" opacity="0">
+    <circle cx="605" cy="182" r="0" fill="#FFFFFF" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="0; 0; 22; 0; 0" keyTimes="0; 0.85; 0.88; 0.96; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.85; 0.88; 0.96; 1"/>
     </circle>
@@ -2037,9 +2042,9 @@
     </g>
   </g>
 
-  <!-- [09/50] SNORLAX TURN CONTAINER (19.2s - 21.6s) -->
+  <!-- [09/50] SNORLAX TURN CONTAINER (21.6s - 24.0s) -->
   <g id="turn_8_snorlax" opacity="0">
-    <animate attributeName="opacity" dur="120.0s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.16; 0.16033; 0.17967; 0.18; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.17647; 0.1768; 0.19575; 0.19608; 1" />
     <!-- Entrance Flash -->
     <circle cx="157" cy="168" r="0" fill="#FFFFFF" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="0; 32; 0; 0" keyTimes="0; 0.08; 0.14; 1"/>
@@ -2133,9 +2138,9 @@
     </g>
   </g>
 
-  <!-- [10/50] DECIDUEYE TURN CONTAINER (21.6s - 24.0s) -->
+  <!-- [10/50] DECIDUEYE TURN CONTAINER (24.0s - 26.4s) -->
   <g id="turn_9_decidueye" opacity="0">
-    <animate attributeName="opacity" dur="120.0s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.18; 0.18033; 0.19967; 0.2; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.19608; 0.19641; 0.21536; 0.21569; 1" />
     <!-- Entrance Flash -->
     <circle cx="199" cy="168" r="0" fill="#FFFFFF" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="0; 32; 0; 0" keyTimes="0; 0.08; 0.14; 1"/>
@@ -2229,10 +2234,10 @@
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
-    <polygon points="731,123 713,178 749,178" fill="#FF3333" opacity="0">
+    <polygon points="731,137 713,192 749,192" fill="#FF3333" opacity="0">
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.75; 0; 0" keyTimes="0; 0.85; 0.88; 0.96; 1"/>
     </polygon>
-    <circle cx="731" cy="168" r="0" fill="#FFFFFF" opacity="0">
+    <circle cx="731" cy="182" r="0" fill="#FFFFFF" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="0; 0; 22; 0; 0" keyTimes="0; 0.85; 0.88; 0.96; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.85; 0.88; 0.96; 1"/>
     </circle>
@@ -2445,9 +2450,9 @@
     </g>
   </g>
 
-  <!-- [13/50] METAGROSS TURN CONTAINER (28.8s - 31.2s) -->
+  <!-- [13/50] METAGROSS TURN CONTAINER (31.2s - 33.6s) -->
   <g id="turn_12_metagross" opacity="0">
-    <animate attributeName="opacity" dur="120.0s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.24; 0.24033; 0.25967; 0.26; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.2549; 0.25523; 0.27418; 0.27451; 1" />
     <!-- Entrance Flash -->
     <circle cx="185" cy="168" r="0" fill="#FFFFFF" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="0; 32; 0; 0" keyTimes="0; 0.08; 0.14; 1"/>
@@ -2547,9 +2552,9 @@
     </g>
   </g>
 
-  <!-- [14/50] DIALGA TURN CONTAINER (31.2s - 33.6s) -->
+  <!-- [14/50] DIALGA TURN CONTAINER (33.6s - 36.0s) -->
   <g id="turn_13_dialga" opacity="0">
-    <animate attributeName="opacity" dur="120.0s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.26; 0.26033; 0.27967; 0.28; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.27451; 0.27484; 0.29379; 0.29412; 1" />
     <!-- Entrance Flash -->
     <circle cx="493" cy="168" r="0" fill="#FFFFFF" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="0; 32; 0; 0" keyTimes="0; 0.08; 0.14; 1"/>
@@ -2649,9 +2654,9 @@
     </g>
   </g>
 
-  <!-- [15/50] RAYQUAZA TURN CONTAINER (33.6s - 36.0s) -->
+  <!-- [15/50] RAYQUAZA TURN CONTAINER (36.0s - 38.4s) -->
   <g id="turn_14_rayquaza" opacity="0">
-    <animate attributeName="opacity" dur="120.0s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.28; 0.28033; 0.29967; 0.3; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.29412; 0.29444; 0.3134; 0.31373; 1" />
     <!-- Entrance Flash -->
     <circle cx="395" cy="168" r="0" fill="#FFFFFF" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="0; 32; 0; 0" keyTimes="0; 0.08; 0.14; 1"/>
@@ -2751,9 +2756,9 @@
     </g>
   </g>
 
-  <!-- [16/50] MACHAMP TURN CONTAINER (36.0s - 38.4s) -->
+  <!-- [16/50] MACHAMP TURN CONTAINER (38.4s - 40.8s) -->
   <g id="turn_15_machamp" opacity="0">
-    <animate attributeName="opacity" dur="120.0s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.3; 0.30033; 0.31967; 0.32; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.31373; 0.31405; 0.33301; 0.33333; 1" />
     <!-- Entrance Flash -->
     <circle cx="563" cy="168" r="0" fill="#FFFFFF" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="0; 32; 0; 0" keyTimes="0; 0.08; 0.14; 1"/>
@@ -2777,7 +2782,7 @@
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.16; 0.18; 0.24; 1"/>
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="0; 0; 24; 0; 0" keyTimes="0; 0.16; 0.18; 0.24; 1"/>
     </circle>
-    <circle cx="577" cy="148" r="1" fill="#FFFFFF" opacity="0">
+    <circle cx="577" cy="162" r="1" fill="#FFFFFF" opacity="0">
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.58; 0.60; 0.66; 1"/>
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="0; 0; 24; 0; 0" keyTimes="0; 0.58; 0.60; 0.66; 1"/>
     </circle>
@@ -2837,10 +2842,10 @@
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
-    <polygon points="577,123 559,178 595,178" fill="#FF3333" opacity="0">
+    <polygon points="577,137 559,192 595,192" fill="#FF3333" opacity="0">
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.75; 0; 0" keyTimes="0; 0.85; 0.88; 0.96; 1"/>
     </polygon>
-    <circle cx="577" cy="168" r="0" fill="#FFFFFF" opacity="0">
+    <circle cx="577" cy="182" r="0" fill="#FFFFFF" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="0; 0; 22; 0; 0" keyTimes="0; 0.85; 0.88; 0.96; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.85; 0.88; 0.96; 1"/>
     </circle>
@@ -2853,9 +2858,9 @@
     </g>
   </g>
 
-  <!-- [17/50] GENGAR TURN CONTAINER (38.4s - 40.8s) -->
+  <!-- [17/50] GENGAR TURN CONTAINER (40.8s - 43.2s) -->
   <g id="turn_16_gengar" opacity="0">
-    <animate attributeName="opacity" dur="120.0s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.32; 0.32033; 0.33967; 0.34; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.33333; 0.33366; 0.35261; 0.35294; 1" />
     <!-- Entrance Flash -->
     <circle cx="199" cy="168" r="0" fill="#FFFFFF" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="0; 32; 0; 0" keyTimes="0; 0.08; 0.14; 1"/>
@@ -2879,7 +2884,7 @@
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.16; 0.18; 0.24; 1"/>
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="0; 0; 24; 0; 0" keyTimes="0; 0.16; 0.18; 0.24; 1"/>
     </circle>
-    <circle cx="297" cy="148" r="1" fill="#FFFFFF" opacity="0">
+    <circle cx="297" cy="162" r="1" fill="#FFFFFF" opacity="0">
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.58; 0.60; 0.66; 1"/>
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="0; 0; 24; 0; 0" keyTimes="0; 0.58; 0.60; 0.66; 1"/>
     </circle>
@@ -2941,10 +2946,10 @@
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
-    <polygon points="297,123 279,178 315,178" fill="#FF3333" opacity="0">
+    <polygon points="297,137 279,192 315,192" fill="#FF3333" opacity="0">
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.75; 0; 0" keyTimes="0; 0.85; 0.88; 0.96; 1"/>
     </polygon>
-    <circle cx="297" cy="168" r="0" fill="#FFFFFF" opacity="0">
+    <circle cx="297" cy="182" r="0" fill="#FFFFFF" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="0; 0; 22; 0; 0" keyTimes="0; 0.85; 0.88; 0.96; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.85; 0.88; 0.96; 1"/>
     </circle>
@@ -5169,10 +5174,10 @@
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
-    <polygon points="199,123 181,178 217,178" fill="#FF3333" opacity="0">
+    <polygon points="199,137 181,192 217,192" fill="#FF3333" opacity="0">
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.75; 0; 0" keyTimes="0; 0.85; 0.88; 0.96; 1"/>
     </polygon>
-    <circle cx="199" cy="168" r="0" fill="#FFFFFF" opacity="0">
+    <circle cx="199" cy="182" r="0" fill="#FFFFFF" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="0; 0; 22; 0; 0" keyTimes="0; 0.85; 0.88; 0.96; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.85; 0.88; 0.96; 1"/>
     </circle>
@@ -6237,9 +6242,9 @@
     </g>
   </g>
 
-  <!-- [49/50] INFERNAPE TURN CONTAINER (115.2s - 117.6s) -->
+  <!-- [49/50] INFERNAPE TURN CONTAINER (117.6s - 120.0s) -->
   <g id="turn_48_infernape" opacity="0">
-    <animate attributeName="opacity" dur="120.0s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.96; 0.96033; 0.97967; 0.98; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.96078; 0.96111; 0.98007; 0.98039; 1" />
     <!-- Entrance Flash -->
     <circle cx="451" cy="168" r="0" fill="#FFFFFF" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="0; 32; 0; 0" keyTimes="0; 0.08; 0.14; 1"/>
@@ -6350,9 +6355,9 @@
     </g>
   </g>
 
-  <!-- [50/50] GARCHOMP TURN CONTAINER (117.6s - 120.0s) -->
+  <!-- [50/50] GARCHOMP TURN CONTAINER (120.0s - 122.4s) -->
   <g id="turn_49_garchomp" opacity="0">
-    <animate attributeName="opacity" dur="120.0s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.98; 0.98033; 0.99967; 0.9998; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.98039; 0.98072; 0.99967; 0.9998; 1" />
     <!-- Entrance Flash -->
     <circle cx="423" cy="168" r="0" fill="#FFFFFF" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="0; 32; 0; 0" keyTimes="0; 0.08; 0.14; 1"/>
