@@ -541,33 +541,33 @@
   </thead>
   <tbody>
     <tr>
-      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
-      <td><a href="https://github.com/chimataraghuram/Aqua"><b><code>chimataraghuram/Aqua</code></b></a></td>
-      <td><b>Merged PR #9</b> ❯ PR #9</td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_25-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 25" /></td>
-    </tr>
-    <tr>
       <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b><code>chimataraghuram/chimataraghuram</code></b></a></td>
-      <td><code>feat(battle): add title header banner and slow cinem...</code></td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_24-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 24" /></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
-      <td><a href="https://github.com/chimataraghuram/Aqua"><b><code>chimataraghuram/Aqua</code></b></a></td>
-      <td><b>Merged PR #8</b> ❯ PR #8</td>
+      <td><code>style(trainer): redesign Trainer Raghu sprite with h...</code></td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_25-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 25" /></td>
     </tr>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
       <td><a href="https://github.com/chimataraghuram/Aqua"><b><code>chimataraghuram/Aqua</code></b></a></td>
-      <td><b>Merged PR #7</b> ❯ PR #7</td>
+      <td><b>Merged PR #17</b> ❯ PR #17</td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_25-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 25" /></td>
     </tr>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
       <td><a href="https://github.com/chimataraghuram/Aqua"><b><code>chimataraghuram/Aqua</code></b></a></td>
-      <td><b>Merged PR #6</b> ❯ PR #6</td>
+      <td><b>Merged PR #16</b> ❯ PR #16</td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_25-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 25" /></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
+      <td><a href="https://github.com/chimataraghuram/Aqua"><b><code>chimataraghuram/Aqua</code></b></a></td>
+      <td><b>Merged PR #15</b> ❯ PR #15</td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_25-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 25" /></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
+      <td><a href="https://github.com/chimataraghuram/Aqua"><b><code>chimataraghuram/Aqua</code></b></a></td>
+      <td><b>Merged PR #14</b> ❯ PR #14</td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_25-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 25" /></td>
     </tr>
     <tr>
