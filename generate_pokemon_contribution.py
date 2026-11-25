@@ -488,8 +488,91 @@ def render_trainer_cameo(total_dur):
 
     <!-- Trainer Nameplate Badge -->
     <rect x="2" y="211" width="28" height="10" rx="2" fill="#0d1117" stroke="#00F5FF" stroke-width="0.8" opacity="0.9"/>
-    <text x="16" y="218" text-anchor="middle" font-size="5.5px" font-weight="bold" font-family="monospace" fill="#00F5FF" letter-spacing="0.4px">CHIMATA</text>
+    <text x="16" y="218" text-anchor="middle" font-size="6px" font-weight="bold" font-family="monospace" fill="#00F5FF" letter-spacing="0.6px">RAGHU</text>
   </g>'''
+
+def get_type_callout(atype):
+    mapping = {
+        "fire_blast":  ("SUPER EFFECTIVE!", "#FF6600"),
+        "ice":         ("SUPER EFFECTIVE!", "#66EEFF"),
+        "thunder":     ("CRITICAL HIT! ⚡",  "#FFE135"),
+        "psychic":     ("HYPER DAMAGE! ✦",  "#FF77CC"),
+        "dragon":      ("HYPER DAMAGE! ✦",  "#BB66FF"),
+        "hydro_pump":  ("CRITICAL HIT!",    "#00CCFF"),
+        "shuriken":    ("CRITICAL HIT!",    "#00FFFF"),
+        "shadow_ball": ("SHADOW CRIT!",     "#CC66FF"),
+        "razor_leaf":  ("RAZOR CRIT!",      "#44FF77"),
+        "hyper_beam":  ("HYPER DAMAGE! ✦",  "#FFFFFF"),
+    }
+    return mapping.get(atype, ("CRITICAL HIT!", "#FFFF00"))
+
+def render_weather_effects(atype, acolor, rng, dur_val):
+    out = [f'    <!-- Feature 2: Elemental Weather & Field Effects ({atype}) -->']
+    if atype == "fire_blast":
+        # Rising glowing fire embers
+        for i in range(6):
+            ex = rng.randint(GRID_LEFT + 20, SVG_W - 60)
+            ey_start = rng.randint(175, 200)
+            ey_end = rng.randint(45, 95)
+            dx = rng.randint(-18, 18)
+            r = rng.choice([1.4, 1.8, 2.2])
+            col = rng.choice(["#FF5500", "#FF9900", "#FFE135"])
+            out.append(f'    <circle cx="0" cy="0" r="{r}" fill="{col}" opacity="0">')
+            out.append(f'      <animateTransform attributeName="transform" type="translate" dur="{dur_val:.2f}s" repeatCount="indefinite" '
+                       f'values="{ex},{ey_start}; {ex+dx},{ey_end}" />')
+            out.append(f'      <animate attributeName="opacity" dur="{dur_val:.2f}s" repeatCount="indefinite" '
+                       f'values="0; 0.85; 0.6; 0" keyTimes="0; 0.25; 0.75; 1" />')
+            out.append(f'    </circle>')
+    elif atype in ("hydro_pump", "shuriken"):
+        # Slanted cyber rain streaks
+        for i in range(6):
+            rx = rng.randint(GRID_LEFT + 20, SVG_W - 60)
+            ry_start = rng.randint(28, 55)
+            ry_end = rng.randint(165, 195)
+            out.append(f'    <line x1="0" y1="0" x2="-4" y2="10" stroke="#00CCFF" stroke-width="1.2" stroke-linecap="round" opacity="0">')
+            out.append(f'      <animateTransform attributeName="transform" type="translate" dur="{dur_val:.2f}s" repeatCount="indefinite" '
+                       f'values="{rx},{ry_start}; {rx-22},{ry_end}" />')
+            out.append(f'      <animate attributeName="opacity" dur="{dur_val:.2f}s" repeatCount="indefinite" '
+                       f'values="0; 0.65; 0.65; 0" keyTimes="0; 0.2; 0.8; 1" />')
+            out.append(f'    </line>')
+    elif atype == "ice":
+        # Drifting frost crystals
+        for i in range(6):
+            fx = rng.randint(GRID_LEFT + 20, SVG_W - 60)
+            fy_start = rng.randint(30, 60)
+            fy_end = rng.randint(155, 190)
+            dx = rng.randint(-15, 15)
+            out.append(f'    <polygon points="0,-3 3,0 0,3 -3,0" fill="#AAEEFF" opacity="0">')
+            out.append(f'      <animateTransform attributeName="transform" type="translate" dur="{dur_val:.2f}s" repeatCount="indefinite" '
+                       f'values="{fx},{fy_start}; {fx+dx},{fy_end}" />')
+            out.append(f'      <animate attributeName="opacity" dur="{dur_val:.2f}s" repeatCount="indefinite" '
+                       f'values="0; 0.8; 0.4; 0" keyTimes="0; 0.25; 0.75; 1" />')
+            out.append(f'    </polygon>')
+    elif atype == "thunder":
+        # Crackling static micro-sparks
+        for i in range(5):
+            sx = rng.randint(GRID_LEFT + 30, SVG_W - 70)
+            sy = rng.randint(50, 165)
+            t1 = round(0.15 + (i % 3) * 0.25, 2)
+            t2 = min(0.95, round(t1 + 0.14, 2))
+            out.append(f'    <polyline points="{sx},{sy} {sx+5},{sy-4} {sx+2},{sy-9} {sx+8},{sy-13}" fill="none" stroke="#FFE135" stroke-width="1.3" stroke-linecap="round" opacity="0">')
+            out.append(f'      <animate attributeName="opacity" dur="{dur_val:.2f}s" repeatCount="indefinite" '
+                       f'values="0; 0; 0.95; 0; 0" keyTimes="0; {t1}; {round((t1+t2)/2, 2)}; {t2}; 1" />')
+            out.append(f'    </polyline>')
+    else:
+        # Cosmic / arcane floating motes (psychic, dragon, shadow_ball, razor_leaf, etc.)
+        for i in range(5):
+            mx = rng.randint(GRID_LEFT + 20, SVG_W - 60)
+            my_start = rng.randint(160, 195)
+            my_end = rng.randint(50, 100)
+            dx = rng.randint(-14, 14)
+            out.append(f'    <circle cx="0" cy="0" r="1.6" fill="{acolor}" opacity="0">')
+            out.append(f'      <animateTransform attributeName="transform" type="translate" dur="{dur_val:.2f}s" repeatCount="indefinite" '
+                       f'values="{mx},{my_start}; {mx+dx},{my_end}" />')
+            out.append(f'      <animate attributeName="opacity" dur="{dur_val:.2f}s" repeatCount="indefinite" '
+                       f'values="0; 0.7; 0.5; 0" keyTimes="0; 0.25; 0.75; 1" />')
+            out.append(f'    </circle>')
+    return "\n".join(out)
 
 def render_impact_flash(total_dur):
     flash_events = [
@@ -820,6 +903,8 @@ def build_svg(grid):
 
             kp = lambda t_sec: f"{round(t_sec / TOTAL_DUR, 5):.5f}"
 
+            lines.append(render_weather_effects("thunder", "#FFE135", rng, 2.40))
+
             # Feature 4: Slow Parabolic Pokéball Throw-In Entrance (Launched by Trainer)
             lines.append(f'    <!-- Feature 4: Slow Parabolic Pokéball Throw-In Entrance (Launched by Trainer) -->')
             lines.append(f'    <g opacity="0">')
@@ -949,6 +1034,9 @@ def build_svg(grid):
 
         dx = tx2 - tx1
         tilt = 14 if dx >= 0 else -14
+        callout_txt, callout_col = get_type_callout(atype)
+
+        lines.append(render_weather_effects(atype, acolor, rng, TURN_DUR))
 
         # Entrance Flash (0.0s - 0.32s)
         lines.append(f'    <!-- Entrance Flash -->')
@@ -998,7 +1086,7 @@ def build_svg(grid):
         lines.append(f'      <animate attributeName="opacity" dur="{TURN_DUR:.2f}s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; 0.12; 0.16; 0.35; 1"/>')
         lines.append(f'    </circle>')
         lines.append(render_signature_attack_2_4(atype, acolor, tx1, BOTTOM_Y, ty1, t_shot=0.42, dur=0.36))
-        lines.append(f'    <text x="{tx1}" y="{ty1-8}" fill="#FFFF00" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL!')
+        lines.append(f'    <text x="{tx1}" y="{ty1-8}" fill="{callout_col}" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">{callout_txt}')
         lines.append(f'      <animate attributeName="opacity" dur="{TURN_DUR:.2f}s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>')
         lines.append(f'    </text>')
         lines.append(f'    <circle cx="{tx1}" cy="{ty1}" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">')
@@ -1014,7 +1102,7 @@ def build_svg(grid):
         for extra_c in p_cells[1:]:
             ew, ed = extra_c
             ex, ey = cell_x(ew) + CELL_SIZE//2, cell_y(ed) + CELL_SIZE//2
-            lines.append(f'    <text x="{ex}" y="{ey-8}" fill="#FFFF00" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL!')
+            lines.append(f'    <text x="{ex}" y="{ey-8}" fill="{callout_col}" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">{callout_txt}')
             lines.append(f'      <animate attributeName="opacity" dur="{TURN_DUR:.2f}s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>')
             lines.append(f'    </text>')
             lines.append(f'    <circle cx="{ex}" cy="{ey}" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">')
