@@ -416,64 +416,89 @@ def render_comic_bubble_total(text, x, y, bg_color="#FFE135", text_color="#00000
 
 def render_trainer_cameo(total_dur):
     kp = lambda t_sec: f"{round(t_sec / total_dur, 5):.5f}"
-    return f'''  <!-- Feature 4: Pixel Trainer Avatar Cameo @chimataraghuram -->
+    return f'''  <!-- Feature 4: Heroic 16-bit Pixel Trainer Avatar Cameo (RAGHU) -->
   <g id="trainer_cameo">
     <!-- Glowing Holo-Platform beneath feet -->
-    <ellipse cx="16" cy="204" rx="12" ry="3.5" fill="#00F5FF" opacity="0.35">
-      <animate attributeName="opacity" values="0.25;0.6;0.25" dur="1.8s" repeatCount="indefinite"/>
-      <animate attributeName="rx" values="11;14;11" dur="1.8s" repeatCount="indefinite"/>
+    <ellipse cx="16" cy="204" rx="13" ry="3.8" fill="#00F5FF" opacity="0.35">
+      <animate attributeName="opacity" values="0.25;0.55;0.25" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="rx" values="12;15;12" dur="1.8s" repeatCount="indefinite"/>
     </ellipse>
-    <ellipse cx="16" cy="204" rx="6" ry="1.8" fill="#FFFFFF" opacity="0.55"/>
+    <ellipse cx="16" cy="204" rx="7" ry="1.8" fill="#FFFFFF" opacity="0.5"/>
 
     <!-- Subtle breathing and battle stance motion -->
     <g>
       <animateTransform attributeName="transform" type="translate" dur="2.4s" repeatCount="indefinite" values="0,0; 0,-1; 0,0"/>
 
-      <!-- Legs & High-Top Sneakers -->
-      <rect x="12" y="193" width="3.5" height="9" fill="#1e293b"/>
-      <rect x="10" y="201" width="5.5" height="3" fill="#ef4444" rx="1"/>
-      <rect x="11" y="203" width="4.5" height="1" fill="#ffffff"/>
-      <rect x="17" y="193" width="3.5" height="9" fill="#1e293b"/>
-      <rect x="16" y="201" width="5.5" height="3" fill="#ef4444" rx="1"/>
-      <rect x="17" y="203" width="4.5" height="1" fill="#ffffff"/>
+      <!-- Legs (Blue Trainer Jeans) & Red/White Sneakers -->
+      <rect x="11.5" y="193" width="4" height="8.5" fill="#1d4ed8" rx="0.5"/>
+      <rect x="11.5" y="193" width="1.5" height="8.5" fill="#1e40af"/>
+      <rect x="16.5" y="193" width="4" height="8.5" fill="#1d4ed8" rx="0.5"/>
+      <rect x="19" y="193" width="1.5" height="8.5" fill="#1e40af"/>
+      <!-- Sneakers -->
+      <rect x="10.5" y="200.5" width="5" height="3" fill="#ef4444" rx="1"/>
+      <rect x="10.5" y="202.5" width="5" height="1.2" fill="#ffffff" rx="0.4"/>
+      <rect x="16.5" y="200.5" width="5" height="3" fill="#ef4444" rx="1"/>
+      <rect x="16.5" y="202.5" width="5" height="1.2" fill="#ffffff" rx="0.4"/>
 
-      <!-- Torso / Jacket (Red & Dark Charcoal Trainer Jacket) -->
-      <rect x="10" y="180" width="12" height="14" rx="2" fill="#dc2626"/>
-      <rect x="13" y="180" width="6" height="14" fill="#18181b"/>
-      <line x1="16" y1="180" x2="16" y2="194" stroke="#ffffff" stroke-width="0.8"/>
-      <!-- Belt -->
-      <rect x="10" y="192" width="12" height="2" fill="#09090b"/>
-      <rect x="15" y="192" width="2" height="2" fill="#facc15"/>
+      <!-- Torso: Red Open Trainer Jacket + White Collar + Dark Tee -->
+      <rect x="10" y="180" width="12" height="13.5" rx="1.8" fill="#ef4444"/>
+      <!-- Jacket Shading -->
+      <rect x="10" y="180" width="2" height="13.5" rx="1" fill="#b91c1c"/>
+      <rect x="20" y="180" width="2" height="13.5" rx="1" fill="#b91c1c"/>
+      <!-- Inner Dark Tee & White Collar -->
+      <rect x="13.5" y="180" width="5" height="13" fill="#0f172a"/>
+      <polygon points="13.5,180 16,182.5 18.5,180" fill="#f5cba7"/>
+      <line x1="13.5" y1="180" x2="13.5" y2="192" stroke="#ffffff" stroke-width="0.9"/>
+      <line x1="18.5" y1="180" x2="18.5" y2="192" stroke="#ffffff" stroke-width="0.9"/>
+      <!-- Belt & Gold Buckle -->
+      <rect x="10.5" y="192" width="11" height="1.8" fill="#09090b"/>
+      <rect x="14.8" y="191.8" width="2.4" height="2.2" fill="#facc15" rx="0.4"/>
 
-      <!-- Head & Hair (@chimataraghuram pixel art representation) -->
-      <rect x="14" y="177" width="4" height="3" fill="#f5cba7"/>
-      <rect x="12" y="169" width="8" height="9" rx="1.5" fill="#f5cba7"/>
-      <!-- Trimmed Goatee/Beard -->
-      <path d="M13,175 L14,178 L18,178 L19,175 L17,176 L15,176 Z" fill="#18181b"/>
-      <!-- Glasses / Visor -->
-      <rect x="13" y="172" width="2" height="1.5" fill="#09090b"/>
-      <rect x="17" y="172" width="2" height="1.5" fill="#09090b"/>
-      <line x1="12.5" y1="171.5" x2="19.5" y2="171.5" stroke="#38bdf8" stroke-width="0.8" opacity="0.9"/>
-      <!-- Hair -->
-      <path d="M11,169 C11,165 13,163 16,163 C19,163 21,165 21,169 L21,171 L20,170 L12,170 L11,171 Z" fill="#18181b"/>
-      <path d="M13,163 L15,161 L17,163 Z" fill="#27272a"/>
+      <!-- Neck & Head -->
+      <rect x="14.2" y="177.5" width="3.6" height="3" fill="#e0ac84"/>
+      <rect x="11.5" y="168.5" width="9" height="9.5" rx="2" fill="#f5cba7"/>
+      <!-- Hair (Neat dark sideburns & bangs peeking under cap) -->
+      <rect x="11" y="168.5" width="1.8" height="4.5" fill="#18181b" rx="0.5"/>
+      <rect x="19.2" y="168.5" width="1.8" height="4.5" fill="#18181b" rx="0.5"/>
+      <!-- Expressive Anime/Pixel Eyes (White sclera + Dark pupil + Highlight) -->
+      <rect x="13" y="171.8" width="2.2" height="2.6" fill="#ffffff" rx="0.4"/>
+      <rect x="13.8" y="172.1" width="1.4" height="2.2" fill="#0f172a" rx="0.3"/>
+      <rect x="14.0" y="172.3" width="0.6" height="0.6" fill="#ffffff"/>
+      <rect x="16.8" y="171.8" width="2.2" height="2.6" fill="#ffffff" rx="0.4"/>
+      <rect x="17.0" y="172.1" width="1.4" height="2.2" fill="#0f172a" rx="0.3"/>
+      <rect x="17.2" y="172.3" width="0.6" height="0.6" fill="#ffffff"/>
+      <!-- Friendly Confident Smile -->
+      <path d="M14.5,176 Q16,177.2 17.5,176" fill="none" stroke="#92400e" stroke-width="0.9" stroke-linecap="round"/>
 
-      <!-- Left Arm (Resting on hip in ready command stance) -->
-      <rect x="8" y="181" width="3" height="9" rx="1" fill="#dc2626"/>
-      <rect x="8" y="189" width="3" height="3" fill="#f5cba7"/>
+      <!-- Iconic Red & White Pokémon Trainer Cap -->
+      <path d="M10.8,169 C10.8,164 13,162.5 16,162.5 C19,162.5 21.2,164 21.2,169 Z" fill="#ef4444"/>
+      <!-- White Front Crown Panel -->
+      <path d="M13.2,168.5 C13.2,165 14.4,163.5 16,163.5 C17.6,163.5 18.8,165 18.8,168.5 Z" fill="#ffffff"/>
+      <!-- Tiny Pokéball Cap Emblem -->
+      <path d="M14.7,166.5 A1.3,1.3 0 0,1 17.3,166.5 Z" fill="#00F5FF"/>
+      <!-- Cap Brim -->
+      <rect x="10.2" y="168.2" width="12.5" height="1.8" rx="0.9" fill="#b91c1c"/>
+
+      <!-- Left Arm (Ready battle stance) -->
+      <rect x="7.5" y="180.5" width="3" height="8.5" rx="1.2" fill="#ef4444"/>
+      <rect x="7.5" y="187.5" width="3" height="2.5" rx="1" fill="#f5cba7"/>
 
       <!-- Right Arm (Animated Throwing Arm & Battle Commander Stance) -->
       <g>
         <animateTransform attributeName="transform" type="rotate" dur="{total_dur:.1f}s" repeatCount="indefinite"
-          values="0, 18, 182; -40, 18, 182; 38, 18, 182; 15, 18, 182; 15, 18, 182; 0, 18, 182"
+          values="0, 20, 182; -42, 20, 182; 38, 20, 182; 15, 20, 182; 15, 20, 182; 0, 20, 182"
           keyTimes="0; {kp(0.35)}; {kp(0.68)}; {kp(0.95)}; {kp(4.50)}; 1"/>
-        <rect x="18" y="181" width="3.5" height="9" rx="1" fill="#dc2626"/>
-        <rect x="18" y="189" width="3.5" height="3" fill="#f5cba7"/>
+        <rect x="21" y="180.5" width="3" height="8.5" rx="1.2" fill="#ef4444"/>
+        <rect x="21" y="187.5" width="3" height="2.5" rx="1" fill="#f5cba7"/>
         <!-- Pokéball held in hand during wind-up (visible 0.0s to 0.40s) -->
-        <circle cx="20" cy="192" r="2.8" fill="#ef4444" opacity="1">
+        <g opacity="1">
           <animate attributeName="opacity" dur="{total_dur:.1f}s" repeatCount="indefinite"
             values="1; 1; 0; 0; 0; 1" keyTimes="0; {kp(0.38)}; {kp(0.42)}; 0.9997; 0.9999; 1"/>
-        </circle>
+          <circle cx="22.5" cy="191" r="2.8" fill="#ffffff"/>
+          <path d="M19.7,191 A2.8,2.8 0 0,1 25.3,191 Z" fill="#ef4444"/>
+          <line x1="19.7" y1="191" x2="25.3" y2="191" stroke="#0f172a" stroke-width="0.8"/>
+          <circle cx="22.5" cy="191" r="0.9" fill="#ffffff" stroke="#0f172a" stroke-width="0.5"/>
+        </g>
       </g>
     </g>
 
@@ -481,9 +506,9 @@ def render_trainer_cameo(total_dur):
     <g opacity="0">
       <animate attributeName="opacity" dur="{total_dur:.1f}s" repeatCount="indefinite"
         values="0; 0; 1; 1; 0; 0" keyTimes="0; {kp(0.15)}; {kp(0.25)}; {kp(1.25)}; {kp(1.40)}; 1"/>
-      <rect x="4" y="146" width="66" height="15" rx="3" fill="#FFE135" stroke="#000000" stroke-width="1.2"/>
-      <polygon points="16,161 20,161 14,166" fill="#FFE135"/>
-      <text x="37" y="157" font-size="7.5px" font-weight="900" font-family="monospace" fill="#000000" text-anchor="middle">PIKACHU, GO! ⚡</text>
+      <rect x="4" y="144" width="66" height="15" rx="3" fill="#FFE135" stroke="#000000" stroke-width="1.2"/>
+      <polygon points="16,159 20,159 14,164" fill="#FFE135"/>
+      <text x="37" y="155" font-size="7.5px" font-weight="900" font-family="monospace" fill="#000000" text-anchor="middle">PIKACHU, GO! ⚡</text>
     </g>
 
     <!-- Trainer Nameplate Badge -->
