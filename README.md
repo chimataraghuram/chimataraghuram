@@ -543,7 +543,7 @@
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b><code>chimataraghuram/chimataraghuram</code></b></a></td>
-      <td><code>Merge pull request #58 from chimataraghuram/chimatar...</code></td>
+      <td><code>fix: ensure pure generated SVG after merge</code></td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_24-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 24" /></td>
     </tr>
     <tr>
