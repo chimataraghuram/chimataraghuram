@@ -793,12 +793,12 @@ def build_svg(grid):
     lines.append('    <rect width="100%" height="100%" fill="url(#nebula_emerald)"/>')
     lines.append('  </g>\n')
 
-    # Starfield
+    # Starfield (kept strictly inside arena band y=38..210 to avoid header and HUD text)
     lines.append('  <!-- Starfield background (Space Shooter atmosphere) -->')
     lines.append('  <g id="starfield">')
-    for _ in range(95):
+    for _ in range(90):
         sx = rng.randint(4, SVG_W - 4)
-        sy = rng.randint(4, SVG_H - 4)
+        sy = rng.randint(38, 210)
         sr = rng.choice([0.7, 0.9, 1.2, 1.5])
         op = round(rng.uniform(0.25, 0.85), 2)
         lines.append(f'    <circle cx="{sx}" cy="{sy}" r="{sr}" fill="#ffffff" opacity="{op}"/>')
@@ -881,16 +881,16 @@ def build_svg(grid):
         gid = f"poke_{idx}_{name.lower()}"
         sp_id = sprite_uris.get(name)
 
-        # Master Turn Container: active only during this Pokémon's window of the round
+        # Master Turn Container: active only during this Pokémon's window of the round (discrete switch prevents HUD overlap)
         lines.append(f'\n  <!-- [{idx+1:02d}/50] {name.upper()} TURN CONTAINER ({t_start:.1f}s - {t_end:.1f}s) -->')
         if idx == 0:
             lines.append(f'  <g id="turn_{idx}_{name.lower()}" opacity="1">')
-            lines.append(f'    <animate attributeName="opacity" dur="{TOTAL_DUR:.1f}s" repeatCount="indefinite" '
-                         f'values="1; 1; 0; 0; 0; 1" keyTimes="0; {k_end_out}; {k_end}; 0.9997; 0.9999; 1" />')
+            lines.append(f'    <animate attributeName="opacity" dur="{TOTAL_DUR:.1f}s" repeatCount="indefinite" calcMode="discrete" '
+                         f'values="1; 0; 1" keyTimes="0; {k_end}; 0.9999" />')
         else:
             lines.append(f'  <g id="turn_{idx}_{name.lower()}" opacity="0">')
-            lines.append(f'    <animate attributeName="opacity" dur="{TOTAL_DUR:.1f}s" repeatCount="indefinite" '
-                         f'values="0; 0; 1; 1; 0; 0" keyTimes="0; {k_start}; {k_start_in}; {k_end_out}; {k_end}; 1" />')
+            lines.append(f'    <animate attributeName="opacity" dur="{TOTAL_DUR:.1f}s" repeatCount="indefinite" calcMode="discrete" '
+                         f'values="0; 1; 0" keyTimes="0; {k_start}; {k_end}" />')
 
         # ═════════════════════════════════════════════════════════════════════
         # PIKACHU SPECIAL ARCHITECTURE (#1) — Extended Slow Entrance & Showcase
@@ -975,7 +975,7 @@ def build_svg(grid):
             lines.append(f'    <circle cx="{tx1}" cy="{ty1}" r="9" fill="none" stroke="#FFE135" stroke-width="2" class="pixel-reticle" opacity="0">')
             lines.append(f'      <animate attributeName="opacity" dur="{TOTAL_DUR:.1f}s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; {kp(2.10)}; {kp(2.20)}; {kp(2.80)}; 1"/>')
             lines.append(f'    </circle>')
-            lines.append(f'    <text x="{tx1}" y="{ty1-8}" fill="#FFFF00" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL!')
+            lines.append(f'    <text x="{tx1}" y="{ty1-8}" fill="#FFFF00" stroke="#030712" stroke-width="3" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL!')
             lines.append(f'      <animate attributeName="opacity" dur="{TOTAL_DUR:.1f}s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; {kp(2.45)}; {kp(2.50)}; {kp(2.90)}; 1"/>')
             lines.append(f'    </text>')
             lines.append(render_comic_bubble_total("ZAP!", tx1 + 24, ty1 - 10, bg_color="#FFE135", text_color="#000000", t_start=2.45, dur=0.55))
@@ -1086,7 +1086,7 @@ def build_svg(grid):
         lines.append(f'      <animate attributeName="opacity" dur="{TURN_DUR:.2f}s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; 0.12; 0.16; 0.35; 1"/>')
         lines.append(f'    </circle>')
         lines.append(render_signature_attack_2_4(atype, acolor, tx1, BOTTOM_Y, ty1, t_shot=0.42, dur=0.36))
-        lines.append(f'    <text x="{tx1}" y="{ty1-8}" fill="{callout_col}" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">{callout_txt}')
+        lines.append(f'    <text x="{tx1}" y="{ty1-8}" fill="{callout_col}" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">{callout_txt}')
         lines.append(f'      <animate attributeName="opacity" dur="{TURN_DUR:.2f}s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>')
         lines.append(f'    </text>')
         lines.append(f'    <circle cx="{tx1}" cy="{ty1}" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">')
@@ -1102,7 +1102,7 @@ def build_svg(grid):
         for extra_c in p_cells[1:]:
             ew, ed = extra_c
             ex, ey = cell_x(ew) + CELL_SIZE//2, cell_y(ed) + CELL_SIZE//2
-            lines.append(f'    <text x="{ex}" y="{ey-8}" fill="{callout_col}" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">{callout_txt}')
+            lines.append(f'    <text x="{ex}" y="{ey-8}" fill="{callout_col}" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">{callout_txt}')
             lines.append(f'      <animate attributeName="opacity" dur="{TURN_DUR:.2f}s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>')
             lines.append(f'    </text>')
             lines.append(f'    <circle cx="{ex}" cy="{ey}" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">')

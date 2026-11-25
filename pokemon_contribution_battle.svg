@@ -98,101 +98,96 @@
 
   <!-- Starfield background (Space Shooter atmosphere) -->
   <g id="starfield">
-    <circle cx="245" cy="135" r="1.5" fill="#ffffff" opacity="0.56"/>
-    <circle cx="418" cy="45" r="0.9" fill="#ffffff" opacity="0.3"/>
-    <circle cx="361" cy="175" r="0.7" fill="#ffffff" opacity="0.75"/>
-    <circle cx="799" cy="109" r="1.2" fill="#ffffff" opacity="0.27"/>
-    <circle cx="669" cy="147" r="1.2" fill="#ffffff" opacity="0.48"/>
-    <circle cx="530" cy="126" r="0.7" fill="#ffffff" opacity="0.27"/>
-    <circle cx="661" cy="6" r="0.9" fill="#ffffff" opacity="0.77"/>
-    <circle cx="48" cy="76" r="1.5" fill="#ffffff" opacity="0.31"/>
-    <circle cx="649" cy="22" r="0.9" fill="#ffffff" opacity="0.35"/>
-    <circle cx="815" cy="98" r="0.9" fill="#ffffff" opacity="0.28"/>
-    <circle cx="12" cy="14" r="1.5" fill="#ffffff" opacity="0.83"/>
-    <circle cx="467" cy="142" r="1.2" fill="#ffffff" opacity="0.35"/>
-    <circle cx="29" cy="234" r="0.9" fill="#ffffff" opacity="0.74"/>
-    <circle cx="669" cy="82" r="1.5" fill="#ffffff" opacity="0.58"/>
-    <circle cx="384" cy="71" r="0.7" fill="#ffffff" opacity="0.61"/>
-    <circle cx="730" cy="136" r="0.7" fill="#ffffff" opacity="0.52"/>
-    <circle cx="135" cy="198" r="1.2" fill="#ffffff" opacity="0.35"/>
-    <circle cx="737" cy="124" r="0.7" fill="#ffffff" opacity="0.72"/>
-    <circle cx="690" cy="53" r="1.5" fill="#ffffff" opacity="0.56"/>
-    <circle cx="361" cy="236" r="0.7" fill="#ffffff" opacity="0.66"/>
-    <circle cx="92" cy="159" r="1.2" fill="#ffffff" opacity="0.65"/>
-    <circle cx="331" cy="29" r="1.2" fill="#ffffff" opacity="0.46"/>
-    <circle cx="435" cy="81" r="0.9" fill="#ffffff" opacity="0.3"/>
-    <circle cx="714" cy="101" r="1.5" fill="#ffffff" opacity="0.53"/>
-    <circle cx="632" cy="12" r="1.2" fill="#ffffff" opacity="0.29"/>
-    <circle cx="79" cy="76" r="0.9" fill="#ffffff" opacity="0.42"/>
-    <circle cx="480" cy="134" r="1.5" fill="#ffffff" opacity="0.33"/>
-    <circle cx="550" cy="23" r="1.2" fill="#ffffff" opacity="0.56"/>
-    <circle cx="783" cy="74" r="0.7" fill="#ffffff" opacity="0.71"/>
-    <circle cx="447" cy="51" r="0.9" fill="#ffffff" opacity="0.27"/>
-    <circle cx="297" cy="73" r="0.9" fill="#ffffff" opacity="0.29"/>
-    <circle cx="280" cy="138" r="0.9" fill="#ffffff" opacity="0.82"/>
-    <circle cx="623" cy="176" r="0.9" fill="#ffffff" opacity="0.59"/>
-    <circle cx="847" cy="177" r="0.9" fill="#ffffff" opacity="0.33"/>
-    <circle cx="83" cy="205" r="1.5" fill="#ffffff" opacity="0.46"/>
-    <circle cx="489" cy="114" r="0.7" fill="#ffffff" opacity="0.26"/>
-    <circle cx="566" cy="164" r="0.9" fill="#ffffff" opacity="0.41"/>
-    <circle cx="84" cy="213" r="1.5" fill="#ffffff" opacity="0.47"/>
-    <circle cx="652" cy="57" r="0.7" fill="#ffffff" opacity="0.7"/>
-    <circle cx="143" cy="186" r="1.2" fill="#ffffff" opacity="0.38"/>
-    <circle cx="308" cy="201" r="1.5" fill="#ffffff" opacity="0.66"/>
-    <circle cx="651" cy="213" r="1.2" fill="#ffffff" opacity="0.81"/>
-    <circle cx="582" cy="154" r="0.9" fill="#ffffff" opacity="0.79"/>
-    <circle cx="574" cy="143" r="0.9" fill="#ffffff" opacity="0.33"/>
-    <circle cx="653" cy="202" r="0.7" fill="#ffffff" opacity="0.78"/>
-    <circle cx="487" cy="111" r="1.5" fill="#ffffff" opacity="0.36"/>
-    <circle cx="224" cy="101" r="1.5" fill="#ffffff" opacity="0.59"/>
-    <circle cx="26" cy="88" r="1.2" fill="#ffffff" opacity="0.28"/>
-    <circle cx="34" cy="231" r="1.2" fill="#ffffff" opacity="0.8"/>
-    <circle cx="662" cy="148" r="0.7" fill="#ffffff" opacity="0.83"/>
-    <circle cx="789" cy="130" r="0.9" fill="#ffffff" opacity="0.37"/>
-    <circle cx="801" cy="78" r="0.9" fill="#ffffff" opacity="0.56"/>
-    <circle cx="395" cy="199" r="0.9" fill="#ffffff" opacity="0.39"/>
-    <circle cx="570" cy="107" r="1.5" fill="#ffffff" opacity="0.31"/>
-    <circle cx="167" cy="127" r="1.5" fill="#ffffff" opacity="0.31"/>
-    <circle cx="362" cy="20" r="1.2" fill="#ffffff" opacity="0.56"/>
-    <circle cx="623" cy="111" r="1.5" fill="#ffffff" opacity="0.32"/>
-    <circle cx="413" cy="207" r="1.2" fill="#ffffff" opacity="0.31"/>
-    <circle cx="573" cy="96" r="0.7" fill="#ffffff" opacity="0.42"/>
-    <circle cx="599" cy="103" r="0.9" fill="#ffffff" opacity="0.66"/>
-    <circle cx="344" cy="88" r="1.2" fill="#ffffff" opacity="0.56"/>
-    <circle cx="495" cy="10" r="0.7" fill="#ffffff" opacity="0.47"/>
-    <circle cx="591" cy="177" r="1.5" fill="#ffffff" opacity="0.82"/>
-    <circle cx="20" cy="157" r="1.5" fill="#ffffff" opacity="0.49"/>
-    <circle cx="111" cy="190" r="0.7" fill="#ffffff" opacity="0.78"/>
-    <circle cx="129" cy="161" r="1.2" fill="#ffffff" opacity="0.82"/>
-    <circle cx="45" cy="164" r="0.7" fill="#ffffff" opacity="0.48"/>
-    <circle cx="105" cy="162" r="1.5" fill="#ffffff" opacity="0.81"/>
-    <circle cx="546" cy="4" r="0.9" fill="#ffffff" opacity="0.32"/>
-    <circle cx="615" cy="177" r="1.5" fill="#ffffff" opacity="0.74"/>
-    <circle cx="765" cy="106" r="1.2" fill="#ffffff" opacity="0.48"/>
-    <circle cx="696" cy="234" r="1.5" fill="#ffffff" opacity="0.54"/>
-    <circle cx="305" cy="81" r="1.2" fill="#ffffff" opacity="0.38"/>
-    <circle cx="626" cy="195" r="1.5" fill="#ffffff" opacity="0.55"/>
-    <circle cx="854" cy="67" r="0.7" fill="#ffffff" opacity="0.46"/>
-    <circle cx="774" cy="124" r="1.2" fill="#ffffff" opacity="0.32"/>
-    <circle cx="525" cy="29" r="1.2" fill="#ffffff" opacity="0.82"/>
-    <circle cx="726" cy="21" r="0.9" fill="#ffffff" opacity="0.83"/>
-    <circle cx="720" cy="79" r="1.5" fill="#ffffff" opacity="0.63"/>
-    <circle cx="339" cy="237" r="1.5" fill="#ffffff" opacity="0.61"/>
-    <circle cx="292" cy="26" r="0.9" fill="#ffffff" opacity="0.74"/>
-    <circle cx="762" cy="205" r="0.7" fill="#ffffff" opacity="0.72"/>
-    <circle cx="816" cy="32" r="1.2" fill="#ffffff" opacity="0.78"/>
-    <circle cx="371" cy="188" r="0.7" fill="#ffffff" opacity="0.43"/>
-    <circle cx="674" cy="151" r="0.7" fill="#ffffff" opacity="0.3"/>
-    <circle cx="572" cy="220" r="1.2" fill="#ffffff" opacity="0.83"/>
-    <circle cx="479" cy="68" r="1.5" fill="#ffffff" opacity="0.81"/>
-    <circle cx="444" cy="185" r="1.2" fill="#ffffff" opacity="0.73"/>
-    <circle cx="752" cy="226" r="1.5" fill="#ffffff" opacity="0.49"/>
-    <circle cx="600" cy="130" r="0.9" fill="#ffffff" opacity="0.8"/>
-    <circle cx="559" cy="151" r="0.7" fill="#ffffff" opacity="0.72"/>
-    <circle cx="494" cy="51" r="1.2" fill="#ffffff" opacity="0.31"/>
-    <circle cx="542" cy="221" r="1.5" fill="#ffffff" opacity="0.51"/>
-    <circle cx="102" cy="213" r="1.5" fill="#ffffff" opacity="0.58"/>
-    <circle cx="704" cy="131" r="1.5" fill="#ffffff" opacity="0.26"/>
+    <circle cx="245" cy="169" r="1.5" fill="#ffffff" opacity="0.56"/>
+    <circle cx="418" cy="79" r="0.9" fill="#ffffff" opacity="0.3"/>
+    <circle cx="361" cy="209" r="0.7" fill="#ffffff" opacity="0.75"/>
+    <circle cx="799" cy="143" r="1.2" fill="#ffffff" opacity="0.27"/>
+    <circle cx="669" cy="181" r="1.2" fill="#ffffff" opacity="0.48"/>
+    <circle cx="530" cy="160" r="0.7" fill="#ffffff" opacity="0.27"/>
+    <circle cx="661" cy="40" r="0.9" fill="#ffffff" opacity="0.77"/>
+    <circle cx="48" cy="110" r="1.5" fill="#ffffff" opacity="0.31"/>
+    <circle cx="649" cy="56" r="0.9" fill="#ffffff" opacity="0.35"/>
+    <circle cx="815" cy="132" r="0.9" fill="#ffffff" opacity="0.28"/>
+    <circle cx="12" cy="48" r="1.5" fill="#ffffff" opacity="0.83"/>
+    <circle cx="467" cy="176" r="1.2" fill="#ffffff" opacity="0.35"/>
+    <circle cx="29" cy="93" r="1.2" fill="#ffffff" opacity="0.79"/>
+    <circle cx="575" cy="133" r="1.2" fill="#ffffff" opacity="0.58"/>
+    <circle cx="610" cy="170" r="0.7" fill="#ffffff" opacity="0.52"/>
+    <circle cx="135" cy="117" r="0.9" fill="#ffffff" opacity="0.44"/>
+    <circle cx="737" cy="158" r="0.7" fill="#ffffff" opacity="0.72"/>
+    <circle cx="690" cy="87" r="1.5" fill="#ffffff" opacity="0.56"/>
+    <circle cx="361" cy="53" r="0.9" fill="#ffffff" opacity="0.3"/>
+    <circle cx="340" cy="208" r="1.2" fill="#ffffff" opacity="0.31"/>
+    <circle cx="331" cy="126" r="1.5" fill="#ffffff" opacity="0.5"/>
+    <circle cx="314" cy="76" r="0.7" fill="#ffffff" opacity="0.66"/>
+    <circle cx="714" cy="135" r="1.5" fill="#ffffff" opacity="0.53"/>
+    <circle cx="632" cy="46" r="1.2" fill="#ffffff" opacity="0.29"/>
+    <circle cx="79" cy="110" r="0.9" fill="#ffffff" opacity="0.42"/>
+    <circle cx="480" cy="168" r="1.5" fill="#ffffff" opacity="0.33"/>
+    <circle cx="550" cy="57" r="1.2" fill="#ffffff" opacity="0.56"/>
+    <circle cx="783" cy="108" r="0.7" fill="#ffffff" opacity="0.71"/>
+    <circle cx="447" cy="85" r="0.9" fill="#ffffff" opacity="0.27"/>
+    <circle cx="297" cy="107" r="0.9" fill="#ffffff" opacity="0.29"/>
+    <circle cx="280" cy="172" r="0.9" fill="#ffffff" opacity="0.82"/>
+    <circle cx="623" cy="210" r="0.9" fill="#ffffff" opacity="0.59"/>
+    <circle cx="847" cy="87" r="0.9" fill="#ffffff" opacity="0.39"/>
+    <circle cx="810" cy="162" r="1.2" fill="#ffffff" opacity="0.4"/>
+    <circle cx="489" cy="148" r="0.7" fill="#ffffff" opacity="0.26"/>
+    <circle cx="566" cy="198" r="0.9" fill="#ffffff" opacity="0.41"/>
+    <circle cx="84" cy="137" r="1.2" fill="#ffffff" opacity="0.33"/>
+    <circle cx="217" cy="49" r="1.5" fill="#ffffff" opacity="0.33"/>
+    <circle cx="272" cy="91" r="0.7" fill="#ffffff" opacity="0.43"/>
+    <circle cx="715" cy="165" r="1.2" fill="#ffffff" opacity="0.81"/>
+    <circle cx="582" cy="188" r="0.9" fill="#ffffff" opacity="0.79"/>
+    <circle cx="574" cy="177" r="0.9" fill="#ffffff" opacity="0.33"/>
+    <circle cx="653" cy="52" r="1.5" fill="#ffffff" opacity="0.5"/>
+    <circle cx="688" cy="147" r="0.9" fill="#ffffff" opacity="0.82"/>
+    <circle cx="395" cy="165" r="0.7" fill="#ffffff" opacity="0.26"/>
+    <circle cx="523" cy="128" r="0.7" fill="#ffffff" opacity="0.52"/>
+    <circle cx="272" cy="70" r="0.7" fill="#ffffff" opacity="0.83"/>
+    <circle cx="789" cy="164" r="0.9" fill="#ffffff" opacity="0.37"/>
+    <circle cx="801" cy="112" r="0.9" fill="#ffffff" opacity="0.56"/>
+    <circle cx="395" cy="89" r="0.9" fill="#ffffff" opacity="0.57"/>
+    <circle cx="416" cy="167" r="1.5" fill="#ffffff" opacity="0.31"/>
+    <circle cx="167" cy="161" r="1.5" fill="#ffffff" opacity="0.31"/>
+    <circle cx="362" cy="54" r="1.2" fill="#ffffff" opacity="0.56"/>
+    <circle cx="623" cy="145" r="1.5" fill="#ffffff" opacity="0.32"/>
+    <circle cx="413" cy="121" r="0.7" fill="#ffffff" opacity="0.32"/>
+    <circle cx="372" cy="56" r="1.2" fill="#ffffff" opacity="0.4"/>
+    <circle cx="403" cy="82" r="1.2" fill="#ffffff" opacity="0.45"/>
+    <circle cx="537" cy="82" r="1.5" fill="#ffffff" opacity="0.26"/>
+    <circle cx="95" cy="130" r="1.5" fill="#ffffff" opacity="0.82"/>
+    <circle cx="20" cy="191" r="1.5" fill="#ffffff" opacity="0.49"/>
+    <circle cx="111" cy="199" r="0.7" fill="#ffffff" opacity="0.78"/>
+    <circle cx="129" cy="195" r="1.2" fill="#ffffff" opacity="0.82"/>
+    <circle cx="45" cy="198" r="0.7" fill="#ffffff" opacity="0.48"/>
+    <circle cx="105" cy="196" r="1.5" fill="#ffffff" opacity="0.81"/>
+    <circle cx="546" cy="38" r="0.9" fill="#ffffff" opacity="0.32"/>
+    <circle cx="615" cy="166" r="1.5" fill="#ffffff" opacity="0.74"/>
+    <circle cx="765" cy="140" r="1.2" fill="#ffffff" opacity="0.48"/>
+    <circle cx="696" cy="164" r="1.5" fill="#ffffff" opacity="0.26"/>
+    <circle cx="305" cy="115" r="1.2" fill="#ffffff" opacity="0.38"/>
+    <circle cx="626" cy="140" r="0.7" fill="#ffffff" opacity="0.75"/>
+    <circle cx="578" cy="56" r="1.2" fill="#ffffff" opacity="0.53"/>
+    <circle cx="486" cy="207" r="1.2" fill="#ffffff" opacity="0.32"/>
+    <circle cx="525" cy="63" r="1.2" fill="#ffffff" opacity="0.82"/>
+    <circle cx="726" cy="55" r="0.9" fill="#ffffff" opacity="0.83"/>
+    <circle cx="720" cy="113" r="1.5" fill="#ffffff" opacity="0.63"/>
+    <circle cx="339" cy="156" r="1.2" fill="#ffffff" opacity="0.3"/>
+    <circle cx="207" cy="44" r="0.7" fill="#ffffff" opacity="0.7"/>
+    <circle cx="688" cy="126" r="1.5" fill="#ffffff" opacity="0.47"/>
+    <circle cx="696" cy="58" r="1.2" fill="#ffffff" opacity="0.61"/>
+    <circle cx="674" cy="185" r="0.7" fill="#ffffff" opacity="0.3"/>
+    <circle cx="572" cy="107" r="1.5" fill="#ffffff" opacity="0.4"/>
+    <circle cx="487" cy="157" r="1.5" fill="#ffffff" opacity="0.68"/>
+    <circle cx="824" cy="205" r="1.5" fill="#ffffff" opacity="0.49"/>
+    <circle cx="600" cy="164" r="0.9" fill="#ffffff" opacity="0.8"/>
+    <circle cx="559" cy="185" r="0.7" fill="#ffffff" opacity="0.72"/>
+    <circle cx="494" cy="85" r="1.2" fill="#ffffff" opacity="0.31"/>
+    <circle cx="542" cy="154" r="1.5" fill="#ffffff" opacity="0.39"/>
+    <circle cx="843" cy="195" r="1.5" fill="#ffffff" opacity="0.58"/>
+    <circle cx="704" cy="165" r="1.5" fill="#ffffff" opacity="0.26"/>
+    <circle cx="737" cy="88" r="0.9" fill="#ffffff" opacity="0.75"/>
   </g>
 
   <!-- Feature 5: Combat Impact Flash Overlay -->
@@ -1042,21 +1037,21 @@
 
   <!-- [01/50] PIKACHU TURN CONTAINER (0.0s - 4.8s) -->
   <g id="turn_0_pikachu" opacity="1">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 0; 0; 0; 1" keyTimes="0; 0.03889; 0.03922; 0.9997; 0.9999; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="1; 0; 1" keyTimes="0; 0.03922; 0.9999" />
     <!-- Feature 2: Elemental Weather & Field Effects (thunder) -->
-    <polyline points="270,80 275,76 272,71 278,67" fill="none" stroke="#FFE135" stroke-width="1.3" stroke-linecap="round" opacity="0">
-      <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; 0.15; 0.22; 0.29; 1" />
-    </polyline>
     <polyline points="106,131 111,127 108,122 114,118" fill="none" stroke="#FFE135" stroke-width="1.3" stroke-linecap="round" opacity="0">
-      <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; 0.4; 0.47; 0.54; 1" />
+      <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; 0.15; 0.22; 0.29; 1" />
     </polyline>
     <polyline points="221,98 226,94 223,89 229,85" fill="none" stroke="#FFE135" stroke-width="1.3" stroke-linecap="round" opacity="0">
-      <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; 0.65; 0.72; 0.79; 1" />
+      <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; 0.4; 0.47; 0.54; 1" />
     </polyline>
     <polyline points="553,121 558,117 555,112 561,108" fill="none" stroke="#FFE135" stroke-width="1.3" stroke-linecap="round" opacity="0">
-      <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; 0.15; 0.22; 0.29; 1" />
+      <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; 0.65; 0.72; 0.79; 1" />
     </polyline>
     <polyline points="206,140 211,136 208,131 214,127" fill="none" stroke="#FFE135" stroke-width="1.3" stroke-linecap="round" opacity="0">
+      <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; 0.15; 0.22; 0.29; 1" />
+    </polyline>
+    <polyline points="71,161 76,157 73,152 79,148" fill="none" stroke="#FFE135" stroke-width="1.3" stroke-linecap="round" opacity="0">
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; 0.4; 0.47; 0.54; 1" />
     </polyline>
     <!-- Feature 4: Slow Parabolic Pokéball Throw-In Entrance (Launched by Trainer) -->
@@ -1109,7 +1104,7 @@
     <circle cx="633" cy="77" r="9" fill="none" stroke="#FFE135" stroke-width="2" class="pixel-reticle" opacity="0">
       <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; 0.01716; 0.01797; 0.02288; 1"/>
     </circle>
-    <text x="633" y="69" fill="#FFFF00" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL!
+    <text x="633" y="69" fill="#FFFF00" stroke="#030712" stroke-width="3" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL!
       <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.02002; 0.02042; 0.02369; 1"/>
     </text>
 
@@ -1180,21 +1175,21 @@
 
   <!-- [02/50] ZEKROM TURN CONTAINER (4.8s - 7.2s) -->
   <g id="turn_1_zekrom" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.03922; 0.03954; 0.0585; 0.05882; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.03922; 0.05882" />
     <!-- Feature 2: Elemental Weather & Field Effects (thunder) -->
-    <polyline points="71,161 76,157 73,152 79,148" fill="none" stroke="#FFE135" stroke-width="1.3" stroke-linecap="round" opacity="0">
-      <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; 0.15; 0.22; 0.29; 1" />
-    </polyline>
     <polyline points="766,161 771,157 768,152 774,148" fill="none" stroke="#FFE135" stroke-width="1.3" stroke-linecap="round" opacity="0">
-      <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; 0.4; 0.47; 0.54; 1" />
+      <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; 0.15; 0.22; 0.29; 1" />
     </polyline>
     <polyline points="233,144 238,140 235,135 241,131" fill="none" stroke="#FFE135" stroke-width="1.3" stroke-linecap="round" opacity="0">
-      <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; 0.65; 0.72; 0.79; 1" />
+      <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; 0.4; 0.47; 0.54; 1" />
     </polyline>
     <polyline points="269,137 274,133 271,128 277,124" fill="none" stroke="#FFE135" stroke-width="1.3" stroke-linecap="round" opacity="0">
-      <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; 0.15; 0.22; 0.29; 1" />
+      <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; 0.65; 0.72; 0.79; 1" />
     </polyline>
     <polyline points="337,110 342,106 339,101 345,97" fill="none" stroke="#FFE135" stroke-width="1.3" stroke-linecap="round" opacity="0">
+      <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; 0.15; 0.22; 0.29; 1" />
+    </polyline>
+    <polyline points="142,103 147,99 144,94 150,90" fill="none" stroke="#FFE135" stroke-width="1.3" stroke-linecap="round" opacity="0">
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; 0.4; 0.47; 0.54; 1" />
     </polyline>
     <!-- Entrance Flash -->
@@ -1239,7 +1234,7 @@
       <circle cx="611" cy="155" r="5" fill="#FFFFFF"/>
       <circle cx="628" cy="128" r="5.5" fill="#33CCFF"/>
     </g>
-    <text x="619" y="97" fill="#FFE135" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT! ⚡
+    <text x="619" y="97" fill="#FFE135" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT! ⚡
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="619" cy="105" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -1261,14 +1256,14 @@
       <circle cx="65" cy="159" r="5" fill="#FFFFFF"/>
       <circle cx="82" cy="137" r="5.5" fill="#33CCFF"/>
     </g>
-    <text x="73" y="111" fill="#FFE135" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT! ⚡
+    <text x="73" y="111" fill="#FFE135" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT! ⚡
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="73" cy="119" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
-    <text x="451" y="69" fill="#FFE135" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT! ⚡
+    <text x="451" y="69" fill="#FFE135" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT! ⚡
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="451" cy="77" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -1293,30 +1288,30 @@
 
   <!-- [03/50] GYARADOS TURN CONTAINER (7.2s - 9.6s) -->
   <g id="turn_2_gyarados" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.05882; 0.05915; 0.0781; 0.07843; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.05882; 0.07843" />
     <!-- Feature 2: Elemental Weather & Field Effects (hydro_pump) -->
     <line x1="0" y1="0" x2="-4" y2="10" stroke="#00CCFF" stroke-width="1.2" stroke-linecap="round" opacity="0">
-      <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="132,41; 110,170" />
+      <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="234,46; 212,189" />
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0.65; 0.65; 0" keyTimes="0; 0.2; 0.8; 1" />
     </line>
     <line x1="0" y1="0" x2="-4" y2="10" stroke="#00CCFF" stroke-width="1.2" stroke-linecap="round" opacity="0">
-      <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="646,52; 624,170" />
+      <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="238,29; 216,187" />
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0.65; 0.65; 0" keyTimes="0; 0.2; 0.8; 1" />
     </line>
     <line x1="0" y1="0" x2="-4" y2="10" stroke="#00CCFF" stroke-width="1.2" stroke-linecap="round" opacity="0">
-      <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="123,50; 101,186" />
+      <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="740,53; 718,173" />
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0.65; 0.65; 0" keyTimes="0; 0.2; 0.8; 1" />
     </line>
     <line x1="0" y1="0" x2="-4" y2="10" stroke="#00CCFF" stroke-width="1.2" stroke-linecap="round" opacity="0">
-      <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="333,48; 311,187" />
+      <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="716,50; 694,185" />
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0.65; 0.65; 0" keyTimes="0; 0.2; 0.8; 1" />
     </line>
     <line x1="0" y1="0" x2="-4" y2="10" stroke="#00CCFF" stroke-width="1.2" stroke-linecap="round" opacity="0">
-      <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="724,47; 702,176" />
+      <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="674,39; 652,180" />
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0.65; 0.65; 0" keyTimes="0; 0.2; 0.8; 1" />
     </line>
     <line x1="0" y1="0" x2="-4" y2="10" stroke="#00CCFF" stroke-width="1.2" stroke-linecap="round" opacity="0">
-      <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="568,51; 546,171" />
+      <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="799,34; 777,192" />
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0.65; 0.65; 0" keyTimes="0; 0.2; 0.8; 1" />
     </line>
     <!-- Entrance Flash -->
@@ -1360,7 +1355,7 @@
       <line x1="373" y1="162" x2="370" y2="49" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
       <ellipse cx="367" cy="57" rx="18" ry="7" fill="none" stroke="#FFFFFF" stroke-width="3"/>
     </g>
-    <text x="367" y="41" fill="#00CCFF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="367" y="41" fill="#00CCFF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="367" cy="49" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -1381,14 +1376,14 @@
       <line x1="611" y1="162" x2="608" y2="49" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
       <ellipse cx="605" cy="57" rx="18" ry="7" fill="none" stroke="#FFFFFF" stroke-width="3"/>
     </g>
-    <text x="605" y="41" fill="#00CCFF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="605" y="41" fill="#00CCFF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="605" cy="49" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
-    <text x="563" y="83" fill="#00CCFF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="563" y="83" fill="#00CCFF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="563" cy="91" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -1413,7 +1408,7 @@
 
   <!-- [04/50] BLAZIKEN TURN CONTAINER (9.6s - 12.0s) -->
   <g id="turn_3_blaziken" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.07843; 0.07876; 0.09771; 0.09804; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.07843; 0.09804" />
     <!-- Feature 2: Elemental Weather & Field Effects (fire_blast) -->
     <circle cx="0" cy="0" r="2.2" fill="#FF5500" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="537,179; 550,65" />
@@ -1489,7 +1484,7 @@
         <circle cx="0" cy="0" r="4.5" fill="#FFFFFF"/>
       </g>
     </g>
-    <text x="73" y="83" fill="#FF6600" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
+    <text x="73" y="83" fill="#FF6600" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="73" cy="91" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -1519,14 +1514,14 @@
         <circle cx="0" cy="0" r="4.5" fill="#FFFFFF"/>
       </g>
     </g>
-    <text x="773" y="111" fill="#FF6600" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
+    <text x="773" y="111" fill="#FF6600" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="773" cy="119" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
-    <text x="675" y="83" fill="#FF6600" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
+    <text x="675" y="83" fill="#FF6600" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="675" cy="91" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -1551,7 +1546,7 @@
 
   <!-- [05/50] ALAKAZAM TURN CONTAINER (12.0s - 14.4s) -->
   <g id="turn_4_alakazam" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.09804; 0.09837; 0.11732; 0.11765; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.09804; 0.11765" />
     <!-- Feature 2: Elemental Weather & Field Effects (psychic) -->
     <circle cx="0" cy="0" r="1.6" fill="#FF69B4" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="181,169; 190,92" />
@@ -1614,7 +1609,7 @@
       <circle cx="0" cy="0" r="18" fill="none" stroke="#FF69B4" stroke-width="4"/>
       <circle cx="0" cy="0" r="10" fill="none" stroke="#FFFFFF" stroke-width="3"/>
     </g>
-    <text x="325" y="69" fill="#FF77CC" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="325" y="69" fill="#FF77CC" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="325" cy="77" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -1635,14 +1630,14 @@
       <circle cx="0" cy="0" r="18" fill="none" stroke="#FF69B4" stroke-width="4"/>
       <circle cx="0" cy="0" r="10" fill="none" stroke="#FFFFFF" stroke-width="3"/>
     </g>
-    <text x="269" y="97" fill="#FF77CC" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="269" y="97" fill="#FF77CC" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="269" cy="105" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
-    <text x="745" y="83" fill="#FF77CC" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="745" y="83" fill="#FF77CC" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="745" cy="91" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -1667,7 +1662,7 @@
 
   <!-- [06/50] BLASTOISE TURN CONTAINER (14.4s - 16.8s) -->
   <g id="turn_5_blastoise" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.11765; 0.11797; 0.13693; 0.13725; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.11765; 0.13725" />
     <!-- Feature 2: Elemental Weather & Field Effects (hydro_pump) -->
     <line x1="0" y1="0" x2="-4" y2="10" stroke="#00CCFF" stroke-width="1.2" stroke-linecap="round" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="550,43; 528,165" />
@@ -1734,7 +1729,7 @@
       <line x1="779" y1="162" x2="776" y2="63" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
       <ellipse cx="773" cy="71" rx="18" ry="7" fill="none" stroke="#FFFFFF" stroke-width="3"/>
     </g>
-    <text x="773" y="55" fill="#00CCFF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="773" y="55" fill="#00CCFF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="773" cy="63" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -1755,14 +1750,14 @@
       <line x1="163" y1="162" x2="160" y2="105" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
       <ellipse cx="157" cy="113" rx="18" ry="7" fill="none" stroke="#FFFFFF" stroke-width="3"/>
     </g>
-    <text x="157" y="97" fill="#00CCFF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="157" y="97" fill="#00CCFF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="157" cy="105" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
-    <text x="437" y="55" fill="#00CCFF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="437" y="55" fill="#00CCFF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="437" cy="63" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -1787,7 +1782,7 @@
 
   <!-- [07/50] ZOROARK TURN CONTAINER (16.8s - 19.2s) -->
   <g id="turn_6_zoroark" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.13725; 0.13758; 0.15654; 0.15686; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.13725; 0.15686" />
     <!-- Feature 2: Elemental Weather & Field Effects (shadow_ball) -->
     <circle cx="0" cy="0" r="1.6" fill="#990022" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="299,192; 300,52" />
@@ -1851,7 +1846,7 @@
       <circle cx="0" cy="0" r="11" fill="#1C0038"/>
       <circle cx="0" cy="0" r="6" fill="#FFFFFF"/>
     </g>
-    <text x="339" y="111" fill="#CC66FF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SHADOW CRIT!
+    <text x="339" y="111" fill="#CC66FF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SHADOW CRIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="339" cy="119" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -1873,14 +1868,14 @@
       <circle cx="0" cy="0" r="11" fill="#1C0038"/>
       <circle cx="0" cy="0" r="6" fill="#FFFFFF"/>
     </g>
-    <text x="689" y="111" fill="#CC66FF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SHADOW CRIT!
+    <text x="689" y="111" fill="#CC66FF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SHADOW CRIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="689" cy="119" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
-    <text x="381" y="69" fill="#CC66FF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SHADOW CRIT!
+    <text x="381" y="69" fill="#CC66FF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SHADOW CRIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="381" cy="77" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -1905,7 +1900,7 @@
 
   <!-- [08/50] LUGIA TURN CONTAINER (19.2s - 21.6s) -->
   <g id="turn_7_lugia" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.15686; 0.15719; 0.17614; 0.17647; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.15686; 0.17647" />
     <!-- Feature 2: Elemental Weather & Field Effects (hyper_beam) -->
     <circle cx="0" cy="0" r="1.6" fill="#AADDFF" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="61,167; 63,52" />
@@ -1965,7 +1960,7 @@
       <line x1="577" y1="162" x2="577" y2="49" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
       <line x1="577" y1="162" x2="577" y2="49" stroke="#FFDD55" stroke-width="6" stroke-linecap="round"/>
     </g>
-    <text x="577" y="41" fill="#FFFFFF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="577" y="41" fill="#FFFFFF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="577" cy="49" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -1983,14 +1978,14 @@
       <line x1="241" y1="162" x2="241" y2="77" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
       <line x1="241" y1="162" x2="241" y2="77" stroke="#FFDD55" stroke-width="6" stroke-linecap="round"/>
     </g>
-    <text x="241" y="69" fill="#FFFFFF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="241" y="69" fill="#FFFFFF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="241" cy="77" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
-    <text x="717" y="41" fill="#FFFFFF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="717" y="41" fill="#FFFFFF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="717" cy="49" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -2015,7 +2010,7 @@
 
   <!-- [09/50] SNORLAX TURN CONTAINER (21.6s - 24.0s) -->
   <g id="turn_8_snorlax" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.17647; 0.1768; 0.19575; 0.19608; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.17647; 0.19608" />
     <!-- Feature 2: Elemental Weather & Field Effects (hyper_beam) -->
     <circle cx="0" cy="0" r="1.6" fill="#FFFFFF" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="581,189; 589,55" />
@@ -2075,7 +2070,7 @@
       <line x1="129" y1="162" x2="129" y2="105" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
       <line x1="129" y1="162" x2="129" y2="105" stroke="#FFDD55" stroke-width="6" stroke-linecap="round"/>
     </g>
-    <text x="129" y="97" fill="#FFFFFF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="129" y="97" fill="#FFFFFF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="129" cy="105" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -2093,14 +2088,14 @@
       <line x1="423" y1="162" x2="423" y2="119" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
       <line x1="423" y1="162" x2="423" y2="119" stroke="#FFDD55" stroke-width="6" stroke-linecap="round"/>
     </g>
-    <text x="423" y="111" fill="#FFFFFF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="423" y="111" fill="#FFFFFF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="423" cy="119" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
-    <text x="423" y="83" fill="#FFFFFF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="423" y="83" fill="#FFFFFF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="423" cy="91" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -2125,7 +2120,7 @@
 
   <!-- [10/50] DECIDUEYE TURN CONTAINER (24.0s - 26.4s) -->
   <g id="turn_9_decidueye" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.19608; 0.19641; 0.21536; 0.21569; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.19608; 0.21569" />
     <!-- Feature 2: Elemental Weather & Field Effects (razor_leaf) -->
     <circle cx="0" cy="0" r="1.6" fill="#44CC44" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="364,167; 363,56" />
@@ -2193,7 +2188,7 @@
         </g>
       </g>
     </g>
-    <text x="759" y="97" fill="#44FF77" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">RAZOR CRIT!
+    <text x="759" y="97" fill="#44FF77" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">RAZOR CRIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="759" cy="105" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -2219,14 +2214,14 @@
         </g>
       </g>
     </g>
-    <text x="185" y="55" fill="#44FF77" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">RAZOR CRIT!
+    <text x="185" y="55" fill="#44FF77" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">RAZOR CRIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="185" cy="63" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
-    <text x="703" y="97" fill="#44FF77" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">RAZOR CRIT!
+    <text x="703" y="97" fill="#44FF77" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">RAZOR CRIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="703" cy="105" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -2251,7 +2246,7 @@
 
   <!-- [11/50] RAIKOU TURN CONTAINER (26.4s - 28.8s) -->
   <g id="turn_10_raikou" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.21569; 0.21601; 0.23497; 0.23529; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.21569; 0.23529" />
     <!-- Feature 2: Elemental Weather & Field Effects (thunder) -->
     <polyline points="404,62 409,58 406,53 412,49" fill="none" stroke="#FFE135" stroke-width="1.3" stroke-linecap="round" opacity="0">
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; 0.15; 0.22; 0.29; 1" />
@@ -2310,7 +2305,7 @@
       <circle cx="415" cy="145" r="5" fill="#FFFFFF"/>
       <circle cx="432" cy="108" r="5.5" fill="#FFDD00"/>
     </g>
-    <text x="423" y="69" fill="#FFE135" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT! ⚡
+    <text x="423" y="69" fill="#FFE135" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT! ⚡
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="423" cy="77" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -2332,14 +2327,14 @@
       <circle cx="625" cy="150" r="5" fill="#FFFFFF"/>
       <circle cx="642" cy="118" r="5.5" fill="#FFDD00"/>
     </g>
-    <text x="633" y="83" fill="#FFE135" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT! ⚡
+    <text x="633" y="83" fill="#FFE135" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT! ⚡
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="633" cy="91" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
-    <text x="479" y="69" fill="#FFE135" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT! ⚡
+    <text x="479" y="69" fill="#FFE135" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT! ⚡
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="479" cy="77" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -2364,7 +2359,7 @@
 
   <!-- [12/50] SUICUNE TURN CONTAINER (28.8s - 31.2s) -->
   <g id="turn_11_suicune" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.23529; 0.23562; 0.25458; 0.2549; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.23529; 0.2549" />
     <!-- Feature 2: Elemental Weather & Field Effects (ice) -->
     <polygon points="0,-3 3,0 0,3 -3,0" fill="#AAEEFF" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="142,57; 157,181" />
@@ -2428,7 +2423,7 @@
       <line x1="633" y1="162" x2="633" y2="119" stroke="#00EEFF" stroke-width="6" stroke-linecap="round"/>
       <line x1="633" y1="162" x2="633" y2="119" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
     </g>
-    <text x="633" y="111" fill="#66EEFF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
+    <text x="633" y="111" fill="#66EEFF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="633" cy="119" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -2446,14 +2441,14 @@
       <line x1="731" y1="162" x2="731" y2="133" stroke="#00EEFF" stroke-width="6" stroke-linecap="round"/>
       <line x1="731" y1="162" x2="731" y2="133" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
     </g>
-    <text x="731" y="125" fill="#66EEFF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
+    <text x="731" y="125" fill="#66EEFF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="731" cy="133" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
-    <text x="269" y="83" fill="#66EEFF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
+    <text x="269" y="83" fill="#66EEFF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="269" cy="91" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -2478,7 +2473,7 @@
 
   <!-- [13/50] METAGROSS TURN CONTAINER (31.2s - 33.6s) -->
   <g id="turn_12_metagross" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.2549; 0.25523; 0.27418; 0.27451; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.2549; 0.27451" />
     <!-- Feature 2: Elemental Weather & Field Effects (punch) -->
     <circle cx="0" cy="0" r="1.6" fill="#AABBEE" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="630,189; 644,82" />
@@ -2541,7 +2536,7 @@
       <circle cx="0" cy="0" r="13" fill="#AABBEE"/>
       <circle cx="0" cy="0" r="7" fill="#FFFFFF"/>
     </g>
-    <text x="311" y="69" fill="#FFFF00" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="311" y="69" fill="#FFFF00" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="311" cy="77" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -2562,14 +2557,14 @@
       <circle cx="0" cy="0" r="13" fill="#AABBEE"/>
       <circle cx="0" cy="0" r="7" fill="#FFFFFF"/>
     </g>
-    <text x="241" y="97" fill="#FFFF00" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="241" y="97" fill="#FFFF00" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="241" cy="105" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
-    <text x="59" y="41" fill="#FFFF00" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="59" y="41" fill="#FFFF00" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="59" cy="49" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -2594,7 +2589,7 @@
 
   <!-- [14/50] DIALGA TURN CONTAINER (33.6s - 36.0s) -->
   <g id="turn_13_dialga" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.27451; 0.27484; 0.29379; 0.29412; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.27451; 0.29412" />
     <!-- Feature 2: Elemental Weather & Field Effects (dragon) -->
     <circle cx="0" cy="0" r="1.6" fill="#0088FF" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="583,181; 579,58" />
@@ -2657,7 +2652,7 @@
       <polygon points="0,-18 12,12 -12,12" fill="#0088FF"/>
       <polygon points="0,-12 7,8 -7,8" fill="#FFFFFF"/>
     </g>
-    <text x="423" y="55" fill="#BB66FF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="423" y="55" fill="#BB66FF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="423" cy="63" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -2678,14 +2673,14 @@
       <polygon points="0,-18 12,12 -12,12" fill="#0088FF"/>
       <polygon points="0,-12 7,8 -7,8" fill="#FFFFFF"/>
     </g>
-    <text x="549" y="69" fill="#BB66FF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="549" y="69" fill="#BB66FF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="549" cy="77" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
-    <text x="143" y="111" fill="#BB66FF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="143" y="111" fill="#BB66FF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="143" cy="119" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -2710,7 +2705,7 @@
 
   <!-- [15/50] RAYQUAZA TURN CONTAINER (36.0s - 38.4s) -->
   <g id="turn_14_rayquaza" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.29412; 0.29444; 0.3134; 0.31373; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.29412; 0.31373" />
     <!-- Feature 2: Elemental Weather & Field Effects (dragon) -->
     <circle cx="0" cy="0" r="1.6" fill="#00FF55" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="776,181; 780,55" />
@@ -2773,7 +2768,7 @@
       <polygon points="0,-18 12,12 -12,12" fill="#00FF55"/>
       <polygon points="0,-12 7,8 -7,8" fill="#FFFFFF"/>
     </g>
-    <text x="773" y="83" fill="#BB66FF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="773" y="83" fill="#BB66FF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="773" cy="91" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -2794,14 +2789,14 @@
       <polygon points="0,-18 12,12 -12,12" fill="#00FF55"/>
       <polygon points="0,-12 7,8 -7,8" fill="#FFFFFF"/>
     </g>
-    <text x="297" y="125" fill="#BB66FF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="297" y="125" fill="#BB66FF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="297" cy="133" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
-    <text x="59" y="83" fill="#BB66FF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="59" y="83" fill="#BB66FF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="59" cy="91" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -2826,7 +2821,7 @@
 
   <!-- [16/50] MACHAMP TURN CONTAINER (38.4s - 40.8s) -->
   <g id="turn_15_machamp" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.31373; 0.31405; 0.33301; 0.33333; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.31373; 0.33333" />
     <!-- Feature 2: Elemental Weather & Field Effects (punch) -->
     <circle cx="0" cy="0" r="1.6" fill="#FF3333" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="343,183; 333,63" />
@@ -2889,7 +2884,7 @@
       <circle cx="0" cy="0" r="13" fill="#FF3333"/>
       <circle cx="0" cy="0" r="7" fill="#FFFFFF"/>
     </g>
-    <text x="451" y="41" fill="#FFFF00" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="451" y="41" fill="#FFFF00" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="451" cy="49" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -2910,7 +2905,7 @@
       <circle cx="0" cy="0" r="13" fill="#FF3333"/>
       <circle cx="0" cy="0" r="7" fill="#FFFFFF"/>
     </g>
-    <text x="577" y="83" fill="#FFFF00" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="577" y="83" fill="#FFFF00" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="577" cy="91" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -2935,7 +2930,7 @@
 
   <!-- [17/50] GENGAR TURN CONTAINER (40.8s - 43.2s) -->
   <g id="turn_16_gengar" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.33333; 0.33366; 0.35261; 0.35294; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.33333; 0.35294" />
     <!-- Feature 2: Elemental Weather & Field Effects (shadow_ball) -->
     <circle cx="0" cy="0" r="1.6" fill="#AA44FF" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="372,178; 375,75" />
@@ -2999,7 +2994,7 @@
       <circle cx="0" cy="0" r="11" fill="#1C0038"/>
       <circle cx="0" cy="0" r="6" fill="#FFFFFF"/>
     </g>
-    <text x="87" y="55" fill="#CC66FF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SHADOW CRIT!
+    <text x="87" y="55" fill="#CC66FF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SHADOW CRIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="87" cy="63" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -3021,7 +3016,7 @@
       <circle cx="0" cy="0" r="11" fill="#1C0038"/>
       <circle cx="0" cy="0" r="6" fill="#FFFFFF"/>
     </g>
-    <text x="143" y="83" fill="#CC66FF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SHADOW CRIT!
+    <text x="143" y="83" fill="#CC66FF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SHADOW CRIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="143" cy="91" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -3046,7 +3041,7 @@
 
   <!-- [18/50] ZAPDOS TURN CONTAINER (43.2s - 45.6s) -->
   <g id="turn_17_zapdos" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.35294; 0.35327; 0.37222; 0.37255; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.35294; 0.37255" />
     <!-- Feature 2: Elemental Weather & Field Effects (thunder) -->
     <polyline points="766,97 771,93 768,88 774,84" fill="none" stroke="#FFE135" stroke-width="1.3" stroke-linecap="round" opacity="0">
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; 0.15; 0.22; 0.29; 1" />
@@ -3105,7 +3100,7 @@
       <circle cx="583" cy="159" r="5" fill="#FFFFFF"/>
       <circle cx="600" cy="137" r="5.5" fill="#FFEE00"/>
     </g>
-    <text x="591" y="111" fill="#FFE135" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT! ⚡
+    <text x="591" y="111" fill="#FFE135" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT! ⚡
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="591" cy="119" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -3127,7 +3122,7 @@
       <circle cx="611" cy="150" r="5" fill="#FFFFFF"/>
       <circle cx="628" cy="118" r="5.5" fill="#FFEE00"/>
     </g>
-    <text x="619" y="83" fill="#FFE135" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT! ⚡
+    <text x="619" y="83" fill="#FFE135" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT! ⚡
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="619" cy="91" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -3152,7 +3147,7 @@
 
   <!-- [19/50] UMBREON TURN CONTAINER (45.6s - 48.0s) -->
   <g id="turn_18_umbreon" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.37255; 0.37288; 0.39183; 0.39216; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.37255; 0.39216" />
     <!-- Feature 2: Elemental Weather & Field Effects (shadow_ball) -->
     <circle cx="0" cy="0" r="1.6" fill="#8822FF" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="801,192; 797,89" />
@@ -3216,7 +3211,7 @@
       <circle cx="0" cy="0" r="11" fill="#1C0038"/>
       <circle cx="0" cy="0" r="6" fill="#FFFFFF"/>
     </g>
-    <text x="269" y="125" fill="#CC66FF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SHADOW CRIT!
+    <text x="269" y="125" fill="#CC66FF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SHADOW CRIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="269" cy="133" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -3238,7 +3233,7 @@
       <circle cx="0" cy="0" r="11" fill="#1C0038"/>
       <circle cx="0" cy="0" r="6" fill="#FFFFFF"/>
     </g>
-    <text x="437" y="97" fill="#CC66FF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SHADOW CRIT!
+    <text x="437" y="97" fill="#CC66FF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SHADOW CRIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="437" cy="105" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -3263,7 +3258,7 @@
 
   <!-- [20/50] MEWTWO TURN CONTAINER (48.0s - 50.4s) -->
   <g id="turn_19_mewtwo" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.39216; 0.39248; 0.41144; 0.41176; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.39216; 0.41176" />
     <!-- Feature 2: Elemental Weather & Field Effects (psychic) -->
     <circle cx="0" cy="0" r="1.6" fill="#DD00FF" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="160,182; 164,57" />
@@ -3326,7 +3321,7 @@
       <circle cx="0" cy="0" r="18" fill="none" stroke="#DD00FF" stroke-width="4"/>
       <circle cx="0" cy="0" r="10" fill="none" stroke="#FFFFFF" stroke-width="3"/>
     </g>
-    <text x="535" y="83" fill="#FF77CC" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="535" y="83" fill="#FF77CC" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="535" cy="91" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -3347,7 +3342,7 @@
       <circle cx="0" cy="0" r="18" fill="none" stroke="#DD00FF" stroke-width="4"/>
       <circle cx="0" cy="0" r="10" fill="none" stroke="#FFFFFF" stroke-width="3"/>
     </g>
-    <text x="353" y="83" fill="#FF77CC" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="353" y="83" fill="#FF77CC" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="353" cy="91" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -3372,7 +3367,7 @@
 
   <!-- [21/50] CINDERACE TURN CONTAINER (50.4s - 52.8s) -->
   <g id="turn_20_cinderace" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.41176; 0.41209; 0.43105; 0.43137; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.41176; 0.43137" />
     <!-- Feature 2: Elemental Weather & Field Effects (fire_blast) -->
     <circle cx="0" cy="0" r="1.8" fill="#FF9900" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="494,175; 505,80" />
@@ -3448,7 +3443,7 @@
         <circle cx="0" cy="0" r="4.5" fill="#FFFFFF"/>
       </g>
     </g>
-    <text x="283" y="125" fill="#FF6600" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
+    <text x="283" y="125" fill="#FF6600" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="283" cy="133" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -3478,7 +3473,7 @@
         <circle cx="0" cy="0" r="4.5" fill="#FFFFFF"/>
       </g>
     </g>
-    <text x="535" y="55" fill="#FF6600" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
+    <text x="535" y="55" fill="#FF6600" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="535" cy="63" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -3503,7 +3498,7 @@
 
   <!-- [22/50] EMPOLEON TURN CONTAINER (52.8s - 55.2s) -->
   <g id="turn_21_empoleon" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.43137; 0.4317; 0.45065; 0.45098; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.43137; 0.45098" />
     <!-- Feature 2: Elemental Weather & Field Effects (hydro_pump) -->
     <line x1="0" y1="0" x2="-4" y2="10" stroke="#00CCFF" stroke-width="1.2" stroke-linecap="round" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="459,31; 437,175" />
@@ -3570,7 +3565,7 @@
       <line x1="765" y1="162" x2="762" y2="91" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
       <ellipse cx="759" cy="99" rx="18" ry="7" fill="none" stroke="#FFFFFF" stroke-width="3"/>
     </g>
-    <text x="759" y="83" fill="#00CCFF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="759" y="83" fill="#00CCFF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="759" cy="91" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -3591,7 +3586,7 @@
       <line x1="205" y1="162" x2="202" y2="119" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
       <ellipse cx="199" cy="127" rx="18" ry="7" fill="none" stroke="#FFFFFF" stroke-width="3"/>
     </g>
-    <text x="199" y="111" fill="#00CCFF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="199" y="111" fill="#00CCFF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="199" cy="119" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -3616,7 +3611,7 @@
 
   <!-- [23/50] TYRANITAR TURN CONTAINER (55.2s - 57.6s) -->
   <g id="turn_22_tyranitar" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.45098; 0.45131; 0.47026; 0.47059; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.45098; 0.47059" />
     <!-- Feature 2: Elemental Weather & Field Effects (rock_throw) -->
     <circle cx="0" cy="0" r="1.6" fill="#A0A080" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="69,188; 78,76" />
@@ -3679,7 +3674,7 @@
       <polygon points="0,-16 14,-10 16,8 5,16 -12,13 -16,-3 -8,-15" fill="#A0A080" stroke="#333333" stroke-width="2"/>
       <circle cx="-3" cy="-3" r="3" fill="#FFFFFF" opacity="0.7"/>
     </g>
-    <text x="353" y="111" fill="#FFFF00" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="353" y="111" fill="#FFFF00" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="353" cy="119" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -3700,7 +3695,7 @@
       <polygon points="0,-16 14,-10 16,8 5,16 -12,13 -16,-3 -8,-15" fill="#A0A080" stroke="#333333" stroke-width="2"/>
       <circle cx="-3" cy="-3" r="3" fill="#FFFFFF" opacity="0.7"/>
     </g>
-    <text x="717" y="55" fill="#FFFF00" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="717" y="55" fill="#FFFF00" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="717" cy="63" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -3725,7 +3720,7 @@
 
   <!-- [24/50] DARKRAI TURN CONTAINER (57.6s - 60.0s) -->
   <g id="turn_23_darkrai" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.47059; 0.47092; 0.48987; 0.4902; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.47059; 0.4902" />
     <!-- Feature 2: Elemental Weather & Field Effects (shadow_ball) -->
     <circle cx="0" cy="0" r="1.6" fill="#550088" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="543,168; 544,88" />
@@ -3789,7 +3784,7 @@
       <circle cx="0" cy="0" r="11" fill="#1C0038"/>
       <circle cx="0" cy="0" r="6" fill="#FFFFFF"/>
     </g>
-    <text x="87" y="111" fill="#CC66FF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SHADOW CRIT!
+    <text x="87" y="111" fill="#CC66FF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SHADOW CRIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="87" cy="119" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -3811,7 +3806,7 @@
       <circle cx="0" cy="0" r="11" fill="#1C0038"/>
       <circle cx="0" cy="0" r="6" fill="#FFFFFF"/>
     </g>
-    <text x="577" y="55" fill="#CC66FF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SHADOW CRIT!
+    <text x="577" y="55" fill="#CC66FF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SHADOW CRIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="577" cy="63" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -3836,7 +3831,7 @@
 
   <!-- [25/50] SCIZOR TURN CONTAINER (60.0s - 62.4s) -->
   <g id="turn_24_scizor" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.4902; 0.49052; 0.50948; 0.5098; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.4902; 0.5098" />
     <!-- Feature 2: Elemental Weather & Field Effects (punch) -->
     <circle cx="0" cy="0" r="1.6" fill="#EE1111" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="674,176; 682,71" />
@@ -3899,7 +3894,7 @@
       <circle cx="0" cy="0" r="13" fill="#EE1111"/>
       <circle cx="0" cy="0" r="7" fill="#FFFFFF"/>
     </g>
-    <text x="409" y="125" fill="#FFFF00" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="409" y="125" fill="#FFFF00" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="409" cy="133" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -3920,7 +3915,7 @@
       <circle cx="0" cy="0" r="13" fill="#EE1111"/>
       <circle cx="0" cy="0" r="7" fill="#FFFFFF"/>
     </g>
-    <text x="101" y="97" fill="#FFFF00" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="101" y="97" fill="#FFFF00" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="101" cy="105" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -3945,7 +3940,7 @@
 
   <!-- [26/50] HO-OH TURN CONTAINER (62.4s - 64.8s) -->
   <g id="turn_25_ho-oh" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.5098; 0.51013; 0.52908; 0.52941; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.5098; 0.52941" />
     <!-- Feature 2: Elemental Weather & Field Effects (fire_blast) -->
     <circle cx="0" cy="0" r="2.2" fill="#FF9900" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="581,198; 576,81" />
@@ -4021,7 +4016,7 @@
         <circle cx="0" cy="0" r="4.5" fill="#FFFFFF"/>
       </g>
     </g>
-    <text x="563" y="97" fill="#FF6600" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
+    <text x="563" y="97" fill="#FF6600" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="563" cy="105" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -4051,7 +4046,7 @@
         <circle cx="0" cy="0" r="4.5" fill="#FFFFFF"/>
       </g>
     </g>
-    <text x="549" y="41" fill="#FF6600" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
+    <text x="549" y="41" fill="#FF6600" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="549" cy="49" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -4076,7 +4071,7 @@
 
   <!-- [27/50] GROUDON TURN CONTAINER (64.8s - 67.2s) -->
   <g id="turn_26_groudon" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.52941; 0.52974; 0.54869; 0.54902; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.52941; 0.54902" />
     <!-- Feature 2: Elemental Weather & Field Effects (rock_throw) -->
     <circle cx="0" cy="0" r="1.6" fill="#FF2200" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="618,162; 629,98" />
@@ -4139,7 +4134,7 @@
       <polygon points="0,-16 14,-10 16,8 5,16 -12,13 -16,-3 -8,-15" fill="#FF2200" stroke="#333333" stroke-width="2"/>
       <circle cx="-3" cy="-3" r="3" fill="#FFFFFF" opacity="0.7"/>
     </g>
-    <text x="255" y="111" fill="#FFFF00" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="255" y="111" fill="#FFFF00" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="255" cy="119" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -4160,7 +4155,7 @@
       <polygon points="0,-16 14,-10 16,8 5,16 -12,13 -16,-3 -8,-15" fill="#FF2200" stroke="#333333" stroke-width="2"/>
       <circle cx="-3" cy="-3" r="3" fill="#FFFFFF" opacity="0.7"/>
     </g>
-    <text x="381" y="97" fill="#FFFF00" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="381" y="97" fill="#FFFF00" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="381" cy="105" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -4185,7 +4180,7 @@
 
   <!-- [28/50] KYOGRE TURN CONTAINER (67.2s - 69.6s) -->
   <g id="turn_27_kyogre" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.54902; 0.54935; 0.5683; 0.56863; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.54902; 0.56863" />
     <!-- Feature 2: Elemental Weather & Field Effects (hydro_pump) -->
     <line x1="0" y1="0" x2="-4" y2="10" stroke="#00CCFF" stroke-width="1.2" stroke-linecap="round" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="723,41; 701,175" />
@@ -4252,7 +4247,7 @@
       <line x1="233" y1="162" x2="230" y2="77" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
       <ellipse cx="227" cy="85" rx="18" ry="7" fill="none" stroke="#FFFFFF" stroke-width="3"/>
     </g>
-    <text x="227" y="69" fill="#00CCFF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="227" y="69" fill="#00CCFF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="227" cy="77" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -4273,7 +4268,7 @@
       <line x1="751" y1="162" x2="748" y2="49" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
       <ellipse cx="745" cy="57" rx="18" ry="7" fill="none" stroke="#FFFFFF" stroke-width="3"/>
     </g>
-    <text x="745" y="41" fill="#00CCFF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="745" y="41" fill="#00CCFF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="745" cy="49" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -4298,7 +4293,7 @@
 
   <!-- [29/50] ENTEI TURN CONTAINER (69.6s - 72.0s) -->
   <g id="turn_28_entei" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.56863; 0.56895; 0.58791; 0.58824; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.56863; 0.58824" />
     <!-- Feature 2: Elemental Weather & Field Effects (fire_blast) -->
     <circle cx="0" cy="0" r="2.2" fill="#FF5500" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="630,199; 626,63" />
@@ -4374,7 +4369,7 @@
         <circle cx="0" cy="0" r="4.5" fill="#FFFFFF"/>
       </g>
     </g>
-    <text x="59" y="125" fill="#FF6600" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
+    <text x="59" y="125" fill="#FF6600" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="59" cy="133" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -4404,7 +4399,7 @@
         <circle cx="0" cy="0" r="4.5" fill="#FFFFFF"/>
       </g>
     </g>
-    <text x="59" y="69" fill="#FF6600" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
+    <text x="59" y="69" fill="#FF6600" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="59" cy="77" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -4429,7 +4424,7 @@
 
   <!-- [30/50] RESHIRAM TURN CONTAINER (72.0s - 74.4s) -->
   <g id="turn_29_reshiram" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.58824; 0.58856; 0.60752; 0.60784; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.58824; 0.60784" />
     <!-- Feature 2: Elemental Weather & Field Effects (fire_blast) -->
     <circle cx="0" cy="0" r="2.2" fill="#FF5500" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="103,191; 86,78" />
@@ -4505,7 +4500,7 @@
         <circle cx="0" cy="0" r="4.5" fill="#FFFFFF"/>
       </g>
     </g>
-    <text x="675" y="111" fill="#FF6600" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
+    <text x="675" y="111" fill="#FF6600" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="675" cy="119" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -4535,7 +4530,7 @@
         <circle cx="0" cy="0" r="4.5" fill="#FFFFFF"/>
       </g>
     </g>
-    <text x="759" y="41" fill="#FF6600" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
+    <text x="759" y="41" fill="#FF6600" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="759" cy="49" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -4560,7 +4555,7 @@
 
   <!-- [31/50] EEVEE TURN CONTAINER (74.4s - 76.8s) -->
   <g id="turn_30_eevee" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.60784; 0.60817; 0.62712; 0.62745; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.60784; 0.62745" />
     <!-- Feature 2: Elemental Weather & Field Effects (swift) -->
     <circle cx="0" cy="0" r="1.6" fill="#FFD700" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="156,180; 154,100" />
@@ -4620,7 +4615,7 @@
       <line x1="115" y1="162" x2="115" y2="77" stroke="#FFD700" stroke-width="6" stroke-linecap="round"/>
       <line x1="115" y1="162" x2="115" y2="77" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
     </g>
-    <text x="115" y="69" fill="#FFFF00" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="115" y="69" fill="#FFFF00" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="115" cy="77" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -4638,7 +4633,7 @@
       <line x1="115" y1="162" x2="115" y2="49" stroke="#FFD700" stroke-width="6" stroke-linecap="round"/>
       <line x1="115" y1="162" x2="115" y2="49" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
     </g>
-    <text x="115" y="41" fill="#FFFF00" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="115" y="41" fill="#FFFF00" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="115" cy="49" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -4663,7 +4658,7 @@
 
   <!-- [32/50] MEW TURN CONTAINER (76.8s - 79.2s) -->
   <g id="turn_31_mew" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.62745; 0.62778; 0.64673; 0.64706; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.62745; 0.64706" />
     <!-- Feature 2: Elemental Weather & Field Effects (psychic) -->
     <circle cx="0" cy="0" r="1.6" fill="#FF66AA" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="736,168; 733,51" />
@@ -4726,7 +4721,7 @@
       <circle cx="0" cy="0" r="18" fill="none" stroke="#FF66AA" stroke-width="4"/>
       <circle cx="0" cy="0" r="10" fill="none" stroke="#FFFFFF" stroke-width="3"/>
     </g>
-    <text x="731" y="97" fill="#FF77CC" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="731" y="97" fill="#FF77CC" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="731" cy="105" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -4747,7 +4742,7 @@
       <circle cx="0" cy="0" r="18" fill="none" stroke="#FF66AA" stroke-width="4"/>
       <circle cx="0" cy="0" r="10" fill="none" stroke="#FFFFFF" stroke-width="3"/>
     </g>
-    <text x="675" y="69" fill="#FF77CC" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="675" y="69" fill="#FF77CC" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="675" cy="77" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -4772,7 +4767,7 @@
 
   <!-- [33/50] LUCARIO TURN CONTAINER (79.2s - 81.6s) -->
   <g id="turn_32_lucario" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.64706; 0.64739; 0.66634; 0.66667; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.64706; 0.66667" />
     <!-- Feature 2: Elemental Weather & Field Effects (aura) -->
     <circle cx="0" cy="0" r="1.6" fill="#00AAFF" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="723,186; 722,99" />
@@ -4832,7 +4827,7 @@
       <line x1="605" y1="162" x2="605" y2="119" stroke="#00AAFF" stroke-width="6" stroke-linecap="round"/>
       <line x1="605" y1="162" x2="605" y2="119" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
     </g>
-    <text x="605" y="111" fill="#FFFF00" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="605" y="111" fill="#FFFF00" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="605" cy="119" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -4850,7 +4845,7 @@
       <line x1="367" y1="162" x2="367" y2="91" stroke="#00AAFF" stroke-width="6" stroke-linecap="round"/>
       <line x1="367" y1="162" x2="367" y2="91" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
     </g>
-    <text x="367" y="83" fill="#FFFF00" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="367" y="83" fill="#FFFF00" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="367" cy="91" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -4875,7 +4870,7 @@
 
   <!-- [34/50] ONIX TURN CONTAINER (81.6s - 84.0s) -->
   <g id="turn_33_onix" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.66667; 0.66699; 0.68595; 0.68627; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.66667; 0.68627" />
     <!-- Feature 2: Elemental Weather & Field Effects (rock_throw) -->
     <circle cx="0" cy="0" r="1.6" fill="#C0A878" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="77,182; 80,61" />
@@ -4938,7 +4933,7 @@
       <polygon points="0,-16 14,-10 16,8 5,16 -12,13 -16,-3 -8,-15" fill="#C0A878" stroke="#333333" stroke-width="2"/>
       <circle cx="-3" cy="-3" r="3" fill="#FFFFFF" opacity="0.7"/>
     </g>
-    <text x="549" y="55" fill="#FFFF00" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="549" y="55" fill="#FFFF00" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="549" cy="63" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -4959,7 +4954,7 @@
       <polygon points="0,-16 14,-10 16,8 5,16 -12,13 -16,-3 -8,-15" fill="#C0A878" stroke="#333333" stroke-width="2"/>
       <circle cx="-3" cy="-3" r="3" fill="#FFFFFF" opacity="0.7"/>
     </g>
-    <text x="409" y="111" fill="#FFFF00" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="409" y="111" fill="#FFFF00" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="409" cy="119" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -4984,7 +4979,7 @@
 
   <!-- [35/50] MIMIKYU TURN CONTAINER (84.0s - 86.4s) -->
   <g id="turn_34_mimikyu" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.68627; 0.6866; 0.70556; 0.70588; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.68627; 0.70588" />
     <!-- Feature 2: Elemental Weather & Field Effects (shadow_ball) -->
     <circle cx="0" cy="0" r="1.6" fill="#FF88CC" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="221,168; 211,95" />
@@ -5048,7 +5043,7 @@
       <circle cx="0" cy="0" r="11" fill="#1C0038"/>
       <circle cx="0" cy="0" r="6" fill="#FFFFFF"/>
     </g>
-    <text x="227" y="55" fill="#CC66FF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SHADOW CRIT!
+    <text x="227" y="55" fill="#CC66FF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SHADOW CRIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="227" cy="63" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -5070,7 +5065,7 @@
       <circle cx="0" cy="0" r="11" fill="#1C0038"/>
       <circle cx="0" cy="0" r="6" fill="#FFFFFF"/>
     </g>
-    <text x="549" y="111" fill="#CC66FF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SHADOW CRIT!
+    <text x="549" y="111" fill="#CC66FF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SHADOW CRIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="549" cy="119" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -5095,7 +5090,7 @@
 
   <!-- [36/50] ARCANINE TURN CONTAINER (86.4s - 88.8s) -->
   <g id="turn_35_arcanine" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.70588; 0.70621; 0.72516; 0.72549; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.70588; 0.72549" />
     <!-- Feature 2: Elemental Weather & Field Effects (fire_blast) -->
     <circle cx="0" cy="0" r="1.8" fill="#FF5500" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="795,199; 784,95" />
@@ -5171,7 +5166,7 @@
         <circle cx="0" cy="0" r="4.5" fill="#FFFFFF"/>
       </g>
     </g>
-    <text x="493" y="97" fill="#FF6600" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
+    <text x="493" y="97" fill="#FF6600" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="493" cy="105" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -5201,7 +5196,7 @@
         <circle cx="0" cy="0" r="4.5" fill="#FFFFFF"/>
       </g>
     </g>
-    <text x="157" y="125" fill="#FF6600" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
+    <text x="157" y="125" fill="#FF6600" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="157" cy="133" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -5226,7 +5221,7 @@
 
   <!-- [37/50] SYLVEON TURN CONTAINER (88.8s - 91.2s) -->
   <g id="turn_36_sylveon" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.72549; 0.72582; 0.74477; 0.7451; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.72549; 0.7451" />
     <!-- Feature 2: Elemental Weather & Field Effects (psychic) -->
     <circle cx="0" cy="0" r="1.6" fill="#FFB6C1" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="296,178; 288,71" />
@@ -5289,7 +5284,7 @@
       <circle cx="0" cy="0" r="18" fill="none" stroke="#FFB6C1" stroke-width="4"/>
       <circle cx="0" cy="0" r="10" fill="none" stroke="#FFFFFF" stroke-width="3"/>
     </g>
-    <text x="213" y="83" fill="#FF77CC" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="213" y="83" fill="#FF77CC" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="213" cy="91" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -5310,7 +5305,7 @@
       <circle cx="0" cy="0" r="18" fill="none" stroke="#FFB6C1" stroke-width="4"/>
       <circle cx="0" cy="0" r="10" fill="none" stroke="#FFFFFF" stroke-width="3"/>
     </g>
-    <text x="395" y="97" fill="#FF77CC" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="395" y="97" fill="#FF77CC" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="395" cy="105" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -5335,7 +5330,7 @@
 
   <!-- [38/50] SALAMENCE TURN CONTAINER (91.2s - 93.6s) -->
   <g id="turn_37_salamence" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.7451; 0.74542; 0.76438; 0.76471; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.7451; 0.76471" />
     <!-- Feature 2: Elemental Weather & Field Effects (dragon) -->
     <circle cx="0" cy="0" r="1.6" fill="#9955FF" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="85,169; 85,58" />
@@ -5398,7 +5393,7 @@
       <polygon points="0,-18 12,12 -12,12" fill="#9955FF"/>
       <polygon points="0,-12 7,8 -7,8" fill="#FFFFFF"/>
     </g>
-    <text x="493" y="111" fill="#BB66FF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="493" y="111" fill="#BB66FF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="493" cy="119" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -5419,7 +5414,7 @@
       <polygon points="0,-18 12,12 -12,12" fill="#9955FF"/>
       <polygon points="0,-12 7,8 -7,8" fill="#FFFFFF"/>
     </g>
-    <text x="73" y="125" fill="#BB66FF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="73" y="125" fill="#BB66FF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="73" cy="133" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -5444,7 +5439,7 @@
 
   <!-- [39/50] PALKIA TURN CONTAINER (93.6s - 96.0s) -->
   <g id="turn_38_palkia" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.76471; 0.76503; 0.78399; 0.78431; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.76471; 0.78431" />
     <!-- Feature 2: Elemental Weather & Field Effects (dragon) -->
     <circle cx="0" cy="0" r="1.6" fill="#EE44EE" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="476,169; 479,67" />
@@ -5507,7 +5502,7 @@
       <polygon points="0,-18 12,12 -12,12" fill="#EE44EE"/>
       <polygon points="0,-12 7,8 -7,8" fill="#FFFFFF"/>
     </g>
-    <text x="745" y="97" fill="#BB66FF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="745" y="97" fill="#BB66FF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="745" cy="105" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -5528,7 +5523,7 @@
       <polygon points="0,-18 12,12 -12,12" fill="#EE44EE"/>
       <polygon points="0,-12 7,8 -7,8" fill="#FFFFFF"/>
     </g>
-    <text x="689" y="69" fill="#BB66FF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="689" y="69" fill="#BB66FF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="689" cy="77" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -5553,7 +5548,7 @@
 
   <!-- [40/50] GIRATINA TURN CONTAINER (96.0s - 98.4s) -->
   <g id="turn_39_giratina" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.78431; 0.78464; 0.80359; 0.80392; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.78431; 0.80392" />
     <!-- Feature 2: Elemental Weather & Field Effects (shadow_ball) -->
     <circle cx="0" cy="0" r="1.6" fill="#660099" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="281,188; 273,98" />
@@ -5617,7 +5612,7 @@
       <circle cx="0" cy="0" r="11" fill="#1C0038"/>
       <circle cx="0" cy="0" r="6" fill="#FFFFFF"/>
     </g>
-    <text x="773" y="69" fill="#CC66FF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SHADOW CRIT!
+    <text x="773" y="69" fill="#CC66FF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SHADOW CRIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="773" cy="77" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -5639,7 +5634,7 @@
       <circle cx="0" cy="0" r="11" fill="#1C0038"/>
       <circle cx="0" cy="0" r="6" fill="#FFFFFF"/>
     </g>
-    <text x="381" y="41" fill="#CC66FF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SHADOW CRIT!
+    <text x="381" y="41" fill="#CC66FF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SHADOW CRIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="381" cy="49" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -5664,7 +5659,7 @@
 
   <!-- [41/50] GRENINJA TURN CONTAINER (98.4s - 100.8s) -->
   <g id="turn_40_greninja" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.80392; 0.80425; 0.8232; 0.82353; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.80392; 0.82353" />
     <!-- Feature 2: Elemental Weather & Field Effects (shuriken) -->
     <line x1="0" y1="0" x2="-4" y2="10" stroke="#00CCFF" stroke-width="1.2" stroke-linecap="round" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="716,31; 694,177" />
@@ -5728,7 +5723,7 @@
       <line x1="199" y1="162" x2="199" y2="133" stroke="#00FFFF" stroke-width="6" stroke-linecap="round"/>
       <line x1="199" y1="162" x2="199" y2="133" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
     </g>
-    <text x="199" y="125" fill="#00FFFF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="199" y="125" fill="#00FFFF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="199" cy="133" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -5746,7 +5741,7 @@
       <line x1="591" y1="162" x2="591" y2="49" stroke="#00FFFF" stroke-width="6" stroke-linecap="round"/>
       <line x1="591" y1="162" x2="591" y2="49" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
     </g>
-    <text x="591" y="41" fill="#00FFFF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="591" y="41" fill="#00FFFF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="591" cy="49" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -5771,7 +5766,7 @@
 
   <!-- [42/50] ARTICUNO TURN CONTAINER (100.8s - 103.2s) -->
   <g id="turn_41_articuno" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.82353; 0.82386; 0.84281; 0.84314; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.82353; 0.84314" />
     <!-- Feature 2: Elemental Weather & Field Effects (ice) -->
     <polygon points="0,-3 3,0 0,3 -3,0" fill="#AAEEFF" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="119,41; 118,168" />
@@ -5835,7 +5830,7 @@
       <line x1="675" y1="162" x2="675" y2="49" stroke="#AAEEFF" stroke-width="6" stroke-linecap="round"/>
       <line x1="675" y1="162" x2="675" y2="49" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
     </g>
-    <text x="675" y="41" fill="#66EEFF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
+    <text x="675" y="41" fill="#66EEFF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="675" cy="49" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -5853,7 +5848,7 @@
       <line x1="437" y1="162" x2="437" y2="91" stroke="#AAEEFF" stroke-width="6" stroke-linecap="round"/>
       <line x1="437" y1="162" x2="437" y2="91" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
     </g>
-    <text x="437" y="83" fill="#66EEFF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
+    <text x="437" y="83" fill="#66EEFF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="437" cy="91" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -5878,7 +5873,7 @@
 
   <!-- [43/50] MOLTRES TURN CONTAINER (103.2s - 105.6s) -->
   <g id="turn_42_moltres" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.84314; 0.84346; 0.86242; 0.86275; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.84314; 0.86275" />
     <!-- Feature 2: Elemental Weather & Field Effects (fire_blast) -->
     <circle cx="0" cy="0" r="2.2" fill="#FF9900" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="160,195; 148,79" />
@@ -5954,7 +5949,7 @@
         <circle cx="0" cy="0" r="4.5" fill="#FFFFFF"/>
       </g>
     </g>
-    <text x="717" y="111" fill="#FF6600" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
+    <text x="717" y="111" fill="#FF6600" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="717" cy="119" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -5984,7 +5979,7 @@
         <circle cx="0" cy="0" r="4.5" fill="#FFFFFF"/>
       </g>
     </g>
-    <text x="199" y="41" fill="#FF6600" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
+    <text x="199" y="41" fill="#FF6600" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="199" cy="49" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -6009,7 +6004,7 @@
 
   <!-- [44/50] SCEPTILE TURN CONTAINER (105.6s - 108.0s) -->
   <g id="turn_43_sceptile" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.86275; 0.86307; 0.88203; 0.88235; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.86275; 0.88235" />
     <!-- Feature 2: Elemental Weather & Field Effects (razor_leaf) -->
     <circle cx="0" cy="0" r="1.6" fill="#00FF44" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="805,180; 805,56" />
@@ -6077,7 +6072,7 @@
         </g>
       </g>
     </g>
-    <text x="493" y="69" fill="#44FF77" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">RAZOR CRIT!
+    <text x="493" y="69" fill="#44FF77" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">RAZOR CRIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="493" cy="77" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -6103,7 +6098,7 @@
         </g>
       </g>
     </g>
-    <text x="115" y="97" fill="#44FF77" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">RAZOR CRIT!
+    <text x="115" y="97" fill="#44FF77" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">RAZOR CRIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="115" cy="105" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -6128,7 +6123,7 @@
 
   <!-- [45/50] DRAGONITE TURN CONTAINER (108.0s - 110.4s) -->
   <g id="turn_44_dragonite" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.88235; 0.88268; 0.90163; 0.90196; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.88235; 0.90196" />
     <!-- Feature 2: Elemental Weather & Field Effects (dragon) -->
     <circle cx="0" cy="0" r="1.6" fill="#FF8C00" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="613,191; 608,65" />
@@ -6191,7 +6186,7 @@
       <polygon points="0,-18 12,12 -12,12" fill="#FF8C00"/>
       <polygon points="0,-12 7,8 -7,8" fill="#FFFFFF"/>
     </g>
-    <text x="521" y="41" fill="#BB66FF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="521" y="41" fill="#BB66FF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="521" cy="49" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -6212,7 +6207,7 @@
       <polygon points="0,-18 12,12 -12,12" fill="#FF8C00"/>
       <polygon points="0,-12 7,8 -7,8" fill="#FFFFFF"/>
     </g>
-    <text x="185" y="83" fill="#BB66FF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="185" y="83" fill="#BB66FF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="185" cy="91" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -6237,7 +6232,7 @@
 
   <!-- [46/50] GARDEVOIR TURN CONTAINER (110.4s - 112.8s) -->
   <g id="turn_45_gardevoir" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.90196; 0.90229; 0.92124; 0.92157; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.90196; 0.92157" />
     <!-- Feature 2: Elemental Weather & Field Effects (psychic) -->
     <circle cx="0" cy="0" r="1.6" fill="#FFAACC" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="271,160; 282,71" />
@@ -6300,7 +6295,7 @@
       <circle cx="0" cy="0" r="18" fill="none" stroke="#FFAACC" stroke-width="4"/>
       <circle cx="0" cy="0" r="10" fill="none" stroke="#FFFFFF" stroke-width="3"/>
     </g>
-    <text x="731" y="69" fill="#FF77CC" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="731" y="69" fill="#FF77CC" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="731" cy="77" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -6321,7 +6316,7 @@
       <circle cx="0" cy="0" r="18" fill="none" stroke="#FFAACC" stroke-width="4"/>
       <circle cx="0" cy="0" r="10" fill="none" stroke="#FFFFFF" stroke-width="3"/>
     </g>
-    <text x="185" y="125" fill="#FF77CC" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="185" y="125" fill="#FF77CC" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="185" cy="133" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -6346,7 +6341,7 @@
 
   <!-- [47/50] BULBASAUR TURN CONTAINER (112.8s - 115.2s) -->
   <g id="turn_46_bulbasaur" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.92157; 0.9219; 0.94085; 0.94118; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.92157; 0.94118" />
     <!-- Feature 2: Elemental Weather & Field Effects (razor_leaf) -->
     <circle cx="0" cy="0" r="1.6" fill="#00FF66" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="407,189; 396,62" />
@@ -6414,7 +6409,7 @@
         </g>
       </g>
     </g>
-    <text x="311" y="125" fill="#44FF77" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">RAZOR CRIT!
+    <text x="311" y="125" fill="#44FF77" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">RAZOR CRIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="311" cy="133" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -6440,7 +6435,7 @@
         </g>
       </g>
     </g>
-    <text x="297" y="111" fill="#44FF77" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">RAZOR CRIT!
+    <text x="297" y="111" fill="#44FF77" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">RAZOR CRIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="297" cy="119" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -6465,7 +6460,7 @@
 
   <!-- [48/50] CHARIZARD TURN CONTAINER (115.2s - 117.6s) -->
   <g id="turn_47_charizard" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.94118; 0.9415; 0.96046; 0.96078; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.94118; 0.96078" />
     <!-- Feature 2: Elemental Weather & Field Effects (fire_blast) -->
     <circle cx="0" cy="0" r="1.4" fill="#FF9900" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="115,181; 133,46" />
@@ -6541,7 +6536,7 @@
         <circle cx="0" cy="0" r="4.5" fill="#FFFFFF"/>
       </g>
     </g>
-    <text x="675" y="97" fill="#FF6600" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
+    <text x="675" y="97" fill="#FF6600" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="675" cy="105" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -6571,7 +6566,7 @@
         <circle cx="0" cy="0" r="4.5" fill="#FFFFFF"/>
       </g>
     </g>
-    <text x="199" y="83" fill="#FF6600" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
+    <text x="199" y="83" fill="#FF6600" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="199" cy="91" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -6596,7 +6591,7 @@
 
   <!-- [49/50] INFERNAPE TURN CONTAINER (117.6s - 120.0s) -->
   <g id="turn_48_infernape" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.96078; 0.96111; 0.98007; 0.98039; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.96078; 0.98039" />
     <!-- Feature 2: Elemental Weather & Field Effects (fire_blast) -->
     <circle cx="0" cy="0" r="1.4" fill="#FF5500" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="728,195; 745,54" />
@@ -6672,7 +6667,7 @@
         <circle cx="0" cy="0" r="4.5" fill="#FFFFFF"/>
       </g>
     </g>
-    <text x="143" y="69" fill="#FF6600" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
+    <text x="143" y="69" fill="#FF6600" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="143" cy="77" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -6702,7 +6697,7 @@
         <circle cx="0" cy="0" r="4.5" fill="#FFFFFF"/>
       </g>
     </g>
-    <text x="395" y="111" fill="#FF6600" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
+    <text x="395" y="111" fill="#FF6600" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="395" cy="119" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -6727,7 +6722,7 @@
 
   <!-- [50/50] GARCHOMP TURN CONTAINER (120.0s - 122.4s) -->
   <g id="turn_49_garchomp" opacity="0">
-    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.98039; 0.98072; 0.99967; 0.9998; 1" />
+    <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" calcMode="discrete" values="0; 1; 0" keyTimes="0; 0.98039; 0.9998" />
     <!-- Feature 2: Elemental Weather & Field Effects (dragon) -->
     <circle cx="0" cy="0" r="1.6" fill="#9933FF" opacity="0">
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="412,195; 416,94" />
@@ -6790,7 +6785,7 @@
       <polygon points="0,-18 12,12 -12,12" fill="#9933FF"/>
       <polygon points="0,-12 7,8 -7,8" fill="#FFFFFF"/>
     </g>
-    <text x="269" y="41" fill="#BB66FF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="269" y="41" fill="#BB66FF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
     <circle cx="269" cy="49" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
@@ -6811,7 +6806,7 @@
       <polygon points="0,-18 12,12 -12,12" fill="#9933FF"/>
       <polygon points="0,-12 7,8 -7,8" fill="#FFFFFF"/>
     </g>
-    <text x="591" y="69" fill="#BB66FF" stroke="#000000" stroke-width="2" paint-order="stroke" font-size="8px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="591" y="69" fill="#BB66FF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="591" cy="77" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
