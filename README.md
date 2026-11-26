@@ -543,31 +543,31 @@
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
       <td><a href="https://github.com/chimataraghuram/Aqua"><b><code>chimataraghuram/Aqua</code></b></a></td>
-      <td><code>ui: add centered OR divider between repo sections</code></td>
+      <td><code>feat: auto-sync repo README on extension install/reload</code></td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_25-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 25" /></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
-      <td><a href="https://github.com/chimataraghuram/PROJECT-FINDER"><b><code>chimataraghuram/PROJECT-FINDER</code></b></a></td>
-      <td><code>Merge pull request #39 from chimataraghuram/chimatar...</code></td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_25-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 25" /></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://img.shields.io/badge/Created-0EA5E9?style=flat-square&logo=sparkles&logoColor=white" height="20" alt="Created" /></td>
-      <td><a href="https://github.com/chimataraghuram/TECHBOY-STORE"><b><code>chimataraghuram/TECHBOY-STORE</code></b></a></td>
-      <td><b>Created new branch</b></td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_25-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 25" /></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
-      <td><a href="https://github.com/chimataraghuram/Aqua"><b><code>chimataraghuram/Aqua</code></b></a></td>
-      <td><b>Merged PR #21</b> ❯ PR #21</td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_26-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 26" /></td>
     </tr>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
       <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b><code>chimataraghuram/chimataraghuram</code></b></a></td>
-      <td><code>style(trainer): redesign Trainer Raghu sprite with h...</code></td>
+      <td><code>docs(achievements): add Bronze ring and x2 medal pil...</code></td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_26-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 26" /></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://img.shields.io/badge/Created-0EA5E9?style=flat-square&logo=sparkles&logoColor=white" height="20" alt="Created" /></td>
+      <td><a href="https://github.com/chimataraghuram/Aqua"><b><code>chimataraghuram/Aqua</code></b></a></td>
+      <td><b>Created new branch</b></td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_25-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 25" /></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
+      <td><a href="https://github.com/chimataraghuram/PORTFOLIO"><b><code>chimataraghuram/PORTFOLIO</code></b></a></td>
+      <td><code>Merge pull request #16 from chimataraghuram/feature/...</code></td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_25-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 25" /></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://img.shields.io/badge/Created-0EA5E9?style=flat-square&logo=sparkles&logoColor=white" height="20" alt="Created" /></td>
+      <td><a href="https://github.com/chimataraghuram/PORTFOLIO"><b><code>chimataraghuram/PORTFOLIO</code></b></a></td>
+      <td><b>Created new branch</b></td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_25-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 25" /></td>
     </tr>
     <tr>
