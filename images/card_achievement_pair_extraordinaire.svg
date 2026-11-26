@@ -5,6 +5,15 @@
       <stop offset="0%" stop-color="#161F33"/>
       <stop offset="100%" stop-color="#0A0E18"/>
     </linearGradient>
+    <linearGradient id="bronzeRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6C8A8"/>
+      <stop offset="50%" stop-color="#CD7F50"/>
+      <stop offset="100%" stop-color="#7C3F23"/>
+    </linearGradient>
+    <linearGradient id="bronzeStroke" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F2B896"/>
+      <stop offset="100%" stop-color="#CD7F50"/>
+    </linearGradient>
   
   </defs>
 
@@ -13,8 +22,16 @@
 
   <!-- Achievement Label -->
   <g transform="translate(0, 113)">
+  <!-- Bronze Tint & Metallic Ring + x2 Badge -->
+  <circle cx="52.5" cy="52.5" r="46" fill="#D98A5C" opacity="0.26" style="mix-blend-mode: color;"/>
+  <circle cx="52.5" cy="52.5" r="47.5" fill="none" stroke="url(#bronzeRing)" stroke-width="5"/>
+  <g>
+    <rect x="65" y="78" width="33" height="19" rx="9.5" fill="#F2B896" stroke="#0D1117" stroke-width="1.8"/>
+    <text x="81.5" y="91.2" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="800" fill="#18181B">x2</text>
+  </g>
+
     <!-- Outer Rounded Cyber Pill -->
-  <rect x="0.75" y="0.75" width="103.5" height="22.5" rx="11.25" fill="url(#pillGrad_PAIR_EXTRAORDINAIRE)" stroke="#8B5CF6" stroke-width="1.2" stroke-opacity="0.55"/>
+  <rect x="0.75" y="0.75" width="103.5" height="22.5" rx="11.25" fill="url(#pillGrad_PAIR_EXTRAORDINAIRE)" stroke="url(#bronzeStroke)" stroke-width="1.3" stroke-opacity="0.85"/>
   <rect x="2" y="2" width="101" height="20" rx="10" fill="#0C121F" fill-opacity="0.85"/>
 
   <!-- Centered Bold Title -->
