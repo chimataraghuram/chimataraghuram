@@ -98,9 +98,9 @@
   </a>
   <br/><br/>
 <!--START_SECTION:achievements-->
-  <a href="https://github.com/chimataraghuram?achievement=pull-shark&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/card_achievement_pull_shark.svg?v=20261120" width="105" alt="Pull Shark (Silver x3)" /></a>
-  &nbsp;&nbsp;
   <a href="https://github.com/chimataraghuram?achievement=pair-extraordinaire&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/card_achievement_pair_extraordinaire.svg?v=20261126_bronze_v1" width="105" alt="Pair Extraordinaire (Bronze x2)" /></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/chimataraghuram?achievement=pull-shark&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/card_achievement_pull_shark.svg?v=20261120" width="105" alt="Pull Shark (Silver x3)" /></a>
   &nbsp;&nbsp;
   <a href="https://github.com/chimataraghuram?achievement=starstruck&tab=achievements"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/card_achievement_starstruck.svg?v=20261120" width="105" alt="Starstruck" /></a>
   &nbsp;&nbsp;
