@@ -18,6 +18,6 @@
   <rect x="2" y="2" width="101" height="20" rx="10" fill="#0C121F" fill-opacity="0.85"/>
 
   <!-- Centered Bold Title -->
-  <text x="52.5" y="15.2" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Pro Display', Helvetica, Arial, sans-serif" font-size="7" font-weight="900" letter-spacing="0.4" fill="#F8FAFC">PAIR EXTRAORDINAIRE</text>
+  <text x="52.5" y="15.2" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Pro Display', Helvetica, Arial, sans-serif" font-size="6.3" font-weight="900" letter-spacing="0.3" fill="#F8FAFC">PAIR EXTRAORDINAIRE x2</text>
   </g>
 </svg>
