@@ -542,33 +542,33 @@
   <tbody>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/Pushed-238636?style=flat-square&logo=git-commit&logoColor=white" height="20" alt="Pushed" /></td>
-      <td><a href="https://github.com/chimataraghuram/Aqua"><b><code>chimataraghuram/Aqua</code></b></a></td>
-      <td><code>fix: generate per-problem README.md for problem-name...</code></td>
+      <td><a href="https://github.com/chimataraghuram/chimataraghuram"><b><code>chimataraghuram/chimataraghuram</code></b></a></td>
+      <td><code>docs(achievements): update Pair Extraordinaire badge...</code></td>
       <td align="center"><img src="https://img.shields.io/badge/Nov_26-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 26" /></td>
     </tr>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
-      <td><a href="https://github.com/chimataraghuram/Aqua"><b><code>chimataraghuram/Aqua</code></b></a></td>
-      <td><b>Merged PR #25</b> ❯ PR #25</td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_27-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 27" /></td>
+      <td><a href="https://github.com/chimataraghuram/GitHub-Student-Developer-Pack"><b><code>chimataraghuram/GitHub-Student-Developer-Pack</code></b></a></td>
+      <td><b>Merged PR #7</b> ❯ PR #7</td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_28-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 28" /></td>
     </tr>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
-      <td><a href="https://github.com/chimataraghuram/Aqua"><b><code>chimataraghuram/Aqua</code></b></a></td>
-      <td><b>Merged PR #24</b> ❯ PR #24</td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_27-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 27" /></td>
+      <td><a href="https://github.com/chimataraghuram/GitHub-Student-Developer-Pack"><b><code>chimataraghuram/GitHub-Student-Developer-Pack</code></b></a></td>
+      <td><b>Merged PR #6</b> ❯ PR #6</td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_28-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 28" /></td>
     </tr>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
-      <td><a href="https://github.com/chimataraghuram/Aqua"><b><code>chimataraghuram/Aqua</code></b></a></td>
-      <td><b>Merged PR #23</b> ❯ PR #23</td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_27-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 27" /></td>
+      <td><a href="https://github.com/chimataraghuram/GitHub-Student-Developer-Pack"><b><code>chimataraghuram/GitHub-Student-Developer-Pack</code></b></a></td>
+      <td><b>Merged PR #5</b> ❯ PR #5</td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_28-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 28" /></td>
     </tr>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/PR-8957E5?style=flat-square&logo=git-pull-request&logoColor=white" height="20" alt="Pull Request" /></td>
-      <td><a href="https://github.com/chimataraghuram/Aqua"><b><code>chimataraghuram/Aqua</code></b></a></td>
-      <td><b>Merged PR #22</b> ❯ PR #22</td>
-      <td align="center"><img src="https://img.shields.io/badge/Nov_27-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 27" /></td>
+      <td><a href="https://github.com/chimataraghuram/GitHub-Student-Developer-Pack"><b><code>chimataraghuram/GitHub-Student-Developer-Pack</code></b></a></td>
+      <td><b>Merged PR #4</b> ❯ PR #4</td>
+      <td align="center"><img src="https://img.shields.io/badge/Nov_28-161b22?style=flat-square&logo=github&logoColor=38bdf8" height="20" alt="Nov 28" /></td>
     </tr>
     <tr>
       <td colspan="4" height="1" style="padding:0; margin:0; border:none; line-height:1px; background:transparent;"><img src="https://raw.githubusercontent.com/chimataraghuram/chimataraghuram/main/images/transparent_spacer.png" width="900" height="1" style="display:block; border:none; opacity:0; height:1px;" alt="" /></td>
