@@ -428,8 +428,8 @@
     <rect id="c_9_2" x="166" y="72" width="11" height="11" rx="2" fill="#161b22"/>
     <rect id="c_9_3" x="166" y="86" width="11" height="11" rx="2" fill="#161b22"/>
     <rect id="c_9_4" x="166" y="100" width="11" height="11" rx="2" fill="#39d353">
-      <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#39d353; #39d353; #FFFFFF; #00FF66; #060913; #060913; #39d353" keyTimes="0; 0.93636; 0.93701; 0.93799; 0.93962; 0.999; 1" />
-      <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.93636; 0.93701; 0.93962; 0.999; 1" />
+      <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#39d353; #39d353; #FFFFFF; #FF4400; #060913; #060913; #39d353" keyTimes="0; 0.95596; 0.95662; 0.9576; 0.95923; 0.999; 1" />
+      <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.95596; 0.95662; 0.95923; 0.999; 1" />
     </rect>
     <rect id="c_9_5" x="166" y="114" width="11" height="11" rx="2" fill="#26a641">
       <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#26a641; #26a641; #FFFFFF; #EE44EE; #060913; #060913; #26a641" keyTimes="0; 0.77949; 0.78015; 0.78113; 0.78276; 0.999; 1" />
@@ -448,8 +448,8 @@
       <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.53578; 0.53644; 0.53905; 0.999; 1" />
     </rect>
     <rect id="c_10_2" x="180" y="72" width="11" height="11" rx="2" fill="#26a641">
-      <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#26a641; #26a641; #FFFFFF; #FF7700; #060913; #060913; #26a641" keyTimes="0; 0.97557; 0.97623; 0.97721; 0.97884; 0.999; 1" />
-      <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.97557; 0.97623; 0.97884; 0.999; 1" />
+      <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#26a641; #26a641; #FFFFFF; #9933FF; #060913; #060913; #26a641" keyTimes="0; 0.99518; 0.99583; 0.99681; 0.99845; 0.999; 1" />
+      <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.99518; 0.99583; 0.99845; 0.999; 1" />
     </rect>
     <rect id="c_10_3" x="180" y="86" width="11" height="11" rx="2" fill="#39d353">
       <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#39d353; #39d353; #FFFFFF; #FF88CC; #060913; #060913; #39d353" keyTimes="0; 0.69265; 0.6933; 0.69428; 0.69592; 0.999; 1" />
@@ -583,8 +583,8 @@
     </rect>
     <rect id="c_17_6" x="278" y="128" width="11" height="11" rx="2" fill="#161b22"/>
     <rect id="c_18_0" x="292" y="44" width="11" height="11" rx="2" fill="#39d353">
-      <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#39d353; #39d353; #FFFFFF; #FF4400; #060913; #060913; #39d353" keyTimes="0; 0.95596; 0.95662; 0.9576; 0.95923; 0.999; 1" />
-      <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.95596; 0.95662; 0.95923; 0.999; 1" />
+      <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#39d353; #39d353; #FFFFFF; #FF7700; #060913; #060913; #39d353" keyTimes="0; 0.97557; 0.97623; 0.97721; 0.97884; 0.999; 1" />
+      <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.97557; 0.97623; 0.97884; 0.999; 1" />
     </rect>
     <rect id="c_18_1" x="292" y="58" width="11" height="11" rx="2" fill="#0e4429">
       <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#0e4429; #0e4429; #FFFFFF; #0088FF; #060913; #060913; #0e4429" keyTimes="0; 0.28088; 0.28154; 0.28252; 0.28415; 0.999; 1" />
@@ -794,8 +794,8 @@
     <rect id="c_33_2" x="502" y="72" width="11" height="11" rx="2" fill="#161b22"/>
     <rect id="c_33_3" x="502" y="86" width="11" height="11" rx="2" fill="#161b22"/>
     <rect id="c_33_4" x="502" y="100" width="11" height="11" rx="2" fill="#39d353">
-      <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#39d353; #39d353; #FFFFFF; #FFAACC; #060913; #060913; #39d353" keyTimes="0; 0.91675; 0.9174; 0.91838; 0.92002; 0.999; 1" />
-      <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.91675; 0.9174; 0.92002; 0.999; 1" />
+      <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#39d353; #39d353; #FFFFFF; #00FF66; #060913; #060913; #39d353" keyTimes="0; 0.93636; 0.93701; 0.93799; 0.93962; 0.999; 1" />
+      <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.93636; 0.93701; 0.93962; 0.999; 1" />
     </rect>
     <rect id="c_33_5" x="502" y="114" width="11" height="11" rx="2" fill="#006d32">
       <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#006d32; #006d32; #FFFFFF; #FF69B4; #060913; #060913; #006d32" keyTimes="0; 0.11283; 0.11348; 0.11446; 0.11609; 0.999; 1" />
@@ -924,12 +924,12 @@
       <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.56381; 0.56446; 0.56708; 0.999; 1" />
     </rect>
     <rect id="c_39_2" x="586" y="72" width="11" height="11" rx="2" fill="#006d32">
-      <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#006d32; #006d32; #FFFFFF; #FF7700; #060913; #060913; #006d32" keyTimes="0; 0.85792; 0.85858; 0.85956; 0.86119; 0.999; 1" />
-      <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.85792; 0.85858; 0.86119; 0.999; 1" />
+      <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#006d32; #006d32; #FFFFFF; #00FF44; #060913; #060913; #006d32" keyTimes="0; 0.87753; 0.87819; 0.87917; 0.8808; 0.999; 1" />
+      <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.87753; 0.87819; 0.8808; 0.999; 1" />
     </rect>
     <rect id="c_39_3" x="586" y="86" width="11" height="11" rx="2" fill="#006d32">
-      <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#006d32; #006d32; #FFFFFF; #00FFFF; #060913; #060913; #006d32" keyTimes="0; 0.81871; 0.81936; 0.82034; 0.82198; 0.999; 1" />
-      <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.81871; 0.81936; 0.82198; 0.999; 1" />
+      <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#006d32; #006d32; #FFFFFF; #AAEEFF; #060913; #060913; #006d32" keyTimes="0; 0.83832; 0.83897; 0.83995; 0.84158; 0.999; 1" />
+      <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.83832; 0.83897; 0.84158; 0.999; 1" />
     </rect>
     <rect id="c_39_4" x="586" y="100" width="11" height="11" rx="2" fill="#39d353">
       <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#39d353; #39d353; #FFFFFF; #FFFFFF; #060913; #060913; #39d353" keyTimes="0; 0.19126; 0.19191; 0.19289; 0.19453; 0.999; 1" />
@@ -992,8 +992,8 @@
       <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.36773; 0.36838; 0.371; 0.999; 1" />
     </rect>
     <rect id="c_41_5" x="614" y="114" width="11" height="11" rx="2" fill="#006d32">
-      <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#006d32; #006d32; #FFFFFF; #00FF44; #060913; #060913; #006d32" keyTimes="0; 0.87753; 0.87819; 0.87917; 0.8808; 0.999; 1" />
-      <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.87753; 0.87819; 0.8808; 0.999; 1" />
+      <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#006d32; #006d32; #FFFFFF; #FF8C00; #060913; #060913; #006d32" keyTimes="0; 0.89714; 0.89779; 0.89877; 0.90041; 0.999; 1" />
+      <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.89714; 0.89779; 0.90041; 0.999; 1" />
     </rect>
     <rect id="c_41_6" x="614" y="128" width="11" height="11" rx="2" fill="#26a641">
       <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#26a641; #26a641; #FFFFFF; #00FFFF; #060913; #060913; #26a641" keyTimes="0; 0.81871; 0.81936; 0.82034; 0.82198; 0.999; 1" />
@@ -1004,8 +1004,8 @@
       <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.17165; 0.1723; 0.17492; 0.999; 1" />
     </rect>
     <rect id="c_42_1" x="628" y="58" width="11" height="11" rx="2" fill="#006d32">
-      <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#006d32; #006d32; #FFFFFF; #AAEEFF; #060913; #060913; #006d32" keyTimes="0; 0.83832; 0.83897; 0.83995; 0.84158; 0.999; 1" />
-      <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.83832; 0.83897; 0.84158; 0.999; 1" />
+      <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#006d32; #006d32; #FFFFFF; #FF7700; #060913; #060913; #006d32" keyTimes="0; 0.85792; 0.85858; 0.85956; 0.86119; 0.999; 1" />
+      <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.85792; 0.85858; 0.86119; 0.999; 1" />
     </rect>
     <rect id="c_42_2" x="628" y="72" width="11" height="11" rx="2" fill="#006d32">
       <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#006d32; #006d32; #FFFFFF; #FF3333; #060913; #060913; #006d32" keyTimes="0; 0.32851; 0.32917; 0.33015; 0.33178; 0.999; 1" />
@@ -1044,8 +1044,8 @@
       <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.77949; 0.78015; 0.78276; 0.999; 1" />
     </rect>
     <rect id="c_43_4" x="642" y="100" width="11" height="11" rx="2" fill="#39d353">
-      <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#39d353; #39d353; #FFFFFF; #FF8C00; #060913; #060913; #39d353" keyTimes="0; 0.89714; 0.89779; 0.89877; 0.90041; 0.999; 1" />
-      <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.89714; 0.89779; 0.90041; 0.999; 1" />
+      <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#39d353; #39d353; #FFFFFF; #FFAACC; #060913; #060913; #39d353" keyTimes="0; 0.91675; 0.9174; 0.91838; 0.92002; 0.999; 1" />
+      <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.91675; 0.9174; 0.92002; 0.999; 1" />
     </rect>
     <rect id="c_43_5" x="642" y="114" width="11" height="11" rx="2" fill="#39d353">
       <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#39d353; #39d353; #FFFFFF; #0055FF; #060913; #060913; #39d353" keyTimes="0; 0.55539; 0.55605; 0.55703; 0.55866; 0.999; 1" />
@@ -1268,42 +1268,45 @@
       <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.40694; 0.4076; 0.41021; 0.999; 1" />
     </rect>
     <rect id="c_51_4" x="754" y="100" width="11" height="11" rx="2" fill="#39d353">
+      <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#39d353; #39d353; #FFFFFF; #00FFFF; #060913; #060913; #39d353" keyTimes="0; 0.81871; 0.81936; 0.82034; 0.82198; 0.999; 1" />
+      <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.81871; 0.81936; 0.82198; 0.999; 1" />
+    </rect>
+    <rect id="c_51_5" x="754" y="114" width="11" height="11" rx="2" fill="#39d353">
       <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#39d353; #39d353; #FFFFFF; #FF7700; #060913; #060913; #39d353" keyTimes="0; 0.97557; 0.97623; 0.97721; 0.97884; 0.999; 1" />
       <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.97557; 0.97623; 0.97884; 0.999; 1" />
     </rect>
-    <rect id="c_51_5" x="754" y="114" width="11" height="11" rx="2" fill="#39d353">
+    <rect id="c_51_6" x="754" y="128" width="11" height="11" rx="2" fill="#39d353">
       <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#39d353; #39d353; #FFFFFF; #FF2244; #060913; #060913; #39d353" keyTimes="0; 0.41814; 0.41879; 0.41977; 0.42141; 0.999; 1" />
       <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.41814; 0.41879; 0.42141; 0.999; 1" />
     </rect>
-    <rect id="c_51_6" x="754" y="128" width="11" height="11" rx="2" fill="#39d353">
+    <rect id="c_52_0" x="768" y="44" width="11" height="11" rx="2" fill="#39d353">
       <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#39d353; #39d353; #FFFFFF; #FFB6C1; #060913; #060913; #39d353" keyTimes="0; 0.74028; 0.74093; 0.74191; 0.74355; 0.999; 1" />
       <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.74028; 0.74093; 0.74355; 0.999; 1" />
     </rect>
-    <rect id="c_52_0" x="768" y="44" width="11" height="11" rx="2" fill="#39d353">
+    <rect id="c_52_1" x="768" y="58" width="11" height="11" rx="2" fill="#39d353">
       <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#39d353; #39d353; #FFFFFF; #FF4400; #060913; #060913; #39d353" keyTimes="0; 0.09322; 0.09387; 0.09485; 0.09649; 0.999; 1" />
       <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.09322; 0.09387; 0.09649; 0.999; 1" />
     </rect>
-    <rect id="c_52_1" x="768" y="58" width="11" height="11" rx="2" fill="#39d353">
+    <rect id="c_52_2" x="768" y="72" width="11" height="11" rx="2" fill="#39d353">
       <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#39d353; #39d353; #FFFFFF; #FF69B4; #060913; #060913; #39d353" keyTimes="0; 0.11283; 0.11348; 0.11446; 0.11609; 0.999; 1" />
       <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.11283; 0.11348; 0.11609; 0.999; 1" />
     </rect>
-    <rect id="c_52_2" x="768" y="72" width="11" height="11" rx="2" fill="#39d353">
+    <rect id="c_52_3" x="768" y="86" width="11" height="11" rx="2" fill="#39d353">
       <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#39d353; #39d353; #FFFFFF; #FFB6C1; #060913; #060913; #39d353" keyTimes="0; 0.73186; 0.73252; 0.7335; 0.73513; 0.999; 1" />
       <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.73186; 0.73252; 0.73513; 0.999; 1" />
     </rect>
-    <rect id="c_52_3" x="768" y="86" width="11" height="11" rx="2" fill="#39d353">
+    <rect id="c_52_4" x="768" y="100" width="11" height="11" rx="2" fill="#39d353">
       <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#39d353; #39d353; #FFFFFF; #00AAFF; #060913; #060913; #39d353" keyTimes="0; 0.12402; 0.12467; 0.12565; 0.12729; 0.999; 1" />
       <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.12402; 0.12467; 0.12729; 0.999; 1" />
     </rect>
-    <rect id="c_52_4" x="768" y="100" width="11" height="11" rx="2" fill="#39d353">
+    <rect id="c_52_5" x="768" y="114" width="11" height="11" rx="2" fill="#39d353">
       <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#39d353; #39d353; #FFFFFF; #FF2200; #060913; #060913; #39d353" keyTimes="0; 0.5442; 0.54485; 0.54583; 0.54747; 0.999; 1" />
       <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.5442; 0.54485; 0.54747; 0.999; 1" />
     </rect>
-    <rect id="c_52_5" x="768" y="114" width="11" height="11" rx="2" fill="#39d353">
+    <rect id="c_52_6" x="768" y="128" width="11" height="11" rx="2" fill="#39d353">
       <animate attributeName="fill" dur="122.4s" repeatCount="indefinite" values="#39d353; #39d353; #FFFFFF; #EE1111; #060913; #060913; #39d353" keyTimes="0; 0.50498; 0.50564; 0.50662; 0.50825; 0.999; 1" />
       <animate attributeName="opacity" dur="122.4s" repeatCount="indefinite" values="1; 1; 1; 0.15; 0.15; 1" keyTimes="0; 0.50498; 0.50564; 0.50825; 0.999; 1" />
     </rect>
-    <rect id="c_52_6" x="768" y="128" width="11" height="11" rx="2" fill="#161b22"/>
   </g>
 
   <line x1="40" y1="149" x2="782" y2="149" stroke="#21262d" stroke-dasharray="3,3" opacity="0.4"/>
@@ -1816,10 +1819,10 @@
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
-    <text x="773" y="41" fill="#FF6600" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
+    <text x="773" y="55" fill="#FF6600" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
-    <circle cx="773" cy="49" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
+    <circle cx="773" cy="63" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
@@ -1911,7 +1914,7 @@
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.31; 0.35; 0.45; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.33; 0.45; 1"/>
     </circle>
-    <circle cx="773" cy="63" r="9" fill="none" stroke="#FF69B4" stroke-width="2" class="pixel-reticle" opacity="0">
+    <circle cx="773" cy="77" r="9" fill="none" stroke="#FF69B4" stroke-width="2" class="pixel-reticle" opacity="0">
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; 0.55; 0.58; 0.76; 1"/>
     </circle>
 
@@ -1920,15 +1923,15 @@
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite"
                values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.6042; 0.6208; 0.7375; 0.7542; 1" />
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite"
-               values="773,162; 773,162; 773,63; 773,63; 773,162; 773,162"
+               values="773,162; 773,162; 773,77; 773,77; 773,162; 773,162"
                keyTimes="0; 0.6042; 0.7542; 0.8042; 0.999; 1" />
       <circle cx="0" cy="0" r="18" fill="none" stroke="#FF69B4" stroke-width="4"/>
       <circle cx="0" cy="0" r="10" fill="none" stroke="#FFFFFF" stroke-width="3"/>
     </g>
-    <text x="773" y="55" fill="#FF77CC" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="773" y="69" fill="#FF77CC" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
-    <circle cx="773" cy="63" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
+    <circle cx="773" cy="77" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
@@ -2017,7 +2020,7 @@
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.58; 0.60; 0.66; 1"/>
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="0; 0; 24; 0; 0" keyTimes="0; 0.58; 0.60; 0.66; 1"/>
     </circle>
-    <circle cx="773" cy="91" r="9" fill="none" stroke="#00AAFF" stroke-width="2" class="pixel-reticle" opacity="0">
+    <circle cx="773" cy="105" r="9" fill="none" stroke="#00AAFF" stroke-width="2" class="pixel-reticle" opacity="0">
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; 0.12; 0.16; 0.35; 1"/>
     </circle>
 
@@ -2025,16 +2028,16 @@
     <g opacity="0">
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite"
                values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.175; 0.1917; 0.3083; 0.325; 1" />
-      <line x1="767" y1="162" x2="770" y2="91" stroke="#00AAFF" stroke-width="7" stroke-linecap="round"/>
-      <line x1="767" y1="162" x2="770" y2="91" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-      <line x1="779" y1="162" x2="776" y2="91" stroke="#00AAFF" stroke-width="7" stroke-linecap="round"/>
-      <line x1="779" y1="162" x2="776" y2="91" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-      <ellipse cx="773" cy="99" rx="18" ry="7" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+      <line x1="767" y1="162" x2="770" y2="105" stroke="#00AAFF" stroke-width="7" stroke-linecap="round"/>
+      <line x1="767" y1="162" x2="770" y2="105" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+      <line x1="779" y1="162" x2="776" y2="105" stroke="#00AAFF" stroke-width="7" stroke-linecap="round"/>
+      <line x1="779" y1="162" x2="776" y2="105" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+      <ellipse cx="773" cy="113" rx="18" ry="7" fill="none" stroke="#FFFFFF" stroke-width="3"/>
     </g>
-    <text x="773" y="83" fill="#00CCFF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="773" y="97" fill="#00CCFF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
-    <circle cx="773" cy="91" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
+    <circle cx="773" cy="105" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.31; 0.35; 0.45; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.33; 0.45; 1"/>
     </circle>
@@ -2084,7 +2087,7 @@
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 1; 1; 0; 0" keyTimes="0; 0.05; 0.92; 0.96; 1"/>
       <text x="40" y="230" class="hud-title">#06 BLASTOISE</text>
       <text x="160" y="230" class="hud-move" fill="#00AAFF">❯ HYDRO PUMP</text>
-      <text x="350" y="230" class="hud-sub">TARGET: SECTOR [53,4] ❯ VERTICAL ALIGNMENT LOCKED</text>
+      <text x="350" y="230" class="hud-sub">TARGET: SECTOR [53,5] ❯ VERTICAL ALIGNMENT LOCKED</text>
       <text x="710" y="230" class="hud-score">SCORE: 9,000 PTS</text>
     </g>
   </g>
@@ -3862,7 +3865,7 @@
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.58; 0.60; 0.66; 1"/>
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="0; 0; 24; 0; 0" keyTimes="0; 0.58; 0.60; 0.66; 1"/>
     </circle>
-    <circle cx="759" cy="119" r="9" fill="none" stroke="#FF2244" stroke-width="2" class="pixel-reticle" opacity="0">
+    <circle cx="759" cy="133" r="9" fill="none" stroke="#FF2244" stroke-width="2" class="pixel-reticle" opacity="0">
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; 0.12; 0.16; 0.35; 1"/>
     </circle>
 
@@ -3871,7 +3874,7 @@
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite"
                values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.175; 0.1917; 0.3083; 0.325; 1" />
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite"
-               values="759,162; 759,162; 759,119; 759,119; 759,162; 759,162"
+               values="759,162; 759,162; 759,133; 759,133; 759,162; 759,162"
                keyTimes="0; 0.175; 0.325; 0.3750; 0.999; 1" />
       <circle cx="0" cy="18" r="5" fill="#FF2200"/>
       <circle cx="-6" cy="28" r="3.5" fill="#FFAA00"/>
@@ -3885,10 +3888,10 @@
         <circle cx="0" cy="0" r="4.5" fill="#FFFFFF"/>
       </g>
     </g>
-    <text x="759" y="111" fill="#FF6600" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
+    <text x="759" y="125" fill="#FF6600" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
-    <circle cx="759" cy="119" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
+    <circle cx="759" cy="133" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.31; 0.35; 0.45; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.33; 0.45; 1"/>
     </circle>
@@ -3947,7 +3950,7 @@
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 1; 1; 0; 0" keyTimes="0; 0.05; 0.92; 0.96; 1"/>
       <text x="40" y="230" class="hud-title">#21 CINDERACE</text>
       <text x="160" y="230" class="hud-move" fill="#FF2244">❯ PYRO BALL</text>
-      <text x="350" y="230" class="hud-sub">TARGET: SECTOR [52,6] ❯ VERTICAL ALIGNMENT LOCKED</text>
+      <text x="350" y="230" class="hud-sub">TARGET: SECTOR [52,7] ❯ VERTICAL ALIGNMENT LOCKED</text>
       <text x="710" y="230" class="hud-score">SCORE: 20,250 PTS</text>
     </g>
   </g>
@@ -4399,7 +4402,7 @@
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.31; 0.35; 0.45; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.33; 0.45; 1"/>
     </circle>
-    <circle cx="773" cy="119" r="9" fill="none" stroke="#EE1111" stroke-width="2" class="pixel-reticle" opacity="0">
+    <circle cx="773" cy="133" r="9" fill="none" stroke="#EE1111" stroke-width="2" class="pixel-reticle" opacity="0">
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; 0.55; 0.58; 0.76; 1"/>
     </circle>
 
@@ -4408,15 +4411,15 @@
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite"
                values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.6042; 0.6208; 0.7375; 0.7542; 1" />
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite"
-               values="773,162; 773,162; 773,119; 773,119; 773,162; 773,162"
+               values="773,162; 773,162; 773,133; 773,133; 773,162; 773,162"
                keyTimes="0; 0.6042; 0.7542; 0.8042; 0.999; 1" />
       <circle cx="0" cy="0" r="13" fill="#EE1111"/>
       <circle cx="0" cy="0" r="7" fill="#FFFFFF"/>
     </g>
-    <text x="773" y="111" fill="#FFFF00" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="773" y="125" fill="#FFFF00" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
-    <circle cx="773" cy="119" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
+    <circle cx="773" cy="133" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
@@ -4667,7 +4670,7 @@
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.31; 0.35; 0.45; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.33; 0.45; 1"/>
     </circle>
-    <circle cx="773" cy="105" r="9" fill="none" stroke="#FF2200" stroke-width="2" class="pixel-reticle" opacity="0">
+    <circle cx="773" cy="119" r="9" fill="none" stroke="#FF2200" stroke-width="2" class="pixel-reticle" opacity="0">
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; 0.55; 0.58; 0.76; 1"/>
     </circle>
 
@@ -4676,15 +4679,15 @@
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite"
                values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.6042; 0.6208; 0.7375; 0.7542; 1" />
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite"
-               values="773,162; 773,162; 773,105; 773,105; 773,162; 773,162"
+               values="773,162; 773,162; 773,119; 773,119; 773,162; 773,162"
                keyTimes="0; 0.6042; 0.7542; 0.8042; 0.999; 1" />
       <polygon points="0,-16 14,-10 16,8 5,16 -12,13 -16,-3 -8,-15" fill="#FF2200" stroke="#333333" stroke-width="2"/>
       <circle cx="-3" cy="-3" r="3" fill="#FFFFFF" opacity="0.7"/>
     </g>
-    <text x="773" y="97" fill="#FFFF00" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="773" y="111" fill="#FFFF00" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
-    <circle cx="773" cy="105" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
+    <circle cx="773" cy="119" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
@@ -5917,10 +5920,10 @@
     <!-- Character Body -->
     <g id="poke_36_sylveon" opacity="0">
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.04; 0.08; 0.90; 0.94; 1"/>
-      <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="748,157; 748,157; 734,157; 734,157" keyTimes="0; 0.38; 0.48; 1"/>
+      <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite" values="748,157; 748,157; 748,157; 748,157" keyTimes="0; 0.38; 0.48; 1"/>
       <g>
         <animateTransform attributeName="transform" type="scale" dur="0.75s" repeatCount="indefinite" values="1,1; 1.03,0.96; 0.97,1.03; 1,1" additive="sum"/>
-        <animateTransform attributeName="transform" type="rotate" dur="2.40s" repeatCount="indefinite" values="0; 0; -14; -14; 0; 0" keyTimes="0; 0.36; 0.39; 0.48; 0.50; 1" additive="sum"/>
+        <animateTransform attributeName="transform" type="rotate" dur="2.40s" repeatCount="indefinite" values="0; 0; 14; 14; 0; 0" keyTimes="0; 0.36; 0.39; 0.48; 0.50; 1" additive="sum"/>
         <ellipse cx="25" cy="48" rx="17" ry="6" fill="#FFB6C1" opacity="0.75">
           <animate attributeName="opacity" values="0.45;1;0.45" dur="0.28s" repeatCount="indefinite"/>
           <animate attributeName="rx" values="14;22;14" dur="0.28s" repeatCount="indefinite"/>
@@ -5932,11 +5935,11 @@
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.16; 0.18; 0.24; 1"/>
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="0; 0; 24; 0; 0" keyTimes="0; 0.16; 0.18; 0.24; 1"/>
     </circle>
-    <circle cx="759" cy="162" r="1" fill="#FFFFFF" opacity="0">
+    <circle cx="773" cy="162" r="1" fill="#FFFFFF" opacity="0">
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.58; 0.60; 0.66; 1"/>
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="0; 0; 24; 0; 0" keyTimes="0; 0.58; 0.60; 0.66; 1"/>
     </circle>
-    <circle cx="773" cy="77" r="9" fill="none" stroke="#FFB6C1" stroke-width="2" class="pixel-reticle" opacity="0">
+    <circle cx="773" cy="91" r="9" fill="none" stroke="#FFB6C1" stroke-width="2" class="pixel-reticle" opacity="0">
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; 0.12; 0.16; 0.35; 1"/>
     </circle>
 
@@ -5945,19 +5948,19 @@
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite"
                values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.175; 0.1917; 0.3083; 0.325; 1" />
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite"
-               values="773,162; 773,162; 773,77; 773,77; 773,162; 773,162"
+               values="773,162; 773,162; 773,91; 773,91; 773,162; 773,162"
                keyTimes="0; 0.175; 0.325; 0.3750; 0.999; 1" />
       <circle cx="0" cy="0" r="18" fill="none" stroke="#FFB6C1" stroke-width="4"/>
       <circle cx="0" cy="0" r="10" fill="none" stroke="#FFFFFF" stroke-width="3"/>
     </g>
-    <text x="773" y="69" fill="#FF77CC" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="773" y="83" fill="#FF77CC" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.34; 0.45; 1"/>
     </text>
-    <circle cx="773" cy="77" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
+    <circle cx="773" cy="91" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.31; 0.35; 0.45; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.31; 0.33; 0.45; 1"/>
     </circle>
-    <circle cx="759" cy="133" r="9" fill="none" stroke="#FFB6C1" stroke-width="2" class="pixel-reticle" opacity="0">
+    <circle cx="773" cy="49" r="9" fill="none" stroke="#FFB6C1" stroke-width="2" class="pixel-reticle" opacity="0">
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.95; 0; 0" keyTimes="0; 0.55; 0.58; 0.76; 1"/>
     </circle>
 
@@ -5966,15 +5969,15 @@
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite"
                values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.6042; 0.6208; 0.7375; 0.7542; 1" />
       <animateTransform attributeName="transform" type="translate" dur="2.40s" repeatCount="indefinite"
-               values="759,162; 759,162; 759,133; 759,133; 759,162; 759,162"
+               values="773,162; 773,162; 773,49; 773,49; 773,162; 773,162"
                keyTimes="0; 0.6042; 0.7542; 0.8042; 0.999; 1" />
       <circle cx="0" cy="0" r="18" fill="none" stroke="#FFB6C1" stroke-width="4"/>
       <circle cx="0" cy="0" r="10" fill="none" stroke="#FFFFFF" stroke-width="3"/>
     </g>
-    <text x="759" y="125" fill="#FF77CC" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="773" y="41" fill="#FF77CC" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
-    <circle cx="759" cy="133" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
+    <circle cx="773" cy="49" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
@@ -5992,10 +5995,10 @@
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
-    <polygon points="759,137 741,192 777,192" fill="#FF3333" opacity="0">
+    <polygon points="773,137 755,192 791,192" fill="#FF3333" opacity="0">
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 0.75; 0; 0" keyTimes="0; 0.85; 0.88; 0.96; 1"/>
     </polygon>
-    <circle cx="759" cy="182" r="0" fill="#FFFFFF" opacity="0">
+    <circle cx="773" cy="182" r="0" fill="#FFFFFF" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="0; 0; 22; 0; 0" keyTimes="0; 0.85; 0.88; 0.96; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.85; 0.88; 0.96; 1"/>
     </circle>
@@ -6003,7 +6006,7 @@
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 1; 1; 0; 0" keyTimes="0; 0.05; 0.92; 0.96; 1"/>
       <text x="40" y="230" class="hud-title">#37 SYLVEON</text>
       <text x="160" y="230" class="hud-move" fill="#FFB6C1">❯ MOONBLAST</text>
-      <text x="350" y="230" class="hud-sub">TARGET: SECTOR [53,3] ❯ VERTICAL ALIGNMENT LOCKED</text>
+      <text x="350" y="230" class="hud-sub">TARGET: SECTOR [53,4] ❯ VERTICAL ALIGNMENT LOCKED</text>
       <text x="710" y="230" class="hud-score">SCORE: 32,250 PTS</text>
     </g>
   </g>
@@ -6477,10 +6480,10 @@
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
-    <text x="591" y="83" fill="#00FFFF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
+    <text x="759" y="97" fill="#00FFFF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">CRITICAL HIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
-    <circle cx="591" cy="91" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
+    <circle cx="759" cy="105" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
@@ -6598,10 +6601,10 @@
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
-    <text x="633" y="55" fill="#66EEFF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
+    <text x="591" y="83" fill="#66EEFF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
-    <circle cx="633" cy="63" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
+    <circle cx="591" cy="91" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
@@ -6743,10 +6746,10 @@
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
-    <text x="591" y="69" fill="#FF6600" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
+    <text x="633" y="55" fill="#FF6600" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
-    <circle cx="591" cy="77" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
+    <circle cx="633" cy="63" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
@@ -6876,10 +6879,10 @@
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
-    <text x="619" y="111" fill="#44FF77" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">RAZOR CRIT!
+    <text x="591" y="69" fill="#44FF77" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">RAZOR CRIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
-    <circle cx="619" cy="119" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
+    <circle cx="591" cy="77" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
@@ -6999,10 +7002,10 @@
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
-    <text x="647" y="97" fill="#BB66FF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="619" y="111" fill="#BB66FF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
-    <circle cx="647" cy="105" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
+    <circle cx="619" cy="119" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
@@ -7122,10 +7125,10 @@
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
-    <text x="507" y="97" fill="#FF77CC" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+    <text x="647" y="97" fill="#FF77CC" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
-    <circle cx="507" cy="105" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
+    <circle cx="647" cy="105" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
@@ -7255,10 +7258,10 @@
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
-    <text x="171" y="97" fill="#44FF77" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">RAZOR CRIT!
+    <text x="507" y="97" fill="#44FF77" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">RAZOR CRIT!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
-    <circle cx="171" cy="105" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
+    <circle cx="507" cy="105" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
@@ -7400,10 +7403,10 @@
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
-    <text x="297" y="41" fill="#FF6600" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
+    <text x="171" y="97" fill="#FF6600" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
-    <circle cx="297" cy="49" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
+    <circle cx="171" cy="105" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
@@ -7538,17 +7541,17 @@
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
-    <text x="759" y="97" fill="#FF6600" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
+    <text x="759" y="111" fill="#FF6600" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
-    <circle cx="759" cy="105" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
+    <circle cx="759" cy="119" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
-    <text x="185" y="69" fill="#FF6600" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
+    <text x="297" y="41" fill="#FF6600" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">SUPER EFFECTIVE!
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
-    <circle cx="185" cy="77" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
+    <circle cx="297" cy="49" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
@@ -7665,6 +7668,13 @@
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </text>
     <circle cx="437" cy="91" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
+      <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
+      <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
+    </circle>
+    <text x="185" y="69" fill="#BB66FF" stroke="#030712" stroke-width="3.2" paint-order="stroke" font-size="8.5px" font-weight="bold" font-family="monospace" text-anchor="middle" opacity="0">HYPER DAMAGE! ✦
+      <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
+    </text>
+    <circle cx="185" cy="77" r="2" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0">
       <animate attributeName="r" dur="2.40s" repeatCount="indefinite" values="2; 2; 20; 0; 0" keyTimes="0; 0.74; 0.78; 0.86; 1"/>
       <animate attributeName="opacity" dur="2.40s" repeatCount="indefinite" values="0; 0; 1; 0; 0" keyTimes="0; 0.74; 0.76; 0.86; 1"/>
     </circle>
